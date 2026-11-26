@@ -15,13 +15,20 @@
 - [x] Expand RPC/indexer research across Envio, The Graph, Ponder, and Nitro; cluster independent reporters and separate operator pain from repeated reports by the same author.
 - [x] Verify Envio mitigation PRs #1764/#1791/#1801/#1804/#1861 and open requests #1851/#1812/#1840; assess eRPC and provider-native budget controls.
 - [x] Review Nitro #4788 and #3666 plus Envio/Ponder empty-log protections; distinguish eventual consistency from stale/wrong log responses.
+- [x] Cross-check Ponder #2525/#2526 and #2491 against current main; verify zero-bloom handling, request-rate evidence, and upstream mitigation status.
+- [x] Recheck Nuthatch #765/#1173/#1190 and merged fixes #804/#1176/#1191; distinguish one maintainer's repeated measurements from independent customers.
+- [x] Recheck rindexer #199/#203 and Envio #1851/#1812/#1840/#1861; confirm shipped versus open request-reduction work.
+- [x] Check fast-L2 event completeness evidence in Ponder #2359 and the linked HCTDIP listener commit; verify current Ponder reorg-window implementation before treating the old issue as unresolved.
+- [x] Review Blocksquare #45 as a self-hosting buyer-role signal; no paid commitment or confirmed switch found.
 - [ ] Verify whether reported Nitro/Orbit RPC issues and SDK limitations remain unresolved in current releases and whether workarounds or upstream fixes have shipped.
 - [ ] Find independent operators with the same Nitro HA false-ready / sequencer bootstrap problem; determine whether it is limited to one operator topology.
 - [ ] Find independent reports of the same operational/developer pain across different Orbit chains; distinguish recurrence from multiple reports on one chain or by one author.
 - [ ] For each recurring problem, identify affected role, frequency, operational cost, current workaround, existing commercial tools, and plausible budget owner.
 - [x] Recheck merge/release status of OffchainLabs/go-ethereum #668, Nitro #4768, and Nitro #4787; all three remained open and unmerged at this review.
 - [ ] Find independent liquidation-bot operators reporting block-time-dependent retry/backoff problems; measure actual API/quote cost or missed liquidations.
-- [ ] Find two additional independent Arbitrum/Orbit indexer teams with quantified RPC read amplification or provider spend; exclude already-reviewed Envio reporters.
+- [ ] Find two additional independent Arbitrum/Orbit indexer teams with quantified RPC read amplification or provider spend; exclude already-reviewed Envio, Ponder, Nuthatch, rindexer, and HCTDIP reporters.
+- [ ] Find two independent fast-L2/Orbit operators with a measured event-loss or checkpoint-advancement incident caused by lagging/empty RPC responses.
+- [ ] Track Ponder #2526 and #2491, Ponder #2305, and Envio #1851/#1812/#1840 through merge and release; compare before/after RPC request counts.
 - [ ] Interview indexer operators using eRPC, Goldsky Cloud Edge, provider quotas, or native throttling to identify a remaining workflow those products cannot solve.
 - [ ] Recheck Envio #1851, #1812, #1840, and #1884 after the next release; determine whether upstream fixes close the reported cost gap.
 - [ ] Determine whether Arbitrum SDK/chain SDK log-range helpers are adopting adaptive range splitting; confirm whether operators still have a material unserved workflow.
