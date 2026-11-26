@@ -26,15 +26,17 @@
 - [ ] For each recurring problem, identify affected role, frequency, operational cost, current workaround, existing commercial tools, and plausible budget owner.
 - [x] Recheck merge/release status of OffchainLabs/go-ethereum #668, Nitro #4768, and Nitro #4787; all three remained open and unmerged at this review.
 - [ ] Find independent liquidation-bot operators reporting block-time-dependent retry/backoff problems; measure actual API/quote cost or missed liquidations.
-- [ ] Find two additional independent Arbitrum/Orbit indexer teams with quantified RPC read amplification or provider spend; exclude already-reviewed Envio, Ponder, Nuthatch, rindexer, HCTDIP, and the RAILGUN/Squid incident cluster.
-- [ ] Find two independent fast-L2/Orbit operators with a measured event-loss or checkpoint-advancement incident caused by lagging/empty RPC responses; Allium's July/September reports count as one operator, not two.
+- [ ] Find two additional independent Arbitrum/Orbit indexer teams with quantified RPC read amplification or provider spend; exclude already-reviewed Envio, Ponder, Nuthatch, rindexer, HCTDIP, RAILGUN/Squid, and Blockscout (one hosted operator cluster).
+- [ ] Find two independent fast-L2/Orbit operators with a measured event-loss or checkpoint-advancement incident caused by lagging/empty RPC responses; Allium's July/September reports count as one operator, not two. Blockscout's missing ranges are one operator's internal indexer-gap cluster, not proof of lagging/empty RPC cause.
 - [ ] Track Ponder #2526 and #2491, Ponder #2305, and Envio #1851/#1812/#1840 through merge and release; compare before/after RPC request counts.
 - [x] Check RAILGUN-specific substitutes: Anon Wallet's public liveness API covers PPOI/indexer/Squid reachability and lag, with 14-day history; its docs do not claim event-level completeness validation. Generic RAILGUN liveness/proxy is not a differentiated candidate.
+- [ ] Interview Blockscout or Robinhood Chain data-platform owner about the engineering cost of gap discovery/backfill, false-green indexing status, and recurrence after the July scale-up.
 - [ ] Interview indexer operators using eRPC, Goldsky Cloud Edge, provider quotas, or native throttling to identify a remaining workflow those products cannot solve.
 - [x] Review RAILGUN Engine #142/#143 and wallet #134/#135; verify the Arbitrum TXID omission, third-party RailOxide operator report, PPOI divergence, recovery, and separate Sepolia follow-up.
 - [x] Review Allium's July and September 2026 Robinhood Chain ingestion incidents; separate repeated incidents by one provider from independent customer evidence.
 - [x] Review Envio's September 2026 technical explanation of silent event omissions, HyperSync fallback verification plans, and eRPC's limits on validating filtered eth_getLogs responses.
 - [ ] Identify a named operator/on-call owner for the RAILGUN Squid/PPOI pipeline and establish whether late-backfill reconciliation/rebuild is routine or manual; public repo points to Railgun-Community and Subsquid Cloud org `rail-squid`, but no named owner or current deployed-source proof was found.
+- [x] Review Blockscout's Robinhood Chain month-one scaling report and hosted explorer issues #14767/#14886/#14984/#14598, plus Base hosted gap #14869; distinguish missing blocks, transient API lag, display errors, and internal operator remediation.
 - [x] Recheck Railgun-Community/engine #142 and subsquid-integration #1: the Sepolia omission remains publicly unresolved as of 26 Nov 2026; both issues are open and no maintainer response/backfill is recorded.
 - [ ] Recheck Envio #1851, #1812, #1840, and #1884 after the next release; determine whether upstream fixes close the reported cost gap.
 - [ ] Determine whether Arbitrum SDK/chain SDK log-range helpers are adopting adaptive range splitting; confirm whether operators still have a material unserved workflow.
