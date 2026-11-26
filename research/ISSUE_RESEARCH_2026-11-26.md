@@ -19,7 +19,7 @@ An Orbit operator running five independent archive nodes (chain ID 4663, blob DA
 
 A second Orbit operator commented that full-range topic-filtered eth_getLogs requests hit a 10,000-range refusal and parallel scripts receive HTTP 429 within seconds. The thread points to an upstream --execution.rpc.filter-range-limit change/backport for limiting wide queries before historical scans. This mitigates the memory side, not proof that the whole issue is resolved. The tracing race was reportedly addressed in an upstream Geth PR with race-detector verification; inclusion in the deployed Nitro version still needs checking.
 
-**Assessment:** Stronger-than-single-complaint operator evidence, but technical workarounds/fix paths exist. The remaining gap, if any, is not simply adding a range limit. It would need to be an operator-facing reliability/diagnostic/compatibility workflow not already covered by node monitoring, RPC providers, or managed infrastructure.
+**Assessment:** Stronger-than-single-complaint operator evidence, but technical workarounds/fix paths exist. The remaining gap, if any, is not simply adding a range limit. A narrower unresolved case worth testing is safe readiness/bootstrap of multi-sequencer Kubernetes deployments (#4733), where the existing feed-connected signal can deadlock under headless-service readiness rules. This is still a single-operator report and may require an upstream Nitro fix rather than a third-party product.
 
 **Next checks:** confirm Nitro release inclusion for both fixes; test current behavior on a representative Orbit archive node; quantify downtime, infra cost, and operator time; identify whether operators pay for third-party tooling.
 
@@ -36,6 +36,36 @@ Comments narrow possible causes to a range-query/log-cache/serving path but do n
 **Assessment:** Concrete data-correctness problem with plausible consequences for indexers and analytics consumers. One author and one endpoint-specific report are not enough to establish a broad product opportunity. The question is whether teams need provider-neutral RPC correctness monitoring and whether existing observability products already cover it.
 
 **Next checks:** monitor issue/PR resolution; search for independent reports of incorrect logs, receipts, timestamps, chain heads, or provider divergence; inspect Tenderly, QuickNode, Alchemy, Blocknative, Goldsky, Envio, and open-source RPC health tools.
+
+### A4. False-ready Nitro nodes during cold start
+
+[OffchainLabs/nitro #4733](https://github.com/OffchainLabs/nitro/issues/4733) — open; created 1 September 2026; updated 1 September 2026; no comments at review.
+
+A Conduit operator reports that a warm-database Nitro node can return eth_syncing=false while still behind the chain during cold start. The issue describes a production incident: approximately 20 seconds with no Ready read replicas and 3,372 client errors, followed by a three-minute window with no Ready sequencers and roughly 8,000 eth_sendRawTransaction failures (100% write failures during that window).
+
+The reporter's read-replica workaround adds arb_feed_sources_connected >= 1 to readiness. It does not solve sequencer readiness: sequencers cross-connect feeds through a Kubernetes headless Service, whose DNS excludes NotReady endpoints. If both sequencers are NotReady, neither can resolve the other's feed, producing a deadlock. The reporter says this was reproduced on nine test chains and remains unmitigated for sequencers. The issue asks for a Nitro-level signal proving syncTarget has included a non-local observation.
+
+Related historical signal: [Nitro #738](https://github.com/OffchainLabs/nitro/issues/738), closed in July 2022, requested a more detailed sync-status report to diagnose sync bottlenecks. This is related observability context, not proof that the same cold-start bug recurred.
+
+**Assessment:** This is the strongest single operator-pain report found in this pass: it quantifies customer-visible impact, gives a reproducible topology-specific failure, and describes an unresolved sequencer workaround. However, it is still one detailed reporter and appears to request an upstream Nitro behavior/health-signal fix rather than a new third-party product.
+
+**Next checks:** determine whether #4733 has an upstream fix or release; inspect the current community Helm chart readiness configuration and high-availability sequencer guide; find independent Orbit operators with multi-sequencer Kubernetes deployments; ask operators how they currently validate readiness before routing writes.
+
+### A5. Archive-node capability metadata is inaccurate
+
+[Nitro #4766](https://github.com/OffchainLabs/nitro/issues/4766) — open; created 14 October 2026; updated 24 November 2026; two comments at review.
+
+On archive nodes, eth_capabilities reports a 128-block state/stateproofs window even when historical state is available. The report says this can cause RPC routers to avoid routing historical state queries to Nitro archive nodes.
+
+A maintainer acknowledged the report and said it is being tracked. A proposed Nitro PR [#4768](https://github.com/OffchainLabs/nitro/pull/4768) pulls in OffchainLabs/go-ethereum#669 to populate archive/history metadata. PR #4768 was still open and unmerged at review.
+
+**Assessment:** Another concrete RPC metadata correctness issue, but an upstream fix is already proposed. Do not treat it as product whitespace unless downstream routing failures persist after the fix ships.
+
+### A6. Other cold-start and relay reports — context, not proof of one common bug
+
+- [Nitro #4208](https://github.com/OffchainLabs/nitro/issues/4208) reported a fresh Orbit node hanging before HTTP startup when an external batch-poster signer was configured. It was closed as stale; a commenter said the issue was still tracked internally but the team lacked capacity to solve it. A proposed code path showed that dialing the external signer during construction could block startup. This is a separate cold-start failure mode, not the same as #4733.
+- [Nitro #4789](https://github.com/OffchainLabs/nitro/issues/4789) asks about low-latency sequencer-feed access for a Robinhood Chain relay operator running in AWS. It has no comments at review and is a single operator question.
+- [Nitro #4770](https://github.com/OffchainLabs/nitro/issues/4770) looked like a stuck-node report but was closed after time-aligned snapshots showed the node was processing normally; the log was an expected BoLD watchtower INFO message. Keep this as a warning against treating operator interpretation as a confirmed bug.
 
 ### A3. Nitro feed reconnect behavior
 
@@ -111,6 +141,9 @@ The early Orbit/Nitro operations cluster has substantial existing coverage. This
 ### Official Arbitrum monitoring
 
 - [Arbitrum monitoring documentation](https://developer.arbitrum.io/launch-arbitrum-chain/operate/monitoring) documents metrics and monitoring for sequencer, batch poster, validator, chain fees, retryables, ArbOS versions, and node sync.
+- [Nitro node tuning and monitoring](https://docs.arbitrum.io/run-a-node/nitro/node-tuning-and-monitoring) says the main Nitro binary has no dedicated health endpoint; HTTP JSON-RPC availability is a liveness signal, and the community Helm chart's startup probe can allow up to 28 days for initial sync.
+- [High-availability sequencer guide](https://developer.arbitrum.io/launch-arbitrum-chain/run-a-node/high-availability-sequencer) documents chosen-sequencer health checks and Kubernetes/headless-service topology. This is relevant baseline functionality, but does not directly answer the false-ready cold-start case in #4733.
+- [Feed relay guide](https://developer.arbitrum.io/run-a-node/run-feed-relay) documents reconnect behavior, warns against connecting fleets directly to the public feed, and recommends alerting on sustained feed disconnection, head lag, and relay disconnect rate.
 - [OffchainLabs/arbitrum-monitoring](https://github.com/OffchainLabs/arbitrum-monitoring) is an open-source suite of scripts for retryable lifecycle, batch poster, assertion, ArbOS version, and node-sync monitoring. The documented node-sync monitor compares operator nodes against a trusted reference RPC.
 - Official docs explicitly warn that a reference RPC can itself fail or lag, making node-sync comparisons inaccurate. The chain verification script is described as work-in-progress and potentially producing false positives.
 
@@ -129,7 +162,7 @@ The early Orbit/Nitro operations cluster has substantial existing coverage. This
 
 | Cluster | Evidence strength | Why it matters | Main missing evidence |
 |---|---|---|---|
-| Orbit/Nitro RPC and archive-node reliability | Medium problem evidence; low product whitespace | Multiple operator reports and reproducible failure modes; official and commercial monitoring already covers much of the category | Remaining unserved workflow, independent operator count, budget owner, differentiation from Goldsky / official monitoring |
+| Nitro HA readiness / cold-start correctness | Medium severity evidence; low recurrence evidence | Quantified customer outage, nine test-chain reproductions, no sequencer workaround in report | Independent operators, upstream fix status, exact buyer and product-shaped gap |\n| Orbit/Nitro RPC and archive-node reliability | Medium problem evidence; low product whitespace | Multiple operator reports and reproducible failure modes; official and commercial monitoring already covers much of the category | Remaining unserved workflow, independent operator count, budget owner, differentiation from Goldsky / official monitoring |
 | Orbit SDK deployment and RPC compatibility | Low–medium | Several distinct workflow-friction reports over time | Independent recurrence, affected-team scope, willingness to pay |
 | Morpho liquidation data freshness/coverage | Low | One live scanner builder and a specific feed concept | Independent liquidator demand, freshness SLA, economics, Arbitrum fit |
 | SDK package dependency hygiene | Low | Clear reproducible developer bug | Broader recurrence and productizable scope |
@@ -147,7 +180,7 @@ These are research clusters only. None is GO.
 
 ## Sources reviewed
 
-- https://github.com/OffchainLabs/nitro/issues/4736
+- https://github.com/OffchainLabs/nitro/issues/4733\n- https://github.com/OffchainLabs/nitro/issues/4766\n- https://github.com/OffchainLabs/nitro/pull/4768\n- https://github.com/OffchainLabs/nitro/issues/4208\n- https://github.com/OffchainLabs/nitro/issues/4789\n- https://github.com/OffchainLabs/nitro/issues/4770\n- https://github.com/OffchainLabs/nitro/issues/738\n- https://github.com/OffchainLabs/nitro/issues/4736
 - https://github.com/OffchainLabs/nitro/issues/4780
 - https://github.com/OffchainLabs/nitro/issues/4785
 - https://github.com/OffchainLabs/arbitrum-sdk/issues/657
@@ -164,3 +197,9 @@ These are research clusters only. None is GO.
 - https://github.com/gmx-io/gmx-synthetics/issues/321
 - https://github.com/gmx-io/gmx-synthetics/issues/322
 - https://github.com/gmx-io/gmx-synthetics/issues/323
+
+Additional operator documentation checked:
+- https://developer.arbitrum.io/launch-arbitrum-chain/operate/monitoring
+- https://docs.arbitrum.io/run-a-node/nitro/node-tuning-and-monitoring
+- https://developer.arbitrum.io/launch-arbitrum-chain/run-a-node/high-availability-sequencer
+- https://developer.arbitrum.io/run-a-node/run-feed-relay
