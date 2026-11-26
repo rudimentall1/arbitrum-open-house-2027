@@ -12,12 +12,18 @@
 - [x] Follow Nitro #4736, #4766, and #4785 through comments and linked PRs; separate upstream fixes from residual problems.
 - [x] Review Morpho bots #4 against current main; correct the reported Base/Robinhood backoff ratio using the repository's own 200 ms / 100 ms block-time table and identify stale stuck/cooldown claims.
 - [x] Recheck current status of Nitro #4784/#4771, Arbitrum SDK #657, chain SDK #609/#642, Orbit setup issues #68/#69, and linked upstream PRs #668/#4768/#4787.
+- [x] Expand RPC/indexer research across Envio, The Graph, Ponder, and Nitro; cluster independent reporters and separate operator pain from repeated reports by the same author.
+- [x] Verify Envio mitigation PRs #1764/#1791/#1801/#1804/#1861 and open requests #1851/#1812/#1840; assess eRPC and provider-native budget controls.
+- [x] Review Nitro #4788 and #3666 plus Envio/Ponder empty-log protections; distinguish eventual consistency from stale/wrong log responses.
 - [ ] Verify whether reported Nitro/Orbit RPC issues and SDK limitations remain unresolved in current releases and whether workarounds or upstream fixes have shipped.
 - [ ] Find independent operators with the same Nitro HA false-ready / sequencer bootstrap problem; determine whether it is limited to one operator topology.
 - [ ] Find independent reports of the same operational/developer pain across different Orbit chains; distinguish recurrence from multiple reports on one chain or by one author.
 - [ ] For each recurring problem, identify affected role, frequency, operational cost, current workaround, existing commercial tools, and plausible budget owner.
 - [x] Recheck merge/release status of OffchainLabs/go-ethereum #668, Nitro #4768, and Nitro #4787; all three remained open and unmerged at this review.
 - [ ] Find independent liquidation-bot operators reporting block-time-dependent retry/backoff problems; measure actual API/quote cost or missed liquidations.
+- [ ] Find two additional independent Arbitrum/Orbit indexer teams with quantified RPC read amplification or provider spend; exclude already-reviewed Envio reporters.
+- [ ] Interview indexer operators using eRPC, Goldsky Cloud Edge, provider quotas, or native throttling to identify a remaining workflow those products cannot solve.
+- [ ] Recheck Envio #1851, #1812, #1840, and #1884 after the next release; determine whether upstream fixes close the reported cost gap.
 - [ ] Determine whether Arbitrum SDK/chain SDK log-range helpers are adopting adaptive range splitting; confirm whether operators still have a material unserved workflow.
 - [ ] Build a shortlist of no more than three evidence-backed problem clusters; do not convert isolated bugs into product concepts.
 - [ ] Do not start implementation until a specific user/buyer and a real workflow are validated.
