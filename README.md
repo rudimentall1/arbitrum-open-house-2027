@@ -7,7 +7,8 @@ Repository for evidence-based preparation and research for Arbitrum Open House S
 1. Read `AGENTS.md`.
 2. Read `PROJECT_CONTEXT.md`.
 3. Read `DECISIONS.md`, `RESEARCH_LOG.md`, `HISTORY_RECONSTRUCTION.md`, and `WINNER_MAP.md`.
-4. Check `TASKS.md` before starting new research.
+4. Read `research/ISSUE_RESEARCH_2026-11-26.md` for the current issue-driven findings.
+5. Check `TASKS.md` before starting new research.
 
 ## Current state
 
@@ -25,6 +26,7 @@ DECISIONS.md
 RESEARCH_LOG.md
 HISTORY_RECONSTRUCTION.md
 WINNER_MAP.md
+research/ISSUE_RESEARCH_2026-11-26.md
 README.md
 ```
 
