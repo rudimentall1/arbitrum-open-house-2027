@@ -1,41 +1,39 @@
 # Session checkpoint — 26 November 2026 (continued)
 
 ## Completed
-- Repeated the mandatory repository ritual: read AGENTS, PROJECT_CONTEXT, TASKS, DECISIONS, README, checkpoint, RESEARCH_LOG, and WINNER_MAP. Checked remote branch, commits, and PRs; `main` only, no open PRs. No local checkout/status is available.
-- Reviewed additional independent technical indexer reports: Ergo #2600, Ponder #1008, and The Graph Q3 incident summary.
-- Recorded findings and evidence limits in a new research note; updated task queue, project context, decisions, research log, and README references.
-- No application/architecture changes; product status remains WATCH, no GO.
+- Repeated mandatory repo ritual: read AGENTS, PROJECT_CONTEXT, TASKS, DECISIONS, README, checkpoint, RESEARCH_LOG, and WINNER_MAP. Checked remote branch and open PRs: only main, 0 open PRs. No local checkout/status available.
+- Reviewed Ekubo's event verification/audit/backfill/monitor implementation and current DALP health/checkpoint/backfill/reindex documentation.
+- Identified Flop Labs hosted Devnet explorer/faucet #8/#339 as an independent hosted indexer incident cluster distinct from Blockscout: ~61k–71k block lag, at least six-hour grant/onboarding blockage, catch-up estimate ~40h after deployment (not confirmed ETA), and recurrent 5–60 minute windows.
+- Recorded new report and updated research log, context, task queue, decision log, README, and checkpoint.
+- Product remains WATCH, no GO; no implementation.
 
 ## Files changed
-- `research/INDEPENDENT_INDEXER_COMPLETENESS_SIGNALS_2026-11-26.md` — new incident and substitute review.
-- `TASKS.md` — marks incident review done; keeps qualified hosted operator/cost evidence task open.
-- `PROJECT_CONTEXT.md` — adds incident signals and research-note pointer.
-- `RESEARCH_LOG.md` — appends follow-up evidence.
-- `DECISIONS.md` — adds D-019, evidence boundary.
-- `README.md` — adds research-note pointer.
-- `docs/SESSION-CHECKPOINT.md` — this updated handoff.
+- research/FLOP_HOSTED_INDEXER_INCIDENT_2026-11-26.md — new Flop Labs incident and substitute review.
+- TASKS.md — marks Flop incident-duration evidence and Ekubo/DALP substitute review complete; labor/spend/WTP task remains open.
+- PROJECT_CONTEXT.md — updates current indexer evidence and pointers.
+- DECISIONS.md — adds D-020, WATCH boundary.
+- RESEARCH_LOG.md — appends new hosted operator evidence.
+- README.md — adds report pointer.
+- docs/SESSION-CHECKPOINT.md — this handoff.
 
-## Findings
-- Ergo #2600: about 285 blocks behind at discovery; downstream tx rejection; restart recovered within minutes. Open issue, one reporter, no labor/spend/WTP.
-- Ponder #1008: older RPC-failure missing-block incident; database pruning + restart recovered; not new buyer evidence.
-- The Graph Q3: ~3-hour gateway outage and later 49/303 allocation impact; adjacent dependency outage, not canonical event completeness loss.
-- Substitutes are concrete: Ekubo event-gap audit/backfill/monitoring, DALP checkpoint/backfill/reindex workflows, Envio fallback verification. No standalone product gap established.
+## Evidence and limitations
+- Flop Labs #8/#339: recurrent hosted indexer lag/readiness symptoms, measured block backlog and service interruption; no engineering labor, infra cost, SLA penalty or WTP.
+- Ekubo has direct verification, audit, guarded backfill and monitoring. DALP has health/lag/checkpoint/backfill/reindex controls.
+- Current completeness guarantees for Blockscout, SQD/HyperSync, and Alchemy are not yet fully compared.
 
-## Tests/checks
-- No tests, lint, or build run: research-only changes; no local runtime/checkout.
-- GitHub remote files were updated successfully through the repository connector. No local working-tree status can be checked.
+## Checks
+- Research/docs only; no tests, lint, build run.
+- GitHub remote updated through connector. Local checkout/status unavailable.
 
-## Remaining work
-- Named Blockscout/Robinhood data-platform owner interview and quantify detection/backfill labor/cost.
-- Find a qualified independent hosted explorer/indexer incident with explicit gap and recovery cost; Ergo/Ponder/The Graph do not qualify yet.
-- Verify completeness guarantees/substitute workflows in current Blockscout, SQD/HyperSync, Alchemy, Ekubo, DALP, and Envio.
-- Continue independent RPC cost and fast-L2 correctness evidence; keep all leads WATCH. No implementation until buyer evidence.
+## Remaining
+- Interview named Blockscout/Robinhood or Flop Labs operator; quantify detection/backfill engineer-hours, infrastructure spend, support/SLA/customer impact, recurrence, and automation.
+- Finish Blockscout/SQD-HyperSync/Alchemy completeness/substitute comparison.
+- Seek explicit cost or buyer evidence beyond lag duration; keep product WATCH.
+- Continue other indexer RPC cost and fast-L2 correctness research.
 
-## Git
-- Branch: `main`.
-- HEAD before this checkpoint update: `62f106e2937ec489ab789a4972a87fee1f8aa1de`.
-- Commits made in this session: research note, context, tasks, research log, D-019, README (remote connector commits).
-- Open PRs: 0; local status unavailable.
+## Git state
+- Branch: main. Open PRs: 0. Local status unavailable.
+- This checkpoint was based on remote HEAD ab695029e9b72363ae210ee71f460086a95ea8e4 before sequential documentation commits.
 
 ## Exact next step
-Investigate Ekubo's gap-audit/backfill/monitoring implementation and current DALP/indexer completeness guarantees as substitutes; then search for a named independent hosted explorer operator with quantified recovery labor/cost.
+Complete the current Blockscout/SQD-HyperSync/Alchemy completeness comparison, then seek a named operator interview with quantified remediation labor/spend or explicit willingness-to-pay; no implementation before GO.
