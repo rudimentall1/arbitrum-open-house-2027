@@ -139,11 +139,47 @@ The repository README already describes a multi-chain RPC-only liquidation bot w
 
 **Assessment:** Real developer bug in an existing tool, not evidence of a new product gap. The bot already packages much of the operator workflow. Further product research should focus on independent liquidation operators' unmet needs, not clone the bot or build a generic borrower feed.
 
+## Cluster D — Uniswap v4 integration and SDK friction
+
+### D1. Hook admission policy for routers and aggregators
+
+[Uniswap/v4-periphery #589](https://github.com/Uniswap/v4-periphery/issues/589) — open; created 13 August 2026; one comment at review (Linear bot only).
+
+An integrator argues that routers/aggregators need to decide which v4 hooks they will route through, especially delta-returning hooks and hooks whose code may change behind proxies or redeployments. The author has already built an open-source, default-closed gate with permission-bit screening, explicit allowlisting, EXTCODEHASH pinning, and a timelocked admission path.
+
+**Existing alternatives are material:**
+- [Uniswap's routing allowlist](https://developers.uniswap.org/hook-allowlist) reviews hook code and routing compatibility before Uniswap Labs routes through it; this is explicitly not a security audit or endorsement.
+- [Uniswap Hooklist](https://github.com/Uniswap/hooklist) is a public registry of hook deployments, flags, properties, upgradeability, metadata, and audit links across chains including Arbitrum and Robinhood Chain.
+- [Uniswap's v4 security framework](https://developers.uniswap.org/docs/protocols/v4/security) gives hook developers a risk-scoring and operational-security framework, while disclaiming any certification or guarantee.
+
+**Assessment:** A real integrator concern, but the reporter's own solution is a public reference implementation, and official routing allowlisting / registry / security guidance already cover much of the workflow. No independent demand, customer, or willingness to pay is shown. Do not revive generic Smart Contract Audit Readiness or create another hook registry. Revisit only if interviews reveal a separate need for independent, continuous runtime admission/upgrade monitoring across third-party routers.
+
+### D2. Robinhood Chain deployment provenance and SDK registry disagreement
+
+[Uniswap/sdks #763](https://github.com/Uniswap/sdks/issues/763) — open; created 20 October 2026; four comments at review.
+
+The reporter questioned the deployment provenance and constructor parameters for a Universal Router address listed for Robinhood Chain (chain ID 4663). A community researcher reconstructed the CREATE2 deployment from public records and identified that the SDK constants/docs still pointed to an instance labelled orphaned in Uniswap's own deployment records, while a replacement production deployment was recorded elsewhere. The reporter then asked maintainers which address/version integrations should use and whether SDK/docs would be corrected. No maintainer confirmation was present in the comments reviewed.
+
+**Assessment:** Concrete integration risk caused by deployment metadata drift across SDK constants, deployment records, and docs. But it is one chain / one report, and public chain data plus deployment artifacts allowed a community researcher to reconstruct the discrepancy. It may justify a small verification checklist or data-quality test for integrations, not a standalone product yet.
+
+### D3. Ethers v5/v6 compatibility friction
+
+[Uniswap/sdks #141](https://github.com/Uniswap/sdks/issues/141) — open; created 3 October 2024; updated 31 December 2025; 16 comments at review.
+
+Multiple developers report that Uniswap SDKs' ethers v5 imports conflict with projects using ethers v6, including Hardhat and other packages. Comments describe dual-installing aliased ethers versions as a workaround and a failed attempt to migrate the SDK. This is a more repeated developer-experience signal than the single Arbitrum SDK dependency issue, but it is broad EVM tooling friction rather than an Arbitrum-specific unmet need.
+
+**Assessment:** Real recurring compatibility pain, but likely belongs to SDK maintenance / migration and is not a differentiated product opportunity. Keep as a developer-infrastructure signal only.
+
+### D4. Other v4 periphery requests
+
+- [#596](https://github.com/Uniswap/v4-periphery/issues/596) proposes a helper to migrate a position NFT from the normal PositionManager to PermissionedPositionManager. It has a design sketch and two comments, but appears to be a narrow recovery workflow rather than a broad market.
+- [#531](https://github.com/Uniswap/v4-periphery/issues/531) requests more atomic multi-step position management for bots/strategies, but gives no concrete implementation or customer evidence.
+
 ## Low-confidence / excluded signals
 
 - Recent GMX Synthetics issues #320–#323 contain dramatic security claims but had no substantive discussion at review and appear to be unverified third-party reports. Do not treat them as confirmed vulnerabilities, protocol-endorsed problem statements, or market evidence. Security reports belong in responsible disclosure channels.
-- Aave V3 core/origin results in this pass were mostly older, generic developer support or documentation issues; no compelling repeated commercial workflow surfaced.
-- Uniswap v4-core results were a mix of older design discussions and unverified security claims; no robust customer-pain cluster was established.
+- Aave V3 core/origin results in this pass were mostly older, generic developer support or documentation issues; no compelling repeated commercial workflow surfaced. Examples include missing NatSpec, a Windows reserved-directory issue, and a consumer question about waEthUSDC share-price mechanics.
+- Uniswap v4-core/periphery results were a mix of isolated feature requests, security claims, and the hook-admission concern documented above. Official routing allowlisting, Hooklist, and the security framework are already available; no separate product gap has been validated.
 - Morpho #121 is an unanswered operator-research question by a separate GitHub account (epistemedeus); it is not a report of an observed incident and does not validate demand.
 
 ## Existing tooling and competitive reality
@@ -177,7 +213,7 @@ The early Orbit/Nitro operations cluster has substantial existing coverage. This
 | Nitro HA readiness / cold-start correctness | Medium severity evidence; low recurrence evidence | Quantified customer outage, nine test-chain reproductions, no sequencer workaround in report | Independent operators, upstream fix status, exact buyer and product-shaped gap |\n| Orbit/Nitro RPC and archive-node reliability | Medium problem evidence; low product whitespace | Multiple operator reports and reproducible failure modes; official and commercial monitoring already covers much of the category | Remaining unserved workflow, independent operator count, budget owner, differentiation from Goldsky / official monitoring |
 | Orbit SDK deployment and RPC compatibility | Low–medium | Several distinct workflow-friction reports over time | Independent recurrence, affected-team scope, willingness to pay |
 | Morpho liquidation data freshness/coverage | Low | One live scanner builder and a specific feed concept | Independent liquidator demand, freshness SLA, economics, Arbitrum fit |
-| SDK package dependency hygiene | Low | Clear reproducible developer bug | Broader recurrence and productizable scope |
+| SDK package dependency hygiene | Low | Clear reproducible developer bug; related SDK ecosystem compatibility reports exist | Broader Arbitrum-specific recurrence and productizable scope |\n| Hook admission / deployment metadata | Low | Specific integration concern and one Robinhood Chain deployment-record discrepancy | Independent integrator demand, official maintainer response, differentiation from Uniswap allowlist / Hooklist |
 
 These are research clusters only. None is GO.
 
@@ -205,7 +241,7 @@ These are research clusters only. None is GO.
 - https://github.com/OffchainLabs/arbitrum-chain-sdk/issues/206
 - https://github.com/morpho-org/morpho-blue-liquidation-bot/issues/114\n- https://github.com/morpho-org/morpho-blue-liquidation-bot/issues/117
 - https://github.com/morpho-org/morpho-blue-liquidation-bot/issues/118
-- https://github.com/gmx-io/gmx-synthetics/issues/320
+- https://github.com/Uniswap/v4-periphery/issues/589\n- https://github.com/Uniswap/v4-periphery/issues/596\n- https://github.com/Uniswap/v4-periphery/issues/531\n- https://github.com/Uniswap/sdks/issues/763\n- https://github.com/Uniswap/sdks/issues/141\n- https://github.com/gmx-io/gmx-synthetics/issues/320
 - https://github.com/gmx-io/gmx-synthetics/issues/321
 - https://github.com/gmx-io/gmx-synthetics/issues/322
 - https://github.com/gmx-io/gmx-synthetics/issues/323
@@ -218,3 +254,8 @@ Additional operator documentation checked:
 
 Morpho liquidation-bot implementation reference:
 - https://github.com/morpho-org/morpho-blue-liquidation-bot/blob/main/README.md
+
+Uniswap hook security and routing references:
+- https://developers.uniswap.org/hook-allowlist
+- https://github.com/Uniswap/hooklist
+- https://developers.uniswap.org/docs/protocols/v4/security
