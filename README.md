@@ -13,6 +13,7 @@ Repository for evidence-based preparation and research for Arbitrum Open House S
 7. Read `research/INDEXER_RPC_COST_RESEARCH_2026-11-26.md` for the current multi-operator indexer RPC cost/reliability assessment.
 8. Read `research/INDEXER_RPC_AND_FAST_L2_FOLLOWUP_2026-11-26.md` for current Ponder, Nuthatch, rindexer, Envio, and fast-L2 correctness findings.
 9. Read `research/INDEXER_INTEGRITY_AND_CHECKPOINT_FOLLOWUP_2026-11-26.md` for RAILGUN/Squid event omissions, PPOI divergence, and Allium Robinhood ingestion incidents.
+10. Read `research/BLOCKSCOUT_ROBINHOOD_INDEXER_OPERATIONS_2026-11-26.md` for Blockscout hosted-explorer scaling, missing-block gaps, API lag, and remediation status.
 
 ## Current state
 
@@ -40,6 +41,7 @@ research/ISSUE_RESEARCH_MULTICHAIN_2026-11-26.md
 research/INDEXER_RPC_COST_RESEARCH_2026-11-26.md
 research/INDEXER_RPC_AND_FAST_L2_FOLLOWUP_2026-11-26.md
 research/INDEXER_INTEGRITY_AND_CHECKPOINT_FOLLOWUP_2026-11-26.md
+research/BLOCKSCOUT_ROBINHOOD_INDEXER_OPERATIONS_2026-11-26.md
 README.md
 ```
 
