@@ -70,4 +70,4 @@ The prior project history was not fully represented in the earlier research summ
 
 ## Repository reality
 
-The repository currently contains documentation only. There is no `package.json`, `src/`, or `tests/` in the current tree. Do not describe a Node.js runtime or test suite as present until those files are actually added and verified.
+The repository contains research documentation, minimal `package.json` metadata, and placeholder `src/` / `tests/` directories. No application implementation or test files exist. The `npm test` command is configured but has not been executed in this environment; do not claim tests passed.
