@@ -168,3 +168,8 @@ See [research/INDEPENDENT_INDEXER_COMPLETENESS_SIGNALS_2026-11-26.md](research/I
 ## Follow-up: independent hosted Flop Labs indexer backlog and recurrence (26 November 2026)
 
 See [research/FLOP_HOSTED_INDEXER_INCIDENT_2026-11-26.md](research/FLOP_HOSTED_INDEXER_INCIDENT_2026-11-26.md). Flop Labs Devnet explorer/faucet #8/#339 adds a hosted operator distinct from Blockscout: ~61k–71k blocks of backlog, grant/onboarding blockage for at least six hours, an estimated ~40-hour catch-up window after an indexer deployment (not a confirmed ETA), and recurring 5–60 minute lag windows. These are measured outage/backlog durations, not quantified labor or spend. Ekubo's direct event verification, audit, guarded backfill, and webhook monitor; DALP's health/checkpoint/backfill/reindex controls; and indexer-provider services narrow differentiation. Product remains WATCH; no GO.
+
+
+## Follow-up: current completeness substitute comparison (26 November 2026)
+
+See [research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md](research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md). SQD Portal and Envio HyperSync publish upstream validation mechanisms based on multiple sources and cryptographic block/receipt roots. Blockscout documents catch-up/retry and specialized repair fetchers; no universal public canonical-completeness guarantee was found in reviewed documentation. Alchemy RPC/log/subscription/request-log tools are operational observability and data access, not a completeness attestation for a consumer's indexer. Ekubo and DALP already provide gap-audit/backfill/monitoring and operational recovery substitutes. Narrow hypothesis: neutral cross-provider reconciliation/evidence, only if cost and buyer need are validated. Status WATCH, no GO.
