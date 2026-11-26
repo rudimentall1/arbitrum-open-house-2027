@@ -8,11 +8,9 @@ The repository is the source of truth for prior research, hackathon winner analy
 
 ## Current conclusion
 
-**No concept has earned GO status. Do not start product implementation yet.**
+**No product has GO status and no implementation should start.** The broad idea-generation and rejection stage is complete. The active workstream is issue-driven problem discovery from primary GitHub Issues/Discussions and technical reports across Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
 
-The leading new hypothesis to validate is **RWA Servicing Copilot**: a workflow tool for tokenized private-credit originators and fund administrators that reconciles off-chain borrower repayment data with on-chain pool activity, tracks arrears and loan conditions, and prepares investor/fund reports. It is not a lending protocol, yield vault, tokenization platform, or autonomous trading agent.
-
-This is a research hypothesis, not a validated business. Existing competitors in private-credit operations and tokenized-asset servicing are material. The key unanswered question is whether smaller onchain credit originators have a specific cross-ledger servicing/reconciliation problem that existing systems do not solve well.
+The next decision must come from repeated evidence of a real workflow and a reachable buyer, not from a new sector scan or an isolated technical bug.
 
 ## Explicit exclusions
 
@@ -56,12 +54,15 @@ Do not describe a prototype, mock, authorization decision, testnet transaction, 
 
 ## Current status
 
-- Repository scaffold and mandatory agent rules established.
-- Previous Arbitrum idea research consolidated.
-- Major Open House and selected Arbitrum hackathon winners mapped in `WINNER_MAP.md`.
-- RWA Servicing Copilot is the leading hypothesis for validation, not a selected product.
-- No customer validation, production integration, or paid pilot is claimed.
-- See `TASKS.md` for the next step.
+- Prior idea research and winner mapping are retained as historical context.
+- No concept has GO status; product selection remains undecided.
+- GapGuard remains WATCH only and is not a selected product.
+- Previously rejected directions remain closed unless new primary evidence directly changes the rejection rationale.
+- Verigate is explicitly excluded by the user's decision.
+- The active research phase is issue-driven discovery across Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
+- First-pass findings and caveats are in [research/ISSUE_RESEARCH_2026-11-26.md](research/ISSUE_RESEARCH_2026-11-26.md).
+- No buyer interviews, customer commitments, paid pilots, or product demand are claimed.
+- No application implementation has started.
 
 ## Recovered historical context
 
