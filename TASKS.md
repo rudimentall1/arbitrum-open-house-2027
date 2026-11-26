@@ -27,8 +27,8 @@
 
 ## Engineering baseline
 
-- [x] Establish repository structure and mandatory research rules.
-- [ ] Create an application/runtime/test setup only after a product reaches GO and implementation is authorized.
+- [x] Establish repository structure, mandatory research rules, minimal package metadata, and source/test placeholders.
+- [ ] Add application code and real tests only after a product reaches GO and implementation is authorized.
 
 ## GO criteria for a concept
 
