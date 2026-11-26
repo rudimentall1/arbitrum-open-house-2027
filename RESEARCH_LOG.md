@@ -2,9 +2,9 @@
 
 ## Executive conclusion
 
-**No GO concept has been established.** The leading new hypothesis is **RWA Servicing Copilot**: a narrowly scoped operations tool for tokenized private-credit originators and fund administrators. It would reconcile off-chain borrower repayment data with on-chain pool activity, track arrears and loan conditions, calculate distributions, and prepare investor/fund reports.
+**No GO concept has been established. Product selection remains undecided.** The broad idea-generation and sector-screening stage is complete. The active phase is issue-driven problem discovery using primary GitHub Issues/Discussions and technical reports from Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
 
-This is deliberately not another lending protocol, yield vault, tokenization platform, tokenized-stock market, perp DEX, or autonomous trading agent. It remains a hypothesis until a real buyer shares a workflow and agrees to test it.
+GapGuard remains WATCH only. Previously rejected directions stay closed unless new primary evidence directly changes the rejection rationale. Verigate is explicitly excluded. The previous repository proposal RWA Servicing Copilot is not an active candidate and is retained only as historical research.
 
 ## Scope
 
@@ -45,49 +45,13 @@ The winner inventory and source links are in `WINNER_MAP.md`. Public archives do
 - Brazil's Central Bank has introduced a VASP framework. Resolution 520/2025 establishes information-transfer requirements in phases, with domestic VASP-to-VASP information exchange due by 2 February 2027 and international coverage by 2 February 2028.
 - Do not assume that a generic PIX-to-stablecoin or cross-border stablecoin settlement product is viable: Resolution 561/2026 restricts stablecoin/crypto settlement of the offshore leg for regulated eFX providers. This is a material regulatory constraint.
 
-## Leading hypothesis: RWA Servicing Copilot
+## Current phase: issue-driven problem discovery
 
-### Target buyer
+The current work is not another broad market scan. Search for concrete recurring problems reported by actual developers, users, and protocol operators. Each issue is a lead, not proof of demand.
 
-- Tokenized private-credit originators.
-- RWA fund managers and administrators.
-- Onchain credit protocols with off-chain borrowers and repayment schedules.
+First-pass findings dated 26 November 2026 are documented in [research/ISSUE_RESEARCH_2026-11-26.md](research/ISSUE_RESEARCH_2026-11-26.md). The strongest early cluster is Orbit/Nitro RPC and archive-node operations: wide log queries, archive tracing reliability, provider-specific RPC data correctness, and reconnect behavior. A second cluster is SDK/deployment workflow friction. Morpho liquidation tooling shows version-compatibility and data-feed questions, but current evidence is thin.
 
-### Narrow workflow to test
-
-A fund/operator receives borrower statements, loan tapes, repayment records, and on-chain pool activity. Operations staff must reconcile these sources, determine which loans are current or overdue, calculate interest/principal and distribution waterfalls, and prepare investor or fund reports.
-
-Potential product workflow:
-1. Import a redacted loan tape and borrower payment/statement files.
-2. Match payments and balances against scheduled obligations and on-chain pool events.
-3. Flag missing, late, partial, or inconsistent repayments.
-4. Calculate arrears and a deterministic distribution schedule for human approval.
-5. Produce a traceable investor/fund report.
-6. If justified by the buyer workflow, initiate an approved stablecoin distribution through an Arbitrum contract.
-
-Do not automate credit decisions, make legal/compliance determinations, or custody funds in the first MVP.
-
-### Why investigate it
-
-- It is adjacent to the financial and RWA workflows repeatedly rewarded by Arbitrum, but it is not another perp DEX, AMM, tokenized-stock lending market, or yield vault.
-- Public DefiLlama-derived tracking showed about $2.72B in active on-chain private-credit loans on 23 November 2026, with roughly 17.4% recorded on Arbitrum. The market was down about 19% over the preceding 30 days and concentrated in a few protocols, so the number is context, not a stable TAM or proof of demand.
-- The workflow connects off-chain credit servicing with on-chain asset pools, which creates a plausible reason for an Arbitrum integration.
-
-### Competition and risks
-
-- Tokenized asset platforms such as Securitize and Tokeny already offer broad issuance, management, servicing, transfer, or corporate-action capabilities.
-- Traditional/private-credit operations vendors include Allvue, WSO, Loan IQ, Lumonic, Cardo AI, and others.
-- Therefore the opportunity is **not** “build a complete loan servicing platform.” The potential wedge is a small, fast integration/reconciliation layer for onchain credit operators whose existing systems do not reconcile borrower-side records with onchain pool activity well.
-- This gap is not yet proven. Interview operators and inspect real workflows before committing.
-
-### Validation gate
-
-Before implementation, obtain:
-- At least five interviews with people who own loan servicing, portfolio operations, or investor reporting.
-- One redacted real loan tape / repayment statement / reconciliation example.
-- Evidence that the workflow is frequent, manual, costly, and not already solved by the buyer's current platform.
-- One design-partner commitment or permission to test with real workflow data.
-- A specific Arbitrum action that materially improves settlement, distribution, or auditability.
+No product concept is selected from these findings. Before proposing an MVP, verify recurrence across independent operators, whether fixes/workarounds already exist, the affected buyer and cost of pain, competitive tools, and whether a small team can deliver a differentiated solution.
 
 ## Directions not selected
 
