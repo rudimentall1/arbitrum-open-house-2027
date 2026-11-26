@@ -32,7 +32,7 @@
 - [ ] Track Ponder #2526 and #2491, Ponder #2305, and Envio #1851/#1812/#1840 through merge and release; compare before/after RPC request counts.
 - [x] Check RAILGUN-specific substitutes: Anon Wallet's public liveness API covers PPOI/indexer/Squid reachability and lag, with 14-day history; its docs do not claim event-level completeness validation. Generic RAILGUN liveness/proxy is not a differentiated candidate.
 - [ ] Interview a named Blockscout or Robinhood Chain data-platform owner about engineering time/cost for gap discovery and backfill, false-green indexing status, recurrence after the July scale-up, and whether completeness reconciliation is automated today.
-- [ ] Verify whether current Blockscout releases and SQD/HyperSync/Alchemy provide automated completeness reconciliation or comparable completeness guarantees; identify any remaining gap.
+- [ ] Verify whether current Blockscout releases and SQD/HyperSync/Alchemy provide automated completeness reconciliation or comparable completeness guarantees; identify any remaining gap. (Ekubo gap-audit/verify/backfill/monitor and DALP monitoring/reindex substitute review completed; vendor comparison still open.)
 - [ ] Interview indexer operators using eRPC, Goldsky Cloud Edge, provider quotas, or native throttling to identify a remaining workflow those products cannot solve.
 - [x] Review RAILGUN Engine #142/#143 and wallet #134/#135; verify the Arbitrum TXID omission, third-party RailOxide operator report, PPOI divergence, recovery, and separate Sepolia follow-up.
 - [x] Review Allium's July and September 2026 Robinhood Chain ingestion incidents; separate repeated incidents by one provider from independent customer evidence.
@@ -70,3 +70,5 @@ A concept cannot move to implementation until all are true:
 5. Clear reason the solution needs Arbitrum / its specific capabilities.
 6. Demo scope achievable by a small team within the event timeline.
 7. Differentiation from existing products demonstrated, not asserted.
+
+- [x] Review Ekubo event-gap audit/verification/backfill/monitor scripts and current DALP indexer health, checkpoint, backfill, and reindex operational docs as substitutes.
