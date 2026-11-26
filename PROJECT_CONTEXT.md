@@ -4,7 +4,7 @@
 
 Working repository for preparation, research, and implementation for Arbitrum Open House São Paulo 2027 / Buildathon.
 
-The repository is the source of truth for prior research, hackathon winner analysis, decisions, rejected directions, and future implementation. Read `RESEARCH_LOG.md` and `WINNER_MAP.md` before proposing or researching another idea.
+The repository is the source of truth for prior research, hackathon winner analysis, decisions, rejected directions, and future implementation. Read `RESEARCH_LOG.md`, `WINNER_MAP.md`, and `research/ISSUE_RESEARCH_2026-11-26.md` before continuing research.
 
 ## Current conclusion
 
@@ -26,21 +26,16 @@ The next decision must come from repeated evidence of a real workflow and a reac
 
 ## Repository structure
 
-- `AGENTS.md` — mandatory engineering, research, and documentation rules.
+- `AGENTS.md` — mandatory research and engineering rules.
 - `PROJECT_CONTEXT.md` — current project status and verified context.
-- `TASKS.md` — prioritized work queue.
-- `DECISIONS.md` — durable decisions and excluded directions.
-- `RESEARCH_LOG.md` — consolidated research conclusions and candidate analysis.
-- `WINNER_MAP.md` — winner-by-winner map of major Arbitrum hackathons and Open House editions reviewed.
-- `src/` — application and research-support code.
-- `tests/` — automated tests.
+- `TASKS.md` — prioritized research queue.
+- `DECISIONS.md` — durable decisions and exclusions.
+- `RESEARCH_LOG.md` — consolidated historical research and current conclusions.
+- `HISTORY_RECONSTRUCTION.md` — recovered historical context and evidence limitations.
+- `WINNER_MAP.md` — selected Arbitrum/Open House winner analysis.
+- `research/ISSUE_RESEARCH_2026-11-26.md` — primary GitHub issue findings and next checks.
 
-## Technical baseline
-
-- Runtime: Node.js (ES modules).
-- Dependencies: none at scaffold creation.
-- Tests: Node.js built-in test runner (`node --test`).
-- Main entry point: `src/index.js`.
+This repository currently serves as a research/documentation workspace. Do not assume an application, runtime, package manager setup, or automated test suite exists unless confirmed from the live tree.
 
 ## Evidence discipline
 
