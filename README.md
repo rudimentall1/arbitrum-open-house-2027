@@ -11,7 +11,7 @@ Repository for evidence-based preparation and research for Arbitrum Open House S
 
 ## Current state
 
-No project has GO status. RWA Servicing Copilot is an investigation hypothesis only. Previously closed directions must not be researched again without new, decision-relevant evidence. Verigate is explicitly excluded.
+No project has GO status. The active phase is issue-driven discovery from primary GitHub Issues/Discussions. GapGuard remains WATCH only; previously rejected directions stay closed absent new evidence. Verigate is explicitly excluded. RWA Servicing Copilot is historical repository research, not an active candidate.
 
 ## Repository contents
 
