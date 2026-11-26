@@ -55,7 +55,8 @@ Do not describe a prototype, mock, authorization decision, testnet transaction, 
 - Previously rejected directions remain closed unless new primary evidence directly changes the rejection rationale.
 - Verigate is explicitly excluded by the user's decision.
 - The active research phase is issue-driven discovery across Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
-- First-pass findings and caveats are in [research/ISSUE_RESEARCH_2026-11-26.md](research/ISSUE_RESEARCH_2026-11-26.md).
+- First-pass findings and caveats are in [research/ISSUE_RESEARCH_2026-11-26.md](research/ISSUE_RESEARCH_2026-11-26.md). The strongest current problem lead is Nitro HA sequencer readiness / false-ready behavior (#4733), but independent recurrence and a product-shaped gap are not yet established.
+- Generic RPC monitoring/provider rankings are not a candidate because official Arbitrum monitoring and commercial providers already cover much of that category.
 - No buyer interviews, customer commitments, paid pilots, or product demand are claimed.
 - No application implementation has started.
 
