@@ -26,6 +26,7 @@
 - [ ] For each recurring problem, identify affected role, frequency, operational cost, current workaround, existing commercial tools, and plausible budget owner.
 - [x] Recheck merge/release status of OffchainLabs/go-ethereum #668, Nitro #4768, and Nitro #4787; all three remained open and unmerged at this review.
 - [ ] Find independent liquidation-bot operators reporting block-time-dependent retry/backoff problems; measure actual API/quote cost or missed liquidations.
+- [x] Review additional independent indexer gap/stall signals: Ergo #2600, Ponder #1008, and The Graph Q3 infrastructure outage; separate corroborating technical failures from hosted-explorer incidents and quantified recovery cost.
 - [ ] Find two additional independent Arbitrum/Orbit indexer teams with quantified RPC read amplification or provider spend; separately seek one independent hosted explorer/indexer operator with a reproducible block/log gap and explicit discovery or recovery cost. Exclude already-reviewed Envio, Ponder, Nuthatch, rindexer, HCTDIP, RAILGUN/Squid, and Blockscout (one hosted operator cluster).
 - [ ] Find two independent fast-L2/Orbit operators with a measured event-loss or checkpoint-advancement incident caused by lagging/empty RPC responses; Allium's July/September reports count as one operator, not two. Blockscout's missing ranges are one operator's internal indexer-gap cluster, not proof of lagging/empty RPC cause.
 - [ ] Track Ponder #2526 and #2491, Ponder #2305, and Envio #1851/#1812/#1840 through merge and release; compare before/after RPC request counts.
