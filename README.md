@@ -16,7 +16,7 @@ No project has GO status. The active phase is issue-driven discovery from primar
 
 ## Repository contents
 
-This repository currently contains research and project documentation only. It does not currently contain an application package, `src/`, `tests/`, or a runnable Node.js test setup.
+This repository contains research documentation plus a minimal Node.js project scaffold. `src/` and `tests/` are placeholders only: no product implementation or application tests exist yet. `npm test` invokes Node's built-in test runner, but no test suite has been added.
 
 ```text
 AGENTS.md
@@ -26,6 +26,10 @@ DECISIONS.md
 RESEARCH_LOG.md
 HISTORY_RECONSTRUCTION.md
 WINNER_MAP.md
+package.json
+.gitignore
+src/README.md
+tests/README.md
 research/ISSUE_RESEARCH_2026-11-26.md
 README.md
 ```
