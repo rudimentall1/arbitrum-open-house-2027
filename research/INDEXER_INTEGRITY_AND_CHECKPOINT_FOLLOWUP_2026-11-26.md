@@ -174,3 +174,10 @@ Anon also documents its own PPOI proxy with read caching. The current proxy docu
 - Event-level completeness verification remains technically interesting but has no validated budget owner, willingness to pay, or cross-protocol recurrence.
 
 **Decision unchanged: WATCH, not GO.** Keep the lead narrow and do not start implementation.
+
+
+### Scope caveat on Anon's Sepolia coverage and service guarantees
+
+Anon documents the liveness feed as beta, best-effort, and without an SLA. Its published scope lists Sepolia as unmonitored for Subsquid. That is a limitation of Anon's monitor, not evidence that the Railgun Sepolia Squid endpoint does not exist: the October report directly queried `squid-railgun-eth-sepolia-v2`, and the public `Railgun-Community/subsquid-integration` repository contains a Sepolia deployment configuration. Treat the documentation's "no Subsquid deployment" explanation as a scope inconsistency or stale statement until the monitor owner clarifies it. The safe factual statement is simply that Anon's monitor does not publish a Sepolia Subsquid check.
+
+The liveness API is therefore a useful free substitute for coarse service availability and lag, but not an integrity guarantee, not a complete view of every chain, and not an SLA-backed service.
