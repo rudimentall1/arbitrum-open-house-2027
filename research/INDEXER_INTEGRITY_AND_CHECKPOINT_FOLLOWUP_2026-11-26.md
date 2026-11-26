@@ -162,7 +162,7 @@ A further competition check found [Anon Wallet's RAILGUN liveness API](https://d
 
 This is a real substitute for a generic RAILGUN availability/lag dashboard. It does not claim to verify every event or prove index completeness. Its docs explicitly warn that a current PPOI status does not prove an individual wallet's proof is valid or its balance spendable. Therefore the only plausible technical gap left in this narrow cluster is deeper semantic reconciliation (for example, verifying TXID rows against canonical receipts and detecting a downstream PPOI checkpoint built from incomplete data), not another liveness dashboard.
 
-Anon also documents its own PPOI proxy with read caching and queued proof-write retries. This further weakens any generic PPOI proxy/availability concept. It does not operate the upstream aggregator; its proxy forwards to a third-party PPOI node.
+Anon also documents its own PPOI proxy with read caching. The current proxy documentation explicitly says proof submissions are forwarded once and are not queued; Anon's paymaster has a separate in-memory retry path for proofs bundled with private fees (every 5 minutes, for up to 1 hour). This weakens generic PPOI proxy/availability concepts but does not establish a generic queued-delivery product. Anon does not operate the upstream aggregator; its proxy forwards to a third-party PPOI node.
 
 ### Updated assessment
 
