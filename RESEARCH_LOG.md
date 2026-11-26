@@ -158,3 +158,8 @@ A separate one-person Robinhood analytics project, FOMO Robinhood Radar, archive
 Koinly's public Robinhood integration complaint mentions skipped imports and backfilled swaps, but the thread mixes bridge transactions absent from the explorer with swap parsing/grouping issues; it is not counted as verified missing on-chain data.
 
 **Assessment:** Hosted-explorer completeness/false-green status is a stronger operator problem lead, but remains WATCH. No second independent operator with quantified repair cost or buyer WTP was found. No GO and no implementation.
+
+
+## Follow-up: independent indexer completeness incidents (26 November 2026)
+
+See [research/INDEPENDENT_INDEXER_COMPLETENESS_SIGNALS_2026-11-26.md](research/INDEPENDENT_INDEXER_COMPLETENESS_SIGNALS_2026-11-26.md). Two additional technical reports were reviewed: Ergo #2600 (current, ~285-block indexing lag at discovery, restart recovery in minutes, downstream transaction rejection) and Ponder #1008 (historical RPC-failure gap recovered by pruning/restart). The Graph Q3 2026 report describes an adjacent three-hour gateway outage and subsequent allocation impact, but not canonical event omission. These broaden technical evidence, but no hosted explorer operator with quantified recovery labor/cost or willingness-to-pay was found. Existing substitutes include indexer-native gap audit/backfill/monitoring (Ekubo), checkpoint/backfill/reindex signals in DALP documentation, and Envio's planned fallback verification. Keep completeness hypothesis WATCH; do not select or implement.
