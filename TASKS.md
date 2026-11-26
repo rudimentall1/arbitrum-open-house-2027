@@ -32,7 +32,7 @@
 - [ ] Track Ponder #2526 and #2491, Ponder #2305, and Envio #1851/#1812/#1840 through merge and release; compare before/after RPC request counts.
 - [x] Check RAILGUN-specific substitutes: Anon Wallet's public liveness API covers PPOI/indexer/Squid reachability and lag, with 14-day history; its docs do not claim event-level completeness validation. Generic RAILGUN liveness/proxy is not a differentiated candidate.
 - [ ] Interview a named Blockscout/Robinhood or Flop Labs hosted-indexer owner about discovery/backfill engineer-hours, spend, support/SLA impact, recurrence, and whether cross-provider reconciliation is automated or budgeted.
-- [ ] Verify whether current Blockscout releases and SQD/HyperSync/Alchemy provide automated completeness reconciliation or comparable completeness guarantees; identify any remaining gap. (Ekubo gap-audit/verify/backfill/monitor and DALP monitoring/reindex substitute review completed; vendor comparison still open.)
+- [x] Compare current Blockscout, SQD Portal, Envio HyperSync, and Alchemy completeness/reconciliation guarantees and substitutes. Remaining hypothesis: neutral cross-provider evidence, still unvalidated. See research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md.
 - [ ] Interview indexer operators using eRPC, Goldsky Cloud Edge, provider quotas, or native throttling to identify a remaining workflow those products cannot solve.
 - [x] Review RAILGUN Engine #142/#143 and wallet #134/#135; verify the Arbitrum TXID omission, third-party RailOxide operator report, PPOI divergence, recovery, and separate Sepolia follow-up.
 - [x] Review Allium's July and September 2026 Robinhood Chain ingestion incidents; separate repeated incidents by one provider from independent customer evidence.
