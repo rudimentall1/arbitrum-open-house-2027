@@ -123,3 +123,54 @@ No product reaches GO. Keep product selection undecided and do not start impleme
 4. Interview an Allium or other Robinhood/Orbit data-ingestion owner about RPC-provider spend, repair/backfill effort, affected customers, and existing validation controls.
 5. Continue seeking two independent Orbit teams with quantified RPC spend or event loss; do not count multiple reports by one operator or one shared outage as independent customers.
 6. Do not build a generic RPC proxy, monitoring dashboard, or indexer replacement without a demonstrated cross-framework gap and a buyer.
+
+
+## 7. Recheck — 26 November 2026: Sepolia report, deployment ownership, and existing liveness coverage
+
+### Sepolia omission is now independently filed against the indexer repository
+
+The October 12 follow-up is not only a comment on Engine #142. The same reporter, `bl00dclot`, opened [Railgun-Community/subsquid-integration #1](https://github.com/Railgun-Community/subsquid-integration/issues/1), explicitly requesting a backfill/re-index of the Sepolia Squid.
+
+Current public state at this recheck:
+- Engine [#142](https://github.com/Railgun-Community/engine/issues/142) remains open, updated 12 Oct 2026, with one comment (the Sepolia technical reproduction).
+- [subsquid-integration #1](https://github.com/Railgun-Community/subsquid-integration/issues/1) remains open, created and last updated 12 Oct 2026, with zero comments.
+- No public maintainer response or correction is recorded in either thread.
+- The issue's Sepolia reproduction is unusually specific: it enumerates 4,428 indexed rows, compares each verification-hash link, checks canonical `eth_getLogs` output for the affected transaction, and identifies the missing log at index `0x62`. It reports 41 repeated client stops in 38 minutes and more than 600 minutes without progress at the time. The same hash chain recomputes correctly only when the missing Nullified event is inserted before the served event.
+- The reporter says the mainnet Ethereum indexer had 141,206 rows and zero failing links in the same check. This narrows the observed failure to the Sepolia deployment at the time of that snapshot; it does not establish that every chain or every indexer deployment is affected.
+
+The new issue is still the same Sepolia reporter and same Sepolia incident, not a second independent customer. It makes the operational escalation path clearer, but does not change recurrence counts.
+
+### What the public deployment repository establishes — and does not establish
+
+[Railgun-Community/subsquid-integration](https://github.com/Railgun-Community/subsquid-integration) is the public source repository referenced by the issue:
+- Its only public commit is the initial repository commit on 11 Mar 2025; no later source updates, PRs, or other public issues were found in the repository at this review.
+- The README instructs deployment through Subsquid Cloud using organization name `rail-squid` (example: `sqd deploy -m squid-arbitrum.yaml -o rail-squid`).
+- `chain-squid-config.ts` defines the Arbitrum and Sepolia deployments and their RPC secrets.
+- `src/processor.ts` configures the Subsquid EVM processor with archive gateways, an RPC endpoint, and 75-block finality confirmation. `src/main.ts` handles event logs and transaction traces.
+- This identifies the public code owner as Railgun-Community and the documented Subsquid Cloud organization as `rail-squid`. It does **not** identify a named on-call owner, prove that the 2025 source exactly matches the currently deployed Squid, or establish the root cause of the missing row.
+
+The Sepolia issue's requested action (backfill/re-index) is a concrete operator workflow. No public response shows whether it was performed.
+
+### Existing substitute: Anon Wallet's public RAILGUN liveness API
+
+A further competition check found [Anon Wallet's RAILGUN liveness API](https://docs.anon.inc/reference/railgun-liveness):
+- Public, no-auth JSON endpoint, with snapshots refreshed about every 30 seconds and a 14-day history API.
+- It monitors PPOI, Anon's own indexer, the configured Subsquid service, broadcasters, and Waku.
+- For Ethereum, Arbitrum, Polygon, and BNB Chain it compares indexed heights with chain heads and PPOI validated TXID position with the PPOI node's current index.
+- The API is explicitly beta and says it is Anon's independent view, not official Railgun status.
+- Sepolia is explicitly treated as testnet and has no Subsquid row in this monitor.
+
+This is a real substitute for a generic RAILGUN availability/lag dashboard. It does not claim to verify every event or prove index completeness. Its docs explicitly warn that a current PPOI status does not prove an individual wallet's proof is valid or its balance spendable. Therefore the only plausible technical gap left in this narrow cluster is deeper semantic reconciliation (for example, verifying TXID rows against canonical receipts and detecting a downstream PPOI checkpoint built from incomplete data), not another liveness dashboard.
+
+Anon also documents its own PPOI proxy with read caching and queued proof-write retries. This further weakens any generic PPOI proxy/availability concept. It does not operate the upstream aggregator; its proxy forwards to a third-party PPOI node.
+
+### Updated assessment
+
+- The Sepolia case is still open in both the Engine discussion and the public Subsquid integration repository. No public backfill/re-index resolution was found as of 26 Nov.
+- The Arbitrum case was recovered in August after upstream indexed data was corrected and the wallet was fully resynced.
+- The Sepolia case is a separate chain and a separate affected transaction, but one reporter and one underlying Railgun Subsquid deployment family. Do not count it as a second independent buyer.
+- The public repository and deployment instructions identify Railgun-Community / `rail-squid` as the likely escalation path, but no named owner or operational response is public.
+- Anon already provides free public RAILGUN liveness/lag monitoring and a PPOI proxy. Generic monitoring/proxy is not a differentiated candidate.
+- Event-level completeness verification remains technically interesting but has no validated budget owner, willingness to pay, or cross-protocol recurrence.
+
+**Decision unchanged: WATCH, not GO.** Keep the lead narrow and do not start implementation.
