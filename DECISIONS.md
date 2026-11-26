@@ -53,3 +53,10 @@
 - **Status:** Accepted
 - **Decision:** GapGuard remains WATCH only; REJECT directions remain closed absent new decision-relevant evidence; Verigate remains excluded; product selection is undecided.
 - **Rationale:** These are the explicit outcomes in the user's 26 November 2026 research summary.
+
+## D-009 — Do not pursue generic RPC monitoring or provider rankings
+
+- **Status:** Accepted based on first-pass competitor review
+- **Decision:** Do not turn the current RPC issues into a generic RPC health dashboard, provider ranking, or latency benchmark product.
+- **Rationale:** Official Arbitrum monitoring scripts already cover chain/node liveness and protocol-specific alerts. Goldsky publicly compares providers on Arbitrum One and Robinhood Chain, including latency, errors, bad data, block lag, and traces. Other adjacent RPC benchmark products exist.
+- **Reopen only if:** Primary operator evidence identifies a specific unserved Orbit/self-hosted/archive-node workflow beyond these products and confirms a reachable buyer.
