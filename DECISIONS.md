@@ -120,3 +120,12 @@
 - **Rationale:** Anon Wallet publishes a public no-auth RAILGUN liveness API with roughly 30-second snapshots and 14-day history, covering PPOI, its own indexer, Subsquid, broadcasters, and Waku. It also documents a PPOI proxy with read caching. The proxy itself forwards proof submissions once and does not queue them; the paymaster has a separate in-memory retry path for proofs bundled with private fees. These are real existing substitutes. The API is beta and explicitly does not prove per-wallet spendability or event-level index completeness.
 - **Remaining hypothesis:** Reconciliation of TXID/indexer records against canonical receipts, including detection of downstream PPOI state built from incomplete data, may be a narrower technical gap. No buyer, willingness to pay, or cross-protocol recurrence is established.
 - **Consequences:** Keep RAILGUN/Squid at WATCH only. Do not build a generic liveness dashboard or PPOI proxy. See `research/INDEXER_INTEGRITY_AND_CHECKPOINT_FOLLOWUP_2026-11-26.md`.
+
+
+## D-018 — Keep hosted-explorer completeness failures at WATCH; do not count one operator as multiple buyers
+
+- **Status:** Accepted
+- **Decision:** Track Blockscout's hosted Robinhood/Base indexer gaps and scaling issues as one operator-level evidence cluster. Do not promote this to GO or count each public issue as an independent customer.
+- **Rationale:** Blockscout reported 190.78M Robinhood transactions processed in month one and database/indexer pressure requiring query optimization and hardening. Public issues documented a ~7,704-block Robinhood gap, transient API failures/lag, a token-data display issue, and thousands of missing Base blocks despite a 100% indexing-status indicator. Maintainers confirmed backfills or service recovery and closed the issues. No spend, engineering-hours, SLA penalties, churn, or willingness to pay is disclosed.
+- **Remaining hypothesis:** An external completeness auditor could detect holes and false-green indexing status across explorer/indexer stacks, but no buyer or differentiated workflow is validated. SQD/HyperSync, provider data products, and platform-native repair remain substitutes.
+- **Consequences:** Interview an owner at Blockscout or Robinhood; seek another independent indexer operator and quantify repair cost before considering a product. See `research/BLOCKSCOUT_ROBINHOOD_INDEXER_OPERATIONS_2026-11-26.md`.
