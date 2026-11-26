@@ -107,3 +107,9 @@ The September 4 meme-smart-money research also failed to verify a repeatable top
 The earlier **RWA Servicing Copilot** proposal was distinct from AttestGuard, but it is not an active candidate under the latest user-approved direction. It remains historical repository research only. The current phase is issue-driven discovery; do not prioritize the proposal without explicit reopening.
 
 See [HISTORY_RECONSTRUCTION.md](HISTORY_RECONSTRUCTION.md) for the dated chronology, exact prior candidate funnel, and caveats about archived test/deployment claims.
+
+## Follow-up — 26 November 2026: indexer RPC and fast-L2 correctness
+
+[research/INDEXER_RPC_AND_FAST_L2_FOLLOWUP_2026-11-26.md](research/INDEXER_RPC_AND_FAST_L2_FOLLOWUP_2026-11-26.md) adds current-source and PR verification. Ponder #2525 reports about 66,000 `eth_getLogs` calls/day on Robinhood Chain, driven in part by zero `logsBloom` blocks; its proposed fix #2526 is open. A different Ponder contributor's #2491 PR also measures avoidable factory-filter requests. Nuthatch and rindexer show the same broad cost class but their direct fixes shipped in their own indexers; repeated Nuthatch reports are one maintainer/operator, not multiple customers. Envio #1851/#1812/#1840 remain open while #1861 is merged. The recurring RPC-cost signal is stronger but remains WATCH because the fixes are framework-specific and competition is substantial.
+
+The same follow-up records a separate fast-L2 data-integrity lead: an HCTDIP listener commit describes 61 fills skipped when two RPC nodes both returned empty logs near the tip, then adds a hard minimum safe depth. Ponder's older Robinhood block-count finality issue is stale against current main, which uses a timestamp-based reorg window. The event-loss signal remains WATCH with only one independent linked incident.
