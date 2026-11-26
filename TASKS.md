@@ -29,12 +29,13 @@
 - [ ] Find two additional independent Arbitrum/Orbit indexer teams with quantified RPC read amplification or provider spend; exclude already-reviewed Envio, Ponder, Nuthatch, rindexer, HCTDIP, and the RAILGUN/Squid incident cluster.
 - [ ] Find two independent fast-L2/Orbit operators with a measured event-loss or checkpoint-advancement incident caused by lagging/empty RPC responses; Allium's July/September reports count as one operator, not two.
 - [ ] Track Ponder #2526 and #2491, Ponder #2305, and Envio #1851/#1812/#1840 through merge and release; compare before/after RPC request counts.
+- [x] Check RAILGUN-specific substitutes: Anon Wallet's public liveness API covers PPOI/indexer/Squid reachability and lag, with 14-day history; its docs do not claim event-level completeness validation. Generic RAILGUN liveness/proxy is not a differentiated candidate.
 - [ ] Interview indexer operators using eRPC, Goldsky Cloud Edge, provider quotas, or native throttling to identify a remaining workflow those products cannot solve.
 - [x] Review RAILGUN Engine #142/#143 and wallet #134/#135; verify the Arbitrum TXID omission, third-party RailOxide operator report, PPOI divergence, recovery, and separate Sepolia follow-up.
 - [x] Review Allium's July and September 2026 Robinhood Chain ingestion incidents; separate repeated incidents by one provider from independent customer evidence.
 - [x] Review Envio's September 2026 technical explanation of silent event omissions, HyperSync fallback verification plans, and eRPC's limits on validating filtered eth_getLogs responses.
-- [ ] Identify the RAILGUN Squid/PPOI data pipeline owner and establish whether late-backfill reconciliation/rebuild is routine or manual.
-- [ ] Track Railgun-Community/engine #142's Sepolia follow-up and verify whether the missing source event was corrected.
+- [ ] Identify a named operator/on-call owner for the RAILGUN Squid/PPOI pipeline and establish whether late-backfill reconciliation/rebuild is routine or manual; public repo points to Railgun-Community and Subsquid Cloud org `rail-squid`, but no named owner or current deployed-source proof was found.
+- [x] Recheck Railgun-Community/engine #142 and subsquid-integration #1: the Sepolia omission remains publicly unresolved as of 26 Nov 2026; both issues are open and no maintainer response/backfill is recorded.
 - [ ] Recheck Envio #1851, #1812, #1840, and #1884 after the next release; determine whether upstream fixes close the reported cost gap.
 - [ ] Determine whether Arbitrum SDK/chain SDK log-range helpers are adopting adaptive range splitting; confirm whether operators still have a material unserved workflow.
 - [ ] Build a shortlist of no more than three evidence-backed problem clusters; do not convert isolated bugs into product concepts.
