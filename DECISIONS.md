@@ -145,3 +145,11 @@
 - **Decision:** Add Flop Labs Devnet explorer/faucet #8/#339 as an independent hosted-service incident cluster; do not promote completeness auditing to GO.
 - **Rationale:** Public reports document a ~61k–71k-block backlog, onboarding/faucet grant blockage for at least six hours, estimated catch-up around 40 hours (an extrapolation), and recurring 5–60 minute lag/readiness windows after closure. This strengthens recurrence across hosted operators beyond Blockscout. However, engineer-hours, infrastructure spend, SLA/customer cost, and WTP are absent. Ekubo already implements direct verification, event-gap audit, guarded backfill, and webhook monitoring; DALP provides indexer health, checkpoints, backfill and reindex controls.
 - **Consequences:** Keep WATCH only. Replace the open evidence task with a named owner interview and explicit remediation labor/spend/budget evidence. Complete the Blockscout/SQD-HyperSync/Alchemy comparison. See research/FLOP_HOSTED_INDEXER_INCIDENT_2026-11-26.md.
+
+
+## D-021 — Completeness auditing is crowded by upstream validation; WATCH narrowed to neutral cross-provider workflow
+
+- **Status:** Accepted for current research phase
+- **Decision:** Do not pursue a generic hosted-indexer completeness auditor. Keep WATCH only for a vendor-neutral reconciliation/evidence workflow across providers, and only if operators show a recurring cost or budgeted requirement that native tools do not satisfy.
+- **Rationale:** SQD Portal documents multi-RPC, cryptographic and worker validation; Envio HyperSync documents full-block transaction/receipt-root verification, parent-hash checks, and source fallback. Blockscout has catch-up/retry/specialized repair; Alchemy has request diagnostics and subscriptions; Ekubo has gap-audit/verify/backfill/monitor; DALP has operational checkpoint/backfill/reindex. No buyer or WTP is proven for duplicating these.
+- **Consequences:** Complete the vendor comparison task. The open evidence work is now a named operator interview and cost/WTP validation. See research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md.
