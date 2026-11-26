@@ -9,6 +9,7 @@ Repository for evidence-based preparation and research for Arbitrum Open House S
 3. Read `DECISIONS.md`, `RESEARCH_LOG.md`, `HISTORY_RECONSTRUCTION.md`, and `WINNER_MAP.md`.
 4. Read `research/ISSUE_RESEARCH_2026-11-26.md` for the current issue-driven findings.
 5. Check `TASKS.md` before starting new research.
+6. Read `research/ISSUE_RESEARCH_MULTICHAIN_2026-11-26.md` for the latest Morpho, SDK, and Nitro follow-up.
 
 ## Current state
 
@@ -31,6 +32,8 @@ package.json
 src/README.md
 tests/README.md
 research/ISSUE_RESEARCH_2026-11-26.md
+research/ISSUE_RESEARCH_2026-11-27.md
+research/ISSUE_RESEARCH_MULTICHAIN_2026-11-26.md
 README.md
 ```
 
