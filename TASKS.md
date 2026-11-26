@@ -4,6 +4,7 @@
 
 - [ ] Continue systematic review of primary GitHub Issues/Discussions in Arbitrum Nitro, arbitrum-sdk / arbitrum-chain-sdk, Orbit tooling, Morpho, Aave, GMX, and Uniswap.
 - [x] First-pass review of Nitro #4736, #4780, #4785; arbitrum-sdk #657; arbitrum-chain-sdk #642, #636, #222, #205, #206; Morpho liquidation bot #117 and #118.
+- [x] Compare the RPC-monitoring cluster against official Arbitrum monitoring, Goldsky, RPCNode.IO, Alchemy, and provider-native tooling; generic monitoring/provider ranking is not a candidate.
 - [ ] Verify whether reported Nitro/Orbit RPC issues and SDK limitations remain unresolved in current releases and whether workarounds or upstream fixes have shipped.
 - [ ] Find independent reports of the same operational/developer pain; distinguish repeat incidents from multiple reports by one author.
 - [ ] For each recurring problem, identify affected role, frequency, operational cost, current workaround, existing commercial tools, and plausible budget owner.
