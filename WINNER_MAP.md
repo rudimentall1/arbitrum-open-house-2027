@@ -36,6 +36,28 @@ Other submissions included ArbiFlow, Penstyl, Scaffold-Stylus, and GamersDAO.
 
 Source: https://forum.arbitrum.foundation/t/final-report-arbitrum-workshop-and-hackathon-in-bucharest-romania/27478/1
 
+## ETHGlobal Arbitrum prize tracks — 2024
+
+These are sponsor-track winners from broader ETHGlobal events, not Arbitrum-run Open House events.
+
+### Scaling Ethereum 2024
+
+| Place | Project | Focus |
+|---|---|---|
+| 1st | ASketch-stylus | Stylus-based developer/infrastructure project |
+| 2nd | AStylus hook | Stylus hook / developer infrastructure |
+
+Source: https://medalist.build/hackathons/ethglobal/scaling2024
+
+### ETHGlobal London 2024
+
+| Place | Project | Focus |
+|---|---|---|
+| 1st | AMonitrum | Arbitrum library/framework use |
+| 2nd | ARe:public | Arbitrum library/framework use |
+
+Source: https://medalist.build/hackathons/ethglobal/london2024
+
 ## Open House India — 2025
 
 ### Online Buildathon
