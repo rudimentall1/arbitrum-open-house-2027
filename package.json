@@ -1,0 +1,14 @@
+{
+  "name": "arbitrum-open-house-2027",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Evidence-first preparation and buildathon project workspace.",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js && node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
