@@ -100,6 +100,6 @@ The archived history includes two substantial prior product lines that were miss
 
 The September 4 meme-smart-money research also failed to verify a repeatable top-wallet ranking because complete wallet-level realized PnL data was unavailable. Its proposed independent-wallet consensus model remained a hypothesis.
 
-The current **RWA Servicing Copilot** is distinct from AttestGuard: it is a post-origination servicing/reconciliation workflow, not an invoice-advance lending protocol. It must not inherit AttestGuard's claims about underwriting, physical delivery, or proof of receivables. The unanswered question remains whether on-chain private-credit operators have a frequent and costly off-chain repayment ↔ on-chain pool reconciliation problem that incumbent servicing tools do not already solve.
+The earlier **RWA Servicing Copilot** proposal was distinct from AttestGuard, but it is not an active candidate under the latest user-approved direction. It remains historical repository research only. The current phase is issue-driven discovery; do not prioritize the proposal without explicit reopening.
 
 See [HISTORY_RECONSTRUCTION.md](HISTORY_RECONSTRUCTION.md) for the dated chronology, exact prior candidate funnel, and caveats about archived test/deployment claims.
