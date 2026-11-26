@@ -49,7 +49,9 @@ Related historical signal: [Nitro #738](https://github.com/OffchainLabs/nitro/is
 
 **Assessment:** This is the strongest single operator-pain report found in this pass: it quantifies customer-visible impact, gives a reproducible topology-specific failure, and describes an unresolved sequencer workaround. However, it is still one detailed reporter and appears to request an upstream Nitro behavior/health-signal fix rather than a new third-party product.
 
-**Next checks:** determine whether #4733 has an upstream fix or release; inspect the current community Helm chart readiness configuration and high-availability sequencer guide; find independent Orbit operators with multi-sequencer Kubernetes deployments; ask operators how they currently validate readiness before routing writes.
+**Current-source check:** fetched current default-branch `arbnode/sync_monitor.go` on 26 November 2026 (blob `f690f0363e227aba6ed874d12e916d79a9b900d0`). `maxMessageCount()` still takes the maximum of the local tx-streamer count, feed-pending count, optional sync-progress fetcher, and optional coordinator count. `Synced()` still checks only that syncTarget is nonzero and not behind the local message count (plus optional sync-progress fields); it does not explicitly require that syncTarget has ever included a non-local observation. This is consistent with the reported failure mode, although a runtime reproduction is still required.
+
+**Next checks:** determine whether a fix is in an unmerged PR or unreleased branch; inspect the current community Helm chart readiness configuration and high-availability sequencer guide; find independent Orbit operators with multi-sequencer Kubernetes deployments; ask operators how they currently validate readiness before routing writes.
 
 ### A5. Archive-node capability metadata is inaccurate
 
@@ -190,7 +192,7 @@ These are research clusters only. None is GO.
 
 ## Sources reviewed
 
-- https://github.com/OffchainLabs/nitro/issues/4733\n- https://github.com/OffchainLabs/nitro/issues/4766\n- https://github.com/OffchainLabs/nitro/pull/4768\n- https://github.com/OffchainLabs/nitro/issues/4208\n- https://github.com/OffchainLabs/nitro/issues/4789\n- https://github.com/OffchainLabs/nitro/issues/4770\n- https://github.com/OffchainLabs/nitro/issues/738\n- https://github.com/OffchainLabs/nitro/issues/4736
+- https://github.com/OffchainLabs/nitro/issues/4733\n- https://github.com/OffchainLabs/nitro/blob/main/arbnode/sync_monitor.go\n- https://github.com/OffchainLabs/nitro/issues/4766\n- https://github.com/OffchainLabs/nitro/pull/4768\n- https://github.com/OffchainLabs/nitro/issues/4208\n- https://github.com/OffchainLabs/nitro/issues/4789\n- https://github.com/OffchainLabs/nitro/issues/4770\n- https://github.com/OffchainLabs/nitro/issues/738\n- https://github.com/OffchainLabs/nitro/issues/4736
 - https://github.com/OffchainLabs/nitro/issues/4780
 - https://github.com/OffchainLabs/nitro/issues/4785
 - https://github.com/OffchainLabs/arbitrum-sdk/issues/657
