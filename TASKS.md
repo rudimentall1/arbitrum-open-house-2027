@@ -2,16 +2,19 @@
 
 ## Current priority — issue-driven problem discovery
 
-- [ ] Continue systematic review of primary GitHub Issues/Discussions in Arbitrum Nitro, arbitrum-sdk / arbitrum-chain-sdk, Orbit tooling, Morpho, Aave, GMX, and Uniswap.
+- [ ] Continue systematic review of primary GitHub Issues/Discussions in Arbitrum Nitro, arbitrum-sdk / arbitrum-chain-sdk, Orbit tooling, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
 - [x] First-pass review of Nitro #4733, #4736, #4766, #4770, #4771, #4780, #4785, #4789, #4208, #738; arbitrum-sdk #657, #639, #521; arbitrum-chain-sdk #642, #636, #222, #205, #206, #684; Morpho liquidation bot #114, #117, #118, #121; Uniswap v4-periphery #589, #596, #531; Uniswap SDK #763, #141.
 - [x] Review existing tooling: official Arbitrum monitoring scripts/docs, community Helm charts, Nitro HA/feed-relay guides, Goldsky RPC comparison, RPCNode.IO, Alchemy benchmarks, and Morpho liquidation-bot architecture.
 - [x] Compare the RPC-monitoring cluster against official Arbitrum monitoring, Goldsky, RPCNode.IO, Alchemy, and provider-native tooling; generic monitoring/provider ranking is not a candidate.
-- [x] Compare Nitro #4733 against current main-branch sync_monitor.go; the code still lacks an explicit non-local sync-target provenance check at review.
+- [x] Compare Nitro #4733 against current master and v3.11.3 source; the code still lacks an explicit non-local sync-target provenance check.
+- [x] Check historical SyncMonitor fixes #3180 and #3538; neither closes the warm-database false-ready case described by #4733.
+- [x] Search for independent reports of the same #4733 false-ready / HA bootstrap failure; none found in this bounded GitHub search pass.
+- [x] Follow Nitro #4736, #4766, and #4785 through comments and linked PRs; separate upstream fixes from residual problems.
 - [ ] Verify whether reported Nitro/Orbit RPC issues and SDK limitations remain unresolved in current releases and whether workarounds or upstream fixes have shipped.
-- [ ] Find independent reports of the Nitro HA false-ready / sequencer bootstrap problem beyond #4733; determine whether it is limited to one operator topology.
-- [ ] Find independent reports of the same operational/developer pain; distinguish repeat incidents from multiple reports by one author.
+- [ ] Find independent operators with the same Nitro HA false-ready / sequencer bootstrap problem; determine whether it is limited to one operator topology.
+- [ ] Find independent reports of the same operational/developer pain across different Orbit chains; distinguish recurrence from multiple reports on one chain or by one author.
 - [ ] For each recurring problem, identify affected role, frequency, operational cost, current workaround, existing commercial tools, and plausible budget owner.
-- [ ] Inspect issue comments, linked PRs, releases, docs, and code before classifying a problem as unresolved.
+- [ ] Recheck merge/release status of OffchainLabs/go-ethereum #668, Nitro #4768, and Nitro #4787.
 - [ ] Build a shortlist of no more than three evidence-backed problem clusters; do not convert isolated bugs into product concepts.
 - [ ] Do not start implementation until a specific user/buyer and a real workflow are validated.
 
