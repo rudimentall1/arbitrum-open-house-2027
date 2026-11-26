@@ -33,9 +33,13 @@ The next decision must come from repeated evidence of a real workflow and a reac
 - `RESEARCH_LOG.md` — consolidated historical research and current conclusions.
 - `HISTORY_RECONSTRUCTION.md` — recovered historical context and evidence limitations.
 - `WINNER_MAP.md` — selected Arbitrum/Open House winner analysis.
+- `package.json` — minimal private Node.js metadata with the built-in test-runner command.
+- `.gitignore` — standard local/dependency/build exclusions.
+- `src/README.md` — placeholder; no product code until GO.
+- `tests/README.md` — placeholder; no application tests yet.
 - `research/ISSUE_RESEARCH_2026-11-26.md` — primary GitHub issue findings and next checks.
 
-This repository currently serves as a research/documentation workspace. Do not assume an application, runtime, package manager setup, or automated test suite exists unless confirmed from the live tree.
+This repository is a research/documentation workspace with minimal Node.js metadata. The source and test directories are placeholders; no application implementation or automated test suite exists. The `npm test` command has not been run in this environment.
 
 ## Evidence discipline
 
