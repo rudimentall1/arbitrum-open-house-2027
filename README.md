@@ -11,7 +11,8 @@ Repository for evidence-based preparation and research for Arbitrum Open House S
 5. Check `TASKS.md` before starting new research.
 6. Read `research/ISSUE_RESEARCH_MULTICHAIN_2026-11-26.md` for the Morpho, SDK, and Nitro follow-up.
 7. Read `research/INDEXER_RPC_COST_RESEARCH_2026-11-26.md` for the current multi-operator indexer RPC cost/reliability assessment.
-8. Read `research/INDEXER_RPC_AND_FAST_L2_FOLLOWUP_2026-11-26.md\nresearch/INDEXER_INTEGRITY_AND_CHECKPOINT_FOLLOWUP_2026-11-26.md` for current Ponder, Nuthatch, rindexer, Envio, and fast-L2 correctness findings.
+8. Read `research/INDEXER_RPC_AND_FAST_L2_FOLLOWUP_2026-11-26.md
+research/INDEXER_INTEGRITY_AND_CHECKPOINT_FOLLOWUP_2026-11-26.md` for current Ponder, Nuthatch, rindexer, Envio, and fast-L2 correctness findings.
 
 ## Current state
 
