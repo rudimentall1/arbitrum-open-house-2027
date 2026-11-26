@@ -100,7 +100,7 @@ Internal score matrices in these documents were judgment calls, not customer evi
 - Verigate remains explicitly excluded.
 - Generic Agent Guardian / GuardRail Wallet, generic agent escrow/payments, generic Stylus zkTLS, generic PIX/stablecoin gateway and revenue splitting, retail DCA, generic AI CFO, and generic tokenized-stock dashboards remain closed.
 - AttestGuard is preserved as historical prior work and a source of failure lessons, not as an automatically revived candidate.
-- RWA Servicing Copilot remains a distinct **investigate-only hypothesis**, not a validated business. Its specific unanswered question is whether on-chain private-credit operators have a frequent, expensive borrower-cashflow ↔ on-chain-pool reconciliation workflow that current servicing/fund-administration tools do not handle adequately.
+- The earlier RWA Servicing Copilot proposal is retained as historical research only; it is not an active candidate under the latest user-approved direction.
 - Before any code: obtain real buyer interviews, a redacted servicing workflow, evidence of current manual pain, and a design-partner commitment.
 
 ## Primary archived artifacts
