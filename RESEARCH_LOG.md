@@ -125,3 +125,16 @@ A further issue-driven pass found a protocol-specific RAILGUN/Squid integrity cl
 - Envio's September article explains why filtered eth_getLogs results cannot be intrinsically proven complete from the response alone, documents a Robinhood fallback-data incident, and compares full-block verification with eRPC's receipt-cache checks. HyperSync and protocol-specific indexers already address parts of the problem.
 
 **Assessment:** Keep RAILGUN/Squid event omission and PPOI divergence at WATCH. Treat Allium as supporting operator evidence. No additional two independent Orbit teams with quantified spend or loss were found; no buyer, willingness to pay, or differentiated standalone product is established. No GO and no implementation.
+
+
+## 26 November 2026 — RAILGUN/Squid follow-up recheck
+
+Rechecked the October Sepolia evidence and identified the public operator escalation path and existing monitoring substitutes. Details are in [research/INDEXER_INTEGRITY_AND_CHECKPOINT_FOLLOWUP_2026-11-26.md](research/INDEXER_INTEGRITY_AND_CHECKPOINT_FOLLOWUP_2026-11-26.md), section 7.
+
+- Engine #142 remains open with one comment from 12 Oct; the detailed Sepolia report identifies a missing Nullified log at index 0x62, a single failing verificationHash link (row 4187 → 4188), and 41 repeated sync stops in 38 minutes.
+- The same reporter opened [Railgun-Community/subsquid-integration #1](https://github.com/Railgun-Community/subsquid-integration/issues/1), requesting a Sepolia backfill/re-index. It remains open with zero comments and no public maintainer response as of 26 Nov.
+- The public Subsquid integration repository has one initial commit from 11 Mar 2025. Its README documents deployment to Subsquid Cloud organization `rail-squid`; chain config defines Arbitrum/Sepolia RPC secrets. This identifies the public source organization and documented cloud namespace, not a named on-call operator or proof that the deployed service still runs this exact source.
+- Anon Wallet's public RAILGUN liveness API covers PPOI, indexer, Subsquid, broadcasters, and Waku with ~30-second snapshots and 14-day history; its PPOI proxy provides caching and queued write retries. This removes generic RAILGUN liveness/proxy as a differentiated candidate. The API does not claim to prove event-level completeness; Sepolia is explicitly unmonitored for Subsquid.
+- The possible remaining gap is semantic TXID/event reconciliation against canonical receipts and detection of downstream PPOI checkpoints built from incomplete data. No named budget owner, WTP, or cross-protocol recurrence has been validated.
+
+**Assessment unchanged:** RAILGUN/Squid remains WATCH, not GO. The Sepolia report is strong technical evidence but is one reporter in the same Railgun Squid deployment family. Do not begin implementation.
