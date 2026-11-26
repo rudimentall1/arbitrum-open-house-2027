@@ -23,9 +23,8 @@
 
 ## Engineering baseline
 
-- [x] Establish repository structure and mandatory agent rules.
-- [x] Add a minimal Node.js test setup.
-- [ ] Add CI after the initial implementation workflow is established.
+- [x] Establish repository structure and mandatory research rules.
+- [ ] Create an application/runtime/test setup only after a product reaches GO and implementation is authorized.
 
 ## GO criteria for a concept
 
