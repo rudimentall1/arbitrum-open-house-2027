@@ -103,3 +103,11 @@
 - **Decision:** Track silent event loss near the tip on fast Orbit/L2 chains as a distinct technical problem, but do not promote it to a product candidate without independent operator reports and a buyer.
 - **Rationale:** Ponder #2359 reported that a 30-block reorg window represented only about three seconds on Robinhood Chain, but current Ponder main uses a timestamp-based `reorgWindow` in seconds (default 180, max 600), so the old block-count issue is stale against current code. A commenter from HCTDIP linked a separate listener commit describing a 61-fill loss when two RPC nodes both returned empty logs for a recent block; the listener added a hard minimum safe depth of five blocks. This is a credible data-integrity lead, but only one independent linked incident on one chain was found.
 - **Consequences:** Seek independent incidents where lagging replicas return empty/stale logs and indexers incorrectly advance checkpoints. Prefer provider/indexer correctness fixes if they fully close the gap. No implementation until buyer and recurrence evidence exist.
+
+
+## D-016 — Keep RAILGUN/Squid event omission as a protocol-specific WATCH lead
+
+- **Status:** Accepted for current research phase
+- **Decision:** Track RAILGUN TXID omissions and downstream PPOI checkpoint divergence as a separate indexer-integrity lead, but do not promote it to a general product candidate or GO.
+- **Rationale:** Railgun-Community/engine #142/#143 describe a missing Arbitrum Nullified event that caused TXID synchronization to stop and a private output to remain unspendable. A separate wallet developer reported three omitted transactions and a diverged PPOI index; the upstream data was corrected and the affected wallet recovered after a full resync. A separate Sepolia follow-up in #142 reports the same omission shape. These are meaningful integrity signals, but the Arbitrum reports are one shared incident cluster, the Sepolia follow-up is not another Arbitrum customer, and no budget owner or willingness to pay is established.
+- **Consequences:** Monitor the RAILGUN Squid/PPOI reconciliation and rebuild workflow; seek independent incidents and buyer evidence. Do not build a generic RPC monitor or indexer replacement. See `research/INDEXER_INTEGRITY_AND_CHECKPOINT_FOLLOWUP_2026-11-26.md`.
