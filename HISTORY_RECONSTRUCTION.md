@@ -61,7 +61,7 @@ The September 5 independent audit identified material gaps:
 - the real proof-verifier precompile was mocked in ordinary CI tests, so those tests did not prove the cryptographic precompile path itself;
 - there were worker reliability and observability gaps.
 
-**Relationship to the current RWA Servicing Copilot:** both touch credit operations, but they are not the same product. AttestGuard attempted to originate/advance invoice financing and automate a funding decision. The current hypothesis is a post-origination operations/reconciliation tool: reconcile borrower-side repayments against on-chain pool activity, track arrears, calculate distributions, and prepare investor reporting. It should not inherit AttestGuard's lending, custody, underwriting, or physical-delivery claims. The old audit is a warning against treating blockchain attestations as proof of off-chain economic truth.
+**Relationship to the earlier RWA Servicing Copilot proposal:** both touch credit operations, but they are not the same product. AttestGuard attempted to originate/advance invoice financing and automate a funding decision. The repository's earlier proposal described post-origination reconciliation. The user's latest approved direction does not select it, so it is historical research only. The old audit remains a warning against treating blockchain attestations as proof of off-chain economic truth.
 
 ### 4 September 2026 — Ethereum / Robinhood Chain meme smart-money research
 
