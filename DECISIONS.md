@@ -75,3 +75,17 @@
 - **Decision:** Treat Nitro #4736, #4766, and #4785 as separate technical leads to monitor for upstream resolution, not as a unified archive-node reliability product.
 - **Rationale:** The trace race in #4736 appears fixed upstream and present in Nitro v3.12.1; the log-range cap and archive capability metadata fixes have open upstream PRs; feed reconnect behavior has an open Nitro PR. Independent evidence is limited and no buyer or willingness to pay is established.
 - **Consequences:** Recheck merge/release status and current-version behavior. Reopen product exploration only if operators demonstrate a recurring, unserved workflow that persists after upstream fixes and has a reachable budget owner.
+
+## D-012 — Keep Morpho Blue block-time mismatch as a code-level WATCH item
+
+- **Status:** Accepted for current research phase
+- **Decision:** Do not promote Morpho bots #4 into a product candidate. Keep it as a technical lead until independent operators report the same timing problem and its operational cost is measured.
+- **Rationale:** Current Morpho bots main still applies fixed 2/64-block backoff to Base and Robinhood, but the same repository's block-time table records 200 ms and 100 ms respectively. Replaying the current backoff rule at the issue's 2-second polling cadence gives about 47 versus 79 attempts per 10 minutes (about 1.68x), not the issue's claimed 9x. The current Blue kernel also uses an 8-second wall-clock stuck threshold, and an existing `blocksFor()` helper is already used by another bot in the repository.
+- **Consequences:** Prefer the narrow code-level fix of deriving block counts from wall-clock intent. Do not infer a market or willingness to pay from this single issue.
+
+## D-013 — Track RPC log-range friction, but do not create a generic range-adapter product
+
+- **Status:** Accepted for current research phase
+- **Decision:** Record repeated `eth_getLogs` range-limit failures as developer friction, but do not build a generic RPC service or indexer around the current evidence.
+- **Rationale:** Arbitrum SDK #609, chain SDK #642, and Nitro #4736 contain reports from distinct contexts; the Nitro thread also has a second account reporting range refusal on the same chain endpoint. The direct remedies are adaptive client-side range splitting, SDK fixes, configurable server-side limits, or existing indexing services. No buyer, paid workflow, or unmet requirement beyond these remedies has been demonstrated. OffchainLabs/go-ethereum #668 remains open and unmerged.
+- **Consequences:** Reopen only if an identifiable Orbit operator workflow remains costly or broken after the available SDK, provider, and indexing alternatives are tested.
