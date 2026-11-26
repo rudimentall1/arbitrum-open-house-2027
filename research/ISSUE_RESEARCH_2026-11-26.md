@@ -123,16 +123,26 @@ Two contributors commented, one stating they were implementing the on-chain enum
 
 An independent builder says they scan 2,586 Morpho Blue borrowers across 212 Base markets every 20 minutes and asks whether other liquidation-bot operators would use a webhook/data API instead of polling RPCs independently. They are seeking feedback and potential data partnerships.
 
-Only one substantive independent report was found in this pass. The discussion asks what gap makes the scanner necessary versus Morpho API, HyperIndex, or RPC, and what freshness guarantee is required; no confirmed paying user or subscription demand is shown.
+Only one substantive feed-builder report was found in this pass. A separate operator-research question in #121 (author: epistemedeus) asks which input actually blocks every-block liquidation loops and whether existing Morpho API/HyperIndex/RPC paths are sufficient; it has no replies at review. No confirmed paying user or subscription demand is shown.
 
-**Assessment:** Worth further validation because it describes a recurring operator workflow and a possible data product. Still weak evidence: one builder's proposed feed, no demonstrated demand, and no Arbitrum-specific evidence yet.
+**Assessment:** Worth a few targeted follow-ups because it describes a recurring operator workflow and a possible data product. However, the bot's own README already supports Morpho API and self-hosted HyperIndex data providers, pluggable pricers and liquidity venues, and RPC-only deployment. The feed proposal has no confirmed demand, no subscription, and no Arbitrum-specific evidence yet.
+
+### C3. Flashbots liquidation execution path
+
+[Morpho liquidation bot #114](https://github.com/morpho-org/morpho-blue-liquidation-bot/issues/114) — open; created 23 June 2026; updated 29 June 2026; two comments at review.
+
+The report says the bot's Flashbots path constructs a bundle transaction incorrectly, so liquidations with useFlashbots enabled fail. It includes a code-level diagnosis: function arguments are spread into the transaction object instead of ABI-encoded calldata, and the transaction fee field is not prepared. Two comments are from a contributor asking to work on the fix / asking for PR review; no maintainer resolution or merged fix was confirmed in this pass.
+
+The repository README already describes a multi-chain RPC-only liquidation bot with pluggable Morpho API / HyperIndex data providers, liquidity venues, pricers, configurable block interval, and optional Flashbots support.
+
+**Assessment:** Real developer bug in an existing tool, not evidence of a new product gap. The bot already packages much of the operator workflow. Further product research should focus on independent liquidation operators' unmet needs, not clone the bot or build a generic borrower feed.
 
 ## Low-confidence / excluded signals
 
 - Recent GMX Synthetics issues #320–#323 contain dramatic security claims but had no substantive discussion at review and appear to be unverified third-party reports. Do not treat them as confirmed vulnerabilities, protocol-endorsed problem statements, or market evidence. Security reports belong in responsible disclosure channels.
 - Aave V3 core/origin results in this pass were mostly older, generic developer support or documentation issues; no compelling repeated commercial workflow surfaced.
 - Uniswap v4-core results were a mix of older design discussions and unverified security claims; no robust customer-pain cluster was established.
-- Morpho #121 is an operator-question thread posted by the same account conducting this research, so it is not independent validation.
+- Morpho #121 is an unanswered operator-research question by a separate GitHub account (epistemedeus); it is not a report of an observed incident and does not validate demand.
 
 ## Existing tooling and competitive reality
 
@@ -191,7 +201,7 @@ These are research clusters only. None is GO.
 - https://github.com/OffchainLabs/arbitrum-chain-sdk/issues/222
 - https://github.com/OffchainLabs/arbitrum-chain-sdk/issues/205
 - https://github.com/OffchainLabs/arbitrum-chain-sdk/issues/206
-- https://github.com/morpho-org/morpho-blue-liquidation-bot/issues/117
+- https://github.com/morpho-org/morpho-blue-liquidation-bot/issues/114\n- https://github.com/morpho-org/morpho-blue-liquidation-bot/issues/117
 - https://github.com/morpho-org/morpho-blue-liquidation-bot/issues/118
 - https://github.com/gmx-io/gmx-synthetics/issues/320
 - https://github.com/gmx-io/gmx-synthetics/issues/321
@@ -203,3 +213,6 @@ Additional operator documentation checked:
 - https://docs.arbitrum.io/run-a-node/nitro/node-tuning-and-monitoring
 - https://developer.arbitrum.io/launch-arbitrum-chain/run-a-node/high-availability-sequencer
 - https://developer.arbitrum.io/run-a-node/run-feed-relay
+
+Morpho liquidation-bot implementation reference:
+- https://github.com/morpho-org/morpho-blue-liquidation-bot/blob/main/README.md
