@@ -18,7 +18,7 @@
 - **Status:** Accepted
 - **Decision:** Do not start a buildathon implementation based only on ecosystem fit, technical novelty, previous hackathon winners, or an internally generated score.
 - **Rationale:** Previous searches produced plausible ideas but no sufficiently verified buyer demand. This caused repeated analysis without a decision-quality outcome.
-- **Consequences:** The next research step is direct validation of a narrow workflow with potential buyers. See `TASKS.md`.
+- **Consequences:** The next research step is issue-driven discovery from primary reports, followed by direct validation of a narrow workflow with potential buyers. See `TASKS.md`.
 
 ## D-004 — Explicitly exclude Verigate from the Buildathon
 
