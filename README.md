@@ -15,6 +15,7 @@ Repository for evidence-based preparation and research for Arbitrum Open House S
 9. Read `research/INDEXER_INTEGRITY_AND_CHECKPOINT_FOLLOWUP_2026-11-26.md` for RAILGUN/Squid event omissions, PPOI divergence, and Allium Robinhood ingestion incidents.
 10. Read `research/BLOCKSCOUT_ROBINHOOD_INDEXER_OPERATIONS_2026-11-26.md` for Blockscout hosted-explorer scaling, missing-block gaps, API lag, and remediation status.\n11. Read `research/INDEPENDENT_INDEXER_COMPLETENESS_SIGNALS_2026-11-26.md` for additional Ergo/Ponder incident evidence and completeness-audit substitutes.
 12. Read `research/FLOP_HOSTED_INDEXER_INCIDENT_2026-11-26.md` for the independent hosted Flop Labs backlog/recurrence and Ekubo/DALP substitute review.
+13. Read `research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md` for the current Blockscout/SQD/Envio/Alchemy comparison and narrowed WATCH hypothesis.
 
 ## Current state
 
