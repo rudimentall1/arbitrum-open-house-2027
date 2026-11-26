@@ -78,3 +78,8 @@ The prior project history was not fully represented in the earlier research summ
 ## Repository reality
 
 The repository contains research documentation, minimal `package.json` metadata, and placeholder `src/` / `tests/` directories. No application implementation or test files exist. The `npm test` command is configured but has not been executed in this environment; do not claim tests passed.
+
+
+## Completeness substitute comparison (26 Nov 2026)
+
+Current vendor comparison is documented in [research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md](research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md). SQD Portal and Envio HyperSync publicly describe block/receipt-root and multi-source validation, making upstream data-integrity checks a strong substitute. Blockscout documents catch-up, retry, and specialized repair workers but no universal public canonical-completeness guarantee was found in the reviewed docs. Alchemy provides RPC/log APIs, subscriptions and request diagnostics, not consumer-database completeness attestation. Ekubo and DALP already cover gap audit/repair and platform operations. Product gap hypothesis is now limited to a neutral cross-provider reconciliation/evidence workflow, still unvalidated; WATCH only.
