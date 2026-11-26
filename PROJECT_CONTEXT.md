@@ -10,7 +10,7 @@ The repository is the source of truth for prior research, hackathon winner analy
 
 **No product has GO status and no implementation should start.** The broad idea-generation and rejection stage is complete. The active workstream is issue-driven problem discovery from primary GitHub Issues/Discussions and technical reports across Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
 
-The next decision must come from repeated evidence of a real workflow and a reachable buyer, not from a new sector scan or an isolated technical bug. Nitro #4733 remains the strongest problem lead but still has one reporting operator. The latest multi-chain follow-up found a recurring `eth_getLogs` range-limit friction pattern across SDK/operator contexts, but the direct remedy is adaptive pagination or upstream fixes, not a standalone service. Morpho bots #4 contains a real-looking block-based retry mismatch, but its 9x estimate conflicts with the same repository's current 200 ms Base / 100 ms Robinhood timing table; the corrected model is about 1.68x under the reported polling cadence. Neither signal establishes a buyer or GO candidate.
+The next decision must come from repeated evidence of a real workflow and a reachable buyer, not from a new sector scan or an isolated technical bug. Nitro #4733 remains the strongest single technical problem lead but still has one reporting operator. The strongest recurring commercial pain signal is now multi-chain indexer RPC cost/reliability: independent Envio operators report quantified request amplification, 429 spirals, and provider spend on Arbitrum/Robinhood and other EVM chains. This remains WATCH, not GO: Envio is actively shipping upstream fixes, and eRPC/provider/indexer alternatives already cover much of the generic proxy and budget-control space. Morpho bots #4 remains a narrower technical WATCH item; its 9x estimate conflicts with the same repository's 200 ms Base / 100 ms Robinhood timing table, giving a modelled ~1.68x ratio under the reported polling cadence.
 
 ## Explicit exclusions
 
@@ -40,6 +40,7 @@ The next decision must come from repeated evidence of a real workflow and a reac
 - `research/ISSUE_RESEARCH_2026-11-26.md` — first-pass primary GitHub issue findings.
 - `research/ISSUE_RESEARCH_2026-11-27.md` — follow-up on Nitro false-ready, archive-node RPC issues, historical fixes, and linked PR status.
 - `research/ISSUE_RESEARCH_MULTICHAIN_2026-11-26.md` — Morpho multi-chain backoff, recurring RPC log-range friction, and current Nitro/SDK issue follow-up.
+- `research/INDEXER_RPC_COST_RESEARCH_2026-11-26.md` — multi-operator indexer RPC cost/correctness evidence, Envio fixes, and eRPC/provider competition.
 
 This repository is a research/documentation workspace with minimal Node.js metadata. The source and test directories are placeholders; no application implementation or automated test suite exists. The `npm test` command has not been run in this environment.
 
@@ -62,7 +63,7 @@ Do not describe a prototype, mock, authorization decision, testnet transaction, 
 - Verigate is explicitly excluded by the user's decision.
 - The active research phase is issue-driven discovery across Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
 - First-pass findings and caveats are in [research/ISSUE_RESEARCH_2026-11-26.md](research/ISSUE_RESEARCH_2026-11-26.md); the follow-up status/code/PR review is in [research/ISSUE_RESEARCH_2026-11-27.md](research/ISSUE_RESEARCH_2026-11-27.md); the latest multi-chain/SDK follow-up is in [research/ISSUE_RESEARCH_MULTICHAIN_2026-11-26.md](research/ISSUE_RESEARCH_MULTICHAIN_2026-11-26.md). The strongest current problem lead is Nitro HA sequencer readiness / false-ready behavior (#4733), but independent recurrence and a product-shaped gap are not yet established. Morpho Blue backoff mismatch (#4) and RPC log-range failures remain technical WATCH items only.
-- Generic RPC monitoring/provider rankings are not a candidate because official Arbitrum monitoring and commercial providers already cover much of that category.
+- Generic RPC monitoring/provider rankings and generic RPC proxy/budget products are not candidates: official Arbitrum monitoring, eRPC, provider-native quotas, and managed indexers already cover much of that category. Any future candidate needs a specific workload gap those tools do not solve.
 - No buyer interviews, customer commitments, paid pilots, or product demand are claimed.
 - No application implementation has started.
 
