@@ -3,10 +3,12 @@
 ## Current priority — issue-driven problem discovery
 
 - [ ] Continue systematic review of primary GitHub Issues/Discussions in Arbitrum Nitro, arbitrum-sdk / arbitrum-chain-sdk, Orbit tooling, Morpho, Aave, GMX, and Uniswap.
-- [x] First-pass review of Nitro #4733, #4736, #4766, #4770, #4771, #4780, #4785, #4789, #4208, #738; arbitrum-sdk #657, #639, #521; arbitrum-chain-sdk #642, #636, #222, #205, #206, #684; Morpho liquidation bot #114, #117, #118, #121.
+- [x] First-pass review of Nitro #4733, #4736, #4766, #4770, #4771, #4780, #4785, #4789, #4208, #738; arbitrum-sdk #657, #639, #521; arbitrum-chain-sdk #642, #636, #222, #205, #206, #684; Morpho liquidation bot #114, #117, #118, #121; Uniswap v4-periphery #589, #596, #531; Uniswap SDK #763, #141.
 - [x] Review existing tooling: official Arbitrum monitoring scripts/docs, community Helm charts, Nitro HA/feed-relay guides, Goldsky RPC comparison, RPCNode.IO, Alchemy benchmarks, and Morpho liquidation-bot architecture.
 - [x] Compare the RPC-monitoring cluster against official Arbitrum monitoring, Goldsky, RPCNode.IO, Alchemy, and provider-native tooling; generic monitoring/provider ranking is not a candidate.
+- [x] Compare Nitro #4733 against current main-branch sync_monitor.go; the code still lacks an explicit non-local sync-target provenance check at review.
 - [ ] Verify whether reported Nitro/Orbit RPC issues and SDK limitations remain unresolved in current releases and whether workarounds or upstream fixes have shipped.
+- [ ] Find independent reports of the Nitro HA false-ready / sequencer bootstrap problem beyond #4733; determine whether it is limited to one operator topology.
 - [ ] Find independent reports of the same operational/developer pain; distinguish repeat incidents from multiple reports by one author.
 - [ ] For each recurring problem, identify affected role, frequency, operational cost, current workaround, existing commercial tools, and plausible budget owner.
 - [ ] Inspect issue comments, linked PRs, releases, docs, and code before classifying a problem as unresolved.
