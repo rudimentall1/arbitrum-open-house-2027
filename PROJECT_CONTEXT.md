@@ -10,7 +10,7 @@ The repository is the source of truth for prior research, hackathon winner analy
 
 **No product has GO status and no implementation should start.** The broad idea-generation and rejection stage is complete. The active workstream is issue-driven problem discovery from primary GitHub Issues/Discussions and technical reports across Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
 
-The next decision must come from repeated evidence of a real workflow and a reachable buyer, not from a new sector scan or an isolated technical bug.
+The next decision must come from repeated evidence of a real workflow and a reachable buyer, not from a new sector scan or an isolated technical bug. The 27 November follow-up confirms #4733 is still the strongest problem lead but remains a one-operator report; archive-node issues #4736/#4766 and feed reconnect #4785 have upstream fixes or PRs in progress and are not product candidates.
 
 ## Explicit exclusions
 
@@ -37,7 +37,7 @@ The next decision must come from repeated evidence of a real workflow and a reac
 - `.gitignore` — standard local/dependency/build exclusions.
 - `src/README.md` — placeholder; no product code until GO.
 - `tests/README.md` — placeholder; no application tests yet.
-- `research/ISSUE_RESEARCH_2026-11-26.md` — primary GitHub issue findings and next checks.
+- `research/ISSUE_RESEARCH_2026-11-26.md` — first-pass primary GitHub issue findings.\n- `research/ISSUE_RESEARCH_2026-11-27.md` — follow-up on Nitro false-ready, archive-node RPC issues, historical fixes, and linked PR status.
 
 This repository is a research/documentation workspace with minimal Node.js metadata. The source and test directories are placeholders; no application implementation or automated test suite exists. The `npm test` command has not been run in this environment.
 
@@ -59,7 +59,7 @@ Do not describe a prototype, mock, authorization decision, testnet transaction, 
 - Previously rejected directions remain closed unless new primary evidence directly changes the rejection rationale.
 - Verigate is explicitly excluded by the user's decision.
 - The active research phase is issue-driven discovery across Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
-- First-pass findings and caveats are in [research/ISSUE_RESEARCH_2026-11-26.md](research/ISSUE_RESEARCH_2026-11-26.md). The strongest current problem lead is Nitro HA sequencer readiness / false-ready behavior (#4733), but independent recurrence and a product-shaped gap are not yet established.
+- First-pass findings and caveats are in [research/ISSUE_RESEARCH_2026-11-26.md](research/ISSUE_RESEARCH_2026-11-26.md); the follow-up status/code/PR review is in [research/ISSUE_RESEARCH_2026-11-27.md](research/ISSUE_RESEARCH_2026-11-27.md). The strongest current problem lead is Nitro HA sequencer readiness / false-ready behavior (#4733), but independent recurrence and a product-shaped gap are not yet established.
 - Generic RPC monitoring/provider rankings are not a candidate because official Arbitrum monitoring and commercial providers already cover much of that category.
 - No buyer interviews, customer commitments, paid pilots, or product demand are claimed.
 - No application implementation has started.
