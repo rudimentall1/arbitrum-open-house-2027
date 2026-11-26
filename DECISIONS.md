@@ -34,10 +34,22 @@
 - **Rationale:** These directions were already assessed and found to have weak differentiation, crowded competition, high execution/CAC/regulatory risk, or no buyer validation. See `RESEARCH_LOG.md`.
 - **Reopen only if:** New primary evidence or a materially changed market/technical condition directly addresses the recorded rejection reason.
 
-## D-006 — RWA Servicing Copilot is the leading hypothesis to validate
+## D-006 — RWA Servicing Copilot is not an active candidate
 
-- **Status:** Hypothesis only; not GO
-- **Decision:** Validate a narrow operations product for tokenized private-credit originators and fund administrators: reconcile off-chain borrower repayment data with on-chain pool activity, track arrears/loan conditions, calculate distributions, and prepare investor/fund reports.
-- **Rationale:** Recent Arbitrum winners repeatedly target issuance, trading, yield, liquidity, collateral, and risk primitives. Post-origination servicing and cross-ledger operational reconciliation are less represented among the winners. Tokenized private credit has measurable activity on Arbitrum, but the market is concentrated and volatile.
-- **Main risks:** Strong incumbent loan-servicing and fund-administration software; tokenization platforms already claim servicing capabilities; long B2B sales cycles; no buyer interviews or design partner yet.
-- **Next gate:** Obtain a redacted real servicing workflow and a design-partner commitment before writing product code.
+- **Status:** Superseded by the user's 26 November 2026 research summary
+- **Decision:** Retain the earlier repository proposal as historical research only. It is not the current leading hypothesis and must not displace the user's explicit next step: issue-driven discovery from primary GitHub reports.
+- **Rationale:** The latest user-approved summary does not select RWA Servicing Copilot and explicitly directs the next stage toward recurring real problems in GitHub Issues/Discussions across Arbitrum/Nitro/Orbit and relevant protocols.
+- **Consequences:** Do not conduct buyer validation or implementation planning for this proposal unless the user explicitly reopens it and new primary evidence supports it.
+
+## D-007 — Issue-driven discovery is the active research method
+
+- **Status:** Accepted at user's explicit direction
+- **Decision:** Continue from the completed broad research funnel by mining primary issues/discussions and technical reports for recurring problems. Prioritize Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
+- **Rationale:** Broad sector scans and internally generated ideas did not establish a GO candidate. Primary complaints and operational reports provide a more direct path to observable pain.
+- **Consequences:** For each signal, verify status, recurrence, independent reporters, workaround, cost, buyer, competition, and MVP feasibility. A single issue is a lead, not proof of a market. Do not start coding before a GO decision.
+
+## D-008 — Preserve the current candidate statuses
+
+- **Status:** Accepted
+- **Decision:** GapGuard remains WATCH only; REJECT directions remain closed absent new decision-relevant evidence; Verigate remains excluded; product selection is undecided.
+- **Rationale:** These are the explicit outcomes in the user's 26 November 2026 research summary.
