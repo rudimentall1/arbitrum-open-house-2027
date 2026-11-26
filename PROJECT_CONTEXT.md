@@ -68,7 +68,7 @@ Do not describe a prototype, mock, authorization decision, testnet transaction, 
 - The active research phase is issue-driven discovery across Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
 - First-pass findings and caveats are in [research/ISSUE_RESEARCH_2026-11-26.md](research/ISSUE_RESEARCH_2026-11-26.md); the follow-up status/code/PR review is in [research/ISSUE_RESEARCH_2026-11-27.md](research/ISSUE_RESEARCH_2026-11-27.md); the latest multi-chain/SDK follow-up is in [research/ISSUE_RESEARCH_MULTICHAIN_2026-11-26.md](research/ISSUE_RESEARCH_MULTICHAIN_2026-11-26.md). The strongest current problem lead is Nitro HA sequencer readiness / false-ready behavior (#4733), but independent recurrence and a product-shaped gap are not yet established. Morpho Blue backoff mismatch (#4) and RPC log-range failures remain technical WATCH items only.
 - Generic RPC monitoring/provider rankings and generic RPC proxy/budget products are not candidates: official Arbitrum monitoring, eRPC, provider-native quotas, and managed indexers already cover much of that category. Indexer-specific optimizations are being shipped by Ponder, Envio, Nuthatch, and rindexer themselves. Any future candidate needs a cross-framework workflow gap those tools do not solve.
-- No buyer interviews, customer commitments, paid pilots, or product demand are claimed.
+- No buyer interviews, customer commitments, paid pilots, or product demand are claimed. Flop Labs adds independent hosted-indexer recurrence and measured backlog-duration evidence, but not quantified engineering or spend.
 - No application implementation has started.
 
 ## Recovered historical context
