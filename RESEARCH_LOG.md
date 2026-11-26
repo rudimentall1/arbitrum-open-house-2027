@@ -138,3 +138,23 @@ Rechecked the October Sepolia evidence and identified the public operator escala
 - The possible remaining gap is semantic TXID/event reconciliation against canonical receipts and detection of downstream PPOI checkpoints built from incomplete data. No named budget owner, WTP, or cross-protocol recurrence has been validated.
 
 **Assessment unchanged:** RAILGUN/Squid remains WATCH, not GO. The Sepolia report is strong technical evidence but is one reporter in the same Railgun Squid deployment family. Do not begin implementation.
+
+
+## 26 November 2026 — Blockscout hosted-explorer/indexer operations
+
+A new public-source pass found a substantial Blockscout operator cluster. Full evidence and issue links are in [research/BLOCKSCOUT_ROBINHOOD_INDEXER_OPERATIONS_2026-11-26.md](research/BLOCKSCOUT_ROBINHOOD_INDEXER_OPERATIONS_2026-11-26.md).
+
+- Blockscout's 31 July newsletter says Robinhood Chain processed 190.78M transactions by 29 July, peaked above 11M/day, and caused its infrastructure to hit limits. Blockscout traced database CPU pressure to inefficient high-traffic queries, rewrote them, and hardened the indexer.
+- Hosted Robinhood explorer #14767 documented a ~7,704-block hole and CREATE2 deployments misclassified as EOAs; Blockscout fetched the blocks and completed backfill by 8 Sep.
+- #14886 documented intermittent API 500s, ~8–300 block lag, 45–79 second transaction visibility delays, and WebSocket silence; Blockscout closed it as temporary service degradation on 1 Oct. The report says the data was delayed, not dropped, in this incident.
+- #14598's apparent missing token transfers were clarified by the reporter as a derived-display issue caused by incorrectly indexed total supply; fixed on 20 Jul.
+- Hosted Base #14869 documented thousands of missing blocks while indexing status said 100%; Blockscout confirmed backfill on 15 Oct.
+- #14984 was a separate contract-verification 500/rate-limit issue, resolved 28 Oct.
+
+These are multiple user reports across chains and symptoms, but one hosted operator (Blockscout); do not count them as independent indexer vendors or buyers. The reviewed incidents were resolved. No cost, engineering-hour, SLA, churn, or willingness-to-pay figure was disclosed.
+
+A separate one-person Robinhood analytics project, FOMO Robinhood Radar, archived 6 Oct after processing 187k fills from 562 wallets. Its README describes a low-cost direct-RPC workaround (two filtered eth_getLogs calls for the roster, roughly 30 free requests per full pass). This is not a buyer, but it is evidence that small application workloads can avoid paid indexers.
+
+Koinly's public Robinhood integration complaint mentions skipped imports and backfilled swaps, but the thread mixes bridge transactions absent from the explorer with swap parsing/grouping issues; it is not counted as verified missing on-chain data.
+
+**Assessment:** Hosted-explorer completeness/false-green status is a stronger operator problem lead, but remains WATCH. No second independent operator with quantified repair cost or buyer WTP was found. No GO and no implementation.
