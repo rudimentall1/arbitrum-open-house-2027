@@ -252,3 +252,17 @@
 - **Relationship:** D-029 commodity collateral remains the sole WATCH hypothesis. D-026, D-028, and D-030 remain closed. Verigate remains excluded.
 - **Next step:** Continue discovery in a different problem space, but identify economic buyer and credible access path before deep research. Require two independent operator confirmations, real examples, recurrence, quantified impact, differentiated unmet workflow, and willingness to test.
 - **Evidence:** [Third global niche scan](research/GLOBAL_NICHE_SCAN_03_2026-11-27.md).
+
+
+## D-032 — Fourth global niche scan (27 November 2026)
+
+- **Status:** NO-GO for three generic product theses; no new WATCH candidate.
+- **Scope:** Aircraft component lifecycle / LLP records and transfer; battery second-life SoH, residual value and repurposing evidence; FuelEU Maritime compliance-balance pooling and settlement.
+- **Findings:** ATA's Aircraft Transfer Records Working Group is developing a Component Passport / back-to-birth history dataset; IATA's September 2026 guidance clarifies that current-status confirmation, not a complete back-to-birth archive, is the relevant regulatory objective for LLP life status. GE RMS, FLYdocs, transition.aero, TARA and newer AI audit tools cover digitisation, transfer and audit. EU Battery Regulation Article 14 and Battery Passport requirements, the Commission registry/FAQ and numerous passport/BMS vendors cover battery data and second-life access. FuelEU's official database supports formal pool registration/allocation verification, while OceanScore, BetterSea, Zero44 and other providers cover marketplace, pricing and compliance workflows.
+- **Decision:** Do not build generic aircraft component passport/records ledger, battery passport/SoH registry/second-life marketplace, or FuelEU pool marketplace/settlement ledger.
+- **Residual questions (not candidates):** (1) whether LLP/rotable traders pay for neutral current-status evidence packages that reduce unnecessary back-to-birth requests; (2) whether second-life buyers experience legally permitted but operationally unusable OEM BMS data access; (3) whether FuelEU parties still suffer contract-failure or charterer/owner allocation disputes after existing tools. None is promoted to WATCH without independent buyer examples, quantified impact and pilot willingness.
+- **Arbitrum fit:** None of the generic theses requires shared Arbitrum state over existing standards, signed records, regulatory databases, or vendor systems.
+- **Evidence limits:** Public desk research only; no interviews, customer-specific cost, production datasets, paid pilots or WTP commitments.
+- **Relationship:** D-029 commodity collateral remains the sole WATCH. D-026, D-028 and D-030 remain closed; D-031 and D-032 are NO-GO scans. Verigate remains excluded.
+- **Next step:** Continue discovery outside aviation records, battery passports and maritime compliance pools. Start with a reachable economic buyer and observable failure/cost. Require two independent operator confirmations, redacted real examples, recurrence, quantified impact, a differentiated gap and willingness to test.
+- **Evidence:** [Fourth global niche scan](research/GLOBAL_NICHE_SCAN_04_2026-11-27.md).
