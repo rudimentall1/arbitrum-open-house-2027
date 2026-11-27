@@ -281,3 +281,22 @@ Full evidence: [research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md](research/RWA_INF
 - [ ] Arrange a short discussion with at least one CCP operator and one independent clearing-member/bank operator.
 - [ ] Expand outreach to DTCC/DTC and J.P. Morgan only through verified official or professional contact routes.
 - [ ] Do not treat sent emails, profile discovery or generic replies as buyer validation; no GO without two independent operator confirmations and the full existing GO gate.
+
+
+## D-038 — Parallel RWA track: CVM DLT pilot evidence operations (27 November 2026)
+
+- [x] Read Resolução CVM 249 and identify concrete network-manager/participant evidence obligations.
+- [x] Verify public list of 11 proposal submitters and preserve caveat that admission/network-manager status is not yet established.
+- [x] Define falsifiable product hypothesis and kill criteria; distinguish it from rejected generic fund servicing, NAV, collateral dashboards and proof-of-asset concepts.
+- [x] Send Portuguese-language research requests to public contact channels at CSD BR, Liqi, Núclea and BEE4.
+- [ ] Track replies and route to DLT architecture, network operations, regulatory integration or pilot owner.
+- [ ] Verify CVM's admitted networks and actual network managers when published.
+- [ ] Quantify manual evidence/reporting effort, recurring frequency, existing tooling and operational impact.
+- [ ] Obtain a redacted process map or evidence/report sample without requesting confidential unpublished pilot results.
+- [ ] Identify named budget owner, procurement route and recurring post-pilot use.
+- [ ] Compare against existing GRC, SIEM, data warehouse and API monitoring tools; close if they already solve the workflow.
+- [ ] Establish material Arbitrum shared-state requirement; do not force blockchain into a conventional evidence workflow.
+- [ ] Continue D-038 in parallel with D-033; D-033 replies must not block other product discovery.
+- [ ] No code or MVP until a differentiated workflow, buyer, economics, pilot path and Arbitrum fit meet the existing GO gate.
+
+Full evidence: [research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md).
