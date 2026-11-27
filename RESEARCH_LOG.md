@@ -1,14 +1,14 @@
 # Research log — Arbitrum Open House São Paulo 2027
 
-## Executive conclusion — D-037 (27 November 2026)
+## Executive conclusion — D-044 (27 November 2026)
 
 **No product has GO status. Product selection remains undecided and implementation is not authorized. RWA is the user's priority research sector.**
 
-The only current WATCH is D-029: cross-border commodity collateral / warehouse-lien verification. It is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product. D-033 rejected generic fund servicing/transfer agency/NAV reconciliation, private-credit servicing, collateral dashboards/orchestration and asset/NAV verification because existing institutional and specialist providers cover the obvious workflows. Collateral realisability under stress remains a problem area only, not a candidate.
+There is currently no WATCH or selected product. D-044 closes D-029's cross-border commodity collateral / warehouse-lien verification hypothesis after a competitive recheck found direct overlap with Secro and Crodax and adjacent coverage from FACTOS, TradeTrust and Singapore's Trade Finance Registry. The underlying fraud problem is real, but no differentiated buyer workflow, quantified impact or material Arbitrum requirement was established. D-033 rejected generic fund servicing/transfer agency/NAV reconciliation, private-credit servicing, collateral dashboards/orchestration and asset/NAV verification because existing institutional and specialist providers cover the obvious workflows. Collateral realisability under stress remains a problem area only, not a candidate.
 
 D-026 closed the prior issue-driven candidate set. D-010–D-024 remain historical technical research and are not active product candidates or current WATCH items. D-028 closed generic B2B stablecoin payment operations. D-030, D-031 and D-032 rejected their respective generic product theses. Verigate remains explicitly excluded; the earlier generic RWA Servicing Copilot is not reopened.
 
-**Next action:** continue only primary operator validation of D-033's residual RWA question. D-036/D-037 outreach has been sent to four official Eurex/CME mailboxes; no responses yet. CME's published collateral rules require a perfected security interest and cash liquidation within one hour or a committed liquidity facility. Eurex's 2026 default-management exercise starts 2 December and includes client-porting simulation; its four-hour porting prerequisite window is not a cash-realisation SLA. Obtain two independent operator accounts and redacted drill/near-miss examples, then determine whether existing controls and liquidity facilities already solve the workflow. D-029 remains the only WATCH. No code before GO.
+**Next action:** continue bounded, parallel RWA discovery and compare the remaining exploratory/problem-validation tracks; do not treat D-029 as open. Continue primary operator validation of D-033's residual RWA question. D-036/D-037 outreach has been sent to four official Eurex/CME mailboxes; no responses yet. CME's published collateral rules require a perfected security interest and cash liquidation within one hour or a committed liquidity facility. Eurex's 2026 default-management exercise starts 2 December and includes client-porting simulation; its four-hour porting prerequisite window is not a cash-realisation SLA. Obtain two independent operator accounts and redacted drill/near-miss examples, then determine whether existing controls and liquidity facilities already solve the workflow. D-029 was closed NO-GO by D-044. No current WATCH; no code before GO.
 
 Full repository conclusion: [docs/FINAL_PROJECT_REVIEW_2026-11-27.md](docs/FINAL_PROJECT_REVIEW_2026-11-27.md).
 
@@ -416,3 +416,13 @@ Direct competitive coverage is substantial: Bureau Veritas Brazil markets indepe
 **D-043: NO-GO for a standalone Brazil CDA/WA registry mirror, warehouse directory, generic inventory/collateral dashboard or Arbitrum ledger. No new WATCH.** D-029 remains the sole WATCH; D-043 adds local regulatory/competitive context but does not validate D-029's cross-border commercial opportunity. No interviews or outreach were conducted for D-043; no buyer, budget, quantified impact or pilot willingness was established. Arbitrum fit is unproven; signed attestations, APIs and conventional audit trails are more appropriate absent evidence of a shared multi-party claim-state requirement.
 
 Full report: [Brazil warehouse receipts and physical inventory collateral screen](research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md).
+
+
+## D-044 — D-029 competitive recheck and closure (27 November 2026)
+
+- Competitive review found direct overlap from Secro and Crodax in warehouse-receipt digitisation, lender checks and collateral control; FACTOS WareVault and TradeTrust cover adjacent workflows, while Singapore's Trade Finance Registry is an established bank utility.
+- HFW's November 2026 briefing supports the underlying warehouse-receipt fraud problem, but not demand for another product.
+- An adjacent invoice/receivables-verification pivot also overlaps MonetaGo, TFI TradeCore, TradeSun, AssureLocker and Riskernel; no differentiated buyer gap was validated.
+- No independent buyer interviews, redacted incidents, quantified costs, budget owner, willingness-to-pay or pilot commitment were obtained. Senior contact leads remain unvalidated access leads.
+- **Decision: D-029 WATCH superseded; CollateralLink NO-GO. No replacement candidate, no GO, no implementation.** Arbitrum shared-state necessity remains unproven.
+- Full evidence: [D-044 competitive recheck](research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md).
