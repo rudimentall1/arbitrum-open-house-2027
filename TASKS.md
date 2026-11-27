@@ -131,3 +131,16 @@ Pass A evidence report: [research/PASS_A_OPERATOR_EVIDENCE_2026-11-27.md](resear
 - [x] Stop this discovery cycle. No implementation authorized.
 
 Do not resume broad issue/sector research or add candidates to this search set. Reopen only on new primary evidence satisfying the buyer, recurring pain, measurable cost, unmet workflow, and bounded-pilot gate, or with a separately framed market/problem cycle. Final report: [research/PASS_B_AND_FINAL_NO_GO_2026-11-27.md](research/PASS_B_AND_FINAL_NO_GO_2026-11-27.md).
+
+
+## D-027 — New Cycle 01: B2B stablecoin payment operations
+
+- [x] Open a separate, bounded problem frame after D-026; do not reopen the previous candidates.
+- [x] Review institutional and SMB evidence for reconciliation across payment intent, gateway, chain, recipient, treasury/bank and accounting records.
+- [x] Map direct competitors including Utila/Cordant, Fipto/Kyriba, Circle, Request Finance, Stripe, Ripple Treasury and crypto subledgers.
+- [ ] Obtain one named payment processor/fintech buyer or direct-wallet B2B receiver willing to share redacted exception examples.
+- [ ] Quantify recurrence and cost: exception count/month, analyst minutes, duplicate-loss exposure, support/SLA impact, close delay.
+- [ ] Identify one specific unmet workflow beyond current substitutes and obtain explicit willingness for a two-week read-only pilot.
+- [ ] If the buyer/cost/gap/pilot gate is not met in this single validation pass, record NO-GO and stop. Do not add buyer segments or continue generic market research.
+
+Current status: WATCH / not GO. Research: [NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md).
