@@ -169,3 +169,13 @@ Result: named prospects and reachable roles exist, but no redacted production ex
 - [ ] Do not build a generic warehouse-receipt tokenization platform, global lien registry, battery passport, LP manager, incentive dashboard, energy marketplace, packaging tracker or sensor-to-insurance oracle.
 
 Current status: one WATCH hypothesis; no GO candidate. Full report: [research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
+
+### D-029 buyer access leads — 27 November 2026
+
+Publicly identified, not yet contacted or validated:
+- [ ] Clemence Avril — Global Head of Commodity Trade Finance, Standard Chartered: https://sg.linkedin.com/in/clemence-avril-99a74676
+- [ ] Cauê Todeschini — Global Lead, Trade & Commodity Finance, ING: https://www.linkedin.com/in/caue-todeschini
+- [ ] Abhay Dandwate — Chief Risk Officer & Head of Strategy, NBHC: https://in.linkedin.com/in/abhay-dandwate-24972887
+- [ ] OCBC collateral-management operations role: https://ocbc.wd102.myworkdayjobs.com/en-US/External/job/AVP--Transaction---Collateral-Management-Manager_JR00010266
+
+These are discovery access leads only, not customer commitments. Do not treat seniority, a job posting, or a public profile as proof of demand.
