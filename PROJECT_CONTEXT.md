@@ -4,7 +4,7 @@
 
 Source-of-truth repository for evidence-based product discovery and preparation for Arbitrum Open House São Paulo 2027. It preserves research, winner analysis, decisions, exclusions and future implementation context.
 
-## Canonical current conclusion — D-034 (27 November 2026)
+## Canonical current conclusion — D-037 (27 November 2026)
 
 **No product selected. No GO decision. No implementation or MVP authorized. RWA is the user's priority research sector.**
 
@@ -22,7 +22,7 @@ Read [D-034](DECISIONS.md), [the final repository review](docs/FINAL_PROJECT_REV
 
 Stop broad market scans. Continue only primary buyer/operator validation of D-033's residual question: can a bank or CCP exercise enforceable rights over tokenised collateral and turn it into usable liquidity within the required default-management window?
 
-D-035 confirmed the regulatory problem framing and two distinct live operator environments (Eurex/HQLAx/Clearstream and DTCC/DTC), but did not find customer-specific incidents, quantified losses/delays, a budget owner, a differentiated software gap or pilot willingness. Do not conflate pre-default collateral mobilisation with post-default liquidation. The next step is two independent operator interviews (CCP and clearing-member/bank), each supported by a redacted default drill, near-miss or exception with step-level timestamps, legal basis, dependencies and impact. Target organisations and caveats are in [D-035 research](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md).
+D-035 established the regulatory problem framing and two distinct live operator environments (Eurex/HQLAx/Clearstream and DTCC/DTC), but no buyer-specific incidents, quantified losses, budget owner or pilot willingness. D-036 initiated direct outreach to Eurex Default Management and CME Clearing Risk Management. D-037 added CME's published one-hour cash-liquidation criterion (or committed-liquidity-facility fallback) and Eurex's 2 December 2026 default-management fire drill, including client-porting simulation. Two further targeted emails were sent to Eurex Client Services and CME Collateral Risk; no replies have been received. The four-hour Eurex porting window is not a cash-realisation SLA. Full evidence: [D-035 report](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md) and [D-037 report](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md).
 
 No Arbitrum requirement is currently established: the public live models use CSD/custody infrastructure, HQLAx, Canton and Besu. Reject the thesis if existing market infrastructure, signed attestations, APIs or internal controls already solve the workflow. No candidate, WATCH, MVP or code before the full GO gate and explicit authorization.
 
@@ -57,7 +57,7 @@ The official program currently lists an online Buildathon on 8–28 February 202
 - WINNER_MAP.md — selected Arbitrum/Open House winner analysis.
 - docs/FINAL_PROJECT_REVIEW_2026-11-27.md — repository-wide final audit.
 - docs/SESSION-CHECKPOINT.md — latest session handoff.
-- research/ — 20 research reports across issue-driven discovery, stablecoin payments, global niche scans and RWA.
+- research/ — research reports across issue-driven discovery, stablecoin payments, global niche scans and RWA, including the D-035 and D-037 collateral work.
 - package.json — minimal private Node.js metadata; npm test uses the built-in Node test runner.
 - .gitignore — standard dependency/build/environment/editor exclusions.
 - src/README.md and tests/README.md — intentional placeholders.
@@ -85,3 +85,5 @@ Read HISTORY_RECONSTRUCTION.md before revisiting older work. Agent Guardian / Gu
 - D-033: generic RWA infrastructure shapes; NO-GO.
 - D-034: repository-wide audit and canonical current state.
 - D-035: targeted RWA collateral realisability operator evidence check; problem validation only, no new candidate/WATCH.
+- D-036: direct outreach initiated to Eurex DMP and CME Clearing Risk Management.
+- D-037: CCP default-management criteria and follow-up outreach; problem validation only, no new candidate/WATCH.
