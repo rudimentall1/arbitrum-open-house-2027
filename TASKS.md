@@ -196,3 +196,19 @@ These are discovery access leads only, not customer commitments. Do not treat se
 - [ ] No code until a candidate passes the buyer and differentiation gates.
 
 Full evidence: [research/GLOBAL_NICHE_SCAN_02_2026-11-27.md](research/GLOBAL_NICHE_SCAN_02_2026-11-27.md).
+
+
+## D-031 — Third global niche scan (27 November 2026)
+
+- [x] Screen insurance claims evidence, subrogation and cargo sensor-to-insurance workflows; reject generic products due to claims cores, specialist evidence/cargo products and TRACinSURED.
+- [x] Screen manufacturing supplier quality, nonconformance and warranty recovery; reject generic products due to ERP/QMS, supplier portals, warranty suites and RMA products.
+- [x] Screen distributed-energy flexibility verification and settlement; document multi-BRP allocation complexity, but reject generic marketplace/ledger due to Piclo, Elexon rules and existing market platforms.
+- [x] Screen cross-border eBL interoperability; reject generic registry/interoperability product because DCSA v2 is implemented by five platforms and control-tracking infrastructure exists.
+- [x] Screen SME receivables/SCF invoice fraud; reject generic registry due to MonetaGo and national/e-invoicing infrastructure, and avoid duplicating D-029.
+- [x] Record that no new WATCH or GO candidate emerged; D-029 remains the only WATCH.
+- [ ] Continue discovery in a different problem space; identify economic buyer and credible access path before deep research.
+- [ ] Require two independent operator confirmations, redacted real examples, recurrence, quantified impact, a gap beyond substitutes, and pilot willingness.
+- [ ] Explain why Arbitrum shared state is materially required; reject if standards, signed messages, APIs, or a conventional database suffice.
+- [ ] No code or MVP until the full GO gate is met.
+
+Full evidence: [research/GLOBAL_NICHE_SCAN_03_2026-11-27.md](research/GLOBAL_NICHE_SCAN_03_2026-11-27.md).
