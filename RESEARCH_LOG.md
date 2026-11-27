@@ -209,3 +209,14 @@ See [research/ISSUE_RESEARCH_SILENT_RPC_LOG_CORRUPTION_2026-11-27.md](research/I
 The expanded silent-RPC report now includes a competitive reality check: Envio HyperSync's whole-block root validation/refetch path; eRPC 0.5.0's existing proxy health, consensus, and data-integrity controls; and SQD/Ponder's Arbitrum access-list omission investigation, fail-loud semantics, cross-validation, and PR #110/#111 fix. The Arbitrum access-list example demonstrates a real dataset/transform correctness failure, but not third-party buyer demand. Silent RPC completeness remains a real technical class but is downgraded to a weak WATCH hypothesis because strong substitutes exist and no independent buyer/WTP is confirmed.
 
 D-025 caps discovery at three remaining passes: (A) direct operator validation for silent RPC/indexer integrity and send-time liquidation data; (B) validate only the existing post-origination tokenized private-credit servicing hypothesis from WINNER_MAP; (C) final scoring of no more than three finalists and GO/NO-GO. If no candidate meets the buyer/pain/cost/unmet-workflow/pilot gate, stop this search set and change the market/problem frame. No further sector brainstorming.
+
+
+## 27 November 2026 — Pass A public operator evidence check
+
+See [research/PASS_A_OPERATOR_EVIDENCE_2026-11-27.md](research/PASS_A_OPERATOR_EVIDENCE_2026-11-27.md).
+
+- Nitro #4788 fresh readback: closed 24 Nov as completed; two comments are technical advice about cursor safety, not independent production operator evidence. Both reported endpoints used the same Nitro v3.12.3-rc.4 release family. No public maintainer fix/release confirmation was established.
+- Morpho Blue liquidation bot #121 remains open with zero comments. The question explicitly offers a sponsored 90-day endpoint experiment, but no operator identified a recurring send-time data gap or accepted the pilot.
+- Morpho #118 remains one supply-side feed offer; its only follow-up asks for the missing workflow/freshness requirements. No subscriber, payment, or pilot evidence.
+- Official Morpho market-position health API docs disclose a ~30-second market-level refresh and possible ~2-minute staleness, serving stale snapshots rather than recomputing live. This is a candidate-discovery freshness limitation, not proof of a send-time gap: the published bot architecture performs on-chain qualification and transaction simulation before submission.
+- **Assessment:** neither Pass A hypothesis has a named buyer, quantified cost, or pilot commitment. Keep silent RPC integrity at weak WATCH and liquidation-data gap at WATCH. No product GO and no implementation. Public GitHub research is at diminishing returns; proceed to the one authorized Pass B workflow.
