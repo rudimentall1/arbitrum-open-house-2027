@@ -155,3 +155,17 @@ Current status: WATCH / not GO. Research: [NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERA
 - [x] Record D-028 NO-GO; stop this cycle and do not implement.
 
 Result: named prospects and reachable roles exist, but no redacted production exceptions, quantified recurrence/cost, differentiated gap or two-week pilot willingness was obtained. Do not extend D-027 with generic research. Reopen only on new primary buyer evidence.
+
+## D-029 follow-up — global non-payment niche scan (27 November 2026)
+
+- [x] Review prior D-026 and D-028 closures and preserve explicit Verigate exclusion.
+- [x] Review the Arbitrum Open House 2027 format, dates, deployment and judging requirements.
+- [x] Conduct a broad global scan outside B2B stablecoin payment reconciliation: DeFi operations, EV/battery finance, EUDR/smallholder traceability, energy flexibility, commodity collateral, reusable packaging, cold chain, and adjacent workflows.
+- [x] Map major substitutes and incumbent systems before promoting a candidate.
+- [ ] Identify two independent trade-finance lenders, commodity traders, collateral managers or warehouse operators with a cross-border collateral-verification workflow.
+- [ ] Obtain redacted real examples, frequency, quantified operational/financial impact, existing registry/provider path and the specific unresolved gap.
+- [ ] Test willingness for a read-only, non-binding pilot; do not imply legal enforceability or that on-chain records prove physical stock.
+- [ ] If two independent operators do not validate a measurable gap and pilot path, record NO-GO and change the problem frame; do not start implementation.
+- [ ] Do not build a generic warehouse-receipt tokenization platform, global lien registry, battery passport, LP manager, incentive dashboard, energy marketplace, packaging tracker or sensor-to-insurance oracle.
+
+Current status: one WATCH hypothesis; no GO candidate. Full report: [research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
