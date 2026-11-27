@@ -416,3 +416,41 @@ Continue discovery in new problem spaces not already screened. Before deepening 
 
 ### Next action
 Stop broad scans. For the strict RWA priority, validate D-033's collateral-realisability-under-stress question with two independent banks, CCPs or clearing members, real redacted incidents, recurrence, quantified exposure/delay, budget ownership, differentiated gap and bounded-pilot willingness. D-029 remains the only WATCH overall but is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product. Do not build before the full GO gate.
+
+
+## Latest session checkpoint — 27 November 2026 (D-035, targeted RWA collateral realisability)
+
+### Read-before-work
+- Re-read PROJECT_CONTEXT.md, TASKS.md, DECISIONS.md and docs/SESSION-CHECKPOINT.md as requested.
+- Also re-read AGENTS.md, the D-033 RWA report, final repository review and research log before updating the research state.
+- Confirmed canonical D-034 state: no product, no GO, no implementation; RWA priority; D-029 sole WATCH.
+
+### Completed
+- Ran a targeted follow-up only on the residual D-033 problem: legal control and realisation of tokenised collateral after a clearing-member default.
+- Reviewed the Bank of England's 29 October 2026 CCP consultation and ESMA's 9 October 2026 Call for Evidence, including ESMA's Q4/Q6/Q11 and default-simulation scenarios.
+- Verified the live Eurex/HQLAx/Clearstream collateral-mobilisation model and the first J.P. Morgan/PGGM transaction.
+- Verified DTCC/DTC production tokenisation status, July 2026 CCP-margin workflow demonstration and October 2026 service launch.
+- Separated normal-time mobilisation from post-default liquidation; documented what each public source does and does not prove.
+- Added research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md and recorded D-035.
+- Updated DECISIONS.md, TASKS.md, PROJECT_CONTEXT.md and RESEARCH_LOG.md.
+
+### Findings
+- Regulatory/problem evidence is strong: the default-time chain depends on legal rights, custody/CSD records, token-to-underlying reconciliation, conversion, market liquidity and third-party resilience.
+- Eurex's HQLAx model moves securities from a member's custodian to CBL, which remains the traditional collateral location. Eurex says it does not participate in the HQLAx ledger and has no legal relationship with HQLAx. This does not prove a CCP-held token liquidation problem.
+- DTCC/DTC is a second institutional production environment with CCP-margin workflow demonstrations. Public materials do not identify a failed default liquidation, attribute every named participant to the CCP-margin leg, or disclose buyer pain/cost.
+- Interview targets: Eurex Clearing, J.P. Morgan, DTCC/DTC, CME Clearing and BNP Paribas Securities. These are leads only, not validated buyers.
+- No interviews/outreach, redacted incidents, customer-specific quantified impact, budget owner, differentiated gap or pilot willingness were obtained.
+- No material reason for Arbitrum shared state was established; the identified live designs use traditional CSD/custody, HQLAx, Canton and Besu.
+
+### Canonical result
+**Problem validation remains open; no product candidate, no new WATCH, no GO, no implementation.** D-029 remains the only current WATCH. D-033 generic RWA product shapes remain NO-GO. Do not reopen generic collateral dashboards/orchestration.
+
+### Next action
+Obtain two independent primary operator interviews: one CCP and one clearing-member/bank. Ask for a redacted default drill, near-miss or operational exception from posted collateral to spendable liquidity, with step-level timestamps, legal basis, custody/ledger dependencies, impact, workaround, budget owner and explicit bounded-pilot willingness. Reject the idea if existing controls already solve the workflow or if Arbitrum shared state is unnecessary. No code before the full GO gate and explicit authorization.
+
+### Checks and limitations
+- Documentation/research only; no application source, dependencies, tests, build or CI changed.
+- No tests, lint or build run; no application test suite exists.
+- Public-source desk research only. No customer interviews or outreach were performed.
+- Remote GitHub documentation updates were made sequentially on main using freshly fetched blob SHAs.
+- Local checkout/status remains unavailable.
