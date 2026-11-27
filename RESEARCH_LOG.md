@@ -437,3 +437,6 @@ Full report: [Brazil warehouse receipts and physical inventory collateral screen
 - All three have weak/unproven Arbitrum fit. No track reaches the product-selection threshold.
 - **Decision:** no product selected, no WATCH, no GO, no implementation. Prioritise a bounded D-040 validation of the reconciliation exception between official legal/registry state and operator-side token/fund-unit allocation. Kill if official APIs, current providers or legal review already solve it.
 - Full evidence: [D-045 comparative RWA hypothesis scorecard](research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md).
+
+
+D-040 outreach status check: Adianta Jus returned an automated receipt acknowledgement under support protocol 44 only; no substantive operator response. No reply from Preks was found in the checked period. This does not change D-040's exploratory status or establish customer validation.
