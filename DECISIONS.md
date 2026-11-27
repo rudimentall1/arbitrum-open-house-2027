@@ -445,3 +445,13 @@
 - **Next:** monitor CNJ/BCB activation and technical specifications; seek one redacted operator exception that persists beyond activation, with measured burden, named budget owner and bounded pilot willingness. Require material shared-state need before Arbitrum; otherwise kill.
 - Sources: https://atos.cnj.jus.br/atos/detalhar/7184 ; https://www.cnj.jus.br/judiciario-e-mercado-financeiro-se-unem-para-modernizar-gestao-de-precatorios/ ; https://www.cnj.jus.br/nova-resolucao-do-cnj-cria-central-de-controle-e-protege-credores-de-precatorios/
 
+
+## D-040 boundary clarification — 27 November 2026
+
+- **Decision:** do not build the original generic precatório transfer-eligibility / diligence / registry / blockchain assignment proposition.
+- **Reason:** Preks publicly offers FIDC SaaS covering digital assignment, seller and case diligence, 20+ certificates, e-signature, Ethereum assignment recording, conditional escrow and FIDC origination/diligence. CNJ/BCB Portaria Conjunta 6/2026 also explicitly scopes national event/status identifiers, audit trails, logs, reconciliation, discharge, duplicate prevention and interoperability into the official SisPreq/Central National programme.
+- **Only adjacent discovery question:** downstream allocation/reconciliation of partial receipts from a multi-claim precatório portfolio to FIDC quotas or contractual token/sub-cession holders. A historical Foxbit product document demonstrates that multi-claim baskets and partial payouts have existed, but does not prove a current operational gap.
+- **Validation gate:** current redacted workflow + exception frequency + manual hours + measurable financial/control impact + named budget owner + paid pilot path. Kill if existing fund administrator/custodian/servicer accounting already solves it.
+- **Status:** this adjacent question is not a candidate, WATCH or GO. No implementation. Arbitrum fit unproven; conventional accounting/API integration is the default.
+- **Sources:** https://preks.com.br/para-gestoras/ ; https://atos.cnj.jus.br/atos/detalhar/6958 ; https://statics.foxbit.com.br/tokens/FTPCL-0053.pdf
+
