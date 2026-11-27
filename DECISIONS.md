@@ -385,3 +385,14 @@
 - **Decision:** Do not build an onchain duplicate registry, B3/CERC/Núclea mirror, generic ERP connector, dynamic-boleto router or generic receivables tokenisation product. Keep pre-existing contract migration/tombamento as a discovery question only; no candidate/WATCH.
 - **Reopen only if:** a named buyer identifies a recurring uncovered failure not addressed by V360, Monkey, Núclea, B3 and its ERP; quantifies cost; names a budget owner; and shows a bounded segment. Test conventional API/SaaS first; Arbitrum needs independent proof.
 - **Evidence:** [Brazil duplicata escritural operational-gap screen](research/BRAZIL_DUPLICATA_ESCRITURAL_OPERATIONAL_GAP_SCREEN_2026-11-27.md).
+
+
+## D-042 — Brazil CPR agricultural-collateral infrastructure screen (27 November 2026)
+
+- **Status:** NO-GO as an Arbitrum product thesis; no new WATCH.
+- **Evidence:** B3's CPR interoperability/uniqueness system has been live since 29 April 2024, sharing data across authorised registrars to prevent duplicate pledging. B3 CPR Guarantee went live 21 January 2026 and supports Master CPR / linked CPR collateral splitting, separately identified parts, API integration, querying and lifecycle management. Bolsa Brasileira de Mercadorias already offers electronic CPR issuance, signature, registry submission, verification and registrar interfaces.
+- **Market:** CPR is a major Brazilian agribusiness financing instrument. OECD cites BRL 298B delivered in the stock market by end-2023; this is a historical market figure, not current TAM or product whitespace.
+- **Product shapes rejected:** generic CPR issuance/registry, uniqueness service, collateral splitting/pledge monitoring, onchain CPR mirror and generic commodity-collateral dashboard.
+- **Arbitrum fit:** not established. Legal registration, inter-registry uniqueness and collateral lifecycle are already provided through regulated infrastructure and APIs. No buyer requirement for public-chain state found.
+- **Reopen only if:** a named lender/cooperative/warehouse/originator quantifies an uncovered CPR collateral workflow not handled by B3, BBM or authorised registrars, identifies budget and explains why registry APIs are insufficient.
+- **Evidence:** [Brazil CPR agricultural-collateral infrastructure screen](research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md).
