@@ -7,7 +7,7 @@ These rules are mandatory for every task in this repository.
 3. **Keep documentation current.** After significant changes, update the relevant documentation, including setup, architecture, decisions, and task status where applicable.
 4. **Separate facts from assumptions.** Do not record unverified assumptions, guesses, or hypotheses as facts. Label uncertainty explicitly and include evidence when available.
 5. **Verify documentation before finishing.** Before marking a task complete, check that documentation matches the actual code, commands, dependencies, and repository state.
-6. **Commit docs with code.** All documentation changes must be committed in the same commit as the corresponding code changes. Do not leave related documentation for a later commit.
+6. **Commit documentation coherently.** When code changes require documentation updates, commit the code and its related documentation together. For documentation-only research or project-state updates, use a focused standalone documentation commit; do not defer required documentation.
 
 ## Engineering standards
 
