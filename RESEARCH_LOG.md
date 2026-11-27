@@ -262,3 +262,15 @@ The bounded buyer-access pass identified named operator teams and roles:
 For direct-wallet invoice receivers, no named business with quantified recurring unresolved pain was found. Abundance360's Coinbase Business case reports reduced manual reconciliation via an integrated invoice/settlement workflow, supporting the strength of existing substitutes.
 
 These are public job descriptions and company/vendor case studies, not customer interviews. No redacted production exceptions, recurrence/month, quantified cost/loss/SLA impact, unmet workflow after substitutes, or two-week pilot willingness was obtained. Therefore D-028 records **NO-GO for D-027**. Stop this cycle; do not build or continue generic public research. Reopen only on new primary buyer evidence. Full report: [research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md).
+
+## Global non-payment niche scan — 27 November 2026 (D-029)
+
+Opened a separate global market/problem scan after the D-027/D-028 stablecoin payment-operations NO-GO. The user explicitly authorized a new market frame; this is not a reopening of prior closed candidates. Verigate remains excluded.
+
+Reviewed DeFi operations, incentive analytics, ERC-4337 paymaster risk, cross-chain solver liquidity, vault risk, EV/battery passports and lender analytics, EUDR/smallholder traceability, distributed energy flexibility, reusable packaging, cold-chain insurance evidence, commodity warehouse collateral and adjacent asset-finance workflows.
+
+Most broad segments were rejected because named incumbents, national infrastructure, standards or commercial platforms already cover the proposed generic product. One narrow WATCH hypothesis remains: cross-border commodity collateral / warehouse-lien verification across national registries, combined with independently signed custody/inspection attestations. The underlying problem is documented by HFW and IFC; Singapore TFR, Brazil B3 CPR interoperability/guarantee, Kenya eWRS, Whrrl, Secro, MIT DCI b_verify and other platforms demonstrate that the space is not greenfield.
+
+**D-029: WATCH, not GO.** No buyer interview, production exception, quantified cost, pilot commitment or TAM estimate was obtained. Physical stock, authenticity and legal priority cannot be established by a blockchain alone. Require two independent operators and a read-only pilot path before considering an MVP. If the buyer/gap/pilot gate fails, stop.
+
+Evidence: [research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
