@@ -4,11 +4,11 @@ Research and product-discovery workspace for Arbitrum Open House São Paulo 2027
 
 ## Current project state
 
-**No product selected. No GO decision. No MVP or implementation authorized. RWA is the user's priority.**
+**No product selected. No GO decision. No MVP or implementation authorized. RWA is the user's priority. Current RWA work is primary operator validation only (D-035–D-037).**
 
 - D-029 cross-border commodity collateral / warehouse-lien verification is the only current WATCH. It is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product.
 - D-033 rejected generic tokenised-fund servicing, private-credit servicing, collateral monitoring/orchestration, and asset/NAV verification because existing institutional and specialist providers cover the obvious workflows.
-- The D-033 collateral-realisability-under-stress question is a problem area only, not a candidate or WATCH.
+- The D-033 collateral-realisability-under-stress question remains a problem area only, not a candidate or WATCH. D-036 initiated outreach to Eurex and CME; D-037 added CME's one-hour liquidation / committed-liquidity-facility criterion and Eurex's 2 December default-management exercise. No operator reply or customer validation has yet been obtained.
 - D-026 private-credit servicing and D-028 stablecoin payment operations remain NO-GO. D-030, D-031 and D-032 remain closed for their screened scopes.
 - D-007/D-008 (issue-driven method and old GapGuard WATCH) and D-010–D-024 technical leads are historical research, not active product candidates after D-026.
 - Verigate is explicitly excluded. The earlier generic RWA Servicing Copilot is not reopened.
@@ -34,13 +34,13 @@ Research and product-discovery workspace for Arbitrum Open House São Paulo 2027
 - WINNER_MAP.md — selected Arbitrum/Open House winner analysis.
 - docs/FINAL_PROJECT_REVIEW_2026-11-27.md — repository-wide audit.
 - docs/SESSION-CHECKPOINT.md — session handoff.
-- research/ — 20 supporting research reports.
+- research/ — 21 supporting research reports.
 - package.json — minimal Node.js metadata; no runtime dependencies.
 - src/README.md and tests/README.md — intentional placeholders.
 
 ## Current next step
 
-Stop broad market scans. For the user's strict RWA priority, validate D-033's residual question with two independent banks, CCPs or clearing members: can they legally access, transfer, convert and realise tokenised collateral within required stress windows? Seek real redacted incidents, recurrence, quantified exposure/delay, the budget owner, a differentiated gap beyond current collateral platforms, and willingness to test a bounded read-only workflow.
+Stop broad market scans. Continue only primary operator validation of D-033's residual question. D-036/D-037 outreach has been sent to Eurex DMP, Eurex Client Services, CME Clearing Risk Management and CME Collateral Risk; no responses have been received yet. CME's published collateral criteria require a perfected security interest and cash liquidation within one hour or a committed liquidity facility. Eurex's 2026 fire drill starts 2 December and includes default-management and client-porting simulations; the four-hour porting window is not a cash-realisation SLA. Next: obtain two independent operator accounts and redacted drill/near-miss examples, then test whether current controls and liquidity facilities already solve the workflow. See [D-037 report](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md).
 
 D-029 cross-border commodity collateral remains the only WATCH overall, but is RWA-adjacent asset-finance infrastructure rather than a validated tokenised-RWA product. Do not build before the full GO gate is met.
 
