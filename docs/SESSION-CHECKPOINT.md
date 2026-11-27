@@ -602,3 +602,36 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Updated PROJECT_CONTEXT.md, TASKS.md and README.md to distinguish an evidence-weighted provisional product-selection decision from the stricter implementation GO gate.
 - The next research cycle must score competing hypotheses and can select the strongest current option with explicit unresolved assumptions and a short validation plan; it must not wait indefinitely for every outreach response.
 - The implementation GO gate still applies before MVP/code. User's explicit authorization is still required.
+
+
+## Latest continuation — D-040 Precatório transfer-eligibility and token-allocation control (27 November 2026)
+
+### New regulatory and market evidence
+- Reviewed CNJ Resolução 705/2026 (issued 16 Nov, published 17 Nov). Art. 67 provides entry into force 30 days after publication; as of 27 Nov the regulation has been published but that 30-day period has not elapsed.
+- Art. 6 requires a cumulative transfer chain: public deed, notarial notice where applicable, electronic registration, Central National communication, debtor notification and court homologation.
+- Arts. 19–20 distinguish rights before presentation as a precatório; they cannot be represented to the court as a transferable fraction, registered asset/guarantee, unique electronic identifier or payment position.
+- Art. 35 establishes a CNJ-governed Central National module linked to SisPreq, with title-chain events/statuses and duplicate-prevention controls. Art. 65 stages mandatory Central National operation pending deployment and at least one authorised registry entity.
+- Portaria Conjunta 6/2026 defines the interinstitutional work on architecture, data dictionary, integrations, APIs, audit trails and reconciliation. CNJ has cooperation agreements with the notarial sector and B3, CERC and Núclea to develop SisPreq and integrate market systems.
+- CNJ public dashboard reports ~1.15m precatórios awaiting payment and >R$319B outstanding in amounts already included in budgets; not TAM or freely transferable/tokenisable supply.
+- Competitors/substitutes: JURISCAN (court-list data and diligence checks), JUDIT (court-data API and precatório mining), Preks (acquisition/diligence/digital assignment/blockchain records), Adianta Jus and Mercado Bitcoin (originator/distribution/tokenisation activity).
+
+### Exploratory product hypothesis
+- Narrow eligibility/reconciliation API for professional acquirers, FIDCs and tokenisation platforms: reconcile issued/presented status, legal title chain, fraction, deeds, registry events, liens, court homologation, debtor notice, net available value and corresponding token/fund-unit allocation.
+- Must complement, not replace, CNJ/SisPreq, authorised registrars, courts, notaries or legal counsel.
+- Arbitrum fit remains weak/unproven. Signed APIs may suffice. Never issue an onchain identifier for a pre-precatório right as if it were a court-recognised transferable fraction.
+- D-040 is exploratory only, not selected, not WATCH, no GO.
+
+### Outreach
+- Preks — info@preks.com.br — message ID 1a21c65b7af1fd8a.
+- Adianta Jus — atendimento@adiantajus.com.br — message ID 1a21c65c1cc127d5.
+- Both messages requested non-confidential process feedback and asked about new regulatory steps, manual reconciliation and integration gaps. No replies or meetings yet; outreach is not customer validation.
+
+### Documentation
+- Added research/PRECATORIOS_TRANSFER_COMPLIANCE_AND_TOKENIZATION_2026-11-27.md.
+- Added D-040 to DECISIONS.md, TASKS.md and RESEARCH_LOG.md; updated PROJECT_CONTEXT.md and README.md.
+- Research report count is now 25.
+
+### Limits
+- Research and documentation only. No code, dependencies, tests, build, CI or deployment changed.
+- No tests/lint/build run; repository has no product implementation/test suite.
+- No product selected; D-029 remains the only WATCH; D-039 remains NO-GO for Arbitrum; D-040 is exploratory only.
