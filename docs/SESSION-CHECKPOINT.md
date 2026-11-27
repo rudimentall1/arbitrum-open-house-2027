@@ -296,3 +296,32 @@ Continue discovery in new problem spaces not already screened. Before deepening 
 - Public-source desk research only; no buyer interviews, production datasets, paid pilots or WTP commitments.
 - Remote documentation updates were made sequentially using current SHAs. All seven changed files were re-read and their D-030 sections verified. Final remote HEAD before this checkpoint closeout: c8592685d1caa4b7d059a411e292b31fcbb56f5e; open PR count: 0.
 - Local checkout/status unavailable.
+
+
+## Third global niche scan — 27 November 2026 (D-031)
+
+### Completed
+- Re-read repository rules, context, task queue, decisions, research log, winner map, README and previous checkpoint before research.
+- Screened five new problem spaces: insurance claims/subrogation evidence; manufacturing supplier quality and warranty recovery; distributed-energy flexibility verification/settlement; eBL interoperability; SME receivables/SCF fraud.
+- Reviewed current specialist vendors and standards, including TRACinSURED, Boni, Ordero, Kinetic Data, Tavant, Piclo, Elexon, DCSA, and MonetaGo.
+- Added [research/GLOBAL_NICHE_SCAN_03_2026-11-27.md](../research/GLOBAL_NICHE_SCAN_03_2026-11-27.md).
+- Recorded D-031 and updated TASKS, PROJECT_CONTEXT, RESEARCH_LOG, README and this checkpoint.
+
+### Findings
+- No new GO or WATCH candidate emerged.
+- Generic insurance evidence/cargo claims products overlap claims cores and specialist evidence/cargo tools; sensor-triggered cargo insurance has a 2026 commercial launch.
+- Supplier-quality, nonconformance and warranty workflows overlap ERP/QMS, supplier portal, warranty and RMA platforms.
+- Energy multi-BRP allocation/compensation complexity is documented, but Piclo provides settlement reporting/dispute workflows and Elexon has formal verification/settlement rules. No buyer-specific unmet product workflow was established.
+- DCSA v2 eBL interoperability is implemented by five providers; low bank adoption is a signal, not proof of a new product gap.
+- MonetaGo directly covers duplicate-financing, invoice and receivables/collateral verification.
+- D-029 commodity collateral remains the sole WATCH hypothesis. Verigate remains excluded.
+
+### Evidence boundary
+- Public-source desk research only.
+- No buyer interviews, production datasets, buyer-specific quantified costs, paid pilots or WTP commitments.
+- No product selected; no code or MVP authorized.
+
+### Checks
+- Documentation-only changes. No application tests, lint, or build run.
+- No application source or dependencies changed.
+- Updates committed sequentially to remote main. Local checkout/status remains unavailable.
