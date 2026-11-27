@@ -322,3 +322,21 @@ Full evidence: [research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md](resear
 - [ ] Do not force Arbitrum where signed records, APIs or regulated central registries suffice.
 
 Full evidence: [research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md](research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md).
+
+
+## D-040 — Precatório transfer-eligibility and token-allocation control (27 November 2026)
+
+- [x] Read Resolução CNJ 705/2026, including Arts. 6, 19–20, 24, 35, 65 and 67.
+- [x] Review Portaria Conjunta 6/2026 and CNJ cooperation with CNB, B3, CERC and Núclea on SisPreq/Central National integration.
+- [x] Verify the CNJ public dashboard's aggregate stock and distinguish it from addressable/assignable supply.
+- [x] Map current providers: JURISCAN, JUDIT, Preks, Adianta Jus and Mercado Bitcoin; document existing coverage and overlap.
+- [x] Formulate a narrow exploratory hypothesis: eligibility + legal transfer workflow + fraction/token allocation reconciliation API.
+- [x] Send transparent discovery email to Preks (message 1a21c65b7af1fd8a) and Adianta Jus (message 1a21c65c1cc127d5); no replies yet.
+- [ ] Obtain two independent operator workflow accounts, including current exception/manual work and the effect of Resolução 705.
+- [ ] Establish whether tokenised structures represent direct assignments, fund shares or investment contracts; do not assume token holders directly own the underlying claim.
+- [ ] Identify the budget owner and any repeatable gap not covered by CNJ/SisPreq, authorised registrars, JURISCAN/JUDIT or operator systems.
+- [ ] Determine whether any onchain supply-cap function adds value beyond a signed API and official registry; no Arbitrum requirement established.
+- [ ] Monitor the CNJ/BCB joint activation date, Central National deployment, transitional arrangements and authorisation of the first registry entity.
+- [ ] Keep D-040 exploratory only until buyer evidence; no candidate/WATCH/GO or implementation.
+
+Full evidence: [research/PRECATORIOS_TRANSFER_COMPLIANCE_AND_TOKENIZATION_2026-11-27.md](research/PRECATORIOS_TRANSFER_COMPLIANCE_AND_TOKENIZATION_2026-11-27.md).
