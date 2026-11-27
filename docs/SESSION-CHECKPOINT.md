@@ -793,3 +793,25 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Public-source research and mailbox recheck only. No code, dependencies, tests, build, CI or deployment changed.
 - No tests/lint/build run; this remains a research/documentation workspace.
 
+
+
+
+## Latest continuation — D-040 competitor boundary recheck (27 November 2026)
+
+### Findings
+- Reviewed Preks' public FIDC SaaS workflow. It already markets digital assignment, seller tax/legal diligence, 20+ certificates, e-signature, Ethereum assignment record, conditional escrow and FIDC origination/diligence. This overlaps the original D-040 transfer/diligence/assignment wedge.
+- Portaria Conjunta CNJ/BCB 6/2026 expressly tasks the executive group with event/status identifiers, audit trails, logs, reconciliation, discharge, duplicate prevention, data dictionary and interoperability for the national system.
+- **Do not build** generic precatório transfer eligibility, diligence, registry mirror, duplicate checker or blockchain assignment.
+- A distinct downstream question may be tested: allocation/reconciliation of partial receipts from multi-claim portfolios to FIDC quotas or contractual token/sub-cession holders. Historical Foxbit documentation shows a seven-claim basket and partial BRL payouts as individual claims pay; this is historical workflow evidence, not current customer validation.
+
+### Next step and gate
+- Ask one fund manager/administrator/servicer for a redacted current partial-receipt allocation workflow.
+- Measure exceptions, manual hours, delays and financial/control impact; identify the system of record, budget owner and paid-pilot path.
+- Kill if existing fund accounting/custody systems already solve it.
+- No product candidate/WATCH/GO, no implementation, and no Arbitrum requirement established. Conventional accounting/API integration is the default.
+
+### Verification
+- Updated D-040 research report, RESEARCH_LOG.md, TASKS.md, DECISIONS.md, PROJECT_CONTEXT.md and this checkpoint.
+- Research/documentation only; no code/dependencies/tests/build/deployment changed.
+- No tests/lint/build run; this repository remains a research/documentation workspace.
+
