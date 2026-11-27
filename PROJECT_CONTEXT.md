@@ -20,11 +20,11 @@ Read [D-034](DECISIONS.md), [the final repository review](docs/FINAL_PROJECT_REV
 
 ## Active next step
 
-Continue **parallel RWA product discovery**, not sequential waiting and not another unbounded generic scan. D-033 collateral realisability remains problem validation; D-038 CVM DLT pilot evidence operations remains exploratory; D-039 SBCE carbon-asset/MRV infrastructure is NO-GO for Arbitrum at this stage. D-029 remains the only WATCH. None of these statuses blocks discovery of a different, concrete RWA workflow.
+Continue **parallel RWA product discovery**, not sequential waiting and not another unbounded generic scan. D-033 collateral realisability remains problem validation; D-038 CVM DLT pilot evidence operations remains exploratory; D-039 SBCE carbon-asset/MRV infrastructure is NO-GO for Arbitrum at this stage; D-040 precatório transfer-eligibility/token-allocation control is a new exploratory hypothesis only, not selected or WATCH. D-029 remains the only WATCH. None of these statuses blocks discovery of a different, concrete RWA workflow.
 
 Prioritise product hypotheses with a named economic buyer, recurring operational pain, visible alternatives, credible budget/procurement path, a bounded MVP and a material Arbitrum advantage. Score the candidates comparatively rather than waiting for every interview reply. Treat outreach and public regulatory evidence as leads, not customer validation. Continue tracking the four Eurex/CME mailboxes and four CVM pilot contacts in parallel. No product is selected; no implementation is authorised without explicit GO.
 
-Read [D-035 report](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md), [D-037 report](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md), [D-038 report](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md), and [D-039 report](research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md).
+Read [D-035 report](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md), [D-037 report](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md), [D-038 report](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md), and [D-039 report](research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md), plus [D-040 report](research/PRECATORIOS_TRANSFER_COMPLIANCE_AND_TOKENIZATION_2026-11-27.md).
 
 ## Product selection vs implementation GO
 
@@ -50,8 +50,8 @@ The official program currently lists an online Buildathon on 8–28 February 202
 
 - AGENTS.md — mandatory working and engineering rules.
 - PROJECT_CONTEXT.md — this canonical context.
-- TASKS.md — active RWA buyer-validation queue; historical backlog is retained below the archive marker.
-- DECISIONS.md — durable decisions D-001 through D-034.
+- TASKS.md — parallel RWA discovery and buyer-validation queue; historical backlog is retained below the archive marker.
+- DECISIONS.md — durable decisions D-001 through D-040.
 - RESEARCH_LOG.md — consolidated research history and current conclusions.
 - HISTORY_RECONSTRUCTION.md — recovered earlier Agent Guardian, AttestGuard, meme-wallet and concept-funnel history.
 - WINNER_MAP.md — selected Arbitrum/Open House winner analysis.
@@ -89,3 +89,4 @@ Read HISTORY_RECONSTRUCTION.md before revisiting older work. Agent Guardian / Gu
 - D-037: CCP default-management criteria and follow-up outreach; problem validation only, no new candidate/WATCH.
 - D-038: parallel CVM DLT pilot evidence-operations hypothesis; exploratory only, not candidate/WATCH/GO.
 - D-039: Brazil SBCE carbon-asset/MRV infrastructure screen; NO-GO as an Arbitrum product thesis, no new WATCH.
+- D-040: precatório transfer-eligibility and token-allocation control; exploratory only, not selected/WATCH/GO.
