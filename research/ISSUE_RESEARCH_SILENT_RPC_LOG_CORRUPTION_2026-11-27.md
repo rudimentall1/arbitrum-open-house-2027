@@ -110,3 +110,69 @@ The existing Morpho liquidation-bot operator question [#121](https://github.com/
 - Lasso's results are mock-harness measurements, not production measurements.
 - Nitro #4788's closed state has no public maintainer resolution note in the reviewed discussion.
 - No buyer commitment, paid pilot, or willingness-to-pay is established.
+
+## 7. Competitive reality check — Envio HyperSync, eRPC, and SQD/Ponder (27 November 2026)
+
+This follow-up materially narrows the product space. The silent-log hypothesis is technically real, but the strongest parts of the stack already have substantial integrity controls.
+
+### Envio HyperSync
+
+- Envio's 7 Sep 2026 engineering article documents multiple real incidents of well-formed but incomplete/inconsistent node responses, including a Robinhood Chain sequencer halt followed by bad Alchemy RPC fallback data, plus historical receipts-store corruption and provider/node-version inconsistencies.
+- HyperSync ingests whole blocks, recomputes transactionsRoot and receiptsRoot, validates structural relationships, tracks source provenance, refetches mismatched data from another source, and marks ranges unverified/schedules backfill if patching fails.
+- Envio's current docs describe HyperSync as cryptographically verified and list Arbitrum One, Nova, and Sepolia endpoints. Arbitrum's own Envio integration docs say HyperIndex uses HyperSync by default on supported chains.
+- Important limitation: HyperSync's guarantee applies to its whole-block ingestion path; Envio's own article says arbitrary filtered eth_getLogs responses cannot be intrinsically proven complete from the response itself.
+- Product consequence: an indexer already using HyperSync has a strong native substitute. A product would need to address RPC-only consumers, custom sources, or fallback paths that are not covered by their existing data plane.
+
+Sources:
+- https://docs.envio.dev/blog/nodes-silently-miss-events
+- https://docs.envio.dev/docs/HyperSync/overview
+- https://docs.arbitrum.io/third-party-docs/Envio/envio
+
+### eRPC
+
+- GitHub releases show eRPC 0.5.0 published 27 Oct 2026, after the 0.2.0 data-integrity feature described in Envio's technical comparison.
+- eRPC is an existing open-source EVM RPC proxy with upstream health/selection, retries, consensus, and data-integrity controls. Its public project description explicitly covers consensus and data integrity.
+- The Envio comparison describes eRPC's limitations honestly: block/receipt response commitments can be recomputed, while a filtered eth_getLogs subset has no self-contained completeness proof. Its current checks can validate returned logs' filter/range and compare against receipts already in memory, but cold backfills or consistent omissions from a shared bad source remain outside that check.
+- Product consequence: generic multi-provider proxy, stale-upstream guard, consensus, and block/receipt integrity are crowded. A narrow independent event-completeness service would still need to prove a practical advantage over eRPC plus a complete-block data source.
+
+Sources:
+- https://github.com/erpc/erpc/releases/tag/0.5.0
+- https://github.com/erpc/erpc
+- https://dev.to/envio/nodes-silently-miss-events-1jk0
+
+### SQD Portal / Ponder evidence — Arbitrum access-list omission
+
+Primary issue: https://github.com/subsquid-labs/portal-ponder/issues/32
+
+- A cross-validation investigation found typed Arbitrum transactions where Portal backfill omitted access_list; the Ponder transform converted absent data into a fabricated empty array. A later Portal-vs-chain-truth comparison expanded the finding from an initial one-row discrepancy to 34 type-0x2 transactions in one finalized window, where direct RPC and a public Arbitrum node returned 10–38 entries but Portal omitted the field.
+- Root cause was split: SQD Portal's Arbitrum/Avalanche datasets did not serve the access-list column; Ponder's transform incorrectly converted missing/undefined to an empty array.
+- Ponder PRs #110/#111 fixed the transform to preserve unknown as SQL NULL, not a fabricated empty list. Their before/after test showed Arbitrum 8/8 pass after the fix (pre-fix 2 pass / 6 fail), Base 16/16 pass after fix, Avalanche 8/8 pass after fix. The upstream dataset column gap remained.
+- Related issue #83 documents missing logs_bloom in Portal datasets for Base, Arbitrum One, and Avalanche, causing receipt-enabled backfills to fail fast by design. It was closed as completed on 7 Jul 2026, but the reviewed issue has no maintainer comments or explicit public remediation detail; do not claim the upstream field was restored based only on closure.
+- This is strong evidence that dataset schema gaps and false defaults can corrupt downstream data. It is not buyer evidence: the reporter is a developer maintaining a Ponder fork and the fixes are within the open-source integration. It also demonstrates a substitute workflow: cross-validation, fail-loud schema guards, explicit NULL-vs-empty semantics, and upstream issue tracking.
+
+Sources:
+- https://github.com/subsquid-labs/portal-ponder/issues/32
+- https://github.com/subsquid-labs/portal-ponder/pull/110
+- https://github.com/subsquid-labs/portal-ponder/pull/111
+- https://github.com/subsquid-labs/portal-ponder/issues/83
+
+### Updated assessment
+
+The technical class is real and has multiple independent public examples, including Arbitrum. However:
+- Envio already provides whole-block cryptographic verification and alternate-source repair for its ingestion path.
+- eRPC already provides a mature open-source proxy with health, consensus, and integrity features; its known filtered-log limitation is structural.
+- SQD/Ponder has an active cross-validation/fail-loud workflow and fixes integration defects in public.
+- The strongest Arbitrum SQD example is an upstream schema gap plus a Ponder transform bug, not a demonstrated recurring buyer need for a third-party product.
+- No independent operator has confirmed willingness to pay, requested a pilot, or quantified recurring losses from this exact gap.
+
+**Decision:** keep silent event-ingestion correctness at WATCH for now, but mark it as a weak finalist candidate, not a leading product direction. Do not build a proxy, dashboard, or general validator. If no independent RPC-only operator with quantified pain is found in the finite final research cycle, close this hypothesis as NO-GO for product selection.
+
+## 8. Finite search protocol
+
+This repository is no longer in open-ended discovery. The remaining work is capped at three evidence passes, with no expansion of the finalist count beyond three.
+
+1. **Pass A — operator validation:** seek direct, independent evidence from one Arbitrum/Orbit indexer operator for the silent RPC / ingestion-integrity hypothesis, and from one Morpho/Aave liquidation operator for a send-time execution-data gap. A public GitHub issue is not a substitute for operator confirmation.
+2. **Pass B — one adjacent buyer workflow:** select only one adjacent segment from existing research (not a fresh brainstorm), identify the economic buyer, recurring workflow, current substitute, quantified cost, and a real route to a bounded pilot.
+3. **Pass C — decision:** score no more than three finalists using the existing six dimensions. Promote to GO only if at least one has (a) named buyer/user role, (b) independently corroborated recurring pain, (c) measurable economic/operational cost, (d) an unmet workflow despite existing substitutes, and (e) a credible pilot commitment or explicit willingness to test. Otherwise record NO-GO for the current search set and stop researching these segments; change the market/problem frame rather than extending discovery indefinitely.
+
+A candidate may be replaced by stronger evidence, but the list may never grow beyond three. Technical novelty, issue count, AI usage, and implementation feasibility do not independently satisfy the GO gate.
