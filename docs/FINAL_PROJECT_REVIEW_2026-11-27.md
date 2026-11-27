@@ -1,10 +1,10 @@
-# Final repository review — 27 November 2026
+# Repository review — 27 November 2026 (historical audit; current status superseded by D-044)
 
 ## Executive decision
 
 **Repository state: research scaffold is intact, but product discovery has not produced a GO candidate. No product is selected. No MVP or implementation is authorized.**
 
-The user's explicit priority is RWA. The latest RWA pass (D-033) rejected generic tokenised-fund servicing, private-credit servicing, collateral dashboards/orchestration, and asset/NAV verification because institutional and specialist providers already cover the obvious workflows. The only current WATCH is D-029: cross-border commodity collateral / warehouse-lien verification. It is RWA-adjacent asset-finance infrastructure, not yet a tokenised-RWA product thesis. A separate residual question—whether banks/CCPs need independent assurance that tokenised collateral can be legally accessed, transferred, converted and realised under stress—remains a problem area, not a candidate.
+The user's explicit priority is RWA. D-033 rejected generic tokenised-fund servicing, private-credit servicing, collateral dashboards/orchestration, and asset/NAV verification because institutional and specialist providers already cover the obvious workflows. At the time of this audit D-029 was WATCH; that status was later superseded by D-044, which closed CollateralLink as NO-GO after a competitive recheck. A separate residual question—whether banks/CCPs need independent assurance that tokenised collateral can be legally accessed, transferred, converted and realised under stress—remains a problem area, not a candidate.
 
 The repo's largest quality issue was not missing research but **stale conflicting summaries**. README, TASKS, RESEARCH_LOG, PROJECT_CONTEXT and old decision statuses did not consistently reflect the later D-026 through D-033 outcomes. This review records and corrects that drift while preserving the detailed historical research.
 
@@ -32,13 +32,13 @@ Remote repository facts at review:
 | D-025 | Capped validation protocol for the then-current search set | Completed and superseded by D-026 |
 | D-026 | RPC/indexer, liquidation-data and private-credit servicing candidate set | NO-GO |
 | D-027 / D-028 | B2B stablecoin payment operations | NO-GO |
-| D-029 | Cross-border commodity collateral / warehouse-lien verification | **WATCH — only current WATCH** |
+| D-029 | Cross-border commodity collateral / warehouse-lien verification | Initially WATCH; **closed NO-GO by D-044** |
 | D-030 | Six generic niche theses | NO-GO |
 | D-031 | Five generic niche theses | NO-GO |
 | D-032 | Three generic niche theses | NO-GO |
 | D-033 | Four generic RWA infrastructure product shapes | NO-GO; no new WATCH |
 
-Important distinction: D-029 remains WATCH because the user has prioritised RWA and this is an asset-backed / commodity-finance workflow adjacent to RWA. It is not proof of tokenised collateral demand, and it must not be described as a validated product. D-026's generic tokenised private-credit servicing thesis remains closed.
+Historical note: D-029 was initially WATCH because it was an asset-backed / commodity-finance workflow adjacent to RWA. D-044 subsequently closed it after direct competitor overlap and no validated buyer gap. D-026's generic tokenised private-credit servicing thesis remains closed.
 
 ## Research inventory and conclusions
 
@@ -56,7 +56,7 @@ The repository contains 20 research reports.
 - Outcome: NO-GO; do not revive a generic reconciliation dashboard/matcher/subledger.
 
 ### Global non-payment scans
-- D-029 screened multiple asset-finance and non-payment niches; commodity collateral / warehouse-lien verification remains WATCH.
+- D-029 initially screened multiple asset-finance and non-payment niches; its commodity-collateral WATCH was later closed by D-044.
 - D-030 rejected six generic theses: construction lending payment verification, GPU-cloud SLA evidence, CDR delivery, CBAM data, biodiversity credits and ocean freight D&D.
 - D-031 rejected five generic theses: insurance claims evidence, manufacturing supplier quality/warranty, energy flexibility settlement, eBL interoperability and SME receivables/SCF fraud.
 - D-032 rejected three generic theses: aircraft component lifecycle records, battery second-life/passport infrastructure and FuelEU pooling.
@@ -92,7 +92,7 @@ HISTORY_RECONSTRUCTION.md preserves the earlier Agent Guardian / GuardRail Walle
 3. RESEARCH_LOG's executive summary still said GapGuard was WATCH and issue-driven discovery was active. Corrected the executive summary; retained the detailed historical record below.
 4. PROJECT_CONTEXT contained a current conclusion for D-033 but later repeated stale statements that GapGuard and indexer issues were active. Replaced with one concise source of truth.
 5. DECISIONS did not explicitly state that D-007/D-008 (including the old GapGuard WATCH) and D-010–D-024 technical WATCH leads were superseded after D-026. Updated those decision statuses and added a supersession note without deleting historical rationale.
-6. D-029's commodity-collateral WATCH needed a precise relationship to the user's RWA priority. Clarified that it is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product.
+6. D-029's initial commodity-collateral WATCH was later closed by D-044 after a competitive recheck; see the D-044 report.
 7. AGENTS wording about documentation commits was ambiguous for docs-only work. Clarified that docs-only changes may be committed as coherent standalone changes.
 
 ## Current GO gate
@@ -110,7 +110,7 @@ No product can advance until all of the following are demonstrated:
 
 Stop broad market scans. For the user's strict RWA priority, validate D-033's residual collateral-realisability-under-stress question with two independent banks, CCPs or clearing members. Ask whether tokenised collateral can be legally accessed, transferred, converted and realised within required stress windows; obtain real redacted incidents, recurrence, quantified exposure/delay, the budget owner, a differentiated gap beyond existing collateral platforms and willingness to test a bounded read-only workflow.
 
-D-029 remains the only WATCH overall, but is RWA-adjacent asset-finance infrastructure rather than a validated tokenised-RWA product. Validate it only if relevant buyer evidence emerges. Do not run another generic vendor scan and do not build before GO.
+D-029 was closed NO-GO by D-044 after direct competitor overlap and absent buyer validation. There is currently no WATCH. Do not build before GO.
 
 ## Open House 2027 fit and timing
 
@@ -129,6 +129,10 @@ Sources:
 
 ## Final status
 
-**NO PRODUCT SELECTED · NO-GO FOR CURRENT GENERIC PRODUCT SHAPES · D-029 WATCH ONLY · RWA IS THE PRIORITY · NO IMPLEMENTATION AUTHORIZED.**
+**NO PRODUCT SELECTED · NO-GO FOR CURRENT GENERIC PRODUCT SHAPES · NO CURRENT WATCH (D-029 CLOSED BY D-044) · RWA IS THE PRIORITY · NO IMPLEMENTATION AUTHORIZED.**
 
 This is a repository and evidence-state conclusion, not a claim that the RWA market has no opportunity. The opportunity remains unproven until buyers validate a specific workflow and pilot.
+
+## Status supersession — D-044 (27 November 2026)
+
+This audit is a historical snapshot. D-044 is the current decision for D-029: the CollateralLink cross-border collateral-verification concept is closed NO-GO after direct overlap with Secro and Crodax, adjacent competition from FACTOS and TradeTrust, and no buyer-validated differentiation or material Arbitrum requirement. See [D-044](research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md) and the current [PROJECT_CONTEXT.md](../PROJECT_CONTEXT.md).
