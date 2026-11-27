@@ -1,16 +1,16 @@
 # Tasks
 
-## Active priority — RWA buyer validation (D-034, 27 November 2026)
+## Active priority — RWA collateral realisability buyer validation (D-034, 27 November 2026)
 
-- [ ] Validate D-029 cross-border commodity collateral / warehouse-lien verification with two independent economic buyers/operators.
-- [ ] Prioritize commodity-finance lenders, collateral managers, warehouse operators, and trade-finance operations/risk owners.
-- [ ] Obtain real redacted examples of cross-border pledge conflicts, duplicate/uncertain liens, stock-existence disputes, or delayed/blocked collateral release that persist after existing registries and controls.
-- [ ] Measure recurrence, financial exposure/loss, delay, manual work and existing workaround.
-- [ ] Identify the budget owner and verify a specific gap beyond national registries, warehouse-receipt platforms, collateral-management systems and existing providers.
-- [ ] Obtain explicit willingness from a buyer to test a bounded read-only workflow.
-- [ ] Determine whether any proposed shared state genuinely needs Arbitrum; reject the idea if signed attestations, APIs, standards or a conventional database suffice.
-- [ ] Treat D-029 as WATCH only until the full GO gate is met. Do not build or start an MVP before GO and explicit user authorization.
-- [ ] Only if buyer access reveals a concrete bank/CCP case, validate D-033's collateral-realisability-under-stress question with collateral-risk/operations buyers. Do not run another generic vendor scan.
+- [ ] Validate D-033's residual RWA question: whether tokenised collateral users need independent assurance that collateral can be legally accessed, transferred, converted and realised within required stress windows.
+- [ ] Prioritize two independent banks, CCPs or clearing members; interview Heads of Collateral Risk, Collateral Operations, Secured Financing Operations or Default Management.
+- [ ] Obtain real redacted incidents involving failed/delayed access, transfer, conversion, custody dependency or liquidation of tokenised collateral under normal or stressed conditions.
+- [ ] Measure recurrence, exposure/loss, time-to-realise, manual controls and current workaround.
+- [ ] Identify budget owner and prove a specific gap beyond Chainlink Fulcrum, Transcend, custody/TA platforms and internal risk controls.
+- [ ] Obtain explicit willingness to test a bounded, read-only evidence workflow.
+- [ ] Determine whether shared Arbitrum state is genuinely required; reject the idea if signed attestations, APIs, standards or a conventional database suffice.
+- [ ] Keep this as a problem-validation question, not a candidate or WATCH, until the complete GO gate is met. No MVP before GO and explicit authorization.
+- [ ] Keep D-029 cross-border commodity collateral as the only current WATCH, but treat it as RWA-adjacent asset finance rather than the primary tokenised-RWA direction. Validate it only if relevant buyers surface a concrete, differentiated case.
 - [x] Close the prior issue-driven candidate set under D-026; D-007/D-008 and D-010–D-024 (including GapGuard) are historical evidence, not active product candidates or current WATCH items.
 - [x] Close B2B stablecoin payment operations under D-028.
 - [x] Complete global screens D-030, D-031 and D-032.
