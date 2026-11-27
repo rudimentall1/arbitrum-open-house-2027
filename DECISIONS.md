@@ -238,3 +238,17 @@
 - **Relationship to prior decisions:** D-026 and D-028 remain closed. D-029 commodity-collateral remains WATCH only; the fact that two LinkedIn contacts did not accept messages is an access/channel failure, not a negative market signal. Verigate remains excluded.
 - **Next step:** Continue global discovery in distinct problem spaces not covered by this pass. Any candidate must have a named budget owner, independently corroborated recurring problem, quantified cost, clear gap beyond existing products, accessible buyer and a credible reason for shared Arbitrum state.
 - **Evidence:** [Second global niche scan](research/GLOBAL_NICHE_SCAN_02_2026-11-27.md).
+
+
+## D-031 — Third global niche scan (27 November 2026)
+
+- **Status:** NO-GO for five generic product theses; no new WATCH candidate.
+- **Scope:** Insurance claims/subrogation evidence; manufacturing supplier-quality and warranty recovery; distributed-energy flexibility verification/settlement; cross-border eBL interoperability; SME receivables/SCF fraud.
+- **Findings:** Claims evidence and cargo chronology are covered by claims cores and specialist evidence/cargo products; parametric sensor-triggered cargo insurance has a live 2026 commercial launch. Supplier nonconformance and warranty recovery are covered by ERP/QMS integrations, supplier portals, warranty suites and RMA platforms. Energy flexibility has documented multi-BRP allocation/compensation complexity, but Piclo provides settlement reports/dispute handling and Elexon has formal verification/settlement rules; no independent buyer gap was found. DCSA interoperability v2 is implemented by five eBL providers, while bank adoption remains low but no specific bank workflow gap was validated. MonetaGo directly covers duplicate financing, receivables/collateral verification and invoice validation.
+- **Decision:** Do not build generic claims evidence, warranty/QMS, flexibility marketplace/settlement ledger, eBL registry/interoperability, or SME invoice/receivables registry products. No new candidate met buyer, cost, differentiated gap, and pilot gates.
+- **Residual question:** Multi-BRP allocation/compensation disputes in energy remain a research question only, not WATCH. Promote only if an operator provides a real disputed settlement, recurrence, quantified impact, and a pilot path.
+- **Arbitrum fit:** None of the generic theses established why shared Arbitrum state is necessary over standards, signed messages, existing platforms, or conventional databases.
+- **Evidence limits:** Public desk research only. No buyer interviews, production datasets, buyer-specific cost, paid pilots, or WTP commitments.
+- **Relationship:** D-029 commodity collateral remains the sole WATCH hypothesis. D-026, D-028, and D-030 remain closed. Verigate remains excluded.
+- **Next step:** Continue discovery in a different problem space, but identify economic buyer and credible access path before deep research. Require two independent operator confirmations, real examples, recurrence, quantified impact, differentiated unmet workflow, and willingness to test.
+- **Evidence:** [Third global niche scan](research/GLOBAL_NICHE_SCAN_03_2026-11-27.md).
