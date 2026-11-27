@@ -196,3 +196,9 @@ These areas have multiple recent winners and established competitors.
 Recent winners have targeted tokenization, liquidity, collateral, credit exits, risk ratings, and yield. A potential adjacent workflow is the operational work after a loan has been issued: reconciling borrower cashflows and repayment records with onchain pool activity, tracking arrears, calculating distributions, and preparing investor reports.
 
 This is not proven whitespace. Traditional loan-servicing and fund-administration vendors, as well as tokenization platforms, already serve parts of the lifecycle. Validate a narrow cross-ledger workflow with actual operators before building.
+
+## Final bounded validation cycle — 27 November 2026
+
+The existing post-origination servicing of tokenized private credit hypothesis is the only adjacent workflow authorized for Pass B of the final validation cycle. It is **not** a selected product or a validated whitespace claim. Research only with actual loan servicers, private-credit fund operators, or tokenization platform operations teams: identify borrower payment reconciliation, arrears/default handling, waterfall/distribution calculations, investor reporting, and the systems currently used. Require recurring manual work, measurable cost/risk, an economic buyer, and a bounded pilot path. Do not add adjacent segments without replacing a weaker finalist.
+
+Discovery is capped by D-025: Pass A operator validation (RPC/indexer integrity and liquidation send-time gap), Pass B this one existing workflow, Pass C final scoring and GO/NO-GO. Maximum three finalists. If none meets the GO gate, stop the current search set.
