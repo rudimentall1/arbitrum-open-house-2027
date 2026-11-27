@@ -196,3 +196,16 @@
 - **GO gate result:** No candidate has a named buyer, independently corroborated recurring product-specific pain, measurable cost, unmet workflow despite substitutes, and credible pilot willingness. Technical novelty and general market pain do not override these missing conditions.
 - **Consequences:** Record NO-GO for this current search set. No product selection, no code, no implementation. Reopen only on new primary evidence meeting the buyer/problem/cost/substitute/pilot gate, or begin a separately framed market/problem discovery cycle. Do not continue broad issue/sector scanning as a substitute for buyer access.
 - **Evidence:** [Pass A operator evidence](research/PASS_A_OPERATOR_EVIDENCE_2026-11-27.md) and [Pass B + final NO-GO](research/PASS_B_AND_FINAL_NO_GO_2026-11-27.md).
+
+
+## D-027 — Open one bounded new discovery cycle: B2B stablecoin payment operations
+
+- **Status:** Accepted
+- **Decision:** Following D-026's NO-GO for the prior candidate set, open a separately framed, tightly bounded discovery cycle focused on operational reconciliation and exception investigation for B2B stablecoin payments. This does not reopen any D-026 candidate and does not authorize implementation.
+- **Scope:** Validate only two buyer segments: (a) stablecoin payment processors/fintechs operating their own payment stack; (b) businesses receiving direct stablecoin payments into self-custody wallets and applying them to invoices.
+- **Problem hypothesis:** Payment state is fragmented across business obligation/payment intent, provider/gateway, blockchain, recipient delivery, treasury/bank records and accounting ledger. Exceptions include unmatched, partial, duplicate, late, wrong-network/asset and funds-in-transit cases.
+- **Evidence status:** WATCH. Utila/Cordant's 19 Nov 2026 design-partner program directly targets cross-system stablecoin/fiat reconciliation and discrepancy investigation; Fipto/Kyriba has a named Ledger production case and reports ~15 minutes saved per payment; Circle documents its own >$10M first-month intercompany USDC flow. These support problem relevance but also show strong competition. No independent prospect has agreed to a pilot or stated WTP.
+- **Competitive constraint:** Generic dashboard, invoice matcher, crypto subledger or reconciliation queue is not a candidate. Request Finance, Stripe, Fipto/Kyriba, Circle, Utila/Cordant, Ripple Treasury and crypto accounting vendors overlap materially.
+- **Hard stop:** One bounded validation pass only. Seek a named buyer, real/redacted exception examples, recurring frequency, quantified manual cost or loss/SLA impact, a specific gap beyond current substitutes, and explicit willingness to run a two-week read-only pilot. If no such buyer evidence is obtained, record NO-GO and stop this cycle. Do not add segments or extend research with generic market scans.
+- **Excluded adjacent theme:** Agentic payment authorization/control is not part of this cycle; it risks reviving the user's explicitly excluded Verigate problem frame. Arbitrum x402 activity is not yet evidence of meaningful autonomous-agent payment demand.
+- **Evidence:** [New Cycle 01 research report](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md).
