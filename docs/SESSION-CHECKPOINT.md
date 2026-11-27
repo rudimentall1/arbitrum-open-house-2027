@@ -665,3 +665,14 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Research report count is now 26.
 - Research only: no outreach, code, dependencies, tests, build, CI or deployment changed.
 - No tests/lint/build run; no application test suite exists.
+
+
+## Additional continuation — D-042 Brazil CPR agricultural-collateral infrastructure screen (27 November 2026)
+
+- Reviewed B3's CPR inter-registry uniqueness system (live since 29 April 2024), which prevents duplicate pledging across authorised registrars.
+- Reviewed B3 CPR Guarantee (live since 21 January 2026): Master CPR and linked CPR collateral splitting, separately identified parts, API integration and lifecycle management.
+- Reviewed Bolsa Brasileira de Mercadorias' electronic CPR issuance, signature, verification and registry submission platform.
+- OECD cites BRL 298B in CPRs delivered in the stock market by end-2023; historical figure, not TAM.
+- D-042: **NO-GO as an Arbitrum product thesis; no new WATCH.** Existing regulated infrastructure covers uniqueness, collateral splitting and lifecycle/API workflows. Reopen only on a named buyer's quantified gap beyond B3, BBM and authorised registrars.
+- Added research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md; added D-042 to DECISIONS.md, TASKS.md and RESEARCH_LOG.md; updated PROJECT_CONTEXT.md and README.md.
+- Research report count is now 27. Research only; no code, dependencies, tests, build, CI or deployment changed.
