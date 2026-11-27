@@ -185,3 +185,12 @@ See [research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md](research/ISSUE_RESEARCH_FOL
 - Nitro #4770 was a false-positive interpretation of an INFO-level BoLD warning; time-aligned snapshots showed inbox and execution progressing and the maintainer closed it as not a bug. Do not count it as another confirmed false-ready incident.
 - Official Arbitrum HA and troubleshooting guides provide substantial substitutes for generic sequencer operations, though they do not by themselves prove the #4733 source-level false-ready issue fixed.
 - **Assessment:** no new GO. Indexer RPC economics and Nitro #4733 remain WATCH; Morpho feed is not promoted; no implementation.
+
+
+## 27 November 2026 — Aave sequencer sentinel false-positive recheck
+
+Aave v3-core #926 (opened 14 Nov 2023) described routine daily false-positive sentinel checks blocking borrow and liquidation for about an hour. The issue remains open in the legacy repository, but it is not a current Arbitrum v3.7 gap: Aave v3.7 removed sentinel checks from borrow/liquidation validation because inconsistent L2 uptime signals caused false positives. Governance proposal 489 Part 2 was executed 28 May 2026 and includes Arbitrum; it unsets configured sentinels and upgrades Pool/PoolConfigurator. Current Aave docs state the Pool no longer reads the sentinel since v3.7.
+
+Sources: [Aave v3.7 sentinel-removal rationale](https://github.com/aave-dao/aave-v3-origin/blob/main/docs/3.7/sentinel-removal.md), [Aave proposal 473](https://app.aave.com/governance/v3/proposal/?proposalId=473), [proposal 489 execution/network scope](https://app.kvorum.watch/daos/aave/proposals/aave_governance_v3/489), [current PoolAddressesProvider docs](https://aave.com/docs/aave-v3/smart-contracts/pool-addresses-provider).
+
+**Assessment:** close as a current Arbitrum Aave v3.7 product lead; do not build sentinel monitoring. Legacy v3.6 forks need separate evidence.
