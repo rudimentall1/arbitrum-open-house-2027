@@ -178,3 +178,31 @@ A fresh check of the official CNJ publication materially sharpens the transition
 
 **Status unchanged:** D-040 remains the leading discovery lead only, not a product candidate, WATCH or GO. No implementation is authorised.
 
+
+## Competitive reality check — Preks and portfolio cash-flow boundary (27 November 2026)
+
+A closer review of Preks' public FIDC SaaS page materially weakens the original D-040 wedge. Preks publicly markets:
+- digital precatório assignment workflow for fund managers;
+- seller tax and full-case legal diligence, including 20+ certificates;
+- digital signatures;
+- Ethereum blockchain recording of the assignment;
+- conditional escrow pending required approval;
+- origination and diligence services for FIDCs.
+
+It identifies itself as technology/consulting partner to ORIZ JUS I and ORIZ JUS IV. This is direct overlap with generic transfer workflow, diligence, assignment evidence and blockchain registration. Source: https://preks.com.br/para-gestoras/ (reviewed 27 November 2026).
+
+The official CNJ/Bacen work is also more specific than a generic registry announcement. Portaria Conjunta CNJ/BCB 6/2026 explicitly tasks the executive group with proposing architecture, event/status identifiers, audit trails, logs, reconciliation, discharge and duplicate-prevention mechanisms, plus a national data dictionary and interoperability model. Source: https://atos.cnj.jus.br/atos/detalhar/6958 . This makes a standalone registry mirror, transfer-status API or duplicate-assignment checker especially difficult to differentiate.
+
+### Boundary worth testing — not a new product decision
+
+A possible adjacent operational boundary sits downstream of legal assignment and official registration: portfolio-level allocation of receipts from multiple precatórios to FIDC quotas or contractual token/sub-cession holders, especially when different underlying claims pay at different times. A historical Foxbit product document describes a basket of seven precatórios, fractional exposure per token and partial BRL distributions as each underlying claim is paid (document dated 2022; historical product evidence only): https://statics.foxbit.com.br/tokens/FTPCL-0053.pdf .
+
+This does **not** establish a current pain point or a product opportunity. It only gives a concrete workflow to ask operators about:
+- how partial receipts, corrections, reversals and final discharge are reconciled across each underlying claim;
+- how cash is allocated to fund quotas or contractual token holders;
+- whether administrator/custodian/servicer systems already automate it;
+- what breaks, how often, how many manual hours and what financial/control impact;
+- who owns budget and whether a paid pilot is possible.
+
+**Updated assessment:** the original D-040 transfer-eligibility/token-allocation-at-issuance framing is likely covered by Preks plus the emerging CNJ/SisPreq infrastructure. Do not build it. The downstream cash-flow allocation question is a separate discovery question only, not a candidate, WATCH or GO. No Arbitrum fit is established; conventional fund accounting/API integration is the default until multi-party shared-state need is demonstrated.
+
