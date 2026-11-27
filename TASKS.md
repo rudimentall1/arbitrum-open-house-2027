@@ -84,3 +84,5 @@ A concept cannot move to implementation until all are true:
 - [ ] Find an independent Morpho/Aave liquidation operator who identifies a missing send-time input, quantifies missed opportunities or infrastructure cost, and agrees to test a bounded feed.
 - [ ] Find a hosted-indexer owner who quantifies detection/backfill labor, spend, SLA/customer impact, and current reconciliation automation.
 - [ ] Recheck Nitro #4733 only for independent matching reports or a source-level upstream fix; do not broaden into generic monitoring.
+
+- [x] Recheck Aave #926 sequencer sentinel false-positive issue against current Aave v3.7 source and governance deployment; confirm Part 2 executed on Arbitrum on 28 May 2026 and sentinel removed from borrow/liquidation checks.
