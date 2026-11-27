@@ -161,3 +161,33 @@ Reopen only if new primary evidence identifies a named buyer/operator, recurring
 - Research/documentation only. No application code changed.
 - No tests, lint or build run.
 - Remote docs were verified after sequential updates. Local checkout/status unavailable.
+
+
+## New discovery cycle 01 — B2B stablecoin payment operations (D-027, 27 Nov 2026)
+
+### Completed
+- Read prior D-026 NO-GO and confirmed the previous three candidates remain closed.
+- Opened a separately framed, bounded cycle for B2B stablecoin payment operations.
+- Reviewed Utila/Cordant's 19 Nov 2026 cross-system reconciliation design-partner program.
+- Reviewed Fipto/Kyriba's named Ledger production supplier-payment case (~15 minutes saved per payment, vendor-reported).
+- Reviewed Circle's own USDC intercompany treasury case (> $10M first-month transfers, reporting and multi-entity close workflow).
+- Reviewed public accountant/operator discussions describing manual invoice matching, payout reconciliation and duplicate-payment concerns.
+- Mapped competition: Utila/Cordant, Fipto/Kyriba, Circle, Request Finance, Stripe, Ripple Treasury, Bitwave/Cryptio and other invoice/accounting tools.
+- Added research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md and D-027.
+
+### Result
+- Problem relevance: credible. Payment records can diverge across intent/order, gateway, chain, recipient, bank/treasury and accounting systems.
+- Competition: strong. Existing platforms already automate invoice linking, payments, reconciliation, accounting export and institutional exception investigation.
+- Buyer validation: absent. No named prospect has shared redacted production exceptions, quantified recurring cost or agreed to a pilot.
+- Status: WATCH only; no product selection and no implementation.
+
+### Single allowed validation pass
+Test only (1) payment processors/fintechs operating their own stablecoin payment stack and (2) businesses receiving direct stablecoin payments into self-custody wallets. Require named buyer, redacted real exceptions, monthly recurrence, quantified manual cost/loss/SLA impact, a specific gap beyond substitutes, and explicit willingness to run a two-week read-only pilot. If this evidence is not obtained, record NO-GO and stop. Do not expand the sector or continue generic vendor research.
+
+### Exclusions
+Agentic payment authorization/control is outside this cycle to avoid reviving the explicitly excluded Verigate problem frame. D-026 candidates remain closed.
+
+### Checks
+- Research/documentation only; no application code changed.
+- No tests, lint or build run.
+- Remote GitHub docs were updated sequentially; local checkout/status remains unavailable.
