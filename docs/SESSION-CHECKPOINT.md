@@ -356,3 +356,34 @@ Continue discovery in new problem spaces not already screened. Before deepening 
 - No application source or dependencies changed.
 - Updates committed sequentially to remote main; all edited documents will be re-read and remote HEAD checked.
 - Local checkout/status remains unavailable.
+
+
+## RWA-focused infrastructure scan — 27 November 2026 (D-033)
+
+### Completed
+- Re-read repository rules, project context, task queue, decisions, README, research log, winner map and previous checkpoint before continuing.
+- Followed the user's explicit RWA priority and screened tokenised fund servicing/transfer agency/NAV reconciliation, tokenised private-credit servicing, collateral eligibility/monitoring/realisation, and independent asset backing/NAV verification.
+- Reviewed 2026 IMF and Wharton research, Arbitrum Foundation H1 2026 ecosystem update, BNY Digital Transfer Agency, Chainlink DTA and Fulcrum, Libertum T-Suite Funds, Coretos, Brickken, Black Lake/Nuva Labs, Bank of England tokenised-collateral consultation, Chronicle, RedStone, Dune and related providers.
+- Added [research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md](../research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md).
+- Recorded D-033 and updated DECISIONS, TASKS, PROJECT_CONTEXT, RESEARCH_LOG and README.
+
+### Findings
+- RWA is a real market and Arbitrum has meaningful RWA deployments; this does not prove demand for a new software vendor.
+- Generic fund servicing / TA / NAV / reconciliation is covered by BNY Digital TA, Chainlink DTA, Libertum and other providers.
+- Generic private-credit servicing remains closed under D-026; current providers and a $25M institutional mortgage-loan tokenisation example further demonstrate loan-level servicing/verification coverage.
+- Generic collateral eligibility, monitoring and cross-chain repo workflows overlap Chainlink Fulcrum and existing collateral-management providers.
+- Generic proof-of-asset, NAV and investor transparency overlap Chronicle, RedStone, Dune and public RWA analytics providers.
+- The Bank of England's 2026 consultation provides strong evidence of the collateral realisability problem class, including legal access, transfer, conversion, valuation and stressed liquidation. It does not establish a new software buyer or differentiated gap.
+- No new GO or WATCH candidate emerged. D-029 commodity collateral remains the sole WATCH. D-026 private-credit servicing remains closed. Verigate remains excluded.
+
+### Evidence boundary
+- Public-source desk research only.
+- No buyer interviews, production datasets, buyer-specific quantified costs, paid pilots or WTP commitments.
+- No product selected; no code or MVP authorized.
+
+### Checks and limitations
+- Documentation-only changes. No application tests, lint or build run.
+- No application source or dependencies changed.
+- Remote updates made sequentially using freshly fetched blob SHAs.
+- Local checkout/status unavailable.
+- Final document and remote HEAD verification performed after this checkpoint update.
