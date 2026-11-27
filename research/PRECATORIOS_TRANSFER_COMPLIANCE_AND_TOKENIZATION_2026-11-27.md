@@ -157,3 +157,24 @@ Continue D-040 in parallel with D-033 and D-038. D-039 remains NO-GO as an Arbit
 ## Outreach status update — 27 November 2026
 
 A mailbox check found one automated acknowledgement from Adianta Jus for the 27 November research request, registered under support protocol **44**. It says the request will be handled and a response may follow; it contains no operational answers and is not buyer validation. No reply from Preks was found in the checked period. No follow-up was sent.
+
+
+## Regulatory implementation recheck — 27 November 2026
+
+A fresh check of the official CNJ publication materially sharpens the transition risk:
+
+- CNJ's 3 November announcement confirms cooperation agreements with Colégio Notarial do Brasil (CNB/CF) and the market-system operators B3, CERC and Núclea to develop the national SisPreq solution. This is not merely a hypothetical future competitor; the official ecosystem build is underway. Source: https://www.cnj.jus.br/judiciario-e-mercado-financeiro-se-unem-para-modernizar-gestao-de-precatorios/
+- Resolução CNJ 705/2026, Art. 35, establishes the Central Nacional as a mandatory national module linked to SisPreq, consolidating title chain and lifecycle events including assignments, deeds, registrations, liens, guarantees, payments, cancellations and inconsistencies. It also provides duplicate-operation alerts and operational blocks.
+- Crucially, Art. 65 makes exclusive electronic registration and court homologation through the Central National conditional: they become required from a date set by a joint CNJ/BCB act, after (i) deployment of the Central National or a compatible transitional solution and (ii) authorisation of at least one registry entity. Until full deployment, transitional solutions and tribunal/CNJ-designated communication and registration channels are permitted, subject to traceability, security, structured migration and data protection. Source: official resolution https://atos.cnj.jus.br/atos/detalhar/7184; searchable full text: https://cnj.farolregistral.com.br/ato/341739
+- CNJ's public explanation says the resolution enters into force 30 days after publication, while the exclusive Central National workflow will start only on the later joint activation date after technical conditions are met. Source: https://www.cnj.jus.br/nova-resolucao-do-cnj-cria-central-de-controle-e-protege-credores-de-precatorios/
+
+**Implication for D-040:** do not describe the Central National as already live or assume that an operational API exists. The transition period may create temporary reconciliation work across tribunal-specific systems, registrars and operator ledgers, but that is only a hypothesis. It may equally be handled by the official transitional channels and the operators' existing legal/technology teams. A temporary migration gap is not sufficient product whitespace unless a buyer demonstrates recurring exceptions, measurable cost and a paid post-transition need.
+
+## Outreach status recheck — 27 November 2026
+
+- Preks: the sent message remains the only message in the thread; no reply.
+- Adianta Jus: only an automated receipt acknowledgement is present, under support protocol **44**. No substantive operational answer, referral to an owner or meeting was received.
+- No follow-up email was sent. Automated receipt is not customer validation.
+
+**Status unchanged:** D-040 remains the leading discovery lead only, not a product candidate, WATCH or GO. No implementation is authorised.
+
