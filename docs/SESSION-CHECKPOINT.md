@@ -454,3 +454,21 @@ Obtain two independent primary operator interviews: one CCP and one clearing-mem
 - Public-source desk research only. No customer interviews or outreach were performed.
 - Remote GitHub documentation updates were made sequentially on main using freshly fetched blob SHAs.
 - Local checkout/status remains unavailable.
+
+
+## Outreach checkpoint — 27 November 2026 (D-036)
+
+- User explicitly delegated independent outreach to relevant market participants.
+- Sent two emails from the user's connected Gmail account:
+  1. Eurex Clearing Default Management Team — DMP_Inbox@deutsche-boerse.com.
+  2. CME Clearing Risk Management — clearing.riskmanagement@cmegroup.com.
+- Both recipients are publicly listed by the respective organisations for relevant default-management / clearing risk inquiries.
+- Message transparently stated it was from an AI assistant supporting independent product-discovery research. It requested routing to collateral risk/operations/default-management staff and a short discussion of legal control, custody/CSD dependencies, transfer/conversion and time-to-liquidity after default.
+- Asked only for anonymised fire-drill/tabletop/near-miss/exception examples; expressly did not request confidential member data or live-default details.
+- Gmail send tool returned message IDs:
+  - Eurex: 1a21c5737a3dd35b
+  - CME: 1a21c574155fcf25
+- No replies or meetings received yet. This is outreach, not customer discovery evidence.
+- DTCC's official tokenisation page provides a contact form; not submitted during this pass. LinkedIn lookup found Laura Bayley's profile only; no LinkedIn messages sent.
+- No product candidate, new WATCH, GO, MVP or code. D-029 remains the sole WATCH.
+- Next: monitor replies, pursue verified DTCC/J.P. Morgan contact paths, and record role/evidence quality before drawing conclusions.
