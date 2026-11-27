@@ -453,3 +453,13 @@ D-040 outreach status check: Adianta Jus returned an automated receipt acknowled
 - **D-040 status unchanged:** leading discovery lead only; not candidate/WATCH/GO. No product selected, no implementation.
 - Sources: https://atos.cnj.jus.br/atos/detalhar/7184 ; https://www.cnj.jus.br/judiciario-e-mercado-financeiro-se-unem-para-modernizar-gestao-de-precatorios/ ; https://www.cnj.jus.br/nova-resolucao-do-cnj-cria-central-de-controle-e-protege-credores-de-precatorios/
 
+
+## 27 November 2026 — D-040 competitor boundary recheck
+
+- Reviewed Preks' public FIDC SaaS page in detail: digital assignment, seller tax/legal diligence, 20+ certificates, e-signature, Ethereum assignment record, conditional escrow, origination/diligence, and disclosed ORIZ JUS I/IV relationships. This directly overlaps the original D-040 transfer-workflow proposition. Source: https://preks.com.br/para-gestoras/
+- Rechecked Portaria Conjunta CNJ/BCB 6/2026: its executive-group mandate includes architecture, event/status IDs, audit trails, logs, reconciliation, discharge, duplicate prevention, national data dictionary and interoperability. Source: https://atos.cnj.jus.br/atos/detalhar/6958
+- **Conclusion:** do not build a generic precatório transfer-eligibility, diligence, registry, duplicate-check or blockchain assignment product. Preks and the official CNJ/SisPreq programme cover the core proposition.
+- Identified one adjacent question, not a product thesis: portfolio-level allocation/reconciliation of partial receipts from multiple precatórios to FIDC quotas or contractual token/sub-cession holders. A 2022 Foxbit product sheet documents a seven-claim basket with fractional exposure and partial BRL distributions as individual claims pay; historical evidence only, not proof of current demand. Source: https://statics.foxbit.com.br/tokens/FTPCL-0053.pdf
+- Next validation, if pursued: ask fund manager/administrator/servicer how partial receipts, corrections, reversals and discharge are allocated; measure exception frequency, manual hours and financial/control impact; identify system of record, budget owner and paid-pilot path. Kill if current fund accounting/custody systems already automate it.
+- D-040 remains exploratory; no new candidate/WATCH/GO. No implementation. Arbitrum fit unproven and should not be forced.
+
