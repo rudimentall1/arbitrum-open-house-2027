@@ -314,4 +314,4 @@ Full evidence: [research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md](resear
 - [ ] Continue D-033 and D-038 in parallel; do not wait for replies before researching other RWA workflows.
 - [ ] Do not force Arbitrum where signed records, APIs or regulated central registries suffice.
 
-Full evidence: [research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md](${report}).
+Full evidence: [research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md](research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md).
