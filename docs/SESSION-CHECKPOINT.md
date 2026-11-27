@@ -837,3 +837,20 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 ### Checks
 - Public-source research and documentation only. No code, dependencies, tests, lint, build or deployment changed/run.
 - No outreach was sent. Remote documentation updates are being written sequentially; verify final HEAD and updated files after all writes.
+
+
+---
+
+## New-chat handoff — 27 November 2026
+
+- **Repository / branch:** `rudimentall1/arbitrum-open-house-2027`, `main`.
+- **Current GitHub HEAD at handoff:** `0bb8b1a83062bd3395000a63bdd9df84cd8f0da2` (will advance with this checkpoint update).
+- **Verified delta since `02911992e7bfd813a43e1fb54a31f34ad7e78d10`:** 5 commits, ahead 5 / behind 0. Changed only `research/D040_PARTIAL_RECEIPT_OPERATIONS_BUYER_DISCOVERY_2026-11-27.md` (added), `TASKS.md`, `PROJECT_CONTEXT.md`, `RESEARCH_LOG.md`, `docs/SESSION-CHECKPOINT.md` (modified). No unrelated paths in this delta.
+- **Completed:** public operator discovery for partial-receipt allocation; three leads (Oliveira Trust, Hemera DTVM, Monetiza); public contact channels checked; three Portuguese discovery drafts prepared; report saved. TASKS marks lead research and drafts complete.
+- **Not done:** no outreach sent, no interview, no redacted workflow, no quantified manual burden, no budget owner, no paid-pilot signal.
+- **Decision/status:** NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED. D-040 remains exploratory only. Partial-receipt allocation is a discovery question, not a candidate. Conventional fund-accounting/API integration is default; Arbitrum fit unproven.
+- **Architecture / decisions:** no code, architecture, dependencies or project structure changed. No new architecture decision; `DECISIONS.md` intentionally unchanged.
+- **Tests/checks:** no test, lint or build suite run; documentation/research-only changes. GitHub compare and branch HEAD checked; changed paths enumerated; updated files re-read. No local working-tree status was available through the remote GitHub view, so any uncommitted local changes remain unverified and must be preserved.
+- **Known issues:** public operator roles do not prove an operational gap. Hemera advertises its own collections system/integrations; incumbent systems may already solve the workflow. Outreach drafts are not customer validation.
+- **Exact next step:** obtain explicit user approval, then send the three prepared discovery emails to Oliveira Trust, Hemera DTVM and Monetiza. After any reply, book an operations interview and request a redacted workflow; close the hypothesis if existing systems handle it without material recurring manual exceptions.
+- **Handoff source:** `research/D040_PARTIAL_RECEIPT_OPERATIONS_BUYER_DISCOVERY_2026-11-27.md`; current tasks in `TASKS.md`.
