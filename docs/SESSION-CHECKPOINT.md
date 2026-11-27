@@ -562,3 +562,37 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Documentation/research only; no application code, dependencies, tests, build, CI or deployment changed.
 - Local checkout/status remains unavailable because Desktop Commander devices were offline in the prior audit.
 - Remote file and HEAD verification still to be performed after this update.
+
+
+## Latest continuation — D-039 Brazil SBCE carbon-asset and MRV infrastructure screen (27 November 2026)
+
+### Research performed
+- Re-read AGENTS, PROJECT_CONTEXT, TASKS, DECISIONS, README, RESEARCH_LOG and WINNER_MAP before research.
+- Reviewed official Ministry of Finance and Serpro materials on the SBCE Central Registry build, the phased rollout and the October 2026 MRV schedule.
+- Reviewed Law 15.042/2024 provisions for Central Registry accounting, regulated escrituradores, ownership/encumbrance records and interoperability.
+- Checked the existing ANP CBIO escriturador/registry model, GHG Protocol Brazil, public Brazilian MRV vendor positioning (including Integra Carbon), and Gold Standard/Trovio's API-first registry.
+- Added `research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md` and D-039.
+
+### Findings
+- Serpro and the Ministry of Finance are already developing the SBCE Central Registry.
+- Rollout: 2027 operator preparation; 2028–2029 compulsory monitoring plans and annual emissions reports; first CBE asset market from 2030.
+- Initial MRV threshold is 10,000 tCO2e/year and is expected to cover less than 1% of CNPJs; initial sectors include aluminium, integrated steel, cement, oil/gas production, selected chemicals, iron ore/bauxite, pulp/paper and glass.
+- MRV compliance software is an existing SaaS category with Brazilian vendors; no blockchain requirement was found.
+- Registry interoperability is a real future legal requirement, but Serpro owns the central platform build, external integration contracts are not yet specified in reviewed public sources, and no private buyer's integration failure/budget was identified. ANP's CBIO platform is an existing domestic precedent. Gold Standard/Trovio demonstrates API-first registry connectivity.
+- An onchain parallel registry or carbon-token bridge would risk duplicating the official source of truth. No material Arbitrum shared-state requirement was found.
+
+### Decision
+- D-039: **NO-GO as an Arbitrum product thesis at this stage; no new WATCH.** Reopen only on a named buyer's quantified uncovered integration gap, or independently corroborated MRV evidence burden plus a material shared-state need, or public SBCE API specifications revealing a buyer-backed gap.
+- D-029 remains the only WATCH. D-033 and D-038 remain in parallel; D-039 does not block continued discovery of other RWA workflows.
+- User's direction is to continue parallel research and not wait for operator replies. No product is selected and no implementation is authorised without explicit GO.
+
+### Documentation updates
+- Added D-039 to DECISIONS.md and TASKS.md; appended evidence to RESEARCH_LOG.md.
+- Updated PROJECT_CONTEXT.md and README.md to replace the old stop-scan/sequential-wait framing with parallel RWA discovery.
+- Added the D-039 report; research report count is now 24.
+
+### Verification and limits
+- Documentation-only remote GitHub updates on main; no code, dependencies, tests, build, CI or deployment changed.
+- No tests/lint/build run; no application test suite exists.
+- Local checkout/status remains unavailable; do not claim local git state.
+- Customer discovery and outreach were not performed for D-039; all conclusions are desk-research screening, not buyer validation.
