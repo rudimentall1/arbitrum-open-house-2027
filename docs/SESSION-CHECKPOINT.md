@@ -387,3 +387,32 @@ Continue discovery in new problem spaces not already screened. Before deepening 
 - Remote updates made sequentially using freshly fetched blob SHAs.
 - Local checkout/status unavailable.
 - Final document and remote HEAD verification performed after this checkpoint update.
+
+
+## Final repository-wide review — 27 November 2026 (D-034)
+
+### Result
+- Reviewed remote main tree, repository metadata, branch list, open PRs/issues, AGENTS, project context, tasks, decisions, research log, winner map, historical reconstruction, checkpoint, package metadata, source/test placeholders and all 20 research reports.
+- Found and corrected stale conflicting current-state summaries in README, TASKS, PROJECT_CONTEXT and RESEARCH_LOG.
+- Clarified D-010–D-024 as historical technical research, not active candidates/current WATCH items after D-026.
+- Clarified D-029 as the sole current WATCH and as RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product.
+- Added D-034 and docs/FINAL_PROJECT_REVIEW_2026-11-27.md.
+- Updated AGENTS wording for coherent docs-only commits and aligned WINNER_MAP with the latest product decision.
+- No source code, dependencies, tests, build tooling or CI were added.
+
+### Canonical state
+- No product selected; no GO; no implementation authorized.
+- RWA is the user's priority.
+- D-029 commodity collateral / warehouse-lien verification is the only current WATCH.
+- D-033 collateral realisability under stress is a problem area only, not a candidate.
+- D-026 private-credit servicing and D-028 stablecoin payment operations remain NO-GO.
+- D-030, D-031 and D-032 remain closed. Verigate remains excluded.
+
+### Remote repository checks
+- Default branch main; only main branch returned by branch search.
+- Zero open PRs and zero open issues.
+- No local checkout was available; local git status was not checked.
+- No application tests, lint or build were run; no application code or test suite exists.
+
+### Next action
+Stop broad scans. Validate D-029 with two independent economic buyers/operators, real redacted incidents, recurrence, quantified impact, budget ownership, differentiated gap and bounded-pilot willingness. Do not build before the full GO gate.
