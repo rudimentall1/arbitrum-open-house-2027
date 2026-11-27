@@ -87,3 +87,8 @@ Evidence: [D-040 precatório transfer-compliance and tokenisation](PRECATORIOS_T
 - D-040: leading discovery hypothesis only; not candidate/WATCH/GO.
 - No product selected; no implementation authorized.
 - Public-source research and previous outreach only. No customer interviews or willingness-to-pay evidence established in this scorecard.
+
+
+## Outreach status check — 27 November 2026
+
+Checked connected Gmail for replies from Preks and Adianta Jus after the two discovery emails. Adianta Jus sent an automated acknowledgement only, registering the request under support protocol **44** and saying the team would respond later. This is not a substantive operator response or customer validation. No reply from Preks was found in the checked period. No follow-up message was sent.
