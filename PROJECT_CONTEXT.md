@@ -26,6 +26,12 @@ D-045 compared the remaining tracks: D-040 precatório transfer-eligibility/toke
 
 Read [D-035 report](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md), [D-037 report](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md), [D-038 report](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md), and [D-039 report](research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md), plus [D-040 report](research/PRECATORIOS_TRANSFER_COMPLIANCE_AND_TOKENIZATION_2026-11-27.md) and [D-041 report](research/BRAZIL_DUPLICATA_ESCRITURAL_OPERATIONAL_GAP_SCREEN_2026-11-27.md), plus [D-042 report](research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md).
 
+
+
+### D-040 regulatory implementation update — 27 November 2026
+
+The latest official-source recheck confirms that Resolução CNJ 705/2026 Art. 35 mandates a Central Nacional module linked to SisPreq, while Art. 65 delays exclusive Central National registration/homologation until a future joint CNJ/BCB activation date after deployment (or a compatible transitional solution) and authorisation of at least one registry entity. CNJ has cooperation agreements with CNB/CF, B3, CERC and Núclea to develop SisPreq. The official infrastructure is being built, but the reviewed sources do not establish that the Central National API/exclusive workflow is live. This may create temporary transition work, not proven recurring product whitespace. Preks has not replied; Adianta Jus supplied only an automated receipt under protocol 44. D-040 remains the leading discovery lead only, not candidate/WATCH/GO. Monitor technical standards and activation; require a buyer-backed recurring exception beyond the official system.
+
 ## Product selection vs implementation GO
 
 Product selection is an evidence-weighted decision, not a gate that must wait for every interview or two customer confirmations. A product hypothesis may be selected provisionally when the comparative scorecard shows the strongest available case; unresolved buyer, budget, competitive and technical assumptions must remain explicit, with a short validation plan. Do not restart the search from zero merely because one outreach thread is unanswered.
