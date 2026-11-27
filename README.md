@@ -10,7 +10,7 @@ Research and product-discovery workspace for Arbitrum Open House São Paulo 2027
 - D-033 rejected generic tokenised-fund servicing, private-credit servicing, collateral monitoring/orchestration, and asset/NAV verification because existing institutional and specialist providers cover the obvious workflows.
 - The D-033 collateral-realisability-under-stress question is a problem area only, not a candidate or WATCH.
 - D-026 private-credit servicing and D-028 stablecoin payment operations remain NO-GO. D-030, D-031 and D-032 remain closed for their screened scopes.
-- D-010–D-024 technical issue leads are historical research, not active product candidates after D-026.
+- D-007/D-008 (issue-driven method and old GapGuard WATCH) and D-010–D-024 technical leads are historical research, not active product candidates after D-026.
 - Verigate is explicitly excluded. The earlier generic RWA Servicing Copilot is not reopened.
 
 ## Read this first
