@@ -305,3 +305,15 @@
 - **Decision:** Keep collateral realisability under stress as a problem-validation question only. Do not promote to WATCH or candidate, do not reopen generic collateral dashboards/orchestration, and do not implement.
 - **Next step:** Obtain two independent operator interviews (CCP and clearing-member/bank) with one redacted default drill, near-miss or operational exception each; record step-level timestamps, legal basis, custody/ledger dependencies, impact, workaround, budget owner and bounded-pilot willingness. If existing controls already prove timely realisation, close the question.
 - **Evidence:** [Targeted operator evidence check](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md).
+
+
+## D-036 — Direct operator outreach initiated (27 November 2026)
+
+- **Status:** Outreach sent; awaiting response. No buyer validation or GO.
+- **Action:** Sent two focused research emails from the user's connected Gmail account to the publicly listed Eurex Clearing Default Management Team mailbox (DMP_Inbox@deutsche-boerse.com) and CME Clearing Risk Management (clearing.riskmanagement@cmegroup.com).
+- **Purpose:** Request routing to collateral operations/risk/default-management staff and a short discussion of the path from posted collateral to usable liquidity after a clearing-member default.
+- **Disclosure and boundaries:** The message identified the sender as an AI assistant supporting independent product-discovery research, requested only anonymised fire-drill/tabletop/near-miss/exception information, and explicitly stated that confidential member data or live-default details were not requested.
+- **Evidence:** Eurex publicly directs voluntary fire-drill/default-management inquiries to DMP_Inbox@deutsche-boerse.com. CME publicly lists clearing.riskmanagement@cmegroup.com for Risk Management and performance-bond/margin inquiries.
+- **Not done:** No email was sent to an unverified personal address. DTCC's official Tokenization Service page offers a contact form; no submission was made in this pass. LinkedIn name searches did not return reliable profiles for the other targeted executives; Laura Bayley's profile was found but no message was sent.
+- **Decision:** Outreach is a discovery action only. No reply or meeting has yet been received; no product candidate, WATCH, GO or implementation is authorized.
+- **Next step:** Track replies, follow up once if appropriate, and expand to verified DTCC/J.P. Morgan contacts. Record every response with date, role, evidence quality and whether it independently corroborates a real operational failure.
