@@ -330,3 +330,18 @@
 - **Decision:** Keep D-033 collateral realisability under stress as a problem-validation question only. D-029 remains the only WATCH. Arbitrum shared-state necessity is not established.
 - **Next step:** Track replies from the four official Eurex/CME mailboxes; after the 2 December Eurex exercise, inspect public non-confidential outcomes and seek one independent clearing-member DMP Coordinator/Collateral Operations account. Require two independent operator examples before any product gap is considered.
 - **Evidence:** [CCP default-management operational evidence follow-up](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md).
+
+
+## D-038 — Parallel hypothesis: CVM DLT pilot evidence operations (27 November 2026)
+
+- **Status:** Exploratory hypothesis only; not selected, not WATCH, no GO, no implementation.
+- **Why opened:** User rejected waiting for D-033 operator replies as the sole active path. Continue parallel RWA product discovery while existing CCP outreach remains pending.
+- **Primary evidence:** CVM received 11 proposals for its DLT Pilot from ABBC, ABcripto, ABFintech, ABToken multichain, ABToken Stellar, ANBIMA, B3, BEE4 & Núclea, CSD, Liqi, and Real Price & Registro de Imóveis do Brasil. Proposal review was still underway; these submitters must not be assumed to be admitted networks or network managers.
+- **Specific workflow:** Resolução CVM 249 requires network managers to maintain read-only real-time regulator access, structured machine-readable extraction/API, timestamped audit trails, continuous availability, fortnightly reports, immediate incident notifications and a final report detailing off-chain activities, oracles and off-chain governance.
+- **Hypothesis:** A focused evidence-operations kit could collect and correlate on-chain/off-chain test events, preserve provenance and produce regulator-ready evidence/report inputs for network managers or infrastructure operators.
+- **Important constraints:** The pilot is 60 days (extendable by up to 30); no real securities, investor funds or client personal data; participation is voluntary and unpaid and costs fall on participants. Eligible network managers are restricted by Art. 7. These facts create a concentrated workflow but may limit procurement and recurring revenue.
+- **Outreach:** Sent Portuguese-language research requests to public contact channels at CSD BR, Liqi, Núclea and BEE4. No replies or meetings yet. Message IDs and exact scope are in the D-038 research report.
+- **Kill criteria:** Existing API/audit/GRC/SIEM/data tooling already satisfies requirements; no recurring manual burden; no budget owner; no procurement path; or no post-pilot recurring use.
+- **Arbitrum fit:** Unproven. A signed event store/API may suffice. No chain-specific architecture until shared state or independent verification is shown to be materially necessary.
+- **Decision:** Run D-038 in parallel with D-033; do not wait for Eurex/CME replies to continue discovery. D-029 remains the only WATCH. D-038 is not a new WATCH or GO.
+- **Evidence:** [CVM DLT pilot evidence operations report](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md).
