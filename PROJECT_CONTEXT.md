@@ -97,3 +97,9 @@ See [research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md](research/ISSUE_RESEARCH_FOL
 - No new GO candidate; product selection remains undecided and implementation remains blocked pending buyer/workflow validation.
 
 - Aave #926 (2023 PriceOracleSentinel daily false-positive) is obsolete for upgraded Arbitrum Aave v3.7: governance proposal 489 Part 2 executed 28 May 2026 on Arbitrum and v3.7 removed sentinel checks from borrow/liquidation paths. Do not treat the still-open legacy issue as current buyer pain. See [research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md](research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md).
+
+## 27 November 2026 — silent RPC log-result corruption follow-up
+
+See [research/ISSUE_RESEARCH_SILENT_RPC_LOG_CORRUPTION_2026-11-27.md](research/ISSUE_RESEARCH_SILENT_RPC_LOG_CORRUPTION_2026-11-27.md).
+
+A new narrow technical WATCH signal spans three codebases: Nitro #4788 (Arbitrum One and Robinhood Chain numeric eth_getLogs requests above head returned current-head logs), Lasso RPC #460 (mock-harness demonstration that a lagging upstream can return accepted null/empty results), and DefiLlama SDK #302 (pruned RPC returned an empty historical log response that was persisted as a complete cache range; six short entries found among 545 checked, with two reported downstream data/fee impacts). This is a recurring failure class, not yet a product opportunity: only the DefiLlama incident quantifies production business impact, the Base example is adjacent L2 rather than an Arbitrum incident, and the three issues do not establish multiple paying buyers. Nitro #4788 is closed as completed but no maintainer fix/release evidence was found in the reviewed discussion/search. Keep WATCH; do not build a generic RPC proxy, monitor, or completeness dashboard.
