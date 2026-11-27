@@ -274,3 +274,19 @@ Most broad segments were rejected because named incumbents, national infrastruct
 **D-029: WATCH, not GO.** No buyer interview, production exception, quantified cost, pilot commitment or TAM estimate was obtained. Physical stock, authenticity and legal priority cannot be established by a blockchain alone. Require two independent operators and a read-only pilot path before considering an MVP. If the buyer/gap/pilot gate fails, stop.
 
 Evidence: [research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
+
+## Second global niche scan — 27 November 2026 (D-030)
+
+Continued global discovery while D-029 commodity-collateral outreach remains active. User reports only one of three D-029 LinkedIn messages could be sent; two profiles did not accept messages. This is an access/channel failure, not a negative response or market rejection.
+
+Screened six additional problem spaces:
+- Construction lending payment gap: real problem described by IPEX, but IPEX directly sells progress-vs-payment verification and Payment Gap reports to lenders.
+- GPU cloud SLA evidence: real renter/provider reliability and billing disputes, but public GPU Sentinel project directly proposes signed provider/tenant evidence, SLA replay and shared ledger; it is pre-alpha and unvalidated on production, but generic cloning is not differentiated.
+- Durable CDR offtake delivery: 50.5M contracted vs 1.7M delivered as of 19 Oct 2026; existing CDR.fyi, Frontier progress, Senseible milestone tracking and contract remedies already cover much of generic monitoring.
+- CBAM supplier emissions data: EU Registry/O3CI already supports third-country installation data sharing; multiple SaaS providers cover supplier intake and reporting.
+- Biodiversity credits: academic work identifies integrity and governance issues, but OECD and 2026 market survey indicate very small market and weak buyer demand.
+- Ocean freight demurrage/detention: real charge dispute workflow, but FMC has formal billing/dispute rules and specialist products already provide tracking, audit and invoice review.
+
+D-030 records NO-GO for generic product theses in these six categories. This does not deny underlying operational pain; it rejects the proposed generic product in light of substitutes or demand conditions. No primary buyer interviews, buyer-specific cost data, paid pilots or WTP evidence were obtained.
+
+Full report: [research/GLOBAL_NICHE_SCAN_02_2026-11-27.md](research/GLOBAL_NICHE_SCAN_02_2026-11-27.md).
