@@ -8,7 +8,7 @@ The only current WATCH is D-029: cross-border commodity collateral / warehouse-l
 
 D-026 closed the prior issue-driven candidate set. D-010–D-024 remain historical technical research and are not active product candidates or current WATCH items. D-028 closed generic B2B stablecoin payment operations. D-030, D-031 and D-032 rejected their respective generic product theses. Verigate remains explicitly excluded; the earlier generic RWA Servicing Copilot is not reopened.
 
-**Next action:** stop broad market scans and validate D-029 with two independent commodity-finance lenders, collateral managers, warehouse operators or trade-finance operations/risk owners. Require real redacted incidents, recurrence, quantified exposure/cost, a differentiated gap beyond current systems, a named budget owner and explicit bounded-pilot willingness. No code before GO.
+**Next action:** stop broad market scans and validate D-033's residual RWA question with two independent banks, CCPs or clearing members: whether tokenised collateral can be legally accessed, transferred, converted and realised within required stress windows. Require real redacted incidents, recurrence, quantified exposure/delay, a differentiated gap beyond current collateral platforms, a named budget owner and explicit bounded-pilot willingness. D-029 remains the only WATCH overall but is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product. No code before GO.
 
 Full repository conclusion: [docs/FINAL_PROJECT_REVIEW_2026-11-27.md](docs/FINAL_PROJECT_REVIEW_2026-11-27.md).
 
