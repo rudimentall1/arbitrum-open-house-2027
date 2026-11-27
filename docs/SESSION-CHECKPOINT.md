@@ -415,4 +415,4 @@ Continue discovery in new problem spaces not already screened. Before deepening 
 - No application tests, lint or build were run; no application code or test suite exists.
 
 ### Next action
-Stop broad scans. Validate D-029 with two independent economic buyers/operators, real redacted incidents, recurrence, quantified impact, budget ownership, differentiated gap and bounded-pilot willingness. Do not build before the full GO gate.
+Stop broad scans. For the strict RWA priority, validate D-033's collateral-realisability-under-stress question with two independent banks, CCPs or clearing members, real redacted incidents, recurrence, quantified exposure/delay, budget ownership, differentiated gap and bounded-pilot willingness. D-029 remains the only WATCH overall but is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product. Do not build before the full GO gate.
