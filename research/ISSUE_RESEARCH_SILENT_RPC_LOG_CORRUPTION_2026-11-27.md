@@ -99,6 +99,10 @@ Existing alternatives already documented in this repository include SQD Portal m
 4. Ask whether operators already validate event completeness through SQD/Envio/native indexer tools and what gap remains.
 5. Do not create a generic RPC correctness proxy or indexer dashboard without a named operator and a bounded, budget-backed workflow.
 
+## Related liquidation-operator validation attempt
+
+The existing Morpho liquidation-bot operator question [#121](https://github.com/morpho-org/morpho-blue-liquidation-bot/issues/121), opened 29 Aug 2026 to ask which send-time input is actually missing and to offer a bounded 90-day provider-neutral endpoint experiment, remains open with zero comments. It has produced no public operator response, design-partner signal, or evidence of willingness to pay. This is a validation attempt, not demand evidence.
+
 ## Evidence limits
 
 - Public issue reports are not customer interviews.
