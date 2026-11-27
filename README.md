@@ -74,3 +74,9 @@ The prior candidate set remains NO-GO under D-026. A separate, bounded cycle now
 ## Current discovery decision — 27 November 2026
 
 D-027 (B2B stablecoin payment operations) is closed as **NO-GO** under D-028. Public job postings identified operator teams at Due, Pockyt, BPN and Taptap Send, while BVNK and integrated payment providers are strong incumbents. No buyer supplied redacted exceptions, quantified recurring cost, a differentiated gap and two-week pilot willingness. No product is selected and no implementation is authorized. See [the D-027 final report](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md).
+
+## Current product status — 27 November 2026
+
+No product is selected and no implementation is authorized. D-026 and D-028 remain NO-GO for their respective closed research cycles. The latest separate global non-payment scan (D-029) leaves one WATCH-only hypothesis: cross-border commodity collateral / warehouse-lien verification. It is not validated by buyers and must not be implemented before the buyer, cost, competitive-gap and pilot gates are met.
+
+See [the full global niche scan](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md) and [D-029 in Decisions](DECISIONS.md).
