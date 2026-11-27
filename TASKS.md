@@ -3,8 +3,9 @@
 ## Active queue — parallel RWA discovery (27 November 2026)
 
 - [ ] Continue searching for distinct RWA workflows in parallel; do not wait for D-033 or D-038 outreach replies before advancing other research.
-- [ ] Build a comparative scorecard across live hypotheses: pain severity/recurrence, named buyer and budget owner, existing substitutes, economic impact, procurement path, MVP feasibility, differentiation, GTM and material Arbitrum fit.
-- [ ] Make an evidence-weighted product-selection decision when the best available case is sufficiently stronger than alternatives; unresolved assumptions must be explicit and paired with a short validation plan. Do not require every interview to finish before selecting a leading hypothesis.
+- [x] Build a comparative scorecard across D-033, D-038 and D-040; D-040 is the strongest next discovery lead, but no track is ready for product selection.
+- [ ] Validate D-040's narrow operator-side reconciliation exception between official precatório/legal state and internal token/fund-unit allocation; quantify recurrence, manual effort and risk.
+- [x] Make an evidence-weighted comparison of current RWA hypotheses; D-040 ranks first but remains below the product-selection threshold (2.7/5, no validated buyer gap or Arbitrum fit).
 - [ ] Keep implementation separate: no MVP/code until explicit GO and the implementation GO gate in PROJECT_CONTEXT.md are satisfied.
 
 ## D-033 — RWA collateral realisability buyer validation (D-037, 27 November 2026)
@@ -369,3 +370,17 @@ Full evidence: [research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md
 - [ ] Do not force Arbitrum where signed inspection attestations, APIs and conventional audit trails suffice.
 
 Full evidence: [research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md](research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md).
+
+
+## D-045 — Comparative RWA hypothesis scorecard (27 November 2026)
+
+- [x] Compare D-033 collateral realisability, D-038 CVM pilot evidence operations and D-040 precatório transfer/allocation control.
+- [x] Score problem urgency, buyer/budget path, competitive whitespace, recurring commercial potential, Arbitrum fit and pilot feasibility.
+- [x] Record D-040 as the leading discovery lead only; no candidate/WATCH/GO and no implementation.
+- [ ] Check replies to Preks and Adianta Jus research emails and route to operations/legal/technology owners.
+- [ ] Obtain one redacted operator workflow and quantify the exception between official legal/registry state and internal token/fund-unit allocation.
+- [ ] Verify CNJ/SisPreq/Central National transition/API coverage and whether existing vendors already solve the exception.
+- [ ] Establish budget owner, recurring burden and bounded pilot willingness; kill if existing APIs/legal review suffice.
+- [ ] Prove a material shared-state requirement before considering Arbitrum; otherwise do not force blockchain.
+
+Full evidence: [research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md](research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md).
