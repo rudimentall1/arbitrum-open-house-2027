@@ -64,3 +64,8 @@ Keep evidence, decisions, historical context, and task status current. Distingui
 ## Current decision
 
 As of 27 November 2026, D-026 records **NO-GO for the current search set** after the bounded Pass A/B/C validation. No candidate met the buyer, recurring pain, measurable cost, unmet-workflow, and pilot gate. No implementation is authorized. See [the final evidence report](research/PASS_B_AND_FINAL_NO_GO_2026-11-27.md).
+
+
+## New discovery cycle (D-027)
+
+The prior candidate set remains NO-GO under D-026. A separate, bounded cycle now checks B2B stablecoin payment operations: cross-system reconciliation and exception investigation. Status is WATCH, not product selection. Only two buyer segments may be tested, and one validation pass is allowed; no implementation without a named buyer, quantified recurring pain, a gap beyond current substitutes and a two-week read-only pilot commitment. See [research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md) and D-027 in DECISIONS.md.
