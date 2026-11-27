@@ -394,7 +394,7 @@ Continue discovery in new problem spaces not already screened. Before deepening 
 ### Result
 - Reviewed remote main tree, repository metadata, branch list, open PRs/issues, AGENTS, project context, tasks, decisions, research log, winner map, historical reconstruction, checkpoint, package metadata, source/test placeholders and all 20 research reports.
 - Found and corrected stale conflicting current-state summaries in README, TASKS, PROJECT_CONTEXT and RESEARCH_LOG.
-- Clarified D-010–D-024 as historical technical research, not active candidates/current WATCH items after D-026.
+- Clarified D-007/D-008 (including the old GapGuard WATCH) and D-010–D-024 as historical research, not active candidates/current WATCH items after D-026.
 - Clarified D-029 as the sole current WATCH and as RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product.
 - Added D-034 and docs/FINAL_PROJECT_REVIEW_2026-11-27.md.
 - Updated AGENTS wording for coherent docs-only commits and aligned WINNER_MAP with the latest product decision.
