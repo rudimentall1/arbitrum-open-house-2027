@@ -194,3 +194,12 @@ Aave v3-core #926 (opened 14 Nov 2023) described routine daily false-positive se
 Sources: [Aave v3.7 sentinel-removal rationale](https://github.com/aave-dao/aave-v3-origin/blob/main/docs/3.7/sentinel-removal.md), [Aave proposal 473](https://app.aave.com/governance/v3/proposal/?proposalId=473), [proposal 489 execution/network scope](https://app.kvorum.watch/daos/aave/proposals/aave_governance_v3/489), [current PoolAddressesProvider docs](https://aave.com/docs/aave-v3/smart-contracts/pool-addresses-provider).
 
 **Assessment:** close as a current Arbitrum Aave v3.7 product lead; do not build sentinel monitoring. Legacy v3.6 forks need separate evidence.
+
+## 27 November 2026 — silent RPC log-result corruption follow-up
+
+See [research/ISSUE_RESEARCH_SILENT_RPC_LOG_CORRUPTION_2026-11-27.md](research/ISSUE_RESEARCH_SILENT_RPC_LOG_CORRUPTION_2026-11-27.md).
+
+- Nitro #4788 reports `eth_getLogs` requests above head returning the current-head logs on both Arbitrum One and Robinhood Chain. The reporter measured 321 wrong-block and 33 empty responses on Arbitrum One, and 289 wrong-block and 39 empty responses on Robinhood Chain over an 18-minute sample. The issue was closed as completed on 24 Nov, but the reviewed discussion has no maintainer resolution note or linked fix PR; do not infer the fix from closure.
+- Lasso RPC #460 independently demonstrates in a mock harness that a lagging upstream can return null blocks or valid-looking empty logs, and a router can accept the empty response without failover. This is not a production incident.
+- DefiLlama SDK #302 reports a pruned RPC returning `[]` for historical logs while still serving the block, and a cache persisting the range as complete. Its author checked 545 entries and found six short ranges; two were associated with reported material metric/fee loss. The related Maverick V1 #11308 and SDK #302 are one DefiLlama incident cluster, not separate buyers. The Base example is adjacent L2 evidence, not an Arbitrum-chain incident.
+- **Assessment:** recurring technical failure class across three codebases, but only one quantified production business-impact report and no validated buyer/WTP. Keep a narrow silent event-ingestion correctness hypothesis at WATCH; generic RPC monitoring/proxy and generic completeness dashboard remain rejected/crowded. No GO and no implementation.
