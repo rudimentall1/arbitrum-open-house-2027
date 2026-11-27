@@ -173,3 +173,15 @@ See [research/FLOP_HOSTED_INDEXER_INCIDENT_2026-11-26.md](research/FLOP_HOSTED_I
 ## Follow-up: current completeness substitute comparison (26 November 2026)
 
 See [research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md](research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md). SQD Portal and Envio HyperSync publish upstream validation mechanisms based on multiple sources and cryptographic block/receipt roots. Blockscout documents catch-up/retry and specialized repair fetchers; no universal public canonical-completeness guarantee was found in reviewed documentation. Alchemy RPC/log/subscription/request-log tools are operational observability and data access, not a completeness attestation for a consumer's indexer. Ekubo and DALP already provide gap-audit/backfill/monitoring and operational recovery substitutes. Narrow hypothesis: neutral cross-provider reconciliation/evidence, only if cost and buyer need are validated. Status WATCH, no GO.
+
+
+## 27 November 2026 — RPC economics, Morpho feed, and Nitro false-ready follow-up
+
+See [research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md](research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md).
+
+- Corrected Nuthatch cost baseline: current 5.17.0 defaults to a five-minute poll interval; the ~$185/month and ~9,900 CU/min Arbitrum measurement is for a prior every-block configuration, not the current default. The reference deployment and 7x retry amplification experiment are maintainer-owned measurements, not independent customer demand.
+- Morpho #118 offers a 20-minute Base borrower-health feed for 2,586 borrowers across 212 markets. No subscriber or WTP evidence; Morpho API and hosted Envio HyperIndex already cover much of baseline candidate discovery. Do not promote generic feed.
+- Morpho viem-dlc #1 reports a real cache OOM on long Arbitrum history sync, but the issue is closed and the maintainer described LRU mitigation / planned cache removal. Treat as a library-specific technical issue.
+- Nitro #4770 was a false-positive interpretation of an INFO-level BoLD warning; time-aligned snapshots showed inbox and execution progressing and the maintainer closed it as not a bug. Do not count it as another confirmed false-ready incident.
+- Official Arbitrum HA and troubleshooting guides provide substantial substitutes for generic sequencer operations, though they do not by themselves prove the #4733 source-level false-ready issue fixed.
+- **Assessment:** no new GO. Indexer RPC economics and Nitro #4733 remain WATCH; Morpho feed is not promoted; no implementation.
