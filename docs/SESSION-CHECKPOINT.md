@@ -676,3 +676,29 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - D-042: **NO-GO as an Arbitrum product thesis; no new WATCH.** Existing regulated infrastructure covers uniqueness, collateral splitting and lifecycle/API workflows. Reopen only on a named buyer's quantified gap beyond B3, BBM and authorised registrars.
 - Added research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md; added D-042 to DECISIONS.md, TASKS.md and RESEARCH_LOG.md; updated PROJECT_CONTEXT.md and README.md.
 - Research report count is now 27. Research only; no code, dependencies, tests, build, CI or deployment changed.
+
+
+## Latest continuation — D-043 Brazil warehouse receipts and physical inventory collateral (27 November 2026)
+
+### Research performed
+- Re-read repository working rules and current decision/context/task/research documentation before the new screen.
+- Reviewed Brazilian CDA/WA structure, B3 product and central-depository descriptions, current consolidated Law 11.076/2004, and Conab's warehouse registration/SICARM process.
+- Distinguished Conab's *Código de Cadastro do Armazém* (also abbreviated CDA) from the financial instrument *Certificado de Depósito Agropecuário*.
+- Reviewed public collateral-monitoring and inventory-audit coverage from Bureau Veritas Brazil and Somar Agro, plus INTEGRO's field-to-warehouse custody and CDA/WA/CPR collateral platform.
+- Revisited HFW's November 2026 warehouse receipt fraud analysis and separated the global/cross-border problem from Brazil's existing local infrastructure.
+
+### Findings and decision
+- Brazil has a statutory CDA/WA instrument pair and requires central-depositary custody through an entity authorised by Banco Central; B3 publishes central-depository and product-specific rules.
+- Conab/SICARM identifies warehouses and includes an in-person technical inspection process; it is not, based on the reviewed public page, a continuously updated public register of each pledged inventory lot.
+- Bureau Veritas, Somar Agro and INTEGRO publicly cover substantial portions of independent monitoring, stock audits, custody evidence and collateral workflow.
+- The general fraud problem is real, but no Brazil-specific uncovered workflow, named buyer, budget owner, quantified impact or pilot commitment was established.
+- **D-043: NO-GO for a standalone Brazil CDA/WA registry mirror, warehouse directory, generic proof-of-stock app, inventory/collateral dashboard or Arbitrum ledger. No new WATCH. D-029 remains the sole WATCH.**
+- Arbitrum fit is unproven; signed inspection attestations, APIs and conventional audit trails are sufficient absent a demonstrated multi-party shared-state requirement.
+
+### Documentation and verification
+- Added `research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md`.
+- Added D-043 to DECISIONS.md, TASKS.md and RESEARCH_LOG.md; updated PROJECT_CONTEXT.md and README.md.
+- Research report count is now 28.
+- Research/documentation only: no code, dependencies, tests, build, CI or deployment changed.
+- No tests/lint/build run; the repository has no product implementation or application test suite.
+- No interviews or outreach were performed for D-043; public-source research only.
