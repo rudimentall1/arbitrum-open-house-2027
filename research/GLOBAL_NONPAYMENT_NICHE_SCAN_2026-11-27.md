@@ -100,3 +100,31 @@ Find at least two independent organisations among commodity-finance lenders, com
 ## Decision
 
 **WATCH, not GO.** Continue only with targeted primary validation of the cross-border collateral-verification gap. Do not build a generic warehouse-receipt tokenization platform, global lien registry, battery passport, asset tracker, sensor oracle or DeFi dashboard. If no two independent operators confirm a measurable gap and a pilot path, record NO-GO and switch the problem frame again.
+
+## Initial buyer-access leads (27 November 2026)
+
+These are public role-based access leads for discovery, not validated buyers, customers, or pilot commitments.
+
+1. **Clemence Avril — Global Head of Commodity Trade Finance, Standard Chartered.**
+   - Role supported by Standard Chartered's 31 March 2026 article and 2026 transaction-banking publication.
+   - LinkedIn: https://sg.linkedin.com/in/clemence-avril-99a74676
+   - Relevant angle: how commodity finance teams validate warehouse receipts, cargo/title documents, physical inventory and competing security interests across jurisdictions.
+   - Sources: https://www.sc.com/en/news/corporate-investment-banking/commodity-trade-finance-opportunity-in-disruption/ ; https://www.sc.com/en/uploads/sites/66/content/docs/sc-bankable-insights-transaction-banking-issue-2-2026.pdf
+
+2. **Cauê Todeschini — Global Lead, Trade & Commodity Finance, ING.**
+   - Appointment reported 18 March 2026; previously led TCF Americas.
+   - LinkedIn: https://www.linkedin.com/in/caue-todeschini
+   - Relevant angle: cross-border commodity finance controls and exposure where lenders rely on local registries, warehouse operators and collateral managers.
+   - Source: https://www.gtreview.com/news/on-the-move/ing-appoints-global-head-of-trade-and-commodity-finance/
+
+3. **Abhay Dandwate — Chief Risk Officer & Head of Strategy, National Bulk Handling Corporation (NBHC).**
+   - NBHC described this current role in a company LinkedIn post in November 2026. NBHC operates warehousing, collateral management, trade facilitation and commodity services.
+   - LinkedIn: https://in.linkedin.com/in/abhay-dandwate-24972887
+   - Relevant angle: independent stock/warehouse attestations, inspection frequency, lender access, inventory release controls, and interoperability with banks.
+   - Sources: https://www.linkedin.com/company/nbhc-india/ ; https://www.nbhcindia.com/executive-management
+
+4. **Additional operator-role lead — OCBC Transaction & Collateral Management.**
+   - An advertised AVP role describes monitoring collateral movement, controlling release of financed goods to warehouses/forwarders/shipping companies, and resolving transaction exceptions. This is a role signal, not confirmation of a current product gap.
+   - Vacancy: https://ocbc.wd102.myworkdayjobs.com/en-US/External/job/AVP--Transaction---Collateral-Management-Manager_JR00010266
+
+Outreach must test whether cross-border pledge conflicts or independent proof gaps actually occur after existing national registries and collateral-management agreements are used. Do not pitch a blockchain registry as the answer.
