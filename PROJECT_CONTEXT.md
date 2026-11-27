@@ -8,11 +8,13 @@ The repository is the source of truth for prior research, hackathon winner analy
 
 ## Current conclusion
 
-**No product has GO status and no implementation should start.** D-029 opens a separately authorized global market/problem scan outside the closed stablecoin-payment reconciliation cycle. The prior RPC/indexer, tokenized private-credit servicing, and B2B stablecoin reconciliation searches remain NO-GO; Verigate remains explicitly excluded.
+**No product has GO status and no implementation should start.** D-030 is the latest second global niche scan. Six additional generic theses were rejected due to direct incumbents, official infrastructure, a direct competing project, or weak market demand: construction-loan payment-gap verification, GPU-cloud SLA evidence ledger, durable CDR offtake delivery dashboard/escrow, CBAM supplier data platform, biodiversity-credit market infrastructure, and ocean-freight demurrage/detention audit.
 
-The current new scan found one **WATCH-only** hypothesis: cross-border verification of commodity collateral / warehouse liens across national registries and independent stock attestations. This is not a generic warehouse-receipt tokenization product or a global lien registry. National systems and commercial providers already cover substantial parts of the workflow, while legal enforceability, physical source truth, network adoption and buyer access remain major barriers. No buyer interview, quantified customer cost, pilot willingness or product demand has been established. Do not implement.
+D-029's cross-border commodity collateral / warehouse-lien verification remains **WATCH only**. One outreach message was sent; two LinkedIn contacts did not accept messages. That is an access/channel issue, not a negative buyer response. No buyer interview, quantified customer cost, pilot willingness or product demand has been established. Do not implement.
 
-Full evidence and screened sectors: [research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
+D-026 and D-028 remain closed; Verigate remains explicitly excluded. Continue discovery in new problem spaces, requiring a named budget owner, independently corroborated pain, measurable cost, an unmet workflow beyond existing products, reachable buyers and a credible reason for Arbitrum shared state.
+
+Full latest evidence: [research/GLOBAL_NICHE_SCAN_02_2026-11-27.md](research/GLOBAL_NICHE_SCAN_02_2026-11-27.md). D-029 evidence: [research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
 
 ## Explicit exclusions
 
