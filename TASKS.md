@@ -17,6 +17,21 @@
 - [x] Complete RWA infrastructure screen D-033; no generic RWA product selected.
 - [x] Complete repository-wide audit and canonical-state cleanup under D-034.
 
+### Targeted operator evidence check — D-035 (27 November 2026)
+
+- [x] Recheck the Bank of England and ESMA consultations for the precise legal/operational path from posted tokenised collateral to usable liquidity after default.
+- [x] Separate Eurex/HQLAx/Clearstream collateral mobilisation from CCP-held tokenised-collateral liquidation; record the distinction and legal/operational boundaries.
+- [x] Verify DTCC/DTC production tokenisation and CCP-margin workflow status, named participants and what the public sources do not establish.
+- [x] Map interview targets at Eurex Clearing, J.P. Morgan, DTCC/DTC, CME Clearing and BNP Paribas Securities with participation caveats.
+- [x] Record that no buyer interviews, redacted incidents, quantified customer losses, budget owner or pilot commitment were obtained.
+- [ ] Conduct two independent primary operator interviews (CCP and clearing-member/bank); obtain one redacted default drill, near-miss or exception from each with timestamps and impact.
+- [ ] Identify budget owner, existing controls/workarounds and explicit bounded read-only pilot willingness.
+- [ ] Prove a differentiated gap beyond CSD/custody, HQLAx/Clearstream, DTCC infrastructure, collateral platforms and internal default-management controls.
+- [ ] Establish whether Arbitrum shared state is materially required; current evidence does not support this.
+- [ ] Keep this as a problem-validation question only. No candidate/WATCH/MVP/code until the full GO gate and explicit authorization.
+
+Full evidence: [research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md).
+
 ## GO criteria
 
 A candidate advances only when all conditions are met:
