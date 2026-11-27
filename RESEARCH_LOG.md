@@ -358,3 +358,16 @@ A targeted follow-up to D-035 checked official CCP operating criteria and curren
 - No replies were found to D-036's two initial emails. Two targeted emails were then sent to Eurex Client Services and CME Collateral Risk. No replies or meetings have yet been received.
 - The new evidence may indicate that current eligibility rules, legal opinions and committed liquidity facilities already manage the risk. Tokenisation-specific pain, budget, product gap and Arbitrum necessity remain unproven.
 - **Result:** problem validation only; no product candidate, no GO, no new WATCH. D-029 remains the only WATCH. No implementation.
+
+
+## 27 November 2026 — D-038 parallel RWA hypothesis: CVM DLT pilot evidence operations
+
+D-038 was opened so product discovery does not stop while D-033 operator outreach is pending. This is a focused new workflow, not a repeat of generic RWA servicing or collateral scans.
+
+CVM's Resolução 249 specifies read-only real-time regulator access, machine-readable APIs, complete timestamped audit trails, continuous availability, fortnightly progress/problem reports, immediate incident notifications, and a final report describing off-chain activities, oracles and off-chain governance. CVM announced 11 submitted proposals from ABBC, ABcripto, ABFintech, ABToken multichain, ABToken Stellar, ANBIMA, B3, BEE4 & Núclea, CSD, Liqi, and Real Price & Registro de Imóveis do Brasil. The public announcement did not establish admission or network-manager roles.
+
+Exploratory hypothesis: a narrow evidence-operations kit for DLT network managers/infrastructure operators to correlate on-chain/off-chain test events and generate regulator-ready evidence/report inputs. Key kill criteria are mature existing API/audit/GRC/SIEM tooling, no recurring manual burden, no buyer/budget, one-off pilot demand only, or no procurement path. Arbitrum fit remains unproven.
+
+Portuguese-language research requests were sent from connected Gmail to CSD BR (contato@csdbr.com), Liqi (contato@liqi.com.br), Núclea (backoffice@nuclea.com.br), and BEE4 (atendimento@bee4.com.br). No replies or meetings yet. This is outreach, not customer discovery.
+
+**Result:** D-038 exploratory hypothesis only; not a candidate, WATCH or GO. Continue in parallel with D-033. D-029 remains the sole WATCH. Full report: [research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md).
