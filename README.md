@@ -51,3 +51,6 @@ README.md
 ## Working agreement
 
 Keep evidence, decisions, historical context, and task status current. Distinguish verified facts from archived claims and hypotheses. Do not claim tests, deployments, customers, or product demand without fresh verification.
+
+
+- [27 Nov issue-driven follow-up](research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md) — Nuthatch current cost baseline, Morpho borrower-feed demand check, SDK cache OOM, and Nitro #4770 false-positive recheck.
