@@ -227,3 +227,29 @@ Agentic payment authorization/control is outside this cycle to avoid reviving th
 - No buyer interviews, outreach or pilot were performed.
 - Remote GitHub updates were made sequentially and all seven updated files were re-read; latest remote HEAD was verified.
 - Local checkout/status is unavailable.
+
+## Latest session checkpoint — 27 November 2026 (D-029)
+
+### Completed
+- Re-read repository rules, project context, decisions, tasks, README, research log, winner map and prior checkpoint before the new scan.
+- Verified latest remote HEAD before updates: c7f7443da5fe064d905b32c94c787f18eabe6790; no open pull requests.
+- Opened a new, user-authorized global market/problem scan outside stablecoin payment reconciliation.
+- Screened multiple non-payment niches against customer problem evidence and existing competitors.
+- Created research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md.
+- Recorded D-029 and updated PROJECT_CONTEXT.md, DECISIONS.md, TASKS.md, RESEARCH_LOG.md and README.md.
+
+### Result
+- No GO candidate and no implementation.
+- One WATCH-only hypothesis: cross-border commodity collateral / warehouse-lien verification across national registries and independent stock attestations.
+- Strong substitutes and infrastructure already exist: Singapore TFR, Brazil B3 CPR Interoperability/Guarantee, Kenya eWRS, Whrrl, Secro, MIT DCI b_verify and other providers.
+- No buyer interviews, quantified customer costs, pilot commitments or product demand were obtained.
+- D-026/D-028 remain closed; Verigate remains excluded.
+
+### Next step
+Identify two independent trade-finance lenders, commodity traders, collateral managers or warehouse operators. Obtain redacted incidents, recurrence, measurable impact, existing workflow and willingness for a read-only non-binding pilot. If no real gap survives this check, stop this candidate and change the problem frame again. Do not code before validation.
+
+### Checks and limitations
+- Documentation/research only. No application code changed.
+- Tests, lint and build not run.
+- Remote updates were made sequentially using current file SHAs. Final remote re-read and HEAD verification must be completed before closing this checkpoint.
+- Local checkout/status unavailable.
