@@ -95,3 +95,5 @@ See [research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md](research/ISSUE_RESEARCH_FOL
 - Nitro #4770 was closed as not a bug after time-aligned snapshots showed the node executing all inbox messages; it is not independent confirmation of #4733.
 - Official Arbitrum HA and troubleshooting documentation cover much of generic sequencer operations. #4733 remains a single-operator correctness report.
 - No new GO candidate; product selection remains undecided and implementation remains blocked pending buyer/workflow validation.
+
+- Aave #926 (2023 PriceOracleSentinel daily false-positive) is obsolete for upgraded Arbitrum Aave v3.7: governance proposal 489 Part 2 executed 28 May 2026 on Arbitrum and v3.7 removed sentinel checks from borrow/liquidation paths. Do not treat the still-open legacy issue as current buyer pain. See [research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md](research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md).
