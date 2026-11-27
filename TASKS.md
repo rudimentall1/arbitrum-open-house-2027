@@ -144,3 +144,14 @@ Do not resume broad issue/sector research or add candidates to this search set. 
 - [ ] If the buyer/cost/gap/pilot gate is not met in this single validation pass, record NO-GO and stop. Do not add buyer segments or continue generic market research.
 
 Current status: WATCH / not GO. Research: [NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md).
+
+
+## D-027 closeout — buyer-access validation (27 November 2026)
+
+- [x] Identify named payment-operations prospects and relevant buyer roles: Due, Pockyt, BPN, Taptap Send; classify BVNK as incumbent/competitor.
+- [x] Review direct-wallet receiver evidence and existing invoice-linked alternatives; Abundance360/Coinbase Business is a named integrated-substitute case.
+- [x] Record public contact paths and role evidence without treating job postings or LinkedIn profiles as interviews.
+- [x] Apply the D-027 buyer/cost/gap/pilot gate.
+- [x] Record D-028 NO-GO; stop this cycle and do not implement.
+
+Result: named prospects and reachable roles exist, but no redacted production exceptions, quantified recurrence/cost, differentiated gap or two-week pilot willingness was obtained. Do not extend D-027 with generic research. Reopen only on new primary buyer evidence.
