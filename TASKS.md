@@ -340,3 +340,18 @@ Full evidence: [research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md]
 - [ ] Keep D-040 exploratory only until buyer evidence; no candidate/WATCH/GO or implementation.
 
 Full evidence: [research/PRECATORIOS_TRANSFER_COMPLIANCE_AND_TOKENIZATION_2026-11-27.md](research/PRECATORIOS_TRANSFER_COMPLIANCE_AND_TOKENIZATION_2026-11-27.md).
+
+
+## D-041 — Brazil duplicata escritural operational-gap screen (27 November 2026)
+
+- [x] Review BCB Resolução 339/2023, Resolução 540/2025, IN BCB 775/2026 and Comunicado 45.562/2026.
+- [x] Verify BCB assisted-production start and B3's current phased rollout/migration timeline.
+- [x] Review V360's operational risk mapping; record that it is one case, not a statistical market study.
+- [x] Review market adoption report (233 issuer establishments as of 8 Nov 2026); do not treat as TAM.
+- [x] Map direct competition: V360, Monkey, Núclea and B3.
+- [x] Record NO-GO as an Arbitrum product thesis; no new WATCH or implementation.
+- [ ] Reopen only on a named buyer's quantified uncovered exception class and budget owner.
+- [ ] If reopened, test conventional API/SaaS first; require separate evidence for Arbitrum.
+- [ ] Keep pre-existing contract migration/tombamento as a question, not a candidate, unless buyer evidence establishes recurring unmet demand.
+
+Full evidence: [research/BRAZIL_DUPLICATA_ESCRITURAL_OPERATIONAL_GAP_SCREEN_2026-11-27.md](research/BRAZIL_DUPLICATA_ESCRITURAL_OPERATIONAL_GAP_SCREEN_2026-11-27.md).
