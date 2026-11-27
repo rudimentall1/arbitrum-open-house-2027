@@ -59,3 +59,8 @@ Keep evidence, decisions, historical context, and task status current. Distingui
 
 - [27 Nov silent RPC log corruption follow-up](research/ISSUE_RESEARCH_SILENT_RPC_LOG_CORRUPTION_2026-11-27.md) — Nitro wrong-height logs, Lasso lagging-upstream empty responses, and DefiLlama persistent cache omissions; WATCH only.
 - Final discovery boundary: see D-025 in `DECISIONS.md`; only three validation passes remain, with GO/NO-GO at the end and no open-ended sector expansion.
+
+
+## Current decision
+
+As of 27 November 2026, D-026 records **NO-GO for the current search set** after the bounded Pass A/B/C validation. No candidate met the buyer, recurring pain, measurable cost, unmet-workflow, and pilot gate. No implementation is authorized. See [the final evidence report](research/PASS_B_AND_FINAL_NO_GO_2026-11-27.md).
