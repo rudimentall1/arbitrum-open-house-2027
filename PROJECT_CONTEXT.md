@@ -87,7 +87,7 @@ Current vendor comparison is documented in [research/INDEXER_COMPLETENESS_SUBSTI
 
 ## 27 November 2026 follow-up
 
-See [research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md](research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md).
+See [research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md](research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md) and [research/ISSUE_RESEARCH_SILENT_RPC_LOG_CORRUPTION_2026-11-27.md](research/ISSUE_RESEARCH_SILENT_RPC_LOG_CORRUPTION_2026-11-27.md).
 
 - Nuthatch's current 5.17.0 docs set the default caught-up poll interval to five minutes; the earlier ~$185/month / ~9,900 CU/min Arbitrum figure applies to an every-block configuration and is not the current default. The maintainer's own deployment measurements are not independent customer WTP.
 - Morpho borrower-feed issue #118 is one supply-side offer: 2,586 Base borrowers / 212 markets / 20-minute refresh, with no subscriber, payment, or commitment evidence. Morpho API and hosted Envio HyperIndex are documented alternatives in the Morpho liquidation-bot provider design. Do not promote a generic borrower feed.
