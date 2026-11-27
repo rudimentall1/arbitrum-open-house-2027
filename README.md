@@ -34,7 +34,7 @@ Research and product-discovery workspace for Arbitrum Open House São Paulo 2027
 - WINNER_MAP.md — selected Arbitrum/Open House winner analysis.
 - docs/FINAL_PROJECT_REVIEW_2026-11-27.md — repository-wide audit.
 - docs/SESSION-CHECKPOINT.md — session handoff.
-- research/ — 21 supporting research reports.
+- research/ — 22 supporting research reports.
 - package.json — minimal Node.js metadata; no runtime dependencies.
 - src/README.md and tests/README.md — intentional placeholders.
 
