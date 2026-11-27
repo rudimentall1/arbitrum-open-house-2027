@@ -377,7 +377,8 @@ Full evidence: [research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCRE
 - [x] Compare D-033 collateral realisability, D-038 CVM pilot evidence operations and D-040 precatório transfer/allocation control.
 - [x] Score problem urgency, buyer/budget path, competitive whitespace, recurring commercial potential, Arbitrum fit and pilot feasibility.
 - [x] Record D-040 as the leading discovery lead only; no candidate/WATCH/GO and no implementation.
-- [ ] Check replies to Preks and Adianta Jus research emails and route to operations/legal/technology owners.
+- [x] Check current replies: Adianta Jus automated acknowledgement only (protocol 44); no Preks reply. No customer validation yet.
+- [ ] Track any substantive reply and route it to an operations/legal/technology owner.
 - [ ] Obtain one redacted operator workflow and quantify the exception between official legal/registry state and internal token/fund-unit allocation.
 - [ ] Verify CNJ/SisPreq/Central National transition/API coverage and whether existing vendors already solve the exception.
 - [ ] Establish budget owner, recurring burden and bounded pilot willingness; kill if existing APIs/legal review suffice.
