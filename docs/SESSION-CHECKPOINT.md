@@ -122,3 +122,21 @@ GO requires named buyer, independently corroborated recurring pain, measurable c
 - Added competitive review and finite-search protocol to the silent-RPC research report.
 - Added D-025 and updated TASKS, PROJECT_CONTEXT, RESEARCH_LOG, WINNER_MAP, and this checkpoint.
 - No implementation or tests changed.
+
+
+## Pass A public operator evidence check — 27 November 2026
+
+### Completed
+- Re-read Nitro #4788 issue and all comments through GitHub; confirmed closure metadata and that comments are technical client-side recommendations, not buyer evidence.
+- Re-read Morpho Blue liquidation bot #121 and comments; confirmed open since 29 Aug 2026 with zero comments despite explicit offer to sponsor a bounded 90-day experiment.
+- Re-read Morpho #118 and comments; confirmed one supply-side scanner offer and no subscriber/pilot evidence.
+- Read current Morpho market-position health API documentation and the published liquidation bot README. API market-level price/interest data may be about two minutes stale; the bot's documented workflow reads on-chain state and simulates before sending.
+- Added research/PASS_A_OPERATOR_EVIDENCE_2026-11-27.md.
+
+### Result
+- Arbitrum/Orbit silent RPC/indexer integrity: technical issue is real, but no independent operator with quantified recovery/business cost or pilot willingness found. Nitro #4788 remains one reporter / one Nitro release cluster across two endpoints. Weak WATCH.
+- Morpho/Aave send-time liquidation data: Morpho API freshness limitation is documented, but it is not proven to block send-time execution after on-chain reads and simulation. Issue #121 has no operator response; no quantified missed opportunities, cost, or pilot. WATCH / unvalidated.
+- No GO candidate. No code, tests, lint, or build changed/run.
+
+### Next step
+Proceed to Pass B only: validate the existing post-origination servicing of tokenized private credit hypothesis with real servicing/fund-operations buyers. Do not add a new segment or repeat broad issue searches. Pass C remains the final GO/NO-GO decision under D-025.
