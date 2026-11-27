@@ -396,3 +396,14 @@ Full evidence: [research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md](res
 - [ ] Ask any operator respondent to distinguish temporary transition exceptions from recurring post-activation workflow; do not build a migration-only product.
 - [ ] Keep D-040 exploratory only. Re-score or kill if official Central National/registrar APIs cover the exception or if no recurring budgeted burden exists.
 
+
+### D-040 boundary decision — 27 November 2026
+
+- [x] Inspect Preks FIDC SaaS public workflow and compare it with the proposed D-040 transfer/diligence/assignment product.
+- [x] Review Portaria Conjunta CNJ/BCB 6/2026 mandate for event/status model, audit logs, reconciliation, discharge, duplicate prevention and interoperability.
+- [x] Record that generic transfer eligibility, diligence, registry mirror and blockchain assignment overlap existing Preks offering and emerging official infrastructure; do not build.
+- [ ] Optional bounded discovery only: test downstream partial-receipt allocation across underlying precatórios to FIDC quotas or contractual token/sub-cession holders with a fund manager/administrator/servicer.
+- [ ] Require a current redacted example, exception frequency, manual hours, financial/control impact, named budget owner and paid-pilot path.
+- [ ] Kill the downstream question if administrator/custodian/servicer accounting already handles it; do not create a product merely because the workflow exists.
+- [ ] No Arbitrum until independent parties demonstrate a shared-state requirement beyond signed APIs and conventional audit records.
+
