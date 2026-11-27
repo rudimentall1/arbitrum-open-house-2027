@@ -129,3 +129,45 @@ If no named buyer provides real examples, quantified cost and explicit willingne
 - Reddit posts have low engagement and do not establish representative demand.
 - Arbitrum stablecoin transfer volume includes all use cases; it is not a B2B reconciliation TAM.
 - No code, tests, lint or build were changed/run.
+
+
+## 7. Bounded buyer-access validation — 27 November 2026
+
+This pass searched for named operating companies and publicly identifiable roles, not another round of generic market commentary. Public job descriptions are evidence that the company is staffing a workflow; they are **not** evidence that the company wants to buy an external product.
+
+### Segment A — processors / fintechs operating their own stack
+
+| Company | Public operational signal | Buyer / access lead | Assessment |
+|---|---|---|---|
+| **Due** | Two recent operations vacancies describe daily fiat/stablecoin reconciliation, breaks and investigations, ledger/bank/provider matching, stuck/returned/recalled payments, and building back-office automation. Its Product Operations vacancy also describes investigating customer integration issues and reducing manual steps. | CEO Robert Sargsian; SVP Operations & Expansion Vasco Moura; Product Operations hiring post by Ramón González Parrilla. Public profiles: https://www.linkedin.com/in/robsargsian ; https://es.linkedin.com/in/vasco-moura-6ab526a5 . The vacancy lists rob@due.network as an application contact, not a confirmed sales/discovery channel. | **Best interview lead, not a validated buyer.** Strong role/workflow fit, but Due is explicitly investing in internal tooling and automation; that may make a standalone external product less attractive. Ask whether customer-facing cross-system exceptions remain outside its own ledger/back-office tools. |
+| **Pockyt** | Head of Payment Operations vacancy describes high-touch/manual money movement, settlement/reconciliation with processor and banking partners, and building SOPs, controls and escalation paths. Its company page says it operates a unified ledger and API across fiat and stablecoin rails. | Founder & CEO Mason Lin: https://www.linkedin.com/in/mason-lin-5806996a . Head of Payment Operations vacancy is no longer accepting applications. | **Strong problem fit, weak product gap.** A unified ledger/API is already the product strategy; the role is partly about scaling internal operations. Need evidence that external partner/client state still escapes that ledger. |
+| **Better Payment Network (BPN)** | Public Payment Operations Lead vacancy describes abnormal credits, returns, account freezes, settlement failures, reconciliation breaks, inconsistent upstream/downstream status, and daily reconciliation/balance verification. | Payment Operations Lead / Network Payment Operations team via company hiring channel: https://www.bpn.finance/ . | **Strongest explicit exception taxonomy.** However BPN says it is building its own operating infrastructure and APIs for status queries, refunds, reconciliation and exception notifications. This is both an interview lead and a direct build/substitute risk. |
+| **Taptap Send** | Treasury Operations Analyst vacancy focuses initially on stablecoin funding, full payment lifecycle tracking/credit confirmation, troubleshooting, partner funding timelines and forecasting. | Treasury Operations team; role reports to Director of Payments. Public vacancy: https://careers.canaan.com/companies/taptap-send/jobs/98057192-treasury-operations-analyst . | **Adjacent lead.** Evidence supports funding/settlement operations, but does not establish invoice-to-chain-to-ledger reconciliation as a costly unmet workflow. |
+| **BVNK** | Current Reconciliation Analyst vacancy covers internal/external fiat and digital-asset reconciliation and discrepancy investigation. A Senior Product Manager vacancy owns ledger/reconciliation correctness through returns, reversals, recalls, exceptions and customer API events. | Reconciliation team / Fiat Product team. Public roles: https://job-boards.eu.greenhouse.io/bvnk/jobs/4822303101 and https://jobs.evolc.com/job/bvnk-services-senior-product-manager-fiat-payment-operations-rs84k . | **Do not treat as a target buyer.** BVNK is a direct incumbent/competitor and is building these capabilities in-house. Its hiring confirms operational complexity, not demand for a third-party product. |
+
+Additional named operating evidence:
+- **DIMOCO** (Austrian licensed payment institution/acquirer) is live with merchant stablecoin settlement on Fipto infrastructure. This is a real processor workflow but the selected stack is already supplied by Fipto; no uncovered exception or external buyer signal was found. https://www.fipto.com/articles/fipto-dimoco-stablecoin-settlement-acquirers
+- **Paysecure** selected Valuno Atlas for stablecoin conversion/orchestration and regulated settlement. Again, this is an incumbent integration rather than an independent buyer lead. https://paysecure.com/resources/press/paysecure-selects-valunos-atlas-service
+
+### Segment B — businesses receiving direct stablecoin payments into self-custody wallets
+
+No named business was found publicly confirming all of: direct self-custody invoice receipts, recurring reconciliation exceptions, quantified manual work/loss, and a gap after evaluating invoice-linked products.
+
+The clearest named counterexample is **Abundance360**, which adopted Coinbase Business invoicing for USDC/USDT and reports that the single invoicing/settlement workflow reduced manual reconciliation. That suggests the obvious direct-receipt workflow can be absorbed by an existing business payment product rather than requiring a separate reconciliation layer. Source: https://www.coinbase.com/es-es/business/real-results/case-studies/abundance-360?country=US&currency=USD&japan_bespoke_content=false&logged_in=false&mobile=false&view=marketing
+
+Generic guidance about direct wallet acceptance describes reconciliation, refund and partial-payment work as the merchant's responsibility, but it is editorial/vendor material and does not identify a buyer or quantify recurring pain. Do not upgrade it into customer evidence.
+
+### What the job-market evidence changes
+
+1. It makes the operational problem more concrete: payment status vs actual fund status, returns/refunds, abnormal credits, funding/prefund, settlement breaks, partner reports and ledger mismatch are named responsibilities.
+2. It identifies reachable interview roles: Head/Lead of Payment Operations, Treasury Operations, Reconciliation Analyst, Product Operations, and the SVP/Head of Operations.
+3. It weakens the external-product thesis: Due, Pockyt and BPN are building internal ledgers, APIs, controls and automation; BVNK is a direct vendor with dedicated reconciliation/product teams; Fipto/Kyriba and Coinbase demonstrate integrated alternatives.
+4. It does not satisfy the D-027 GO gate. No person/company supplied redacted production exceptions to us, monthly recurrence, quantified manual cost/loss/SLA impact, an unmet workflow beyond substitutes, or explicit willingness for a two-week read-only pilot. A job posting is not a buyer interview or pilot commitment.
+
+## 8. Final decision for D-027 — NO-GO (27 November 2026)
+
+**NO-GO for product selection and implementation in this cycle.** The public-source buyer-access pass found credible named operator teams and contact paths, but did not produce the required buyer evidence. Segment A shows real operations work but also substantial internal build and incumbent coverage. Segment B produced no named direct-wallet business with quantified unresolved pain; the strongest named case instead uses Coinbase's integrated invoice/settlement workflow and reports reduced manual reconciliation.
+
+This is an evidence-bound stop, not a claim that stablecoin payment operations have no pain. Do not build a generic reconciliation dashboard, matcher, subledger or exception queue. Do not extend D-027 with more public job searches or vendor articles. Reopen only if a direct conversation produces the complete D-027 evidence package: redacted production examples, recurrence/month, measurable cost or SLA impact, a gap beyond current tools, and explicit two-week read-only pilot willingness.
+
+No buyer interviews, outreach, pilot, or WTP validation were performed in this research session. No product was selected; no implementation was authorized.
