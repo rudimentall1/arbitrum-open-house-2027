@@ -733,3 +733,28 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Documentation-only updates through GitHub; no code, dependencies, tests, build, CI or deployment changed.
 - No test/lint/build command was run. The repository remains a research/documentation workspace with no application test suite.
 - This was public-source desk research only; no customer interviews or outreach were performed for D-044.
+
+
+## Latest continuation — D-045 comparative RWA hypothesis scorecard (27 November 2026)
+
+### Comparison
+- Compared D-033 (collateral realisability under stress), D-038 (CVM DLT pilot evidence operations) and D-040 (precatório transfer-eligibility/token-allocation control).
+- Qualitative weighted score: D-040 2.7/5; D-033 2.4/5; D-038 2.2/5. Scores are prioritisation judgements, not market measurements.
+- D-040 is the strongest next discovery lead because it has a concrete new regulatory workflow, identifiable commercial operators and outreach already sent. It is not a product candidate or WATCH.
+- D-033 has strong supervisory problem evidence but no tokenisation-specific production incident, budget owner, differentiated gap or Arbitrum requirement.
+- D-038 has explicit CVM 249 obligations but the pilot is voluntary/unpaid and short; recurring budget and Arbitrum fit are unproven.
+- No track reaches product-selection threshold. No product selected, no WATCH, no GO, no implementation.
+
+### Next bounded step
+- Check Preks and Adianta Jus outreach replies; no replies were recorded in the previous checkpoint.
+- Seek one redacted operator workflow showing where official judicial/registry state diverges from internal fund-unit/token allocation.
+- Quantify exception frequency, manual effort, issuance delay, over-allocation risk or remediation cost.
+- Verify CNJ/SisPreq/Central National transition/API coverage and existing provider coverage.
+- Kill D-040 if official APIs, existing vendors or legal review already solve the exception, or if no budget owner and bounded pilot path exist.
+- Separately establish whether multiple independent parties require shared state; otherwise do not force Arbitrum.
+
+### Documentation
+- Added `research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md` and D-045.
+- Updated DECISIONS.md, TASKS.md, PROJECT_CONTEXT.md, README.md and RESEARCH_LOG.md.
+- Research/documentation only; no code, dependencies, tests, build, CI or deployment changed.
+- No tests/lint/build run; no application test suite exists.
