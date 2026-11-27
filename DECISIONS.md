@@ -161,3 +161,11 @@
 - **Decision:** Do not promote a generic Morpho borrower-health scanner or alert feed to a product candidate based on the current public evidence. Keep only a narrow validation question around missing send-time inputs for active liquidators.
 - **Rationale:** Morpho Blue liquidation-bot issue #118 is one operator's supply-side offer for a 20-minute Base feed covering 2,586 borrowers across 212 markets. The post asks whether operators would use it; no subscriber, payment, pilot commitment, or independent demand is shown. The Morpho bot documents Morpho API and hosted Envio HyperIndex data providers, making broad borrower discovery an existing capability. A 20-minute snapshot is also not proof of send-time freshness for liquidation execution.
 - **Consequences:** Do not build a generic scanner, dashboard, or webhook feed. Reopen only if an independent liquidator identifies a specific recurring gap in coverage/freshness beyond Morpho API, HyperIndex, and direct RPC, quantifies the cost or missed opportunity, and commits to a bounded test. See `research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md`.
+
+
+## D-023 — Do not treat Aave #926 sentinel false positives as a current Arbitrum product gap
+
+- **Status:** Accepted
+- **Decision:** Close the legacy Aave #926 sequencer-sentinel false-positive as a current Arbitrum v3.7 product opportunity. Do not build a monitor or alerting product around this issue.
+- **Rationale:** The 2023 issue reports daily false-positive blocking of borrow/liquidation due to the sentinel timestamp check. Aave v3.7 removes the sentinel from Pool borrow/liquidation validation because inconsistent L2 uptime signals produced false positives. Governance proposal 489 Part 2 was executed on 28 May 2026 and includes Arbitrum; it unsets configured sentinels and upgrades the Pool/PoolConfigurator. Current Aave docs state that the sentinel address is no longer read by the Pool since v3.7.
+- **Consequences:** Treat the issue as historical evidence of a real class of operational failure, not an active buyer problem on upgraded Arbitrum Aave v3.7 deployments. Older v3.6 forks/deployments require separate proof before reconsideration. See `research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md`.
