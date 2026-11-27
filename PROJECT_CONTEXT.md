@@ -102,3 +102,9 @@ Read HISTORY_RECONSTRUCTION.md before revisiting older work. Agent Guardian / Gu
 ### D-043 — Brazil warehouse receipts and physical inventory collateral
 
 Brazil's CDA/WA legal instruments and central-depositary infrastructure, Conab/SICARM warehouse identification, and specialist collateral-monitoring providers make generic local registry, warehouse-directory and inventory-dashboard products poor opportunities. Bureau Veritas, Somar Agro and INTEGRO publicly cover material portions of the obvious monitoring/custody workflow. D-043 is NO-GO as a standalone Brazil Arbitrum thesis; no new WATCH. D-029 was closed NO-GO by D-044 after direct competitive overlap and absent buyer validation. Full report: [D-043](research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md).
+
+
+### D-040 boundary clarification — 27 November 2026
+
+Preks' public FIDC SaaS already covers digital assignment, tax/legal diligence, 20+ certificates, e-signature, Ethereum assignment recording, conditional escrow and FIDC origination/diligence. Portaria Conjunta CNJ/BCB 6/2026 also scopes national event/status IDs, audit trails, logs, reconciliation, discharge, duplicate prevention and interoperability into SisPreq/Central Nacional. Therefore, do not build generic precatório transfer eligibility, diligence, registry mirror or blockchain assignment. One separate discovery question may be tested: allocation/reconciliation of partial receipts from multi-claim portfolios to FIDC quotas or contractual token/sub-cession holders. Historical Foxbit documentation demonstrates this workflow existed, not that current buyers have unmet demand. Require a redacted current workflow, measured exceptions/manual effort/impact, budget owner and paid-pilot path; kill if existing fund accounting systems suffice. No candidate/WATCH/GO or Arbitrum fit established.
+
