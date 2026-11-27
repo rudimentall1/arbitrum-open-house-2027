@@ -41,18 +41,18 @@
 - **Rationale:** The latest user-approved summary does not select RWA Servicing Copilot and explicitly directs the next stage toward recurring real problems in GitHub Issues/Discussions across Arbitrum/Nitro/Orbit and relevant protocols.
 - **Consequences:** Do not conduct buyer validation or implementation planning for this proposal unless the user explicitly reopens it and new primary evidence supports it.
 
-## D-007 — Issue-driven discovery is the active research method
+## D-007 — Issue-driven discovery method (superseded)
 
-- **Status:** Accepted at user's explicit direction
-- **Decision:** Continue from the completed broad research funnel by mining primary issues/discussions and technical reports for recurring problems. Prioritize Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
-- **Rationale:** Broad sector scans and internally generated ideas did not establish a GO candidate. Primary complaints and operational reports provide a more direct path to observable pain.
-- **Consequences:** For each signal, verify status, recurrence, independent reporters, workaround, cost, buyer, competition, and MVP feasibility. A single issue is a lead, not proof of a market. Do not start coding before a GO decision.
+- **Status:** Superseded by D-026 and D-034
+- **Decision:** This was the active research method for the November 2026 technical-discovery phase. It is no longer the current method.
+- **Rationale:** The capped issue-driven candidate set was closed NO-GO by D-026. The user subsequently prioritized RWA and authorized separately framed market/problem research.
+- **Consequences:** Preserve the issue research as historical evidence. The active task is RWA-focused buyer validation under D-034, not continued Nitro/SDK/Morpho issue mining.
 
-## D-008 — Preserve the current candidate statuses
+## D-008 — Preserve the then-current candidate statuses (superseded)
 
-- **Status:** Accepted
-- **Decision:** GapGuard remains WATCH only; REJECT directions remain closed absent new decision-relevant evidence; Verigate remains excluded; product selection is undecided.
-- **Rationale:** These are the explicit outcomes in the user's 26 November 2026 research summary.
+- **Status:** Superseded by D-026 and D-034
+- **Decision:** At the time, GapGuard was WATCH only, rejected directions remained closed, Verigate was excluded, and product selection was undecided. This is a historical status, not a current WATCH.
+- **Rationale:** D-026 closed the prior issue-driven candidate set. D-034 establishes D-029 as the only current WATCH and records the RWA priority.
 
 ## D-009 — Do not pursue generic RPC monitoring or provider rankings
 
@@ -285,7 +285,7 @@
 
 - **Status:** Accepted.
 - **Decision:** The canonical current state is: no product selected; no GO; no implementation authorized; RWA is the user's priority research sector; D-029 cross-border commodity collateral / warehouse-lien verification is the only current WATCH. D-029 is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product. The collateral-realisability-under-stress question from D-033 remains a problem area only, not a second WATCH.
-- **Supersession:** D-026 closed the prior issue-driven candidate set. Therefore D-010 through D-024 remain preserved as historical technical decisions and evidence, but none is an active product candidate or current WATCH after D-026. D-025's capped validation protocol was completed by D-026. D-027/D-028 and D-030/D-031/D-032/D-033 remain closed for their respective scopes. This supersession does not erase historical technical findings.
+- **Supersession:** D-007 and D-008 are superseded: issue-driven discovery is no longer the active method and GapGuard is not a current WATCH. D-026 closed the prior issue-driven candidate set. D-010 through D-024 remain preserved as historical technical decisions and evidence, but none is an active product candidate or current WATCH after D-026. D-025's capped validation protocol was completed by D-026. D-027/D-028 and D-030/D-031/D-032/D-033 remain closed for their respective scopes. This supersession does not erase historical technical findings.
 - **RWA boundary:** The user's RWA priority does not reopen the generic RWA Servicing Copilot (D-006) or generic private-credit servicing (D-026). It authorizes targeted RWA problem discovery only. Generic fund servicing/transfer agency/NAV reconciliation, private-credit servicing/waterfalls, collateral dashboards/orchestration, and proof-of-asset/NAV products remain NO-GO under D-033.
 - **Rationale:** A repository-wide review found conflicting current-state summaries: README, TASKS, RESEARCH_LOG and PROJECT_CONTEXT still contained stale issue-driven/GapGuard WATCH language after D-026 and D-033. The decision ledger also did not explicitly retire D-010–D-024 as active product candidates. The review consolidates the current state without deleting historical evidence.
 - **Immediate work:** No broad market scan. Validate D-029 with two independent commodity-finance lenders, collateral managers, warehouse operators or trade-finance operations/risk buyers. Require real redacted incidents, recurrence, quantified cost/exposure, an unmet gap beyond national registries and current vendors, a named budget owner, and explicit bounded-pilot willingness. Test the separate D-033 collateral-realisability question only if buyer access yields a concrete case.
