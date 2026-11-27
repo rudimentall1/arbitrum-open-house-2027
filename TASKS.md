@@ -97,3 +97,13 @@ A concept cannot move to implementation until all are true:
 - [ ] Track DefiLlama #302 for maintainer response, cache rebuild, and fix; do not assume remediation from the issue being open.
 - [ ] Validate what SQD Portal, Envio HyperSync, and indexer-native tools already catch in this exact silent-empty/wrong-height workflow before proposing any product.
 - [ ] Do not promote a generic RPC proxy, health monitor, provider ranker, or completeness dashboard; require a named operator and a bounded budget-backed workflow.
+
+## Final bounded validation cycle — D-025 (27 November 2026)
+
+This section supersedes open-ended discovery tasks above. Do not add new sectors or candidates outside these three passes.
+
+- [ ] **Pass A — operator validation:** seek direct independent confirmation from one Arbitrum/Orbit indexer operator of a production silent RPC/event-ingestion failure with quantified impact and from one Morpho/Aave liquidation operator of a recurring send-time data gap. Existing public issues and unanswered outreach are not buyer evidence.
+- [ ] **Pass B — one adjacent workflow:** validate only the existing WINNER_MAP hypothesis, post-origination servicing of tokenized private credit. Identify economic buyer, recurring work, current software/vendor workaround, measurable cost, and route to a bounded pilot. Do not brainstorm additional sectors.
+- [ ] **Pass C — final decision:** compare no more than three finalists using Pain, Evidence, Competition, Buyer, Feasibility, and Distribution. GO only with a named buyer, independently corroborated recurring pain, quantified cost, unmet workflow, and credible pilot commitment/willingness to test.
+- [ ] If no candidate meets the GO gate at Pass C, record NO-GO for this search set and stop; change the market/problem frame rather than extending discovery.
+- [x] Competitive reality check: Envio HyperSync, eRPC 0.5.0, and SQD/Ponder Portal cross-validation/fail-loud controls reviewed; silent RPC integrity downgraded to weak WATCH.
