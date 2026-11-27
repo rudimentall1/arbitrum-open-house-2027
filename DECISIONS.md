@@ -185,3 +185,14 @@
 - **Stop rule:** If no candidate meets the gate after Pass C, record NO-GO for the current search set and stop researching these segments. Change the market/problem frame rather than extending discovery. Never keep weak ideas alive merely to avoid a decision.
 - **Candidate cap:** No more than three finalists at any time. A stronger candidate may replace a weak one; the list may not expand.
 - **Competitive correction:** Silent RPC log completeness remains WATCH but is now a weak finalist: Envio HyperSync already verifies complete-block roots and refetches mismatches; eRPC provides upstream health, consensus, and integrity controls; SQD/Ponder has cross-validation and fail-loud schema guards. A filtered eth_getLogs completeness gap is structurally real, but no independent buyer/WTP has been validated. See the expanded 27 Nov silent-RPC report.
+
+
+## D-026 — NO-GO for the current discovery set after Pass B and Pass C
+
+- **Status:** Accepted
+- **Decision:** Stop the current product-discovery cycle. None of the three evaluated candidates meets the GO gate. Do not start implementation and do not add another sector/candidate to prolong this search.
+- **Candidates evaluated:** (1) silent RPC/indexer event integrity; (2) Morpho/Aave send-time liquidation data gap; (3) post-origination servicing of tokenized private credit.
+- **Rationale:** Pass A found credible technical failure classes but no independent operator confirmation with quantified cost or pilot willingness. Morpho issue #121, which explicitly offered a sponsored 90-day endpoint experiment, remains unanswered. Pass B found real general private-credit operations pain, but established loan-servicing, fund-accounting, private-debt and tokenization platforms already address major portions of the workflow. No tokenized-credit-specific unmet workflow, named buyer, independently quantified cost, or bounded-pilot commitment was established.
+- **GO gate result:** No candidate has a named buyer, independently corroborated recurring product-specific pain, measurable cost, unmet workflow despite substitutes, and credible pilot willingness. Technical novelty and general market pain do not override these missing conditions.
+- **Consequences:** Record NO-GO for this current search set. No product selection, no code, no implementation. Reopen only on new primary evidence meeting the buyer/problem/cost/substitute/pilot gate, or begin a separately framed market/problem discovery cycle. Do not continue broad issue/sector scanning as a substitute for buyer access.
+- **Evidence:** [Pass A operator evidence](research/PASS_A_OPERATOR_EVIDENCE_2026-11-27.md) and [Pass B + final NO-GO](research/PASS_B_AND_FINAL_NO_GO_2026-11-27.md).
