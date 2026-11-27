@@ -263,3 +263,36 @@ Identified public outreach leads for the D-029 WATCH hypothesis:
 - OCBC Transaction & Collateral Management AVP role (operator-role signal; no named person).
 
 These are discovery leads only. None has been contacted or validated. Details and links are in the global scan report.
+
+## Latest session checkpoint — 27 November 2026 (D-030)
+
+### Completed
+- Re-read AGENTS.md, PROJECT_CONTEXT.md, TASKS.md, DECISIONS.md, README.md, RESEARCH_LOG.md and SESSION-CHECKPOINT.md before continuing.
+- Continued global niche discovery while D-029 outreach remains active.
+- Screened six additional problem spaces: construction-loan payment-gap verification; GPU-cloud SLA evidence; durable CDR offtake delivery; CBAM supplier emissions data; biodiversity-credit market infrastructure; ocean freight demurrage/detention.
+- Added report research/GLOBAL_NICHE_SCAN_02_2026-11-27.md.
+- Recorded D-030 and updated PROJECT_CONTEXT.md, DECISIONS.md, TASKS.md, RESEARCH_LOG.md and README.md.
+
+### Result
+- No new GO candidate; no implementation.
+- D-030 rejects generic product theses in all six screened spaces due to direct incumbents, official infrastructure, a close competing project, or weak demand.
+- D-029 commodity-collateral remains WATCH only. User reports one outreach message sent and two LinkedIn profiles did not accept messages; this is not negative buyer evidence.
+- D-026/D-028 remain closed; Verigate remains excluded.
+
+### Key competitive findings
+- IPEX directly sells construction progress-vs-payment verification and Payment Gap reporting.
+- GPU Sentinel is a direct pre-alpha competing project for signed GPU SLA evidence and shared dispute ledger; it has not validated production use.
+- CDR.fyi, Frontier and Senseible cover market delivery data, commitment tracking or milestone evidence.
+- EU CBAM Registry/O3CI plus commercial SaaS cover supplier emissions data intake and reporting.
+- Biodiversity credit demand remains weak and the market small.
+- FMC rules and specialist logistics products cover demurrage/detention billing disputes and tracking.
+
+### Next step
+Continue discovery in new problem spaces not already screened. Before deepening any niche, identify reachable budget owners and evidence of recurring operational cost. Require independent buyer corroboration and a differentiated workflow. Do not implement without GO.
+
+### Checks and limitations
+- Research/documentation only. No application code changed.
+- Tests, lint and build not run.
+- Public-source desk research only; no buyer interviews, production datasets, paid pilots or WTP commitments.
+- Remote documentation updates were made sequentially using current SHAs. Final re-read and HEAD verification to follow.
+- Local checkout/status unavailable.
