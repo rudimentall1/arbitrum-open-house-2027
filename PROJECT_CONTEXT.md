@@ -20,9 +20,9 @@ Read [D-034](DECISIONS.md), [the final repository review](docs/FINAL_PROJECT_REV
 
 ## Active next step
 
-Stop broad market scans. Validate D-029 with two independent commodity-finance lenders, collateral managers, warehouse operators or trade-finance operations/risk owners. Seek real redacted examples of cross-border pledge conflicts, uncertain liens, stock-existence disputes or delayed/blocked collateral release that persist after current registries and controls. Measure recurrence, exposure/loss, delay and manual effort; identify the budget owner; prove a specific gap beyond existing providers; and obtain explicit willingness for a bounded read-only pilot.
+Stop broad market scans. For the user's strict RWA priority, validate D-033's residual question with two independent banks, CCPs or clearing members: can tokenised collateral be legally accessed, transferred, converted and realised within required stress windows? Seek real redacted incidents, recurrence, quantified exposure/delay, the budget owner, a differentiated gap beyond current collateral platforms, and willingness to test a bounded read-only workflow.
 
-Only if buyer access produces a concrete case, test D-033's separate collateral-realisability-under-stress question with bank/CCP collateral-risk or operations buyers. Do not perform another generic vendor scan.
+D-029 cross-border commodity collateral remains the only WATCH overall, but is RWA-adjacent asset-finance infrastructure rather than a validated tokenised-RWA product. Do not perform another generic vendor scan.
 
 ## GO gate
 
