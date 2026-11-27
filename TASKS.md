@@ -385,3 +385,14 @@ Full evidence: [research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCRE
 - [ ] Prove a material shared-state requirement before considering Arbitrum; otherwise do not force blockchain.
 
 Full evidence: [research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md](research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md).
+
+
+### D-040 implementation recheck — 27 November 2026
+
+- [x] Recheck official Resolução CNJ 705/2026 Art. 35 and Art. 65: Central Nacional is mandated, but exclusive operation awaits a joint CNJ/BCB activation act after deployment and authorisation of at least one registry entity.
+- [x] Verify CNJ's cooperation partners for SisPreq development: CNB/CF, B3, CERC and Núclea.
+- [x] Recheck outreach: Preks has not replied; Adianta Jus automated receipt only (protocol 44); no substantive operator validation.
+- [ ] Monitor publication of the joint CNJ/BCB activation act, technical specifications, transitional solution and first authorised registry entity.
+- [ ] Ask any operator respondent to distinguish temporary transition exceptions from recurring post-activation workflow; do not build a migration-only product.
+- [ ] Keep D-040 exploratory only. Re-score or kill if official Central National/registrar APIs cover the exception or if no recurring budgeted burden exists.
+
