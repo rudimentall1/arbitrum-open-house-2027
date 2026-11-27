@@ -329,3 +329,20 @@ Four generic product shapes were screened:
 D-033 records NO-GO for generic product shapes and no new WATCH candidate. The only residual problem area is collateral realisability under stress (legal access, transfer, conversion and liquidation within required time windows). This is regulatory/problem evidence, not a validated product gap. No named buyer, independent buyer confirmations, customer-specific quantified loss, budget or pilot willingness were obtained.
 
 D-029 cross-border commodity collateral remains the sole existing WATCH and was not reopened. D-026 private-credit servicing remains closed. No implementation authorized. Full report: [research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md](research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md).
+
+
+## D-035 — Targeted RWA collateral realisability operator evidence check (27 November 2026)
+
+Follow-up to D-033/D-034; no broad sector or vendor scan.
+
+- Bank of England's 29 October 2026 consultation and ESMA's 9 October 2026 Call for Evidence explicitly describe the post-default path from tokenised collateral to usable liquidity: legal rights, custody/CSD records, transfer, conversion, repo/sale markets, operational resilience and third-party dependencies.
+- ESMA asks respondents to describe default handling from posted collateral to liquidity realisation (Q4), whether CCP rights can be exercised without delay (Q6), and timely porting of client collateral (Q11). Its stress-testing examples include key compromise, platform outage, failed token/underlying reconciliation and stressed conversion.
+- Eurex/HQLAx/Clearstream went live in June 2025. The first live transaction by J.P. Morgan moved securities for PGGM from another custody location to Clearstream Banking Luxembourg for margin at Eurex. This is DLT-assisted mobilisation into a traditional CCP collateral location, not proof of a token that Eurex must liquidate after default; Eurex says it is not on the HQLAx ledger and has no legal relationship with HQLAx.
+- DTCC/DTC reported production CCP-margin workflows in its 15 July 2026 production event and launched its Tokenization Service on 28 October 2026. Public materials list more than 30 participating firms, including CME Group, J.P. Morgan, BNP Paribas Securities Corporation and Goldman Sachs, but do not attribute each firm to the CCP-margin transaction. Current supported networks are Canton and Hyperledger Besu; DTCC may add approved networks later.
+- Traditional CCP liquidity pressure is documented: non-cash collateral may need to be monetised within hours during default, but that evidence is not tokenisation-specific.
+- Interview targets: Eurex Clearing, J.P. Morgan, DTCC/DTC, CME Clearing and BNP Paribas Securities, with participation caveats documented in the report.
+- No buyer interviews or outreach, redacted production incidents, buyer-specific cost/loss, budget ownership, differentiated gap or pilot commitment were obtained. No Arbitrum shared-state requirement was identified.
+- **Result:** problem importance confirmed; commercial/product validation not confirmed. No candidate, no new WATCH, no GO, no implementation. Keep D-029 as the only current WATCH.
+- Next step: two independent primary operator interviews (CCP and clearing-member/bank), each with a redacted default drill/near-miss/exception, timestamps, legal basis, dependencies, impact, workaround, budget owner and pilot willingness.
+
+Full report: [research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md).
