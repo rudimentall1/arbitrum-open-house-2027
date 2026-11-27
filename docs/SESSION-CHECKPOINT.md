@@ -325,3 +325,34 @@ Continue discovery in new problem spaces not already screened. Before deepening 
 - Documentation-only changes. No application tests, lint, or build run.
 - No application source or dependencies changed.
 - Updates committed sequentially to remote main. Local checkout/status remains unavailable.
+
+
+## Fourth global niche scan — 27 November 2026 (D-032)
+
+### Completed
+- Re-read repository rules, project context, task queue, decisions, README, research log, winner map and prior checkpoint before research.
+- Screened aircraft component lifecycle/LLP records, battery second-life SoH/residual value, and FuelEU Maritime pooling.
+- Reviewed ATA Component Passport / Spec 2500, IATA September 2026 LLP traceability guidance, EASA records guidance, GE RMS, FLYdocs, transition.aero, TARA and AI records-audit products.
+- Reviewed EU Battery Regulation Article 14/77, Commission Battery Passport FAQ and registry status, and current passport provider landscape.
+- Reviewed FuelEU official Q&A and database pooling functionality plus OceanScore, BetterSea, Zero44 and BetterSea/GTT Marine integration.
+- Added [research/GLOBAL_NICHE_SCAN_04_2026-11-27.md](../research/GLOBAL_NICHE_SCAN_04_2026-11-27.md).
+- Recorded D-032 and updated TASKS, PROJECT_CONTEXT, RESEARCH_LOG, README and this checkpoint.
+
+### Findings
+- No new GO or WATCH candidate emerged.
+- Aircraft component history/transfer is being standardized by ATA; IATA's September 2026 guidance distinguishes current-status confirmation from unnecessary full back-to-birth archives. Existing records and transition providers cover major workflow components.
+- Battery passport and second-life data are governed by EU regulation and Commission registry/FAQ; existing passport and BMS analytics providers cover the obvious product shape.
+- FuelEU formal pooling registration/allocation is supported by the official database; OceanScore, BetterSea, Zero44 and other specialists cover market discovery, pricing and compliance operations.
+- Residual questions around LLP current-status evidence, OEM BMS data access, and FuelEU contract/allocation disputes are not promoted to WATCH without buyer-specific evidence.
+- D-029 commodity collateral remains the sole WATCH. Verigate remains excluded.
+
+### Evidence boundary
+- Public-source desk research only.
+- No buyer interviews, production datasets, quantified buyer-specific costs, paid pilots or WTP commitments.
+- No product selected; no code or MVP authorized.
+
+### Checks
+- Documentation-only changes. No application tests, lint, or build run.
+- No application source or dependencies changed.
+- Updates committed sequentially to remote main; all edited documents will be re-read and remote HEAD checked.
+- Local checkout/status remains unavailable.
