@@ -28,7 +28,7 @@ Remote repository facts at review:
 |---|---|---|
 | D-001–D-005 | Research scaffold, evidence gate, Verigate exclusion, previously explored ideas | Retained |
 | D-006 | Earlier RWA Servicing Copilot proposal | Historical only; generic servicing is not reopened by the user's RWA sector priority |
-| D-007–D-024 | Issue-driven Arbitrum/Nitro/Orbit/SDK/Morpho/Aave and indexer technical leads | Historical research; no longer active candidates after D-026 |
+| D-007–D-008 | Issue-driven method and GapGuard WATCH | Superseded by D-026/D-034; no longer active |\n| D-009–D-024 | Arbitrum/Nitro/Orbit/SDK/Morpho/Aave and indexer technical leads | Historical research; no longer active candidates after D-026 |
 | D-025 | Capped validation protocol for the then-current search set | Completed and superseded by D-026 |
 | D-026 | RPC/indexer, liquidation-data and private-credit servicing candidate set | NO-GO |
 | D-027 / D-028 | B2B stablecoin payment operations | NO-GO |
@@ -91,7 +91,7 @@ HISTORY_RECONSTRUCTION.md preserves the earlier Agent Guardian / GuardRail Walle
 2. TASKS began with an active issue-driven backlog and dozens of open technical tasks, despite D-026 closing that cycle and D-033 making RWA the current priority. Replaced the active queue with targeted D-029 buyer validation and a clear no-build gate; historical tasks remain in research/decision records.
 3. RESEARCH_LOG's executive summary still said GapGuard was WATCH and issue-driven discovery was active. Corrected the executive summary; retained the detailed historical record below.
 4. PROJECT_CONTEXT contained a current conclusion for D-033 but later repeated stale statements that GapGuard and indexer issues were active. Replaced with one concise source of truth.
-5. DECISIONS did not explicitly state that the D-010–D-024 technical WATCH leads were closed as active product candidates after D-026. Added a supersession note without deleting the historical rationale.
+5. DECISIONS did not explicitly state that D-007/D-008 (including the old GapGuard WATCH) and D-010–D-024 technical WATCH leads were superseded after D-026. Updated those decision statuses and added a supersession note without deleting historical rationale.
 6. D-029's commodity-collateral WATCH needed a precise relationship to the user's RWA priority. Clarified that it is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product.
 7. AGENTS wording about documentation commits was ambiguous for docs-only work. Clarified that docs-only changes may be committed as coherent standalone changes.
 
