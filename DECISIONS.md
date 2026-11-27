@@ -209,3 +209,13 @@
 - **Hard stop:** One bounded validation pass only. Seek a named buyer, real/redacted exception examples, recurring frequency, quantified manual cost or loss/SLA impact, a specific gap beyond current substitutes, and explicit willingness to run a two-week read-only pilot. If no such buyer evidence is obtained, record NO-GO and stop this cycle. Do not add segments or extend research with generic market scans.
 - **Excluded adjacent theme:** Agentic payment authorization/control is not part of this cycle; it risks reviving the user's explicitly excluded Verigate problem frame. Arbitrum x402 activity is not yet evidence of meaningful autonomous-agent payment demand.
 - **Evidence:** [New Cycle 01 research report](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md).
+
+
+## D-028 — NO-GO for D-027 stablecoin payment operations
+
+- **Status:** Accepted
+- **Decision:** Close D-027 as NO-GO for product selection and implementation. Do not build a generic stablecoin reconciliation dashboard, invoice matcher, crypto subledger or exception queue.
+- **Rationale:** The bounded public buyer-access pass identified real operational responsibilities at Due, Pockyt, BPN, Taptap Send and BVNK. However, these signals are job descriptions and company materials, not buyer interviews. Due, Pockyt and BPN describe internal ledger/API/control/automation work; BVNK is a direct incumbent with dedicated reconciliation and product teams; Fipto/Kyriba and Coinbase show integrated substitutes. The direct-wallet receiver segment produced no named buyer with recurring quantified unresolved pain; Abundance360's Coinbase Business case instead reports reduced manual reconciliation through an integrated invoice/settlement workflow.
+- **GO gate:** Not met. No buyer supplied redacted production exceptions, monthly recurrence, quantified manual cost/loss/SLA impact, a differentiated unmet workflow and explicit willingness for a two-week read-only pilot.
+- **Consequences:** Stop D-027. No product selected, no code and no implementation. This does not assert that the workflow has no operational pain; it means public evidence did not establish an external product opportunity. Reopen only on new primary buyer evidence that satisfies the complete gate. Do not continue generic public research to avoid the decision.
+- **Evidence:** [D-027 buyer-access validation and final NO-GO](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md).
