@@ -844,7 +844,7 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 ## New-chat handoff — 27 November 2026
 
 - **Repository / branch:** `rudimentall1/arbitrum-open-house-2027`, `main`.
-- **Current GitHub HEAD at handoff:** `0bb8b1a83062bd3395000a63bdd9df84cd8f0da2` (will advance with this checkpoint update).
+- **Baseline GitHub HEAD before handoff documentation updates:** `0bb8b1a83062bd3395000a63bdd9df84cd8f0da2`. The final `main` HEAD is verified after the handoff commits and reported in the completion message.
 - **Verified delta since `02911992e7bfd813a43e1fb54a31f34ad7e78d10`:** 5 commits, ahead 5 / behind 0. Changed only `research/D040_PARTIAL_RECEIPT_OPERATIONS_BUYER_DISCOVERY_2026-11-27.md` (added), `TASKS.md`, `PROJECT_CONTEXT.md`, `RESEARCH_LOG.md`, `docs/SESSION-CHECKPOINT.md` (modified). No unrelated paths in this delta.
 - **Completed:** public operator discovery for partial-receipt allocation; three leads (Oliveira Trust, Hemera DTVM, Monetiza); public contact channels checked; three Portuguese discovery drafts prepared; report saved. TASKS marks lead research and drafts complete.
 - **Not done:** no outreach sent, no interview, no redacted workflow, no quantified manual burden, no budget owner, no paid-pilot signal.
