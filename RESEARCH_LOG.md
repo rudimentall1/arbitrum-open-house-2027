@@ -440,3 +440,16 @@ Full report: [Brazil warehouse receipts and physical inventory collateral screen
 
 
 D-040 outreach status check: Adianta Jus returned an automated receipt acknowledgement under support protocol 44 only; no substantive operator response. No reply from Preks was found in the checked period. This does not change D-040's exploratory status or establish customer validation.
+
+
+## 27 November 2026 — D-040 CNJ implementation and outreach recheck
+
+- Rechecked the official Resolução CNJ 705/2026 and CNJ's 3 November SisPreq cooperation announcement.
+- Art. 35 establishes a mandatory Central Nacional module linked to SisPreq, with chain-of-title and lifecycle status, duplicate-operation alerts and operational blocks.
+- Art. 65 is the key transition constraint: exclusive Central National registration/homologation starts only on a future joint CNJ/BCB activation date, after the Central National (or compatible transitional solution) is deployed and at least one registry entity is authorised. Until then, approved transitional tribunal/CNJ channels may be used.
+- CNJ's official announcement identifies CNB/CF, B3, CERC and Núclea as cooperation partners for SisPreq development. Therefore the official replacement infrastructure is actively being built, but public evidence reviewed does not establish that the Central National API or exclusive operating model is live today.
+- This creates a possible temporary reconciliation burden, not proven whitespace. Any product must survive the transition and provide recurring value beyond the official Central National, authorised registrars and operator systems.
+- Mailbox recheck: Preks has no reply; Adianta Jus sent only an automated receipt under protocol 44. No substantive answer, referral or meeting. No follow-up sent.
+- **D-040 status unchanged:** leading discovery lead only; not candidate/WATCH/GO. No product selected, no implementation.
+- Sources: https://atos.cnj.jus.br/atos/detalhar/7184 ; https://www.cnj.jus.br/judiciario-e-mercado-financeiro-se-unem-para-modernizar-gestao-de-precatorios/ ; https://www.cnj.jus.br/nova-resolucao-do-cnj-cria-central-de-controle-e-protege-credores-de-precatorios/
+
