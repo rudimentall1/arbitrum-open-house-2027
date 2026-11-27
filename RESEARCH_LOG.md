@@ -290,3 +290,12 @@ Screened six additional problem spaces:
 D-030 records NO-GO for generic product theses in these six categories. This does not deny underlying operational pain; it rejects the proposed generic product in light of substitutes or demand conditions. No primary buyer interviews, buyer-specific cost data, paid pilots or WTP evidence were obtained.
 
 Full report: [research/GLOBAL_NICHE_SCAN_02_2026-11-27.md](research/GLOBAL_NICHE_SCAN_02_2026-11-27.md).
+
+
+## Third global niche scan — 27 November 2026 (D-031)
+
+See [research/GLOBAL_NICHE_SCAN_03_2026-11-27.md](research/GLOBAL_NICHE_SCAN_03_2026-11-27.md).
+
+Screened insurance claims/subrogation evidence, manufacturing supplier quality and warranty recovery, distributed-energy flexibility settlement, eBL interoperability, and SME receivables/SCF fraud. No new GO or WATCH candidate emerged. Claims evidence is served by claims cores and specialist tools; supplier quality/warranty by ERP/QMS, supplier portals and warranty/RMA suites; energy settlement by existing market platforms and formal Elexon methodology; eBL interoperability by DCSA v2 and control-tracking systems; and duplicate-financing/receivables validation by MonetaGo and national infrastructure.
+
+A multi-BRP energy allocation/compensation dispute gap is described in ENTSO-E material, but there is no named buyer, production dispute, quantified cost, or pilot path. It remains a question, not a candidate. D-029 commodity collateral remains the sole WATCH hypothesis. Desk research is not buyer validation; no interviews, production datasets, paid pilots, or WTP are claimed. No product selected and no code authorized.
