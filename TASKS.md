@@ -86,3 +86,14 @@ A concept cannot move to implementation until all are true:
 - [ ] Recheck Nitro #4733 only for independent matching reports or a source-level upstream fix; do not broaden into generic monitoring.
 
 - [x] Recheck Aave #926 sequencer sentinel false-positive issue against current Aave v3.7 source and governance deployment; confirm Part 2 executed on Arbitrum on 28 May 2026 and sentinel removed from borrow/liquidation checks.
+
+## Follow-up research — silent RPC log-result corruption (27 November 2026)
+
+- [x] Recheck Nitro #4788: numeric eth_getLogs requests above head returned current-head logs on Arbitrum One and Robinhood Chain; verify closure metadata, discussion, and focused fix-PR search.
+- [x] Review independent Lasso RPC #460 reproduction of lagging-upstream null/empty results accepted by a router; classify mock-harness results separately from production evidence.
+- [x] Review DefiLlama SDK #302 and dimension-adapters #11308: six short cached event ranges found among 545 checked entries, with reported downstream impact on Maverick V1 BSC and Bend Berachain; identify Base as adjacent L2 evidence, not an Arbitrum incident.
+- [ ] Verify a public Nitro release/source fix for #4788; closed state alone is not proof of resolution.
+- [ ] Find an independent Arbitrum/Orbit indexer or protocol operator with a production wrong/empty eth_getLogs response and quantified missed events, recovery labor, revenue/SLA impact, or RPC cost.
+- [ ] Track DefiLlama #302 for maintainer response, cache rebuild, and fix; do not assume remediation from the issue being open.
+- [ ] Validate what SQD Portal, Envio HyperSync, and indexer-native tools already catch in this exact silent-empty/wrong-height workflow before proposing any product.
+- [ ] Do not promote a generic RPC proxy, health monitor, provider ranker, or completeness dashboard; require a named operator and a bounded budget-backed workflow.
