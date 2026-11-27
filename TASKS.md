@@ -179,3 +179,20 @@ Publicly identified, not yet contacted or validated:
 - [ ] OCBC collateral-management operations role: https://ocbc.wd102.myworkdayjobs.com/en-US/External/job/AVP--Transaction---Collateral-Management-Manager_JR00010266
 
 These are discovery access leads only, not customer commitments. Do not treat seniority, a job posting, or a public profile as proof of demand.
+
+## D-030 follow-up — second global niche scan (27 November 2026)
+
+- [x] Screen construction-loan progress vs subcontractor-payment verification; reject generic product due to direct IPEX offering.
+- [x] Screen GPU cloud SLA evidence/dispute resolution; reject generic ledger due to direct GPU Sentinel project.
+- [x] Screen durable CDR offtake delivery assurance; reject generic monitor/escrow due to existing delivery data, procurement and contract milestone tools.
+- [x] Screen CBAM supplier emissions data; reject generic data exchange due to EU Registry/O3CI and multiple SaaS products.
+- [x] Screen biodiversity-credit market infrastructure; reject generic platform because demand is weak and market is very small.
+- [x] Screen ocean freight demurrage/detention monitoring and invoice disputes; reject generic product due to established specialist vendors.
+- [ ] Continue global discovery in a different problem space, not already screened in D-026, D-028, D-029 or D-030.
+- [ ] For every new candidate, identify a budget owner and a route to reach that person before expanding desk research.
+- [ ] Require two independent buyer/operator confirmations, real examples, recurrence, quantified impact, unmet workflow, and a plausible paid/read-only pilot.
+- [ ] Explain why Arbitrum's shared state or settlement materially improves the workflow; reject projects where a normal database/API is sufficient.
+- [ ] Keep D-029 commodity-collateral as WATCH only; do not treat inaccessible LinkedIn messaging as market rejection.
+- [ ] No code until a candidate passes the buyer and differentiation gates.
+
+Full evidence: [research/GLOBAL_NICHE_SCAN_02_2026-11-27.md](research/GLOBAL_NICHE_SCAN_02_2026-11-27.md).
