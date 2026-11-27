@@ -1,6 +1,13 @@
 # Tasks
 
-## Active priority — RWA collateral realisability buyer validation (D-037, 27 November 2026)
+## Active queue — parallel RWA discovery (27 November 2026)
+
+- [ ] Continue searching for distinct RWA workflows in parallel; do not wait for D-033 or D-038 outreach replies before advancing other research.
+- [ ] Build a comparative scorecard across live hypotheses: pain severity/recurrence, named buyer and budget owner, existing substitutes, economic impact, procurement path, MVP feasibility, differentiation, GTM and material Arbitrum fit.
+- [ ] Make an evidence-weighted product-selection decision when the best available case is sufficiently stronger than alternatives; unresolved assumptions must be explicit and paired with a short validation plan. Do not require every interview to finish before selecting a leading hypothesis.
+- [ ] Keep implementation separate: no MVP/code until explicit GO and the implementation GO gate in PROJECT_CONTEXT.md are satisfied.
+
+## D-033 — RWA collateral realisability buyer validation (D-037, 27 November 2026)
 
 - [ ] Validate D-033's residual RWA question: whether tokenised collateral users need independent assurance that collateral can be legally accessed, transferred, converted and realised within required stress windows.
 - [ ] Prioritize two independent banks, CCPs or clearing members; interview Heads of Collateral Risk, Collateral Operations, Secured Financing Operations or Default Management.
@@ -267,7 +274,7 @@ Full evidence: [research/GLOBAL_NICHE_SCAN_04_2026-11-27.md](research/GLOBAL_NIC
 - [x] Preserve D-026 closure and D-029 WATCH without reopening either.
 - [x] Record D-033: no new GO or WATCH candidate; no implementation.
 - [ ] Only if continuing RWA discovery: obtain two independent bank/CCP collateral-risk or collateral-operations buyers with real collateral realisation failures/delays, quantified exposure/cost, a specific gap beyond Chainlink Fulcrum and existing collateral systems, and willingness for a bounded pilot.
-- [ ] Do not start another broad scan or build until this buyer-validation gate is met.
+- [x] Superseded by the user's 27 November instruction and D-038: continue bounded, parallel RWA discovery without waiting for this buyer-validation gate. The gate still applies before implementation, not before comparing or selecting a leading hypothesis.
 
 Full evidence: [research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md](research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md).
 
