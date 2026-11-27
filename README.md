@@ -80,3 +80,9 @@ D-027 (B2B stablecoin payment operations) is closed as **NO-GO** under D-028. Pu
 No product is selected and no implementation is authorized. D-026 and D-028 remain NO-GO for their respective closed research cycles. The latest separate global non-payment scan (D-029) leaves one WATCH-only hypothesis: cross-border commodity collateral / warehouse-lien verification. It is not validated by buyers and must not be implemented before the buyer, cost, competitive-gap and pilot gates are met.
 
 See [the full global niche scan](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md) and [D-029 in Decisions](DECISIONS.md).
+
+## Latest research status — 27 November 2026 (D-030)
+
+No product is selected and no implementation is authorized. D-030 screened six additional global problem spaces and rejected their generic product theses due to direct incumbents, official infrastructure, competing projects or weak market demand. D-029 commodity-collateral remains WATCH only; one of three outreach messages was sent and two LinkedIn profiles did not accept messages, which is not a negative buyer response.
+
+See [the D-030 global niche scan](research/GLOBAL_NICHE_SCAN_02_2026-11-27.md), [D-030 in Decisions](DECISIONS.md), and [D-029 report](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
