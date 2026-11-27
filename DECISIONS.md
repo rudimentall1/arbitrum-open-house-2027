@@ -317,3 +317,16 @@
 - **Not done:** No email was sent to an unverified personal address. DTCC's official Tokenization Service page offers a contact form; no submission was made in this pass. LinkedIn name searches did not return reliable profiles for the other targeted executives; Laura Bayley's profile was found but no message was sent.
 - **Decision:** Outreach is a discovery action only. No reply or meeting has yet been received; no product candidate, WATCH, GO or implementation is authorized.
 - **Next step:** Track replies, follow up once if appropriate, and expand to verified DTCC/J.P. Morgan contacts. Record every response with date, role, evidence quality and whether it independently corroborates a real operational failure.
+
+
+## D-037 — CCP default-management operational criteria and targeted outreach follow-up (27 November 2026)
+
+- **Status:** Problem validation only; no candidate, no GO, no new WATCH.
+- **New evidence:** CME Clearing's official collateral acceptance guidance requires a perfected security interest and states that if collateral cannot be liquidated to cash within one hour, arrangements such as a committed liquidity facility must support rapid deployment after a clearing-member default.
+- **Eurex evidence:** Circular 066/26 says the 2026 EMIR Fire Drill begins 2 December 2026 and includes default-management and client-porting simulations. Voluntary participation is for clearing members and eligible disclosed direct clients; the registration deadline for the specific client-porting simulation was 30 October 2026. We are not a clearing member/client and have not requested access.
+- **Timing distinction:** Eurex's four-business-hour porting period is the window for clients and replacement clearing members to fulfil porting prerequisites after the relevant notice/default event. It is not a cash-liquidation SLA.
+- **Outreach:** No response was found to D-036's two initial messages. On 27 November, additional focused messages were sent to Eurex Client Services (client.services@eurex.com) and CME Clearing Collateral Risk (CollateralRisk@cmegroup.com). The former requests a non-confidential discussion with staff or a clearing-member DMP coordinator after the exercise; the latter asks how the one-hour/legal criteria apply to tokenised collateral and whether existing liquidity facilities/control frameworks already cover it.
+- **Evidence limits:** These official operating criteria establish real constraints, not a tokenisation-specific failure, buyer pain, budget or demand. A committed liquidity facility may already neutralise the timing problem. No interview or meeting has occurred.
+- **Decision:** Keep D-033 collateral realisability under stress as a problem-validation question only. D-029 remains the only WATCH. Arbitrum shared-state necessity is not established.
+- **Next step:** Track replies from the four official Eurex/CME mailboxes; after the 2 December Eurex exercise, inspect public non-confidential outcomes and seek one independent clearing-member DMP Coordinator/Collateral Operations account. Require two independent operator examples before any product gap is considered.
+- **Evidence:** [CCP default-management operational evidence follow-up](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md).
