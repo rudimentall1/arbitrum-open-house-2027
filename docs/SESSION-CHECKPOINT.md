@@ -140,3 +140,24 @@ GO requires named buyer, independently corroborated recurring pain, measurable c
 
 ### Next step
 Proceed to Pass B only: validate the existing post-origination servicing of tokenized private credit hypothesis with real servicing/fund-operations buyers. Do not add a new segment or repeat broad issue searches. Pass C remains the final GO/NO-GO decision under D-025.
+
+
+## Final discovery outcome — 27 November 2026 (D-026)
+
+### Completed
+- Completed bounded Pass A public-source operator validation for RPC/indexer integrity and liquidation send-time data.
+- Completed Pass B research on post-origination tokenized private-credit servicing, including actual servicing/accounting providers and tokenization-platform workflows.
+- Completed Pass C scorecard for the three permitted candidates.
+- Added final report: research/PASS_B_AND_FINAL_NO_GO_2026-11-27.md.
+- Added D-026 and updated PROJECT_CONTEXT, TASKS, RESEARCH_LOG, WINNER_MAP and README.
+
+### Decision
+**NO-GO for the current search set. Stop this discovery cycle; do not implement.** General private-credit operations pain is real, but current loan servicing/fund accounting systems and tokenization platforms cover much of the workflow. No tokenized-credit-specific unmet workflow, named buyer, independently quantified cost, or bounded-pilot commitment was established. RPC/indexer integrity and liquidation data likewise lack buyer/pilot evidence.
+
+### Reopen criteria
+Reopen only if new primary evidence identifies a named buyer/operator, recurring product-specific pain, measurable cost, a clear gap beyond current substitutes, and explicit willingness to run a bounded pilot; or if the market/problem frame is deliberately changed in a new discovery cycle. Do not continue broad research to avoid a NO-GO decision.
+
+### Checks
+- Research/documentation only. No application code changed.
+- No tests, lint or build run.
+- Remote docs were verified after sequential updates. Local checkout/status unavailable.
