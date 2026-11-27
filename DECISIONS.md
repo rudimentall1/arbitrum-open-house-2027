@@ -433,3 +433,15 @@
 - **Next:** check existing Preks/Adianta Jus outreach, obtain a redacted workflow and quantified exception, verify official API coverage and test whether independent parties truly require shared state. Kill if existing systems or legal review suffice, or if no budget owner/pilot path emerges.
 - **Relationship:** D-029 remains closed NO-GO under D-044. D-033 and D-038 remain problem-validation/exploratory tracks. D-040 is a prioritised discovery lead only, not a candidate or WATCH.
 - **Evidence:** [D-045 comparative RWA scorecard](research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md).
+
+
+## D-040 evidence update — CNJ implementation and operator outreach (27 November 2026)
+
+- **No decision change:** D-040 remains the leading discovery lead only; not selected, not WATCH, no GO, no implementation.
+- Resolução CNJ 705/2026 Art. 35 establishes the Central Nacional as a mandatory module linked to SisPreq. Art. 65 makes exclusive Central National registration/homologation dependent on a future joint CNJ/BCB activation date after deployment (or compatible transitional solution) and authorisation of at least one registry entity.
+- CNJ's 3 November announcement confirms cooperation with CNB/CF, B3, CERC and Núclea to develop SisPreq. The official layer is therefore under development; current public evidence does not prove its exclusive API/workflow is live.
+- Transitional reconciliation work is a possible temporary pain, not evidence of a recurring product gap. Do not build a migration-only tool.
+- Outreach: Preks has not replied. Adianta Jus sent only an automated receipt (protocol 44); no substantive operational response, referral or meeting. No follow-up sent.
+- **Next:** monitor CNJ/BCB activation and technical specifications; seek one redacted operator exception that persists beyond activation, with measured burden, named budget owner and bounded pilot willingness. Require material shared-state need before Arbitrum; otherwise kill.
+- Sources: https://atos.cnj.jus.br/atos/detalhar/7184 ; https://www.cnj.jus.br/judiciario-e-mercado-financeiro-se-unem-para-modernizar-gestao-de-precatorios/ ; https://www.cnj.jus.br/nova-resolucao-do-cnj-cria-central-de-controle-e-protege-credores-de-precatorios/
+
