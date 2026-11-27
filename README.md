@@ -93,3 +93,10 @@ See [the D-030 global niche scan](research/GLOBAL_NICHE_SCAN_02_2026-11-27.md), 
 The third global niche scan screened insurance claims evidence, manufacturing supplier quality/warranty, distributed-energy flexibility settlement, eBL interoperability, and SME receivables/SCF fraud. No new GO or WATCH candidate emerged; generic product propositions are covered by established vendors, standards, or national infrastructure. D-029 cross-border commodity collateral remains the sole WATCH hypothesis. No product is selected and no implementation is authorized.
 
 See [D-031 full research report](research/GLOBAL_NICHE_SCAN_03_2026-11-27.md), [D-031 decision](DECISIONS.md), and [D-029 report](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
+
+
+## Latest research status — D-032 (27 November 2026)
+
+The fourth global niche scan screened aircraft component lifecycle records, battery second-life SoH/residual value, and FuelEU Maritime pooling. No new GO or WATCH candidate emerged; the generic product shapes are covered by industry standards, official regulatory infrastructure and specialist providers. D-029 commodity collateral remains the sole WATCH hypothesis. No product is selected and no implementation is authorized.
+
+See [D-032 full research report](research/GLOBAL_NICHE_SCAN_04_2026-11-27.md), [D-032 decision](DECISIONS.md), and [D-029 report](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
