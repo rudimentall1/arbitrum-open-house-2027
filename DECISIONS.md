@@ -153,3 +153,11 @@
 - **Decision:** Do not pursue a generic hosted-indexer completeness auditor. Keep WATCH only for a vendor-neutral reconciliation/evidence workflow across providers, and only if operators show a recurring cost or budgeted requirement that native tools do not satisfy.
 - **Rationale:** SQD Portal documents multi-RPC, cryptographic and worker validation; Envio HyperSync documents full-block transaction/receipt-root verification, parent-hash checks, and source fallback. Blockscout has catch-up/retry/specialized repair; Alchemy has request diagnostics and subscriptions; Ekubo has gap-audit/verify/backfill/monitor; DALP has operational checkpoint/backfill/reindex. No buyer or WTP is proven for duplicating these.
 - **Consequences:** Complete the vendor comparison task. The open evidence work is now a named operator interview and cost/WTP validation. See research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md.
+
+
+## D-022 — Do not promote generic Morpho borrower alert feeds without independent demand
+
+- **Status:** Accepted for current research phase
+- **Decision:** Do not promote a generic Morpho borrower-health scanner or alert feed to a product candidate based on the current public evidence. Keep only a narrow validation question around missing send-time inputs for active liquidators.
+- **Rationale:** Morpho Blue liquidation-bot issue #118 is one operator's supply-side offer for a 20-minute Base feed covering 2,586 borrowers across 212 markets. The post asks whether operators would use it; no subscriber, payment, pilot commitment, or independent demand is shown. The Morpho bot documents Morpho API and hosted Envio HyperIndex data providers, making broad borrower discovery an existing capability. A 20-minute snapshot is also not proof of send-time freshness for liquidation execution.
+- **Consequences:** Do not build a generic scanner, dashboard, or webhook feed. Reopen only if an independent liquidator identifies a specific recurring gap in coverage/freshness beyond Morpho API, HyperIndex, and direct RPC, quantifies the cost or missed opportunity, and commits to a bounded test. See `research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md`.
