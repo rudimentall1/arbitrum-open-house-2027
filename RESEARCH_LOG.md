@@ -1,6 +1,6 @@
 # Research log — Arbitrum Open House São Paulo 2027
 
-## Executive conclusion — D-034 (27 November 2026)
+## Executive conclusion — D-037 (27 November 2026)
 
 **No product has GO status. Product selection remains undecided and implementation is not authorized. RWA is the user's priority research sector.**
 
@@ -8,7 +8,7 @@ The only current WATCH is D-029: cross-border commodity collateral / warehouse-l
 
 D-026 closed the prior issue-driven candidate set. D-010–D-024 remain historical technical research and are not active product candidates or current WATCH items. D-028 closed generic B2B stablecoin payment operations. D-030, D-031 and D-032 rejected their respective generic product theses. Verigate remains explicitly excluded; the earlier generic RWA Servicing Copilot is not reopened.
 
-**Next action:** stop broad market scans and validate D-033's residual RWA question with two independent banks, CCPs or clearing members: whether tokenised collateral can be legally accessed, transferred, converted and realised within required stress windows. Require real redacted incidents, recurrence, quantified exposure/delay, a differentiated gap beyond current collateral platforms, a named budget owner and explicit bounded-pilot willingness. D-029 remains the only WATCH overall but is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product. No code before GO.
+**Next action:** continue only primary operator validation of D-033's residual RWA question. D-036/D-037 outreach has been sent to four official Eurex/CME mailboxes; no responses yet. CME's published collateral rules require a perfected security interest and cash liquidation within one hour or a committed liquidity facility. Eurex's 2026 default-management exercise starts 2 December and includes client-porting simulation; its four-hour porting prerequisite window is not a cash-realisation SLA. Obtain two independent operator accounts and redacted drill/near-miss examples, then determine whether existing controls and liquidity facilities already solve the workflow. D-029 remains the only WATCH. No code before GO.
 
 Full repository conclusion: [docs/FINAL_PROJECT_REVIEW_2026-11-27.md](docs/FINAL_PROJECT_REVIEW_2026-11-27.md).
 
@@ -346,3 +346,15 @@ Follow-up to D-033/D-034; no broad sector or vendor scan.
 - Next step: two independent primary operator interviews (CCP and clearing-member/bank), each with a redacted default drill/near-miss/exception, timestamps, legal basis, dependencies, impact, workaround, budget owner and pilot willingness.
 
 Full report: [research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md).
+
+
+## 27 November 2026 — D-037 CCP default-management operational criteria and outreach follow-up
+
+A targeted follow-up to D-035 checked official CCP operating criteria and current default-management exercises; no broad RWA or vendor scan was repeated. Full details: [research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md).
+
+- CME Clearing's public collateral acceptance guidance requires a perfected security interest and says collateral that cannot be liquidated to cash within one hour must have arrangements (e.g. a committed liquidity facility) supporting rapid deployment after a clearing-member default. This is an explicit CCP operational criterion, but the public page does not explain how it applies to tokenised/digital-twin collateral or disclose an incident.
+- Eurex Circular 066/26 describes the EMIR Fire Drill starting 2 December 2026, including default-management and client-porting simulations. Voluntary participation is limited to clearing members and eligible disclosed direct clients. The deadline for registration as a client/Replacement Clearing Member for the client-porting simulation was 30 October 2026.
+- Eurex's FAQ describes a four-business-hour porting-precondition window for net omnibus segregated clients. This is not a collateral-to-cash realisation SLA.
+- No replies were found to D-036's two initial emails. Two targeted emails were then sent to Eurex Client Services and CME Collateral Risk. No replies or meetings have yet been received.
+- The new evidence may indicate that current eligibility rules, legal opinions and committed liquidity facilities already manage the risk. Tokenisation-specific pain, budget, product gap and Arbitrum necessity remain unproven.
+- **Result:** problem validation only; no product candidate, no GO, no new WATCH. D-029 remains the only WATCH. No implementation.
