@@ -237,3 +237,14 @@ Competition is substantial:
 - Cross River and Offchain announced native loan tokenization on Arbitrum One from origination, with POC complete and production targeted early 2027.
 
 No named buyer agreed to a pilot; no tokenized-credit-specific recurring cost or unmet workflow was established. The three D-025 candidates were scored in the final report; none meets the GO gate. **Decision D-026: NO-GO for the current search set; stop discovery and do not implement.** This is an evidence-bound decision, not a claim that no private-credit operational pain exists. Reopen only on new primary buyer evidence or a separately framed problem cycle.
+
+
+## 27 November 2026 — New Cycle 01: B2B stablecoin payment operations
+
+See [research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md).
+
+New problem frame after D-026: payment exceptions and reconciliation across business obligation/payment intent, provider/gateway, blockchain, recipient delivery, treasury/bank and accounting records. Evidence includes Utila/Cordant's 19 Nov design-partner program for cross-system fiat/stablecoin discrepancy investigation; Fipto/Kyriba's named Ledger production case with a vendor-reported ~15 minutes saved per payment; Circle's own >$10M first-month intercompany USDC flow; and low-engagement operator/accountant discussions describing manual invoice matching and payout reconciliation. Arbitrum's H1 2026 stablecoin activity establishes ecosystem relevance but not B2B-specific TAM or product demand.
+
+Competition is already strong: Utila/Cordant, Fipto/Kyriba, Circle, Request Finance, Stripe, Ripple Treasury, Bitwave/Cryptio and other payment/invoicing tools. No named prospect, independently quantified unmet cost or pilot willingness has been established. Generic reconciliation dashboard or invoice matcher is not differentiated. Status WATCH only.
+
+D-027 allows one bounded validation pass across two buyer segments only: stablecoin payment processors/fintechs operating their own stack, and businesses receiving direct stablecoin payments into self-custody wallets. Need a named buyer, real/redacted exception examples, recurrence, quantified manual cost/loss/SLA impact, a gap beyond substitutes, and explicit willingness for a two-week read-only pilot. Otherwise NO-GO and stop. Agentic payment authorization/control is excluded from this cycle to avoid reviving the explicitly excluded Verigate frame.
