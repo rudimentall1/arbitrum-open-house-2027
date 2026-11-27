@@ -4,7 +4,7 @@
 
 Source-of-truth repository for evidence-based product discovery and preparation for Arbitrum Open House São Paulo 2027. It preserves research, winner analysis, decisions, exclusions and future implementation context.
 
-## Canonical current conclusion — D-039 (27 November 2026)
+## Canonical current conclusion — D-043 (27 November 2026)
 
 **No product selected. No GO decision. No implementation or MVP authorized. RWA is the user's priority research sector.**
 
@@ -92,3 +92,7 @@ Read HISTORY_RECONSTRUCTION.md before revisiting older work. Agent Guardian / Gu
 - D-040: precatório transfer-eligibility and token-allocation control; exploratory only, not selected/WATCH/GO.
 - D-041: Brazil duplicata escritural operational-gap screen; NO-GO as an Arbitrum product thesis, no new WATCH.
 - D-042: Brazil CPR agricultural-collateral infrastructure screen; NO-GO as an Arbitrum product thesis, no new WATCH.
+
+### D-043 — Brazil warehouse receipts and physical inventory collateral
+
+Brazil's CDA/WA legal instruments and central-depositary infrastructure, Conab/SICARM warehouse identification, and specialist collateral-monitoring providers make generic local registry, warehouse-directory and inventory-dashboard products poor opportunities. Bureau Veritas, Somar Agro and INTEGRO publicly cover material portions of the obvious monitoring/custody workflow. D-043 is NO-GO as a standalone Brazil Arbitrum thesis; no new WATCH. D-029 remains the only WATCH and still requires cross-border buyer validation. Full report: [D-043](research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md).
