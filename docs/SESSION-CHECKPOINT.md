@@ -765,3 +765,31 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Adianta Jus returned only an automated receipt acknowledgement under support protocol 44; no operational answers or meeting offered yet.
 - No Preks reply found in the checked period.
 - No follow-up was sent; automated acknowledgement is not buyer validation.
+
+
+
+
+## Latest continuation — D-040 CNJ implementation and outreach recheck (27 November 2026)
+
+### Research performed
+- Rechecked the official Resolução CNJ 705/2026, especially Arts. 35 and 65, and CNJ's 3 November 2026 announcement on SisPreq cooperation.
+- Verified that CNB/CF, B3, CERC and Núclea are cooperation partners in the national SisPreq development.
+- Rechecked the connected Gmail threads for Preks and Adianta Jus.
+
+### Findings
+- Art. 35 establishes a mandatory Central Nacional module linked to SisPreq, intended to consolidate title chain and lifecycle events and prevent duplicate assignments/encumbrances.
+- Art. 65 makes exclusive registration and homologation through the Central National conditional on a future joint CNJ/BCB activation date, after deployment of the Central National (or compatible transitional solution) and authorisation of at least one registry entity.
+- Until full deployment, transitional channels approved by CNJ/tribunals are permitted. Therefore, the official system is mandated and under development, but the reviewed sources do not establish that its exclusive API/workflow is live today.
+- This may create temporary migration/reconciliation work, but there is no evidence yet of a recurring buyer-funded gap. A migration-only product is not enough.
+- Preks: no reply. Adianta Jus: automated receipt only, support protocol 44; no substantive operational response or meeting. No follow-up sent.
+
+### Decision and next step
+- **D-040 remains the leading discovery lead only; not a product candidate, WATCH or GO.** D-045 score remains unchanged; no product selected and no implementation authorised.
+- Continue only bounded validation of a recurring exception between official judicial/registry state and operator-side fund-unit/token allocation. Determine whether the issue survives Central National activation and whether current vendors/operators already solve it.
+- Next evidence required: one redacted operator workflow, quantified exception frequency/manual hours/delay/risk, named budget owner, bounded pilot willingness and a material reason for shared Arbitrum state. Kill if signed APIs, official registry data or legal review suffice.
+
+### Documentation and verification
+- Updated D-040 research report, RESEARCH_LOG.md, TASKS.md, PROJECT_CONTEXT.md and this checkpoint.
+- Public-source research and mailbox recheck only. No code, dependencies, tests, build, CI or deployment changed.
+- No tests/lint/build run; this remains a research/documentation workspace.
+
