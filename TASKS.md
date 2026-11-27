@@ -355,3 +355,15 @@ Full evidence: [research/PRECATORIOS_TRANSFER_COMPLIANCE_AND_TOKENIZATION_2026-1
 - [ ] Keep pre-existing contract migration/tombamento as a question, not a candidate, unless buyer evidence establishes recurring unmet demand.
 
 Full evidence: [research/BRAZIL_DUPLICATA_ESCRITURAL_OPERATIONAL_GAP_SCREEN_2026-11-27.md](research/BRAZIL_DUPLICATA_ESCRITURAL_OPERATIONAL_GAP_SCREEN_2026-11-27.md).
+
+
+## D-042 — Brazil CPR agricultural-collateral infrastructure screen (27 November 2026)
+
+- [x] Verify B3 CPR inter-registry uniqueness/interop system and launch date.
+- [x] Review B3 CPR Guarantee capabilities: Master CPR, collateral splitting, API, lifecycle.
+- [x] Review BBM digital CPR issuance and registry integration.
+- [x] Record historical OECD market evidence without treating it as TAM.
+- [x] Record NO-GO as an Arbitrum thesis; no new WATCH.
+- [ ] Reopen only on a named buyer's quantified uncovered collateral workflow and a material reason existing registrar APIs are insufficient.
+
+Full evidence: [research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md](research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md).
