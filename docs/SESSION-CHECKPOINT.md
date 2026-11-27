@@ -512,3 +512,53 @@ Obtain two independent primary operator interviews: one CCP and one clearing-mem
 - Local checkout/status unavailable because connected desktop devices were offline.
 
 - Final verified remote HEAD before this checkpoint-only update: f8325565a8a59250821420a7b4764afff38d5710.
+
+
+## Latest continuation — D-038 parallel RWA discovery (27 November 2026)
+
+### Change in operating approach
+- User explicitly rejected waiting several days for D-033 operator replies as the only product-discovery path.
+- D-033 collateral realisability remains open problem validation, but no longer blocks other RWA discovery.
+- D-029 remains the only WATCH. D-038 is an exploratory hypothesis only, not a candidate/WATCH/GO.
+
+### New primary-source evidence
+- Read official Resolução CVM 249 in full and CVM's announcement of 11 DLT Pilot proposals.
+- Art. 8 requires regulator read-only real-time access to all test records, structured machine-readable extraction/API, complete timestamped audit trails, continuous availability/support and no third-party intermediary dependency for regulator access.
+- Art. 17 requires fortnightly progress/problem/solution reports and immediate incident notifications.
+- Art. 19 requires a final report covering test results, risks/limitations, detailed off-chain activities, oracles and off-chain governance.
+- Pilot is 60 days, extendable by up to 30; no real securities, investor money or client personal data; participation is voluntary/unpaid and costs are borne by proponents/managers/participants.
+- The 11 publicly named proposal submitters are not automatically admitted networks or network managers. Art. 7 limits network managers to eligible associations and self-regulatory entities participating in the GTT.
+
+### D-038 hypothesis
+- Narrow concept: evidence-operations kit for DLT network managers/infrastructure operators, correlating on-chain/off-chain events, audit provenance, incidents and regulator-ready report inputs.
+- Kill if existing API/audit/GRC/SIEM tooling already meets the requirements, if manual burden is immaterial, no buyer/budget/procurement path exists, or no recurring post-pilot use.
+- Arbitrum fit is unproven; signed APIs/event store may suffice. Do not force chain into the architecture.
+- Full report: research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md.
+
+### Direct outreach
+Sent Portuguese-language research requests from connected Gmail to four public contact channels:
+1. CSD BR — contato@csdbr.com — message ID 1a21c5e0d62043e9.
+2. Liqi — contato@liqi.com.br — message ID 1a21c5e160bab0af.
+3. Núclea — backoffice@nuclea.com.br — message ID 1a21c5e202bcb7c5.
+4. BEE4 — atendimento@bee4.com.br — message ID 1a21c5e31edf9131.
+The messages ask to route to DLT architecture/operations/regulatory integration leads, ask how CVM 249 evidence/reporting is handled, and explicitly do not request confidential information. No replies or meetings yet. Outreach is not customer validation.
+
+### Documentation
+- Added research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md.
+- Added D-038 to DECISIONS.md.
+- Updated PROJECT_CONTEXT.md, TASKS.md, RESEARCH_LOG.md and README.md.
+- WINNER_MAP.md was reviewed before this research; prior winner clusters and excluded generic concepts were preserved.
+
+### Next work — parallel, not sequential waiting
+- Track replies from the four Brazilian infrastructure firms and route support responses to technical/operations owners.
+- Identify actual admitted CVM networks/network managers once CVM publishes the decision.
+- Quantify evidence/reporting effort, existing tooling, buyer and recurring economics.
+- Obtain a redacted process map/report sample, not confidential pilot results.
+- Test whether existing GRC/SIEM/data tooling already solves the problem.
+- Continue D-033 only when operator replies or the 2 December Eurex exercise produce new evidence; do not block D-038 on it.
+- No implementation until buyer, differentiated gap, economics, pilot path and material Arbitrum fit meet the existing GO gate.
+
+### Verification
+- Documentation/research only; no application code, dependencies, tests, build, CI or deployment changed.
+- Local checkout/status remains unavailable because Desktop Commander devices were offline in the prior audit.
+- Remote file and HEAD verification still to be performed after this update.
