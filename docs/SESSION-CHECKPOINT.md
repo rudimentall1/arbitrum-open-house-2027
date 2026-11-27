@@ -101,3 +101,24 @@ Continue searching for an independent liquidation operator with a quantified sen
 - No tests, lint, or build run (no implementation changed).
 - Remote GitHub updates were made sequentially on main.
 - Local checkout/status remains unavailable; verify remote HEAD after updates.
+
+## Final bounded discovery cycle — 27 November 2026 (D-025)
+
+### New competitive findings
+- Envio HyperSync verifies complete-block transaction/receipt roots, tracks source provenance, refetches mismatched data from alternate sources, and marks unresolved ranges unverified. HyperIndex uses HyperSync by default on supported chains including Arbitrum.
+- eRPC has progressed to release 0.5.0 (27 Oct 2026) and already offers RPC upstream health/selection, retries, consensus, and data-integrity checks. Its filtered eth_getLogs completeness limit is structural, not a generic feature gap waiting for a proxy.
+- SQD/Ponder issue #32 found an Arbitrum access-list omission; a later chain-truth comparison found 34 type-0x2 transactions with Portal-missing access lists. Ponder PR #110/#111 fixed fabrication of empty arrays from missing fields by preserving NULL. The upstream dataset gap remains.
+- SQD/Ponder #83 records a missing logs_bloom dataset column on Arbitrum/Base/Avalanche and fail-fast behavior; issue closed without explicit public remediation details in the reviewed record.
+- Result: silent RPC/indexer integrity remains a real technical class but is downgraded to weak WATCH due to strong existing substitutes and no independent buyer/WTP.
+
+### Discovery boundary
+D-025 ends open-ended research. Three remaining passes only:
+1. Pass A — seek direct independent operator validation for Arbitrum/Orbit indexer silent-data failures and Morpho/Aave send-time liquidation data gaps.
+2. Pass B — validate only the existing WINNER_MAP hypothesis: post-origination servicing of tokenized private credit.
+3. Pass C — score at most three finalists and make GO/NO-GO.
+GO requires named buyer, independently corroborated recurring pain, measurable cost, unmet workflow despite substitutes, and credible bounded-pilot commitment/willingness to test. If none qualifies, record NO-GO for this search set and stop; change the market/problem frame instead of extending research. No new sector brainstorming.
+
+### Repository state
+- Added competitive review and finite-search protocol to the silent-RPC research report.
+- Added D-025 and updated TASKS, PROJECT_CONTEXT, RESEARCH_LOG, WINNER_MAP, and this checkpoint.
+- No implementation or tests changed.
