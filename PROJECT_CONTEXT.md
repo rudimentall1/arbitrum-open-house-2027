@@ -4,11 +4,11 @@
 
 Source-of-truth repository for evidence-based product discovery and preparation for Arbitrum Open House São Paulo 2027. It preserves research, winner analysis, decisions, exclusions and future implementation context.
 
-## Canonical current conclusion — D-043 (27 November 2026)
+## Canonical current conclusion — D-044 (27 November 2026)
 
 **No product selected. No GO decision. No implementation or MVP authorized. RWA is the user's priority research sector.**
 
-- **Only current WATCH: D-029 — cross-border commodity collateral / warehouse-lien verification.** This is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product thesis.
+- **No current WATCH or selected product. D-029 is closed NO-GO by D-044.** The proposed CollateralLink cross-border warehouse-receipt/lien-conflict product overlaps Secro and Crodax directly, with adjacent coverage from FACTOS, TradeTrust and Singapore's Trade Finance Registry. The underlying fraud problem is real, but no differentiated buyer workflow or material Arbitrum requirement was established.
 - **D-033:** generic tokenised-fund servicing/transfer agency/NAV reconciliation, private-credit servicing/loan-pool reporting, collateral eligibility/monitoring dashboards and asset/NAV verification are NO-GO due to existing institutional/specialist coverage and absent buyer validation.
 - D-033's collateral-realisability-under-stress issue is a residual problem area only, not a candidate or WATCH.
 - D-026 generic private-credit servicing remains NO-GO. D-028 stablecoin payment operations remains NO-GO. D-030, D-031 and D-032 remain closed for their respective scopes.
@@ -16,11 +16,11 @@ Source-of-truth repository for evidence-based product discovery and preparation 
 - D-025's capped validation cycle was completed by D-026.
 - Verigate remains explicitly excluded. The earlier generic RWA Servicing Copilot (D-006) is not reopened.
 
-Read [D-034](DECISIONS.md), [the final repository review](docs/FINAL_PROJECT_REVIEW_2026-11-27.md), [D-029 report](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md), and [D-033 report](research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md).
+Read [D-034](DECISIONS.md), [the final repository review](docs/FINAL_PROJECT_REVIEW_2026-11-27.md), [D-029 initial scan](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md), [D-044 competitive recheck](research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md), and [D-033 report](research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md).
 
 ## Active next step
 
-Continue **parallel RWA product discovery**, not sequential waiting and not another unbounded generic scan. D-033 collateral realisability remains problem validation; D-038 CVM DLT pilot evidence operations remains exploratory; D-039 SBCE carbon-asset/MRV infrastructure is NO-GO for Arbitrum at this stage; D-040 precatório transfer-eligibility/token-allocation control is exploratory only, not selected or WATCH. D-041 duplicata escritural operational-gap screen is NO-GO as an Arbitrum thesis due to direct incumbent coverage and no material chain role. D-042 Brazil CPR collateral screen is NO-GO: B3/BBM and authorised registrars already cover uniqueness, collateral splitting and lifecycle/API workflows. D-043 Brazil CDA/WA and warehouse inventory collateral is NO-GO as a standalone Arbitrum thesis: B3/authorised depositaries, Conab/SICARM and specialist providers cover the obvious registry, warehouse-identification and monitoring shapes. D-029 remains the only WATCH. None of these statuses blocks discovery of a different, concrete RWA workflow.
+Continue **parallel RWA product discovery**, not sequential waiting and not another unbounded generic scan. D-033 collateral realisability remains problem validation; D-038 CVM DLT pilot evidence operations remains exploratory; D-039 SBCE carbon-asset/MRV infrastructure is NO-GO for Arbitrum at this stage; D-040 precatório transfer-eligibility/token-allocation control is exploratory only, not selected or WATCH. D-041 duplicata escritural operational-gap screen is NO-GO as an Arbitrum thesis due to direct incumbent coverage and no material chain role. D-042 Brazil CPR collateral screen is NO-GO: B3/BBM and authorised registrars already cover uniqueness, collateral splitting and lifecycle/API workflows. D-043 Brazil CDA/WA and warehouse inventory collateral is NO-GO as a standalone Arbitrum thesis: B3/authorised depositaries, Conab/SICARM and specialist providers cover the obvious registry, warehouse-identification and monitoring shapes. D-044 closed D-029 after finding direct competitors and no validated differentiated buyer gap; there is currently no WATCH. None of these closures blocks discovery of a different, concrete RWA workflow.
 
 Prioritise product hypotheses with a named economic buyer, recurring operational pain, visible alternatives, credible budget/procurement path, a bounded MVP and a material Arbitrum advantage. Score the candidates comparatively rather than waiting for every interview reply. Treat outreach and public regulatory evidence as leads, not customer validation. Continue tracking the four Eurex/CME mailboxes and four CVM pilot contacts in parallel. No product is selected; no implementation is authorised without explicit GO.
 
@@ -80,7 +80,7 @@ Read HISTORY_RECONSTRUCTION.md before revisiting older work. Agent Guardian / Gu
 - D-006–D-024: historical product and technical leads; current status superseded as recorded in D-034.
 - D-025/D-026: capped validation protocol completed; NO-GO for the original candidate set.
 - D-027/D-028: stablecoin payment operations; NO-GO.
-- D-029: only current WATCH.
+- D-029: initially WATCH; closed NO-GO by D-044 after competitive recheck.
 - D-030/D-031/D-032: generic niche screens; NO-GO.
 - D-033: generic RWA infrastructure shapes; NO-GO.
 - D-034: repository-wide audit and canonical current state.
@@ -95,4 +95,4 @@ Read HISTORY_RECONSTRUCTION.md before revisiting older work. Agent Guardian / Gu
 
 ### D-043 — Brazil warehouse receipts and physical inventory collateral
 
-Brazil's CDA/WA legal instruments and central-depositary infrastructure, Conab/SICARM warehouse identification, and specialist collateral-monitoring providers make generic local registry, warehouse-directory and inventory-dashboard products poor opportunities. Bureau Veritas, Somar Agro and INTEGRO publicly cover material portions of the obvious monitoring/custody workflow. D-043 is NO-GO as a standalone Brazil Arbitrum thesis; no new WATCH. D-029 remains the only WATCH and still requires cross-border buyer validation. Full report: [D-043](research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md).
+Brazil's CDA/WA legal instruments and central-depositary infrastructure, Conab/SICARM warehouse identification, and specialist collateral-monitoring providers make generic local registry, warehouse-directory and inventory-dashboard products poor opportunities. Bureau Veritas, Somar Agro and INTEGRO publicly cover material portions of the obvious monitoring/custody workflow. D-043 is NO-GO as a standalone Brazil Arbitrum thesis; no new WATCH. D-029 was closed NO-GO by D-044 after direct competitive overlap and absent buyer validation. Full report: [D-043](research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md).
