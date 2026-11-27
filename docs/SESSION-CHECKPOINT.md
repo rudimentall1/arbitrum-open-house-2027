@@ -64,3 +64,39 @@
 ## Exact next step
 
 Continue searching for an independent liquidation operator with a quantified send-time data gap, and a hosted-indexer owner with quantified recovery cost. Treat Aave #926 as closed for upgraded Arbitrum v3.7. Do not build until a named buyer and differentiated recurring workflow are validated.
+
+## Follow-up — silent RPC log-result corruption (27 November 2026)
+
+### Completed
+- Reviewed Nitro #4788, its issue metadata/timeline/comments, and focused fix-PR search.
+- Reviewed Lasso RPC #460 as an independent mock-harness reproduction of wrong/empty responses from lagging upstreams.
+- Reviewed DefiLlama SDK #302 and dimension-adapters #11308, including the 545-entry audit and reported downstream effects.
+- Created `research/ISSUE_RESEARCH_SILENT_RPC_LOG_CORRUPTION_2026-11-27.md`.
+- Added D-024 and updated TASKS, PROJECT_CONTEXT, RESEARCH_LOG, and README.
+
+### Findings
+- A recurring technical failure class exists across RPC node, routing, and indexer/cache layers: valid-looking wrong-height or empty log responses can be accepted and then advance a cursor or poison a cache.
+- Nitro #4788 was closed as completed on 24 Nov, but the reviewed discussion has no maintainer resolution note or linked fix PR. Closure is not proof of a source fix.
+- Lasso #460 is a mock-harness reproduction, not production buyer evidence.
+- DefiLlama #302 found six short cached entries among 545 checked; two had reporter-quantified downstream metric/fee impact. The related #11308 is the same incident cluster. The Base entry is adjacent L2 evidence, not an Arbitrum-chain incident.
+- No named buyer commitment or willingness-to-pay is established. Existing SQD/Envio/indexer-native validation and backfill tools remain strong substitutes.
+- Status: narrow silent event-ingestion correctness hypothesis WATCH only; no GO and no implementation.
+
+### Next priorities
+1. Verify whether Nitro #4788 has a public source/release fix; do not infer resolution from closed status.
+2. Find an independent Arbitrum/Orbit operator with a production wrong/empty log response and quantified loss/recovery cost.
+3. Track DefiLlama #302 for maintainer response and remediation.
+4. Validate the exact gap left by SQD Portal, Envio HyperSync, and indexer-native tools.
+5. Continue the independent liquidation-operator and hosted-indexer-owner validation tasks from the prior checkpoint.
+
+### Evidence limits
+- Nitro endpoint counts are reporter-provided and both endpoints ran the same Nitro release family.
+- Lasso results are simulated with a mock harness.
+- DefiLlama audit and downstream impact figures are reporter-provided and not independently audited here.
+- No customer interview, paid pilot, or WTP is claimed.
+
+### Checks
+- Research/documentation only; no application code changed.
+- No tests, lint, or build run (no implementation changed).
+- Remote GitHub updates were made sequentially on main.
+- Local checkout/status remains unavailable; verify remote HEAD after updates.
