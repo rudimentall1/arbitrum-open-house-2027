@@ -108,9 +108,9 @@ No product can advance until all of the following are demonstrated:
 
 ## Immediate next action
 
-Stop broad market scans. Conduct targeted discovery for D-029 with commodity-finance lenders, collateral managers, warehouse operators and trade-finance operations/risk owners. The questions are whether cross-border pledge conflicts or independent stock/release evidence failures occur after existing national registries and collateral-management controls; how often; what losses/delays result; who owns the budget; and whether two independent organisations will test a read-only workflow.
+Stop broad market scans. For the user's strict RWA priority, validate D-033's residual collateral-realisability-under-stress question with two independent banks, CCPs or clearing members. Ask whether tokenised collateral can be legally accessed, transferred, converted and realised within required stress windows; obtain real redacted incidents, recurrence, quantified exposure/delay, the budget owner, a differentiated gap beyond existing collateral platforms and willingness to test a bounded read-only workflow.
 
-In parallel, only if buyer access creates a new concrete case, test the RWA collateral-realisability-under-stress question with bank/CCP collateral-risk or operations buyers. Do not run another generic vendor scan and do not build before GO.
+D-029 remains the only WATCH overall, but is RWA-adjacent asset-finance infrastructure rather than a validated tokenised-RWA product. Validate it only if relevant buyer evidence emerges. Do not run another generic vendor scan and do not build before GO.
 
 ## Open House 2027 fit and timing
 
