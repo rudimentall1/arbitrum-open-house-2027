@@ -463,3 +463,15 @@ D-040 outreach status check: Adianta Jus returned an automated receipt acknowled
 - Next validation, if pursued: ask fund manager/administrator/servicer how partial receipts, corrections, reversals and discharge are allocated; measure exception frequency, manual hours and financial/control impact; identify system of record, budget owner and paid-pilot path. Kill if current fund accounting/custody systems already automate it.
 - D-040 remains exploratory; no new candidate/WATCH/GO. No implementation. Arbitrum fit unproven and should not be forced.
 
+
+
+## 27 November 2026 — D-040 partial-receipt operations buyer-access pass
+
+- Identified Oliveira Trust through NACIONAL 2 FIDC (precatórios; Oliveira Trust DTVM administrator/custodian; Oliveira Trust Servicer manager; fund began 25 July 2025; public 2026 quota reports).
+- Identified Hemera DTVM and Monetiza Investimentos through Homma Prec FIDC (Hemera administrator/custodian; Monetiza manager). Hemera publicly offers administration, custody, asset bookkeeping, escrow, formalisation, collections and integrations, including a proprietary collections system.
+- Verified official contact channels and drafted three Brazilian Portuguese discovery emails. No outreach sent.
+- Limine/Sonar retained as lower-priority comparison; Oriz/Preks is a competitor-boundary reference, not whitespace.
+- Question remains narrow: partial cash receipt allocation/reconciliation across multiple precatórios, corrections/reversals/discharge, fund accounting and quota-holder reporting.
+- Evidence boundary: public roles and contact channels do not prove workflow, pain, manual burden, willingness to pay or product gap. No interview, redacted workflow, quantified impact, budget owner or pilot commitment obtained.
+- Status: D-040 exploratory only; no candidate/WATCH/GO and no implementation. Arbitrum fit unproven; conventional accounting/API integration is the default.
+- Full report: [D-040 partial-receipt operations buyer discovery](research/D040_PARTIAL_RECEIPT_OPERATIONS_BUYER_DISCOVERY_2026-11-27.md).
