@@ -472,3 +472,41 @@ Obtain two independent primary operator interviews: one CCP and one clearing-mem
 - DTCC's official tokenisation page provides a contact form; not submitted during this pass. LinkedIn lookup found Laura Bayley's profile only; no LinkedIn messages sent.
 - No product candidate, new WATCH, GO, MVP or code. D-029 remains the sole WATCH.
 - Next: monitor replies, pursue verified DTCC/J.P. Morgan contact paths, and record role/evidence quality before drawing conclusions.
+
+
+## Latest session checkpoint — 27 November 2026 (repository audit and D-037)
+
+### Repository audit
+- Re-read AGENTS.md, PROJECT_CONTEXT.md, TASKS.md, DECISIONS.md, README.md and latest SESSION-CHECKPOINT.md as requested.
+- Also reviewed RESEARCH_LOG.md, WINNER_MAP.md, package.json, src/README.md, tests/README.md, repository tree, branch list, recent commits, PRs and issues.
+- Remote GitHub state before D-037: default branch main; only main existed; no open PRs or open issues.
+- Latest remote HEAD before D-037 work was ab6d89e0af22ed8e336b8fc5f382443172de8019, with the D-036 outreach checkpoint as the latest commit.
+- Two Desktop Commander devices were listed but both were offline. No local checkout could be inspected; local git branch/status and uncommitted worktree changes are therefore unverified.
+- Actual repository tree still contains no application code or test files. src/README.md and tests/README.md are placeholders. package.json only exposes the Node built-in test runner; no runtime dependencies, build pipeline or CI workflows were found.
+- Documentation was inconsistent: D-036 outreach was in DECISIONS.md and checkpoint, but PROJECT_CONTEXT.md, README.md and active TASKS heading still reflected D-034/D-035. The canonical summaries have now been aligned to D-037.
+
+### D-037 completed
+- Verified CME's official collateral acceptance criteria: perfected security interest; cash liquidation within one hour or a committed-liquidity-facility fallback.
+- Verified Eurex Circular 066/26: EMIR Fire Drill begins 2 December 2026 and includes default-management and client-porting simulations; participation rules and the 30 October client-porting registration deadline were recorded.
+- Verified that Eurex's four-business-hour porting period is a porting-precondition window, not a cash-realisation SLA.
+- Checked Gmail for responses to the two D-036 emails; no replies found.
+- Sent two additional focused emails:
+  1. Eurex Client Services — client.services@eurex.com (requested a non-confidential subject-matter contact or a clearing-member DMP Coordinator discussion after the exercise; explicitly did not request simulation access).
+  2. CME Clearing Collateral Risk — CollateralRisk@cmegroup.com (asked how the one-hour/perfected-interest rules apply to tokenised collateral and whether existing liquidity facilities already cover the issue; not a collateral acceptance application).
+- Added research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md and D-037; updated DECISIONS.md, PROJECT_CONTEXT.md, README.md, TASKS.md and RESEARCH_LOG.md.
+
+### Canonical status
+**No product selected. No GO. No implementation. RWA remains priority. D-029 remains the only WATCH.** D-033 collateral realisability under stress remains a problem-validation question only. No buyer/operator interview, redacted incident, quantified tokenisation-specific loss, budget owner, pilot willingness or material Arbitrum shared-state requirement has been obtained.
+
+### Next action
+- Track replies from all four official Eurex/CME mailboxes. No repeated generic emails; one follow-up only after a reasonable interval.
+- After the 2 December Eurex exercise, inspect only public non-confidential outputs; do not infer findings from the exercise merely occurring.
+- Seek one independent clearing-member DMP Coordinator / Collateral Operations account and one CCP operator account, each with a redacted drill/near-miss/exception.
+- Test whether existing controls and committed liquidity facilities already eliminate the alleged problem.
+- No candidate/WATCH/GO or implementation without the complete existing GO gate.
+
+### Checks and limitations
+- Documentation/research only. No application source, tests, dependencies, build, CI or deployment changed.
+- No tests/lint/build run; no actual test suite exists.
+- Remote docs updated sequentially using freshly fetched blob SHAs. Final remote verification remains to be completed.
+- Local checkout/status unavailable because connected desktop devices were offline.
