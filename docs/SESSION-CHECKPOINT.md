@@ -10,6 +10,7 @@
 - Reviewed Morpho viem-dlc #1 cache OOM report and maintainer's mitigation path.
 - Rechecked Nitro #4770 comments and time-aligned snapshots; classified as not a bug, not a second confirmed outage.
 - Reviewed current official Arbitrum HA sequencer and sequencer troubleshooting documentation.
+- Rechecked Aave #926 against Aave v3.7 source and governance: sentinel checks removed from borrow/liquidation paths; proposal 489 Part 2 executed on Arbitrum on 28 May 2026.
 - Added research report: research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md.
 - Updated TASKS, PROJECT_CONTEXT, DECISIONS (D-022), RESEARCH_LOG, README, and this checkpoint.
 
@@ -28,6 +29,7 @@
 - Hosted indexer completeness / neutral cross-provider evidence: WATCH only; buyer and recovery-cost evidence missing.
 - Nitro HA false-ready #4733: WATCH; one operator, no independent matching recurrence established.
 - Morpho borrower alert feed: not promoted; generic feed lacks demand evidence and competes with existing API/indexer paths.
+- Aave #926 sentinel false-positive is historical and resolved for upgraded Arbitrum v3.7 deployments; do not count it as current market pain.
 - Verigate remains excluded.
 - No product selected and no development authorized.
 
@@ -61,4 +63,4 @@
 
 ## Exact next step
 
-Continue searching for an independent liquidation operator with a quantified send-time data gap, and a hosted-indexer owner with quantified recovery cost. Do not build until a named buyer and differentiated recurring workflow are validated.
+Continue searching for an independent liquidation operator with a quantified send-time data gap, and a hosted-indexer owner with quantified recovery cost. Treat Aave #926 as closed for upgraded Arbitrum v3.7. Do not build until a named buyer and differentiated recurring workflow are validated.
