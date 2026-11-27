@@ -255,3 +255,14 @@ Full evidence: [research/GLOBAL_NICHE_SCAN_04_2026-11-27.md](research/GLOBAL_NIC
 - [ ] Do not start another broad scan or build until this buyer-validation gate is met.
 
 Full evidence: [research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md](research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md).
+
+
+### D-036 — Direct operator outreach (27 November 2026)
+
+- [x] Identify official public contact routes for Eurex Clearing Default Management and CME Clearing Risk Management.
+- [x] Send a focused, transparent research request to both official mailboxes; request routing to collateral/default-management operators.
+- [x] Keep the request limited to anonymised drills, near-misses and operational exceptions; do not request confidential member data.
+- [ ] Track replies and record whether the responder has direct operational responsibility.
+- [ ] Arrange a short discussion with at least one CCP operator and one independent clearing-member/bank operator.
+- [ ] Expand outreach to DTCC/DTC and J.P. Morgan only through verified official or professional contact routes.
+- [ ] Do not treat sent emails, profile discovery or generic replies as buyer validation; no GO without two independent operator confirmations and the full existing GO gate.
