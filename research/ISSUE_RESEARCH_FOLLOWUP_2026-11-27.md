@@ -129,3 +129,29 @@ These guides are strong substitutes for generic HA setup and operational runbook
 ## Decision
 
 No new product GO. No implementation. Existing research remains focused on finding a named buyer and a recurring workflow that existing provider/indexer tools do not already solve.
+
+
+## 6. Aave #926: historical sentinel false-positive issue is obsolete on upgraded v3.7 Arbitrum
+
+Primary historical issue: https://github.com/aave/aave-v3-core/issues/926
+
+The November 2023 issue reports that `PriceOracleSentinel` used Chainlink's `lastUpdateTimestamp` rather than `startedAt`, which could cause borrowing and liquidations to be blocked for about an hour during a routine daily feed heartbeat even when the sequencer was healthy. The issue remains open in the legacy `aave-v3-core` repository with no comments; its open state is not evidence that the problem remains active in current deployments.
+
+### Current upstream resolution
+
+- Aave v3.7 removes `PriceOracleSentinel` and `SequencerOracle` from the Pool borrow/liquidation validation path entirely. The v3.7 migration notes explain that inconsistent sequencer uptime signals across L2s caused false positives, including blocked liquidations and unnecessary borrow downtime.
+- Aave governance proposal 473 upgraded a first set of deployments to v3.7 and explicitly removed configured sentinels.
+- Governance proposal 489, **Upgrade Aave instances to v3.7 Part 2**, was executed on 28 May 2026 and includes Arbitrum among the networks upgraded. Its payload also unsets any configured sentinel before updating the Pool and PoolConfigurator implementations.
+- Current Aave documentation states that since v3.7 the Pool no longer reads the sentinel address; the stored getter/setter is inert for borrow/liquidation gating.
+
+Sources:
+- https://github.com/aave-dao/aave-v3-origin/blob/main/docs/3.7/sentinel-removal.md
+- https://app.aave.com/governance/v3/proposal/?proposalId=473
+- https://app.kvorum.watch/daos/aave/proposals/aave_governance_v3/489
+- https://aave.com/docs/aave-v3/smart-contracts/pool-addresses-provider
+
+### Assessment
+
+This is a historical, technically credible failure mode with a protocol-level resolution already deployed to Arbitrum. It is not a live product gap for upgraded Aave v3.7 markets. Older forks or deployments that remain on v3.6 may differ, but no evidence of a current affected buyer was found.
+
+**Status: closed as an opportunity for current Arbitrum Aave v3.7.** Do not build a sentinel monitor or alerting product around issue #926.
