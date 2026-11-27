@@ -345,3 +345,16 @@
 - **Arbitrum fit:** Unproven. A signed event store/API may suffice. No chain-specific architecture until shared state or independent verification is shown to be materially necessary.
 - **Decision:** Run D-038 in parallel with D-033; do not wait for Eurex/CME replies to continue discovery. D-029 remains the only WATCH. D-038 is not a new WATCH or GO.
 - **Evidence:** [CVM DLT pilot evidence operations report](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md).
+
+
+## D-039 — Brazil SBCE carbon-asset and MRV infrastructure screen (27 November 2026)
+
+- **Status:** NO-GO as an Arbitrum product thesis at this stage; no new WATCH, no GO, no implementation.
+- **Scope:** Screened (A) SBCE MRV compliance workspace for regulated industrial operators, (B) escriturador/exchange/custody integration with the SBCE Central Registry, and (C) onchain carbon-credit issuance/registry/double-counting layer.
+- **Verified market facts:** Serpro and the Ministry of Finance are already developing the government Central Registry. The rollout begins with operator preparation in 2027, compulsory monitoring plans and annual reports in 2028–2029, and the first CBE asset market from 2030. Initial MRV applies to operators at or above 10,000 tCO2e/year and is expected to cover less than 1% of CNPJs. Law 15.042 provides for regulated escrituradores and interoperability with the Central Registry.
+- **Competitive/substitute evidence:** Brazilian MRV vendors already market emissions data collection, traceability and reporting; ANP's CBIO platform provides a domestic central-registry/escriturador precedent; Gold Standard/Trovio's API-first registry targets connectivity with national registries, exchanges and marketplaces. These facts do not prove the SBCE will have no gaps, but weaken a generic new-platform thesis.
+- **Buyer evidence:** No named buyer, budget owner, redacted integration failure, quantified cost, paid procurement signal or pilot commitment was identified. This is public-source desk research, not customer discovery.
+- **Arbitrum fit:** Poor/unproven. Government central registry, regulated book-entry and APIs are the documented architecture. No need for permissionless shared state or Arbitrum was identified; a conventional integration/API would be more defensible if a gap emerges.
+- **Decision:** Do not build an MRV dashboard, registry mirror, carbon token bridge or generic carbon ledger. No new WATCH. D-029 remains the only WATCH; D-033 and D-038 continue in parallel.
+- **Reopen only if:** an authorised escriturador/depositary/exchange identifies a recurring uncovered integration/reconciliation failure with quantified cost and a budget owner; or two independent operators identify an MRV evidence gap that existing platforms do not solve and a material multi-party shared-state requirement; or published SBCE API specifications reveal a concrete, buyer-backed interoperability gap.
+- **Evidence:** [Brazil SBCE carbon-asset and MRV infrastructure screen](${report}).
