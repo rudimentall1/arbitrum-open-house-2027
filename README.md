@@ -8,7 +8,7 @@ Research and product-discovery workspace for Arbitrum Open House São Paulo 2027
 
 - D-029 cross-border commodity collateral / warehouse-lien verification is the only current WATCH. It is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product.
 - D-033 rejected generic tokenised-fund servicing, private-credit servicing, collateral monitoring/orchestration, and asset/NAV verification because existing institutional and specialist providers cover the obvious workflows.
-- The D-033 collateral-realisability-under-stress question remains a problem area only, not a candidate or WATCH. D-036 initiated outreach to Eurex and CME; D-037 added CME's one-hour liquidation / committed-liquidity-facility criterion and Eurex's 2 December default-management exercise. No operator reply or customer validation has yet been obtained.
+- The D-033 collateral-realisability-under-stress question remains a problem area only, not a candidate or WATCH. D-038 now runs in parallel: an exploratory hypothesis for evidence operations around the Brazilian CVM DLT Pilot (regulator read-only access, audit trails, APIs, incident evidence and off-chain/oracle reporting). Four research requests were sent to CSD BR, Liqi, Núclea and BEE4; no replies yet. D-038 is not a candidate, WATCH or GO, and Arbitrum fit remains unproven. D-036 initiated outreach to Eurex and CME; D-037 added CME's one-hour liquidation / committed-liquidity-facility criterion and Eurex's 2 December default-management exercise. No operator reply or customer validation has yet been obtained.
 - D-026 private-credit servicing and D-028 stablecoin payment operations remain NO-GO. D-030, D-031 and D-032 remain closed for their screened scopes.
 - D-007/D-008 (issue-driven method and old GapGuard WATCH) and D-010–D-024 technical leads are historical research, not active product candidates after D-026.
 - Verigate is explicitly excluded. The earlier generic RWA Servicing Copilot is not reopened.
@@ -34,7 +34,7 @@ Research and product-discovery workspace for Arbitrum Open House São Paulo 2027
 - WINNER_MAP.md — selected Arbitrum/Open House winner analysis.
 - docs/FINAL_PROJECT_REVIEW_2026-11-27.md — repository-wide audit.
 - docs/SESSION-CHECKPOINT.md — session handoff.
-- research/ — 22 supporting research reports.
+- research/ — 23 supporting research reports.
 - package.json — minimal Node.js metadata; no runtime dependencies.
 - src/README.md and tests/README.md — intentional placeholders.
 
