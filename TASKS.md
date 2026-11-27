@@ -107,3 +107,16 @@ This section supersedes open-ended discovery tasks above. Do not add new sectors
 - [ ] **Pass C — final decision:** compare no more than three finalists using Pain, Evidence, Competition, Buyer, Feasibility, and Distribution. GO only with a named buyer, independently corroborated recurring pain, quantified cost, unmet workflow, and credible pilot commitment/willingness to test.
 - [ ] If no candidate meets the GO gate at Pass C, record NO-GO for this search set and stop; change the market/problem frame rather than extending discovery.
 - [x] Competitive reality check: Envio HyperSync, eRPC 0.5.0, and SQD/Ponder Portal cross-validation/fail-loud controls reviewed; silent RPC integrity downgraded to weak WATCH.
+
+
+## D-025 Pass A — public operator evidence check (27 November 2026)
+
+- [x] Re-read Nitro #4788 issue metadata and all comments; verify close reason, reporter, release family, and whether any comment supplies operator cost/WTP evidence.
+- [x] Re-read Morpho Blue liquidation bot #121 and all comments; confirm whether the sponsored 90-day endpoint experiment received an operator response.
+- [x] Re-read Morpho #118 and its follow-up; distinguish feed supply from demand and check for a subscriber/pilot.
+- [x] Check official Morpho market-position health API freshness semantics and compare them with the published liquidation-bot's on-chain qualification/simulation workflow.
+- [x] Record Pass A result without upgrading technical evidence into buyer validation.
+- [ ] Pass B only: validate post-origination servicing of tokenized private credit with actual servicing/fund-operations buyers, recurring workload, measurable cost, existing systems, and bounded pilot willingness.
+- [ ] Pass C: score no more than three finalists and issue GO/NO-GO under D-025. If none meets the gate, stop this search set.
+
+Pass A evidence report: [research/PASS_A_OPERATOR_EVIDENCE_2026-11-27.md](research/PASS_A_OPERATOR_EVIDENCE_2026-11-27.md). Public issue research produced no independent buyer confirmation, quantified cost, or pilot commitment. Do not repeat broad issue searches as a substitute for operator access.
