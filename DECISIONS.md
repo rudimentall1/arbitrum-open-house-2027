@@ -396,3 +396,16 @@
 - **Arbitrum fit:** not established. Legal registration, inter-registry uniqueness and collateral lifecycle are already provided through regulated infrastructure and APIs. No buyer requirement for public-chain state found.
 - **Reopen only if:** a named lender/cooperative/warehouse/originator quantifies an uncovered CPR collateral workflow not handled by B3, BBM or authorised registrars, identifies budget and explains why registry APIs are insufficient.
 - **Evidence:** [Brazil CPR agricultural-collateral infrastructure screen](research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md).
+
+
+## D-043 — Brazil warehouse receipts and physical inventory collateral screen (27 November 2026)
+
+- **Status:** NO-GO as a standalone Brazil Arbitrum product thesis; no new WATCH, no product selection, no GO, no implementation.
+- **Evidence:** Brazil already has statutory CDA/WA instruments, mandatory central-depositary custody through a Banco Central-authorised central depositary, B3 Central Depository/product rules, and Conab/SICARM warehouse identification/inspection. Conab's CDA (*Código de Cadastro do Armazém*) must not be confused with the financial instrument CDA (*Certificado de Depósito Agropecuário*).
+- **Competition:** Bureau Veritas Brazil markets independent agricultural collateral monitoring, storage/quantity/quality/delivery verification and reporting; Somar Agro offers stock monitoring, periodic guarantee verification, warehouse/silo audits and stock-movement reports; INTEGRO markets field-to-warehouse custody evidence and CDA/WA/CPR collateral governance.
+- **Underlying pain:** HFW's November 2026 briefing documents warehouse receipt fraud, duplicated financing, weak inspections, missing/overstated stock, commingling and competing claims. This supports the broad D-029 problem frame but does not establish a Brazilian buyer gap beyond existing regulated infrastructure and specialist providers.
+- **Arbitrum fit:** none demonstrated for local CDA/WA, warehouse accreditation or stock monitoring. Signed inspection attestations, APIs and conventional audit trails suffice unless independent multi-party claim-state participation is proven.
+- **Decision:** Do not build a Brazilian CDA/WA registry mirror, warehouse directory, generic proof-of-stock app, inventory/collateral dashboard or onchain lien ledger.
+- **Reopen only if:** a named buyer identifies a recurring gap beyond B3/authorised depositaries, Conab/SICARM and specialist providers, quantifies cost, names a budget owner and explains why conventional signed APIs are insufficient.
+- **Relationship to D-029:** D-029 remains the sole WATCH. D-043 adds Brazil-specific regulatory and competitive context; it does not validate D-029's cross-border commercial opportunity.
+- **Evidence:** [Brazil warehouse receipts and physical inventory collateral screen](research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md).
