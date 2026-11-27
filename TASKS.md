@@ -407,3 +407,13 @@ Full evidence: [research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md](res
 - [ ] Kill the downstream question if administrator/custodian/servicer accounting already handles it; do not create a product merely because the workflow exists.
 - [ ] No Arbitrum until independent parties demonstrate a shared-state requirement beyond signed APIs and conventional audit records.
 
+
+
+## D-040 adjacent validation — partial-receipt allocation (27 Nov 2026)
+
+- [ ] Request 20-minute operations interviews with Oliveira Trust (NACIONAL 2 FIDC), Hemera DTVM (Homma Prec administrator/custodian), and Monetiza Investimentos (Homma Prec manager); drafts and public contact channels are in [the buyer-discovery report](research/D040_PARTIAL_RECEIPT_OPERATIONS_BUYER_DISCOVERY_2026-11-27.md). No outreach has been sent; obtain explicit approval before sending.
+- [ ] Establish the system of record and process for partial receipts, corrections/reversals, fee/attorney splits, discharge, cash allocation and quota amortisation.
+- [ ] Obtain a redacted workflow example and quantify exception frequency/month, manual hours, delays and financial/control impact.
+- [ ] Identify the budget owner and whether a paid, read-only pilot is possible.
+- [ ] Close this question if existing administrator/servicer/fund-accounting systems already solve it without material recurring manual exceptions. Do not create a candidate or implement absent evidence.
+- [ ] Do not force Arbitrum; establish a material shared-state requirement independently or default to conventional APIs/accounting integration.
