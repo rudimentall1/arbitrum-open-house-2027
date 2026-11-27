@@ -635,3 +635,33 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Research and documentation only. No code, dependencies, tests, build, CI or deployment changed.
 - No tests/lint/build run; repository has no product implementation/test suite.
 - No product selected; D-029 remains the only WATCH; D-039 remains NO-GO for Arbitrum; D-040 is exploratory only.
+
+
+## Latest continuation — D-041 Brazil duplicata escritural operational-gap screen (27 November 2026)
+
+### Research performed
+- Re-read AGENTS.md and current canonical project docs before the new screen.
+- Reviewed BCB Resolução 339/2023, Resolução 540/2025, IN BCB 775/2026, Comunicado 45.562/2026 and the BCB ecosystem launch.
+- Reviewed B3's current assisted-production page and phased mandatory adoption schedule.
+- Reviewed the V360 operational-risk mapping reported by Capital Aberto and secondary coverage. Kept the critical limitation: V360's mapping was one real corporate operation, not a statistical market study.
+- Reviewed public product coverage from V360, Monkey, Núclea and B3.
+- Added `research/BRAZIL_DUPLICATA_ESCRITURAL_OPERATIONAL_GAP_SCREEN_2026-11-27.md` and D-041.
+
+### Findings
+- BCB electronic trade-receivables ecosystem entered assisted production in July 2026.
+- BCB 540/2025 and IN 775/2026 define pre-existing financing-contract migration/routing, ten-business-day submission and clarify that receipt/redirection is operational only, not registration or priority reservation.
+- B3's current page: cross-bookkeeper issuance expanded in September 2026; boleto dinâmico expected February 2027; mandatory adoption phased from July 2027 (large), January 2028 (medium), July 2028 (small).
+- V360's one-case mapping identified eight risk types including duplicate payments, unsupported payments, amount/title discrepancies and cancelled-invoice obligations; goods receipt confirmation took 30–90 days in some cases against a ten-day response window. This is not prevalence data.
+- At least 233 issuer establishments were reported as registered on 8 Nov 2026; dated snapshot, not TAM. R$13T market headline is not validated software TAM.
+- V360 directly markets payer-side ERP/registrar exception, deadline and payment-routing controls; Monkey offers issuer/ERP/registrar/financing orchestration; Núclea offers agendas, ERP and collateral/financing workflows; B3 operates the core regulated infrastructure.
+
+### Decision
+- D-041: **NO-GO as an Arbitrum Open House product thesis; no new WATCH.** The pain category is real but direct incumbents cover the obvious product shape, and Arbitrum adds no demonstrated value.
+- Pre-existing contract migration/tombamento remains a discovery question only, not a candidate.
+- D-029 remains the only WATCH; D-038 and D-040 remain exploratory; D-039 and D-041 are NO-GO for Arbitrum.
+
+### Documentation and limits
+- Added D-041 to DECISIONS.md, TASKS.md and RESEARCH_LOG.md; updated PROJECT_CONTEXT.md and README.md.
+- Research report count is now 26.
+- Research only: no outreach, code, dependencies, tests, build, CI or deployment changed.
+- No tests/lint/build run; no application test suite exists.
