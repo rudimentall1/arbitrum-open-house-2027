@@ -44,7 +44,9 @@ Continue parallel RWA discovery rather than waiting on D-033 replies. Track D-03
 
 D-029 cross-border commodity collateral remains the only WATCH overall, but is RWA-adjacent asset-finance infrastructure rather than a validated tokenised-RWA product. Do not build before the full GO gate is met.
 
-## GO gate
+## Implementation GO gate
+
+Product selection may be provisional and evidence-weighted before all interviews are complete; unresolved assumptions must be explicit. The following gate applies before MVP/product implementation:
 
 - Named economic buyer and budget-owning role.
 - Two independent buyer/operator confirmations of the same recurring pain.
