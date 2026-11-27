@@ -58,3 +58,4 @@ Keep evidence, decisions, historical context, and task status current. Distingui
 - [27 Nov issue-driven follow-up](research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md) — Nuthatch current cost baseline, Morpho borrower-feed demand check, SDK cache OOM, Nitro #4770 false-positive recheck, and Aave v3.7 sentinel removal.
 
 - [27 Nov silent RPC log corruption follow-up](research/ISSUE_RESEARCH_SILENT_RPC_LOG_CORRUPTION_2026-11-27.md) — Nitro wrong-height logs, Lasso lagging-upstream empty responses, and DefiLlama persistent cache omissions; WATCH only.
+- Final discovery boundary: see D-025 in `DECISIONS.md`; only three validation passes remain, with GO/NO-GO at the end and no open-ended sector expansion.
