@@ -191,3 +191,39 @@ Agentic payment authorization/control is outside this cycle to avoid reviving th
 - Research/documentation only; no application code changed.
 - No tests, lint or build run.
 - Remote GitHub docs were updated sequentially; local checkout/status remains unavailable.
+
+
+## D-027 buyer-access validation and D-028 closeout — 27 November 2026
+
+### Completed
+- Searched for named stablecoin payment processors/fintechs with operating payment stacks and public operations buyer roles.
+- Identified Due (CEO Robert Sargsian; SVP Operations & Expansion Vasco Moura; operations/product-ops vacancies), Pockyt (founder/CEO Mason Lin; Head of Payment Operations vacancy), BPN (Payment Operations Lead vacancy), and Taptap Send (Treasury Operations Analyst vacancy).
+- Classified BVNK as a direct incumbent/competitor because it is hiring for reconciliation and fiat payment product capabilities.
+- Reviewed DIMOCO/Fipto and Paysecure/Valuno as live integrated provider routes.
+- Tested the direct-wallet receiver segment against named evidence; no buyer with quantified unresolved recurring pain found. Abundance360/Coinbase Business is an integrated substitute case.
+- Added buyer-access evidence and final result to the D-027 research report.
+
+### Findings
+- Job descriptions confirm that stablecoin payment operations include reconciliation breaks, abnormal credits, returns/refunds, stuck/returned payments, partner balance mismatch, funding/prefund, exception investigation and automation.
+- The strongest interview leads are Due, Pockyt and BPN. These are not validated customers: each is building internal operational systems, and no external-product gap is established.
+- Taptap Send is an adjacent stablecoin treasury/payment-operations lead, not yet a specific reconciliation-gap buyer.
+- BVNK and integrated platforms are competitors/substitutes.
+- No named buyer supplied redacted production examples, recurrence/month, quantified manual cost/loss/SLA impact, a differentiated gap beyond current substitutes, or explicit willingness for a two-week read-only pilot.
+
+### Decision
+**D-028: NO-GO for D-027.** Stop this cycle. No product selection, code or implementation. This is an evidence-bound stop, not a claim that operational pain does not exist. Reopen only on new primary buyer evidence satisfying the complete gate. Do not continue generic job/vendor searches.
+
+### Evidence
+- Due operations roles and public leadership: https://careers.speedinvest.com/companies/due-2-0e6b6eb7-4621-492a-8688-37857866bac8/jobs/100293994-senior-operations-manager-payments ; https://www.linkedin.com/in/robsargsian ; https://es.linkedin.com/in/vasco-moura-6ab526a5
+- Pockyt operations role/company: https://careers.xrcventures.com/companies/pockyt/jobs/89182816-head-of-payment-operations ; https://pockyt.io/company
+- BPN role/company: https://www.bpn.finance/
+- Taptap Send role: https://careers.canaan.com/companies/taptap-send/jobs/98057192-treasury-operations-analyst
+- BVNK reconciliation role: https://job-boards.eu.greenhouse.io/bvnk/jobs/4822303101
+- Abundance360/Coinbase Business case: https://www.coinbase.com/es-es/business/real-results/case-studies/abundance-360?country=US&currency=USD&japan_bespoke_content=false&logged_in=false&mobile=false&view=marketing
+
+### Checks
+- Research/documentation only; no application code changed.
+- No tests, lint or build run.
+- No buyer interviews, outreach or pilot were performed.
+- Remote GitHub updates will be made sequentially and re-read for verification.
+- Local checkout/status is unavailable.
