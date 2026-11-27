@@ -137,3 +137,12 @@ The bounded public buyer-access pass identified real payment-operations roles at
 The direct-wallet business segment did not produce a named buyer with recurring quantified unresolved reconciliation pain. Abundance360's Coinbase Business case reports reduced manual reconciliation through integrated invoicing and settlement. Job postings establish company staffing priorities, not external-product demand or willingness to pay.
 
 **D-028: NO-GO for D-027.** No buyer supplied redacted production exceptions, recurrence/month, quantified manual cost/loss/SLA impact, a differentiated unmet workflow and explicit willingness for a two-week read-only pilot. Do not build a generic dashboard, matcher, subledger or exception queue. Stop this cycle; reopen only on new primary buyer evidence. No implementation is authorized.
+
+
+## 27 November 2026 — Third global niche scan (D-031)
+
+See [research/GLOBAL_NICHE_SCAN_03_2026-11-27.md](research/GLOBAL_NICHE_SCAN_03_2026-11-27.md).
+
+Five additional areas were screened: insurance claims/subrogation evidence, manufacturing supplier quality/warranty recovery, distributed-energy flexibility settlement, eBL interoperability, and SME receivables/SCF fraud. No new GO or WATCH candidate emerged. Generic product theses were rejected due to existing claims/evidence vendors, ERP/QMS and warranty platforms, Piclo/Elexon and national flexibility-market infrastructure, DCSA eBL interoperability/control-tracking standards, and MonetaGo/national receivables validation systems.
+
+Energy multi-BRP allocation and compensation disputes remain a documented operational complexity, but no buyer-specific product gap has been established; it is not promoted to WATCH. D-029 cross-border commodity collateral remains the sole WATCH hypothesis. No buyer interviews, production data, quantified buyer-specific costs, paid pilots or WTP commitments are claimed. No implementation is authorized. Continue discovery in a different problem space, with buyer/access mapping before deep research.
