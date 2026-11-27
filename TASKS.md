@@ -300,3 +300,18 @@ Full evidence: [research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md](research/RWA_INF
 - [ ] No code or MVP until a differentiated workflow, buyer, economics, pilot path and Arbitrum fit meet the existing GO gate.
 
 Full evidence: [research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md).
+
+
+## D-039 — Brazil SBCE carbon-asset and MRV infrastructure screen (27 November 2026)
+
+- [x] Verify SBCE Central Registry ownership/build status and Serpro's role.
+- [x] Verify phased rollout: 2027 operator preparation, 2028–2029 MRV reporting, first CBE asset market from 2030.
+- [x] Verify initial MRV threshold (10,000 tCO2e/year; less than 1% of CNPJs) and initial regulated sectors.
+- [x] Review Law 15.042 Central Registry, escriturador and interoperability provisions.
+- [x] Compare MRV and registry-integration shapes against Brazilian MRV vendors, ANP CBIO registry precedent and Gold Standard/Trovio API-first registry.
+- [x] Record D-039 NO-GO for an Arbitrum product thesis; no new WATCH, no implementation.
+- [ ] Reopen only on a named buyer's quantified uncovered integration failure, or independently corroborated MRV evidence burden plus material shared-state need, or published API specs showing a buyer-backed gap.
+- [ ] Continue D-033 and D-038 in parallel; do not wait for replies before researching other RWA workflows.
+- [ ] Do not force Arbitrum where signed records, APIs or regulated central registries suffice.
+
+Full evidence: [research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md](${report}).
