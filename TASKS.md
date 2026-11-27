@@ -228,3 +228,18 @@ Full evidence: [research/GLOBAL_NICHE_SCAN_03_2026-11-27.md](research/GLOBAL_NIC
 - [ ] No code or MVP until GO gate is met.
 
 Full evidence: [research/GLOBAL_NICHE_SCAN_04_2026-11-27.md](research/GLOBAL_NICHE_SCAN_04_2026-11-27.md).
+
+
+## D-033 — RWA infrastructure scan (27 November 2026)
+
+- [x] Screen tokenised fund servicing, transfer agency, NAV publication and on/off-chain reconciliation.
+- [x] Recheck private-credit servicing against the prior D-026 NO-GO and current servicing/loan-pool verification providers.
+- [x] Screen collateral eligibility, monitoring, margining and realisation against 2026 regulatory evidence and current institutional providers.
+- [x] Screen independent asset backing, NAV and investor-transparency providers.
+- [x] Record Arbitrum RWA traction separately from evidence of buyer demand.
+- [x] Preserve D-026 closure and D-029 WATCH without reopening either.
+- [x] Record D-033: no new GO or WATCH candidate; no implementation.
+- [ ] Only if continuing RWA discovery: obtain two independent bank/CCP collateral-risk or collateral-operations buyers with real collateral realisation failures/delays, quantified exposure/cost, a specific gap beyond Chainlink Fulcrum and existing collateral systems, and willingness for a bounded pilot.
+- [ ] Do not start another broad scan or build until this buyer-validation gate is met.
+
+Full evidence: [research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md](research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md).
