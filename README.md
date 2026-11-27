@@ -20,7 +20,7 @@ Repository for evidence-based preparation and research for Arbitrum Open House S
 
 ## Current state
 
-No project has GO status. The active phase is issue-driven discovery from primary GitHub Issues/Discussions. GapGuard remains WATCH only; previously rejected directions stay closed absent new evidence. Verigate is explicitly excluded. RWA Servicing Copilot is historical repository research, not an active candidate.
+No product has GO status and no implementation is authorized. RWA is the user's priority research sector. D-033 rejected generic fund servicing, private-credit servicing, collateral monitoring and asset-verification products due to existing institutional/specialist coverage. The only residual RWA problem area is collateral realisability under stress, not yet a candidate. D-029 commodity collateral remains the sole WATCH; D-026 private-credit servicing remains closed. Verigate is explicitly excluded.
 
 ## Repository contents
 
@@ -100,3 +100,10 @@ See [D-031 full research report](research/GLOBAL_NICHE_SCAN_03_2026-11-27.md), [
 The fourth global niche scan screened aircraft component lifecycle records, battery second-life SoH/residual value, and FuelEU Maritime pooling. No new GO or WATCH candidate emerged; the generic product shapes are covered by industry standards, official regulatory infrastructure and specialist providers. D-029 commodity collateral remains the sole WATCH hypothesis. No product is selected and no implementation is authorized.
 
 See [D-032 full research report](research/GLOBAL_NICHE_SCAN_04_2026-11-27.md), [D-032 decision](DECISIONS.md), and [D-029 report](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
+
+
+## Latest RWA research status — D-033 (27 November 2026)
+
+The RWA-focused scan covered tokenised fund servicing, private-credit servicing, collateral management and independent asset verification. No new product passed the differentiation and buyer-validation gates. BNY, Chainlink, Libertum, Coretos, Chronicle, RedStone and other providers cover the obvious generic workflows. Collateral realisability under stress is a residual problem area supported by regulatory evidence, but no buyer-specific product gap or pilot commitment has been established. D-029 commodity collateral remains the sole WATCH; no product selected and no code authorized.
+
+See [D-033 full RWA report](research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md) and [D-033 decision](DECISIONS.md).
