@@ -34,13 +34,13 @@ Research and product-discovery workspace for Arbitrum Open House São Paulo 2027
 - WINNER_MAP.md — selected Arbitrum/Open House winner analysis.
 - docs/FINAL_PROJECT_REVIEW_2026-11-27.md — repository-wide audit.
 - docs/SESSION-CHECKPOINT.md — session handoff.
-- research/ — 26 supporting research reports.
+- research/ — 27 supporting research reports.
 - package.json — minimal Node.js metadata; no runtime dependencies.
 - src/README.md and tests/README.md — intentional placeholders.
 
 ## Current next step
 
-Continue parallel RWA discovery rather than waiting on D-033 replies. Track D-033 collateral realisability, D-038 CVM DLT pilot evidence operations and D-039 SBCE carbon infrastructure separately (NO-GO for Arbitrum); D-040 precatório transfer-eligibility/token-allocation reconciliation is exploratory only, not selected/WATCH/GO; D-041 duplicata escritural is NO-GO for Arbitrum. Search for other concrete RWA workflows with a named buyer, recurring pain, budget/procurement path and material Arbitrum advantage. D-036/D-037 outreach remains pending; CME's one-hour cash-liquidation / committed-liquidity-facility criterion and Eurex's 2 December fire drill remain useful context, not proof of product demand. See [D-037](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md), [D-038](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md) and [D-039](research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md) plus [D-040](research/PRECATORIOS_TRANSFER_COMPLIANCE_AND_TOKENIZATION_2026-11-27.md).
+Continue parallel RWA discovery rather than waiting on D-033 replies. Track D-033 collateral realisability, D-038 CVM DLT pilot evidence operations and D-039 SBCE carbon infrastructure separately (NO-GO for Arbitrum); D-040 precatório transfer-eligibility/token-allocation reconciliation is exploratory only, not selected/WATCH/GO; D-041 duplicata escritural and D-042 CPR collateral are NO-GO for Arbitrum. Search for other concrete RWA workflows with a named buyer, recurring pain, budget/procurement path and material Arbitrum advantage. D-036/D-037 outreach remains pending; CME's one-hour cash-liquidation / committed-liquidity-facility criterion and Eurex's 2 December fire drill remain useful context, not proof of product demand. See [D-037](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md), [D-038](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md) and [D-039](research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md) plus [D-040](research/PRECATORIOS_TRANSFER_COMPLIANCE_AND_TOKENIZATION_2026-11-27.md).
 
 D-029 cross-border commodity collateral remains the only WATCH overall, but is RWA-adjacent asset-finance infrastructure rather than a validated tokenised-RWA product. Do not build before the full GO gate is met.
 
