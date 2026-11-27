@@ -815,3 +815,25 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Research/documentation only; no code/dependencies/tests/build/deployment changed.
 - No tests/lint/build run; this repository remains a research/documentation workspace.
 
+
+
+## D-040 adjacent operator-access pass — 27 November 2026
+
+### Completed
+- Identified three institutional interview leads for portfolio-level allocation/reconciliation of partial precatório receipts: Oliveira Trust (NACIONAL 2 FIDC administrator/custodian and Oliveira Trust Servicer manager), Hemera DTVM (Homma Prec administrator/custodian) and Monetiza Investimentos (Homma Prec manager).
+- Verified public fund/operator descriptions and official contact channels.
+- Reviewed Hemera's public proprietary collections system and integration capabilities; these are incumbent substitutes to test, not proof of an unmet gap.
+- Prepared three Brazilian Portuguese discovery emails. None was sent.
+- Added research/D040_PARTIAL_RECEIPT_OPERATIONS_BUYER_DISCOVERY_2026-11-27.md.
+
+### Result
+- These are access leads, not validated buyers. No interview, redacted workflow, quantified manual burden, operational loss, budget owner, paid-pilot willingness or differentiated gap is established.
+- The narrow question is partial receipt, correction/reversal and discharge allocation across claim-level records, fund accounting and quota-holder reporting.
+- D-040 remains exploratory only. No candidate/WATCH/GO, implementation or Arbitrum requirement established. Conventional accounting/API integration is the default.
+
+### Next action
+- Request one 20-minute operations interview with each of Oliveira Trust, Hemera and Monetiza using the prepared drafts. Do not send without explicit user approval. Ask for a redacted example only after a contact agrees. Kill the hypothesis if current systems handle the workflow without material recurring manual exceptions.
+
+### Checks
+- Public-source research and documentation only. No code, dependencies, tests, lint, build or deployment changed/run.
+- No outreach was sent. Remote documentation updates are being written sequentially; verify final HEAD and updated files after all writes.
