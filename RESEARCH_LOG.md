@@ -308,3 +308,18 @@ See [research/GLOBAL_NICHE_SCAN_04_2026-11-27.md](research/GLOBAL_NICHE_SCAN_04_
 Screened aircraft component lifecycle/LLP records, battery second-life SoH/residual value, and FuelEU Maritime pooling. No new GO or WATCH candidate emerged. ATA is developing a Component Passport; IATA's September 2026 guidance emphasizes current-status confirmation rather than unnecessary full back-to-birth archives. GE RMS, FLYdocs, transition.aero, TARA and AI audit vendors already cover records workflows. EU Battery Regulation, Commission registry/FAQ and passport/BMS providers cover the battery passport and second-life data space. FuelEU's official database and OceanScore, BetterSea, Zero44 and other specialists cover pool registration, marketplace, pricing and compliance workflows.
 
 Residual questions are not promoted to WATCH because there are no independent buyer interviews, redacted cases, quantified buyer-specific costs, paid pilots or WTP commitments. D-029 remains the sole WATCH; no product selected and no code authorized.
+
+
+## RWA infrastructure scan — 27 November 2026 (D-033)
+
+User explicitly prioritized RWA, so this pass narrowed discovery to tokenised financial assets and post-issuance operations. The market is material: IMF's 2026 chapter estimates approximately $65B in public tokenised RWAs excluding repos, including approximately $30.4B tokenised credit and $17.5B tokenised money-market funds. Arbitrum Foundation reports more than 2,000 RWA asset deployments and meaningful RWA product growth on Arbitrum. These are market/ecosystem signals, not buyer demand.
+
+Four generic product shapes were screened:
+- Fund servicing / transfer agency / NAV / reconciliation: BNY Digital TA, Chainlink DTA and Libertum T-Suite Funds cover the obvious workflow.
+- Private-credit servicing / waterfalls / arrears / loan-pool reporting: D-026 already rejected the generic thesis; Coretos, Brickken and the Black Lake/Nuva Labs $25M mortgage-loan example provide additional evidence of existing servicing and loan-level verification coverage.
+- Collateral eligibility / monitoring / margining / realisation: the Bank of England's 2026 consultation documents real operational and legal dependencies for tokenised collateral, but Chainlink Fulcrum and existing collateral-management platforms cover generic cross-chain repo and collateral workflows.
+- Asset backing / NAV / investor transparency: Chronicle Proof of Asset, RedStone, Dune and public RWA analytics products cover holdings verification, NAV attestation and market data.
+
+D-033 records NO-GO for generic product shapes and no new WATCH candidate. The only residual problem area is collateral realisability under stress (legal access, transfer, conversion and liquidation within required time windows). This is regulatory/problem evidence, not a validated product gap. No named buyer, independent buyer confirmations, customer-specific quantified loss, budget or pilot willingness were obtained.
+
+D-029 cross-border commodity collateral remains the sole existing WATCH and was not reopened. D-026 private-credit servicing remains closed. No implementation authorized. Full report: [research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md](research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md).
