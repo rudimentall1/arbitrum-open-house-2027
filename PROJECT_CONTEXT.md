@@ -12,7 +12,7 @@ Source-of-truth repository for evidence-based product discovery and preparation 
 - **D-033:** generic tokenised-fund servicing/transfer agency/NAV reconciliation, private-credit servicing/loan-pool reporting, collateral eligibility/monitoring dashboards and asset/NAV verification are NO-GO due to existing institutional/specialist coverage and absent buyer validation.
 - D-033's collateral-realisability-under-stress issue is a residual problem area only, not a candidate or WATCH.
 - D-026 generic private-credit servicing remains NO-GO. D-028 stablecoin payment operations remains NO-GO. D-030, D-031 and D-032 remain closed for their respective scopes.
-- D-010–D-024 are historical technical leads and evidence; they are not active product candidates or current WATCH items after D-026.
+- D-007/D-008 (issue-driven method and old GapGuard WATCH) and D-010–D-024 are historical research/status records, not active product candidates or current WATCH items after D-026.
 - D-025's capped validation cycle was completed by D-026.
 - Verigate remains explicitly excluded. The earlier generic RWA Servicing Copilot (D-006) is not reopened.
 
