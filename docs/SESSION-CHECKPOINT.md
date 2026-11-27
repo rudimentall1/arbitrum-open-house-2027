@@ -78,6 +78,7 @@ Continue searching for an independent liquidation operator with a quantified sen
 - A recurring technical failure class exists across RPC node, routing, and indexer/cache layers: valid-looking wrong-height or empty log responses can be accepted and then advance a cursor or poison a cache.
 - Nitro #4788 was closed as completed on 24 Nov, but the reviewed discussion has no maintainer resolution note or linked fix PR. Closure is not proof of a source fix.
 - Lasso #460 is a mock-harness reproduction, not production buyer evidence.
+- Existing Morpho liquidation-operator question #121 (opened 29 Aug) remains open with zero comments; it has not produced a design-partner or WTP signal.
 - DefiLlama #302 found six short cached entries among 545 checked; two had reporter-quantified downstream metric/fee impact. The related #11308 is the same incident cluster. The Base entry is adjacent L2 evidence, not an Arbitrum-chain incident.
 - No named buyer commitment or willingness-to-pay is established. Existing SQD/Envio/indexer-native validation and backfill tools remain strong substitutes.
 - Status: narrow silent event-ingestion correctness hypothesis WATCH only; no GO and no implementation.
