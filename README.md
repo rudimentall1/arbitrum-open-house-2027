@@ -69,3 +69,8 @@ As of 27 November 2026, D-026 records **NO-GO for the current search set** after
 ## New discovery cycle (D-027)
 
 The prior candidate set remains NO-GO under D-026. A separate, bounded cycle now checks B2B stablecoin payment operations: cross-system reconciliation and exception investigation. Status is WATCH, not product selection. Only two buyer segments may be tested, and one validation pass is allowed; no implementation without a named buyer, quantified recurring pain, a gap beyond current substitutes and a two-week read-only pilot commitment. See [research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md) and D-027 in DECISIONS.md.
+
+
+## Current discovery decision — 27 November 2026
+
+D-027 (B2B stablecoin payment operations) is closed as **NO-GO** under D-028. Public job postings identified operator teams at Due, Pockyt, BPN and Taptap Send, while BVNK and integrated payment providers are strong incumbents. No buyer supplied redacted exceptions, quantified recurring cost, a differentiated gap and two-week pilot willingness. No product is selected and no implementation is authorized. See [the D-027 final report](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md).
