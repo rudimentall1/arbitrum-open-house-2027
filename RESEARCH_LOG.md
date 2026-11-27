@@ -371,3 +371,12 @@ Exploratory hypothesis: a narrow evidence-operations kit for DLT network manager
 Portuguese-language research requests were sent from connected Gmail to CSD BR (contato@csdbr.com), Liqi (contato@liqi.com.br), Núclea (backoffice@nuclea.com.br), and BEE4 (atendimento@bee4.com.br). No replies or meetings yet. This is outreach, not customer discovery.
 
 **Result:** D-038 exploratory hypothesis only; not a candidate, WATCH or GO. Continue in parallel with D-033. D-029 remains the sole WATCH. Full report: [research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md).
+
+
+## 27 November 2026 — D-039 Brazil SBCE carbon-asset and MRV infrastructure screen
+
+Brazil's regulated carbon market is a real upcoming RWA/financial-asset market, but the obvious software shapes do not currently support an Arbitrum-native product thesis. The Ministry of Finance and Serpro are already developing the SBCE Central Registry. The rollout is staged: operator preparation in 2027, compulsory MRV plans/reports in 2028–2029, and the first CBE asset market from 2030. The first MRV cohort covers operators at or above 10,000 tCO2e/year and is expected to affect less than 1% of CNPJs.
+
+Three shapes were screened: industrial MRV compliance software; integration adapters for authorised escrituradores/exchanges/depositories and the Central Registry; and an onchain carbon issuance/registry layer. MRV is an established SaaS category with Brazilian providers such as Integra Carbon and WayCarbon. ANP's CBIO platform provides an existing central-registry/escriturador precedent. Gold Standard/Trovio's API-first Impact Registry already targets connectivity with national registries, exchanges and marketplaces. The SBCE law's interoperability requirement does not establish a need for a permissionless chain or an external product; Serpro's integration contracts are not yet publicly specified in the reviewed evidence.
+
+No named buyer, budget owner, redacted incident, quantified cost, paid procurement signal or pilot commitment was found. Arbitrum fit is poor/unproven; a conventional API/integration service would be more defensible if a concrete gap emerges. **D-039: NO-GO as an Arbitrum product thesis at this stage; no new WATCH.** Reopen only on buyer-backed integration failure or an MRV gap that existing vendors do not solve plus a material shared-state requirement. Full report: [Brazil SBCE carbon-asset and MRV infrastructure screen](${report}).
