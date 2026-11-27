@@ -213,7 +213,7 @@ Full evidence: [research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md](research/
 - [ ] For every new candidate, identify a budget owner and a route to reach that person before expanding desk research.
 - [ ] Require two independent buyer/operator confirmations, real examples, recurrence, quantified impact, unmet workflow, and a plausible paid/read-only pilot.
 - [ ] Explain why Arbitrum's shared state or settlement materially improves the workflow; reject projects where a normal database/API is sufficient.
-- [ ] Keep D-029 commodity-collateral as WATCH only; do not treat inaccessible LinkedIn messaging as market rejection.
+- [x] Superseded by D-044: D-029 is closed NO-GO after competitive review; no active WATCH remains.
 - [ ] No code until a candidate passes the buyer and differentiation gates.
 
 Full evidence: [research/GLOBAL_NICHE_SCAN_02_2026-11-27.md](research/GLOBAL_NICHE_SCAN_02_2026-11-27.md).
@@ -258,7 +258,7 @@ Full evidence: [research/GLOBAL_NICHE_SCAN_04_2026-11-27.md](research/GLOBAL_NIC
 - [x] Screen collateral eligibility, monitoring, margining and realisation against 2026 regulatory evidence and current institutional providers.
 - [x] Screen independent asset backing, NAV and investor-transparency providers.
 - [x] Record Arbitrum RWA traction separately from evidence of buyer demand.
-- [x] Preserve D-026 closure and D-029 WATCH without reopening either.
+- [x] Preserve D-026 closure; D-029 WATCH status at the time was later superseded by D-044.
 - [x] Record D-033: no new GO or WATCH candidate; no implementation.
 - [ ] Only if continuing RWA discovery: obtain two independent bank/CCP collateral-risk or collateral-operations buyers with real collateral realisation failures/delays, quantified exposure/cost, a specific gap beyond Chainlink Fulcrum and existing collateral systems, and willingness for a bounded pilot.
 - [x] Superseded by the user's 27 November instruction and D-038: continue bounded, parallel RWA discovery without waiting for this buyer-validation gate. The gate still applies before implementation, not before comparing or selecting a leading hypothesis.
@@ -364,7 +364,7 @@ Full evidence: [research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md
 - [x] Map direct/adjacent providers: B3, Bureau Veritas, Somar Agro and INTEGRO.
 - [x] Compare local Brazil workflow against the broader D-029 cross-border warehouse-receipt/lien-conflict problem.
 - [x] Record NO-GO for standalone Brazil registry, warehouse directory, generic inventory/collateral dashboard or Arbitrum ledger; no new WATCH.
-- [ ] Keep D-029 as the only WATCH; validate a cross-border gap with two independent buyers/operators, redacted incidents, measured impact and a bounded pilot path.
+- [x] Superseded by D-044: D-029 is closed NO-GO; do not continue validation of CollateralLink absent the explicit reopen evidence in DECISIONS.md.
 - [ ] Reopen a Brazil-specific angle only on a named buyer's quantified gap beyond B3/authorised depositaries, Conab/SICARM and specialist monitoring providers.
 - [ ] Do not force Arbitrum where signed inspection attestations, APIs and conventional audit trails suffice.
 
