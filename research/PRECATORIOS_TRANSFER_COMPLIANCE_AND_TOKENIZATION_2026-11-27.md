@@ -152,3 +152,8 @@ Continue D-040 in parallel with D-033 and D-038. D-039 remains NO-GO as an Arbit
 - Outreach sent to two potential operators; no replies yet.
 - No implementation, code, dependencies, tests, build, CI or deployment changed.
 - No tests/lint/build run; this is a research-only repository.
+
+
+## Outreach status update — 27 November 2026
+
+A mailbox check found one automated acknowledgement from Adianta Jus for the 27 November research request, registered under support protocol **44**. It says the request will be handled and a response may follow; it contains no operational answers and is not buyer validation. No reply from Preks was found in the checked period. No follow-up was sent.
