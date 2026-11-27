@@ -207,3 +207,10 @@ Discovery is capped by D-025: Pass A operator validation (RPC/indexer integrity 
 ## Final validation outcome — D-026 (27 November 2026)
 
 The post-origination servicing hypothesis was tested in Pass B and **not selected**. General private-credit servicing/reconciliation pain is credible, but servicing/accounting integrations and tokenization platforms already cover much of the proposed workflow. No tokenized-credit-specific buyer, independently quantified cost, unmet workflow, or bounded pilot commitment was validated. D-026 records NO-GO for the current search set. This hypothesis remains historical research context, not a GO candidate. See [research/PASS_B_AND_FINAL_NO_GO_2026-11-27.md](research/PASS_B_AND_FINAL_NO_GO_2026-11-27.md).
+
+
+## Current project decision overlay — 27 November 2026 (D-034)
+
+This winner map remains historical evidence about hackathon fit and ecosystem themes; it is not a live candidate list and it is not exhaustive of every submission. Winning products demonstrate jury fit and execution, not paying demand or durable product-market fit.
+
+The earlier adjacent winner-derived thesis of post-origination tokenised private-credit servicing was evaluated under D-026 and closed as NO-GO. The user's later RWA priority does not reopen that generic servicing concept or the historical RWA Servicing Copilot (D-006). D-033 also rejected generic fund servicing, collateral monitoring/orchestration and asset/NAV verification. The only current WATCH is D-029 cross-border commodity collateral / warehouse-lien verification, an RWA-adjacent asset-finance workflow, not a validated tokenised-RWA product. See D-034 and the [final repository review](docs/FINAL_PROJECT_REVIEW_2026-11-27.md).
