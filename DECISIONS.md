@@ -222,12 +222,12 @@
 
 ## D-029 — Global non-payment niche scan (27 November 2026)
 
-- **Status:** WATCH / no GO.
-- **Decision:** Open a separately framed global market/problem scan outside the closed B2B stablecoin-payment reconciliation cycle. Do not revive D-026 or D-028 candidates and do not reintroduce Verigate.
-- **Finding:** No new product met the GO criteria. Cross-border commodity collateral / warehouse-lien verification is the only newly identified WATCH hypothesis worth targeted primary validation. Generic warehouse-receipt tokenization, generic global lien registries, battery passports/SoH scores, EV residual-value dashboards, energy flexibility marketplaces, reusable-packaging trackers, cold-chain sensor-to-insurance payouts, generic EUDR traceability, generic LP/incentive analytics, cross-chain solver rebalancing and generic paymaster/vault monitoring are not selected.
-- **Rationale:** Duplicate and forged warehouse receipts and cross-lender collateral opacity are documented risks. However, Singapore TFR, Brazil B3 CPR interoperability/guarantee, Kenya's eWRS central registry, Whrrl, Secro, MIT DCI b_verify and other products cover substantial parts of the workflow. Physical stock truth, legal priority across jurisdictions, source attestations, data-sharing and network adoption remain unresolved. There is no primary buyer evidence, quantified cost or pilot commitment.
-- **Consequences:** Do not implement. Validate only with named commodity-finance lenders, traders, collateral managers, warehouse operators or insurers. Require two independent operators, real redacted incidents, recurrence and measurable impact, proof of the gap beyond existing national/commercial systems, and a credible read-only pilot. Stop if those conditions cannot be met.
-- **Evidence:** [Global non-payment niche scan](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
+- **Status:** Superseded; closed NO-GO by D-044.
+- **Decision:** The initial scan opened cross-border commodity collateral / warehouse-lien verification as a WATCH hypothesis. The subsequent competitive recheck found direct product overlap and no differentiated, buyer-validated workflow. D-029 is closed; CollateralLink must not be built.
+- **Finding:** The underlying warehouse-receipt fraud and duplicate-financing problem is real, but Secro and Crodax directly overlap warehouse-receipt, lender-check and collateral-control workflows; FACTOS and TradeTrust cover adjacent collateral orchestration and cross-platform document verification. Singapore's Trade Finance Registry is an established bank utility. The adjacent invoice/receivables-verification pivot is also served by multiple providers and has no validated buyer gap.
+- **Rationale:** No two independent buyers/operators, redacted customer incidents, quantified impact, budget owner, willingness-to-pay or pilot commitment have been obtained. A participating network cannot see non-participants, a ledger cannot establish physical stock truth or cross-border legal priority, and no material Arbitrum shared-state requirement is demonstrated.
+- **Consequences:** Do not implement or relabel the same concept as proof-of-stock, invoice verification, registry interoperability or generic RWA infrastructure. Reopen only on a named buyer's specific uncovered workflow, redacted incident, measured impact, budget owner, pilot path and material Arbitrum requirement.
+- **Evidence:** [Initial global niche scan](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md); [D-044 competitive recheck](research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md).
 
 ## D-030 — Second global niche scan (27 November 2026)
 
@@ -409,3 +409,15 @@
 - **Reopen only if:** a named buyer identifies a recurring gap beyond B3/authorised depositaries, Conab/SICARM and specialist providers, quantifies cost, names a budget owner and explains why conventional signed APIs are insufficient.
 - **Relationship to D-029:** D-029 remains the sole WATCH. D-043 adds Brazil-specific regulatory and competitive context; it does not validate D-029's cross-border commercial opportunity.
 - **Evidence:** [Brazil warehouse receipts and physical inventory collateral screen](research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md).
+
+
+## D-044 — D-029 competitive recheck and closure (27 November 2026)
+
+- **Status:** NO-GO; supersedes D-029 WATCH. No replacement candidate, no GO, no implementation.
+- **Decision:** Close the proposed cross-border warehouse-receipt / lien-conflict verification product (CollateralLink). Do not build or repackage it as proof-of-stock, invoice verification or generic registry interoperability.
+- **Evidence:** Secro and Crodax directly overlap warehouse-receipt digitisation, lender checks and collateral control. FACTOS WareVault covers adjacent warehouse-credit collateral orchestration; TradeTrust covers cross-platform digital trade-document verification; Singapore's Trade Finance Registry is an established bank utility. HFW's briefing supports the underlying fraud problem but does not establish demand for another platform.
+- **Buyer gap:** No independent buyer/operator confirmations, redacted incidents, measured costs, budget owner, willingness-to-pay or pilot commitment were obtained. Previously identified senior contacts remain access leads only.
+- **Technical/commercial limits:** Participation-limited data cannot produce global lien visibility; a ledger cannot prove physical stock or legal priority across jurisdictions; signed APIs and conventional audit records may suffice. No material Arbitrum requirement is demonstrated.
+- **Adjacent pivot:** Invoice/receivables verification has overlapping providers (including MonetaGo, TFI TradeCore, TradeSun, AssureLocker and Riskernel) and no validated buyer gap; it is not promoted to a candidate.
+- **Reopen only if:** a named buyer supplies a recurring redacted failure beyond current providers, quantifies impact, names the budget owner, commits to a bounded pilot with an independent counterparty, and demonstrates why shared Arbitrum state is materially necessary.
+- **Evidence:** [D-044 competitive recheck](research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md).
