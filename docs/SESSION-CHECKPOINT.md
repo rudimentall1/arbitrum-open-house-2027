@@ -702,3 +702,34 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Research/documentation only: no code, dependencies, tests, build, CI or deployment changed.
 - No tests/lint/build run; the repository has no product implementation or application test suite.
 - No interviews or outreach were performed for D-043; public-source research only.
+
+
+## Latest continuation — D-044 D-029 competitive recheck and closure (27 November 2026)
+
+### Scope and result
+- Rechecked the proposed D-029 cross-border commodity collateral / warehouse-lien verification hypothesis against current direct and adjacent competitors.
+- Reviewed Secro, Crodax, FACTOS WareVault, TradeTrust and the Singapore Trade Finance Registry.
+- Rechecked the adjacent invoice/receivables-verification pivot against MonetaGo, TFI TradeCore, TradeSun, AssureLocker and Riskernel.
+- Preserved the distinction: warehouse-receipt fraud and duplicate financing are real risks; this does not establish demand for another software platform.
+
+### Findings
+- Secro and Crodax directly overlap warehouse-receipt digitisation, lender checks and collateral-control workflows.
+- FACTOS WareVault covers adjacent warehouse-credit collateral orchestration; TradeTrust provides cross-platform digital trade-document verification; Singapore's Trade Finance Registry is an established bank utility.
+- Invoice/receivables verification is also served by multiple overlapping providers. No evidence here establishes a buyer gap or willingness-to-pay for a new entrant.
+- No two independent buyers/operators, redacted customer incidents, quantified impact, named budget owner, willingness-to-pay or pilot commitment have been obtained.
+- A participant-limited network cannot provide global lien visibility; a ledger cannot prove physical stock or create cross-border legal priority. No material Arbitrum shared-state requirement is demonstrated.
+
+### Decision
+- **D-044 closes D-029 as NO-GO and supersedes its WATCH status. CollateralLink must not be built.**
+- No replacement candidate is selected; no GO or implementation authorization is issued.
+- Do not repackage the same concept as proof-of-stock, invoice verification, registry interoperability or generic RWA infrastructure.
+- Reopen only on a named buyer's specific uncovered workflow, redacted incident, measured impact, budget owner, bounded pilot and material Arbitrum requirement.
+
+### Documentation and verification
+- Added `research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md`.
+- Added D-044 and superseded D-029 WATCH in DECISIONS.md.
+- Closed the D-029 WATCH task and added completed D-044 work in TASKS.md.
+- Updated PROJECT_CONTEXT.md, README.md and RESEARCH_LOG.md to state that there is no current WATCH.
+- Documentation-only updates through GitHub; no code, dependencies, tests, build, CI or deployment changed.
+- No test/lint/build command was run. The repository remains a research/documentation workspace with no application test suite.
+- This was public-source desk research only; no customer interviews or outreach were performed for D-044.
