@@ -248,3 +248,17 @@ New problem frame after D-026: payment exceptions and reconciliation across busi
 Competition is already strong: Utila/Cordant, Fipto/Kyriba, Circle, Request Finance, Stripe, Ripple Treasury, Bitwave/Cryptio and other payment/invoicing tools. No named prospect, independently quantified unmet cost or pilot willingness has been established. Generic reconciliation dashboard or invoice matcher is not differentiated. Status WATCH only.
 
 D-027 allows one bounded validation pass across two buyer segments only: stablecoin payment processors/fintechs operating their own stack, and businesses receiving direct stablecoin payments into self-custody wallets. Need a named buyer, real/redacted exception examples, recurrence, quantified manual cost/loss/SLA impact, a gap beyond substitutes, and explicit willingness for a two-week read-only pilot. Otherwise NO-GO and stop. Agentic payment authorization/control is excluded from this cycle to avoid reviving the explicitly excluded Verigate frame.
+
+
+## 27 November 2026 — D-027 buyer-access validation and D-028 NO-GO
+
+The bounded buyer-access pass identified named operator teams and roles:
+- Due's recent operations vacancies explicitly cover daily fiat/stablecoin reconciliation, breaks, investigations, stuck/returned/recalled payments and back-office automation. Public access leads include CEO Robert Sargsian and SVP Operations & Expansion Vasco Moura. The vacancy's rob@due.network address is an application contact, not a confirmed sales/discovery channel.
+- Pockyt's Head of Payment Operations vacancy describes high-touch/manual money movement, partner settlement/reconciliation and building controls; the company says it has a unified ledger/API. Founder/CEO Mason Lin is a public leadership contact.
+- BPN's Payment Operations Lead vacancy explicitly names abnormal credits, returns, account freezes, settlement failures, reconciliation breaks and mismatched transaction/fund status. It also describes building its own APIs and operational controls.
+- Taptap Send's Treasury Operations Analyst role covers stablecoin funding, payment lifecycle tracking and troubleshooting.
+- BVNK has open reconciliation and fiat product roles; classify it as a direct incumbent/competitor, not a target buyer. DIMOCO/Fipto and Paysecure/Valuno are existing integrated payment routes.
+
+For direct-wallet invoice receivers, no named business with quantified recurring unresolved pain was found. Abundance360's Coinbase Business case reports reduced manual reconciliation via an integrated invoice/settlement workflow, supporting the strength of existing substitutes.
+
+These are public job descriptions and company/vendor case studies, not customer interviews. No redacted production exceptions, recurrence/month, quantified cost/loss/SLA impact, unmet workflow after substitutes, or two-week pilot willingness was obtained. Therefore D-028 records **NO-GO for D-027**. Stop this cycle; do not build or continue generic public research. Reopen only on new primary buyer evidence. Full report: [research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md](research/NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERATIONS_2026-11-27.md).
