@@ -1,10 +1,16 @@
 # Research log — Arbitrum Open House São Paulo 2027
 
-## Executive conclusion
+## Executive conclusion — D-034 (27 November 2026)
 
-**No GO concept has been established. Product selection remains undecided.** The broad idea-generation and sector-screening stage is complete. The active phase is issue-driven problem discovery using primary GitHub Issues/Discussions and technical reports from Arbitrum SDK, Nitro, Orbit, Morpho, Aave, GMX, Uniswap, and adjacent infrastructure.
+**No product has GO status. Product selection remains undecided and implementation is not authorized. RWA is the user's priority research sector.**
 
-GapGuard remains WATCH only. Previously rejected directions stay closed unless new primary evidence directly changes the rejection rationale. Verigate is explicitly excluded. The previous repository proposal RWA Servicing Copilot is not an active candidate and is retained only as historical research.
+The only current WATCH is D-029: cross-border commodity collateral / warehouse-lien verification. It is RWA-adjacent asset-finance infrastructure, not a validated tokenised-RWA product. D-033 rejected generic fund servicing/transfer agency/NAV reconciliation, private-credit servicing, collateral dashboards/orchestration and asset/NAV verification because existing institutional and specialist providers cover the obvious workflows. Collateral realisability under stress remains a problem area only, not a candidate.
+
+D-026 closed the prior issue-driven candidate set. D-010–D-024 remain historical technical research and are not active product candidates or current WATCH items. D-028 closed generic B2B stablecoin payment operations. D-030, D-031 and D-032 rejected their respective generic product theses. Verigate remains explicitly excluded; the earlier generic RWA Servicing Copilot is not reopened.
+
+**Next action:** stop broad market scans and validate D-029 with two independent commodity-finance lenders, collateral managers, warehouse operators or trade-finance operations/risk owners. Require real redacted incidents, recurrence, quantified exposure/cost, a differentiated gap beyond current systems, a named budget owner and explicit bounded-pilot willingness. No code before GO.
+
+Full repository conclusion: [docs/FINAL_PROJECT_REVIEW_2026-11-27.md](docs/FINAL_PROJECT_REVIEW_2026-11-27.md).
 
 ## Scope
 
