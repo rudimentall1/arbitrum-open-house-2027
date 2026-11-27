@@ -20,7 +20,11 @@ Read [D-034](DECISIONS.md), [the final repository review](docs/FINAL_PROJECT_REV
 
 ## Active next step
 
-Stop broad market scans. For the user's strict RWA priority, validate D-033's residual question with two independent banks, CCPs or clearing members: can tokenised collateral be legally accessed, transferred, converted and realised within required stress windows? Seek real redacted incidents, recurrence, quantified exposure/delay, the budget owner, a differentiated gap beyond current collateral platforms, and willingness to test a bounded read-only workflow.
+Stop broad market scans. Continue only primary buyer/operator validation of D-033's residual question: can a bank or CCP exercise enforceable rights over tokenised collateral and turn it into usable liquidity within the required default-management window?
+
+D-035 confirmed the regulatory problem framing and two distinct live operator environments (Eurex/HQLAx/Clearstream and DTCC/DTC), but did not find customer-specific incidents, quantified losses/delays, a budget owner, a differentiated software gap or pilot willingness. Do not conflate pre-default collateral mobilisation with post-default liquidation. The next step is two independent operator interviews (CCP and clearing-member/bank), each supported by a redacted default drill, near-miss or exception with step-level timestamps, legal basis, dependencies and impact. Target organisations and caveats are in [D-035 research](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md).
+
+No Arbitrum requirement is currently established: the public live models use CSD/custody infrastructure, HQLAx, Canton and Besu. Reject the thesis if existing market infrastructure, signed attestations, APIs or internal controls already solve the workflow. No candidate, WATCH, MVP or code before the full GO gate and explicit authorization.
 
 D-029 cross-border commodity collateral remains the only WATCH overall, but is RWA-adjacent asset-finance infrastructure rather than a validated tokenised-RWA product. Do not perform another generic vendor scan.
 
@@ -80,3 +84,4 @@ Read HISTORY_RECONSTRUCTION.md before revisiting older work. Agent Guardian / Gu
 - D-030/D-031/D-032: generic niche screens; NO-GO.
 - D-033: generic RWA infrastructure shapes; NO-GO.
 - D-034: repository-wide audit and canonical current state.
+- D-035: targeted RWA collateral realisability operator evidence check; problem validation only, no new candidate/WATCH.
