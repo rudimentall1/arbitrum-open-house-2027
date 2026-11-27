@@ -411,6 +411,8 @@ Full evidence: [research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md](res
 
 ## D-040 adjacent validation — partial-receipt allocation (27 Nov 2026)
 
+- [x] Identify three relevant operator interview leads: Oliveira Trust, Hemera DTVM and Monetiza Investimentos; verify public fund/operator relationships and contact channels.
+- [x] Prepare separate Brazilian Portuguese discovery email drafts; no outreach sent.
 - [ ] Request 20-minute operations interviews with Oliveira Trust (NACIONAL 2 FIDC), Hemera DTVM (Homma Prec administrator/custodian), and Monetiza Investimentos (Homma Prec manager); drafts and public contact channels are in [the buyer-discovery report](research/D040_PARTIAL_RECEIPT_OPERATIONS_BUYER_DISCOVERY_2026-11-27.md). No outreach has been sent; obtain explicit approval before sending.
 - [ ] Establish the system of record and process for partial receipts, corrections/reversals, fee/attorney splits, discharge, cash allocation and quota amortisation.
 - [ ] Obtain a redacted workflow example and quantify exception frequency/month, manual hours, delays and financial/control impact.
