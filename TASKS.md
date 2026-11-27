@@ -17,7 +17,7 @@
 - [ ] Obtain explicit willingness to test a bounded, read-only evidence workflow.
 - [ ] Determine whether shared Arbitrum state is genuinely required; reject the idea if signed attestations, APIs, standards or a conventional database suffice.
 - [ ] Keep this as a problem-validation question, not a candidate or WATCH, until the complete GO gate is met. No MVP before GO and explicit authorization.
-- [ ] Keep D-029 cross-border commodity collateral as the only current WATCH, but treat it as RWA-adjacent asset finance rather than the primary tokenised-RWA direction. Validate it only if relevant buyers surface a concrete, differentiated case.
+- [x] Close D-029 as NO-GO after the competitive recheck; it is no longer a WATCH. Do not build CollateralLink or relabel it as proof-of-stock/invoice verification.
 - [x] Close the prior issue-driven candidate set under D-026; D-007/D-008 and D-010–D-024 (including GapGuard) are historical evidence, not active product candidates or current WATCH items.
 - [x] Close B2B stablecoin payment operations under D-028.
 - [x] Complete global screens D-030, D-031 and D-032.
@@ -190,29 +190,16 @@ Current status: WATCH / not GO. Research: [NEW_CYCLE_01_STABLECOIN_PAYMENT_OPERA
 
 Result: named prospects and reachable roles exist, but no redacted production exceptions, quantified recurrence/cost, differentiated gap or two-week pilot willingness was obtained. Do not extend D-027 with generic research. Reopen only on new primary buyer evidence.
 
-## D-029 follow-up — global non-payment niche scan (27 November 2026)
+## D-044 — D-029 competitive recheck and closure (27 November 2026)
 
-- [x] Review prior D-026 and D-028 closures and preserve explicit Verigate exclusion.
-- [x] Review the Arbitrum Open House 2027 format, dates, deployment and judging requirements.
-- [x] Conduct a broad global scan outside B2B stablecoin payment reconciliation: DeFi operations, EV/battery finance, EUDR/smallholder traceability, energy flexibility, commodity collateral, reusable packaging, cold chain, and adjacent workflows.
-- [x] Map major substitutes and incumbent systems before promoting a candidate.
-- [ ] Identify two independent trade-finance lenders, commodity traders, collateral managers or warehouse operators with a cross-border collateral-verification workflow.
-- [ ] Obtain redacted real examples, frequency, quantified operational/financial impact, existing registry/provider path and the specific unresolved gap.
-- [ ] Test willingness for a read-only, non-binding pilot; do not imply legal enforceability or that on-chain records prove physical stock.
-- [ ] If two independent operators do not validate a measurable gap and pilot path, record NO-GO and change the problem frame; do not start implementation.
-- [ ] Do not build a generic warehouse-receipt tokenization platform, global lien registry, battery passport, LP manager, incentive dashboard, energy marketplace, packaging tracker or sensor-to-insurance oracle.
+- [x] Recheck direct warehouse-receipt/collateral competitors: Secro and Crodax.
+- [x] Review adjacent collateral/document infrastructure: FACTOS WareVault, TradeTrust and Singapore Trade Finance Registry.
+- [x] Check whether an invoice/receivables-verification pivot creates a differentiated opening; identify overlapping providers and preserve uncertainty.
+- [x] Record that no two independent buyers, redacted incidents, quantified impact, budget owner, willingness-to-pay or pilot commitment exist.
+- [x] Record NO-GO; supersede D-029 WATCH and prohibit implementation/repackaging.
+- [ ] Reopen only on a named buyer's specific uncovered workflow, measured impact, budget owner, bounded pilot and material Arbitrum requirement.
 
-Current status: one WATCH hypothesis; no GO candidate. Full report: [research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
-
-### D-029 buyer access leads — 27 November 2026
-
-Publicly identified, not yet contacted or validated:
-- [ ] Clemence Avril — Global Head of Commodity Trade Finance, Standard Chartered: https://sg.linkedin.com/in/clemence-avril-99a74676
-- [ ] Cauê Todeschini — Global Lead, Trade & Commodity Finance, ING: https://www.linkedin.com/in/caue-todeschini
-- [ ] Abhay Dandwate — Chief Risk Officer & Head of Strategy, NBHC: https://in.linkedin.com/in/abhay-dandwate-24972887
-- [ ] OCBC collateral-management operations role: https://ocbc.wd102.myworkdayjobs.com/en-US/External/job/AVP--Transaction---Collateral-Management-Manager_JR00010266
-
-These are discovery access leads only, not customer commitments. Do not treat seniority, a job posting, or a public profile as proof of demand.
+Full evidence: [research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md](research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md).
 
 ## D-030 follow-up — second global niche scan (27 November 2026)
 
