@@ -367,3 +367,18 @@ Full evidence: [research/BRAZIL_DUPLICATA_ESCRITURAL_OPERATIONAL_GAP_SCREEN_2026
 - [ ] Reopen only on a named buyer's quantified uncovered collateral workflow and a material reason existing registrar APIs are insufficient.
 
 Full evidence: [research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md](research/BRAZIL_CPR_AGRICULTURAL_COLLATERAL_SCREEN_2026-11-27.md).
+
+
+## D-043 — Brazil warehouse receipts and physical inventory collateral (27 November 2026)
+
+- [x] Review Brazilian CDA/WA legal structure and central-depositary requirement.
+- [x] Distinguish Conab's warehouse registration code from the CDA financial instrument.
+- [x] Review Conab/SICARM warehouse registration and in-person inspection process.
+- [x] Map direct/adjacent providers: B3, Bureau Veritas, Somar Agro and INTEGRO.
+- [x] Compare local Brazil workflow against the broader D-029 cross-border warehouse-receipt/lien-conflict problem.
+- [x] Record NO-GO for standalone Brazil registry, warehouse directory, generic inventory/collateral dashboard or Arbitrum ledger; no new WATCH.
+- [ ] Keep D-029 as the only WATCH; validate a cross-border gap with two independent buyers/operators, redacted incidents, measured impact and a bounded pilot path.
+- [ ] Reopen a Brazil-specific angle only on a named buyer's quantified gap beyond B3/authorised depositaries, Conab/SICARM and specialist monitoring providers.
+- [ ] Do not force Arbitrum where signed inspection attestations, APIs and conventional audit trails suffice.
+
+Full evidence: [research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md](research/BRAZIL_WAREHOUSE_RECEIPTS_AND_INVENTORY_COLLATERAL_SCREEN_2026-11-27.md).
