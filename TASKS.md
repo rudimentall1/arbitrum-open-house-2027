@@ -1,6 +1,6 @@
 # Tasks
 
-## Active priority — RWA collateral realisability buyer validation (D-034, 27 November 2026)
+## Active priority — RWA collateral realisability buyer validation (D-037, 27 November 2026)
 
 - [ ] Validate D-033's residual RWA question: whether tokenised collateral users need independent assurance that collateral can be legally accessed, transferred, converted and realised within required stress windows.
 - [ ] Prioritize two independent banks, CCPs or clearing members; interview Heads of Collateral Risk, Collateral Operations, Secured Financing Operations or Default Management.
@@ -31,6 +31,21 @@
 - [ ] Keep this as a problem-validation question only. No candidate/WATCH/MVP/code until the full GO gate and explicit authorization.
 
 Full evidence: [research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md).
+
+### Direct operator outreach and CCP criteria — D-036/D-037 (27 November 2026)
+
+- [x] Send initial research requests to Eurex Default Management and CME Clearing Risk Management using official public mailboxes.
+- [x] Verify and record CME's perfected-security-interest requirement and one-hour cash-liquidation threshold / committed-liquidity-facility fallback.
+- [x] Verify Eurex's 2 December 2026 EMIR Fire Drill, participation eligibility, and distinction between the four-hour client-porting prerequisite window and cash realisation.
+- [x] Send targeted follow-up requests to Eurex Client Services and CME Clearing Collateral Risk.
+- [x] Check connected Gmail for responses to the four outreach messages; no replies found at this checkpoint.
+- [ ] Track replies and confirm whether responders have direct collateral/default-management operational responsibility.
+- [ ] After the 2 December exercise, inspect public non-confidential outputs; do not infer outcomes merely from the exercise taking place.
+- [ ] Obtain one independent clearing-member DMP Coordinator / Collateral Operations account and one CCP operator account, each with a redacted drill/near-miss/exception.
+- [ ] Determine whether CME's liquidity-facility fallback and existing CCP/member controls already eliminate the alleged tokenised-collateral gap.
+- [ ] Do not send repeated generic messages; follow up once after a reasonable interval and use verified role-specific routes.
+
+Full evidence: [research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md).
 
 ## GO criteria
 
