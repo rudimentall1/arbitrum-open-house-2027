@@ -83,3 +83,15 @@ The repository contains research documentation, minimal `package.json` metadata,
 ## Completeness substitute comparison (26 Nov 2026)
 
 Current vendor comparison is documented in [research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md](research/INDEXER_COMPLETENESS_SUBSTITUTES_COMPARISON_2026-11-26.md). SQD Portal and Envio HyperSync publicly describe block/receipt-root and multi-source validation, making upstream data-integrity checks a strong substitute. Blockscout documents catch-up, retry, and specialized repair workers but no universal public canonical-completeness guarantee was found in the reviewed docs. Alchemy provides RPC/log APIs, subscriptions and request diagnostics, not consumer-database completeness attestation. Ekubo and DALP already cover gap audit/repair and platform operations. Product gap hypothesis is now limited to a neutral cross-provider reconciliation/evidence workflow, still unvalidated; WATCH only.
+
+
+## 27 November 2026 follow-up
+
+See [research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md](research/ISSUE_RESEARCH_FOLLOWUP_2026-11-27.md).
+
+- Nuthatch's current 5.17.0 docs set the default caught-up poll interval to five minutes; the earlier ~$185/month / ~9,900 CU/min Arbitrum figure applies to an every-block configuration and is not the current default. The maintainer's own deployment measurements are not independent customer WTP.
+- Morpho borrower-feed issue #118 is one supply-side offer: 2,586 Base borrowers / 212 markets / 20-minute refresh, with no subscriber, payment, or commitment evidence. Morpho API and hosted Envio HyperIndex are documented alternatives in the Morpho liquidation-bot provider design. Do not promote a generic borrower feed.
+- Morpho viem-dlc #1 is a specific cache architecture OOM issue with an in-library mitigation path, not cross-customer product evidence.
+- Nitro #4770 was closed as not a bug after time-aligned snapshots showed the node executing all inbox messages; it is not independent confirmation of #4733.
+- Official Arbitrum HA and troubleshooting documentation cover much of generic sequencer operations. #4733 remains a single-operator correctness report.
+- No new GO candidate; product selection remains undecided and implementation remains blocked pending buyer/workflow validation.
