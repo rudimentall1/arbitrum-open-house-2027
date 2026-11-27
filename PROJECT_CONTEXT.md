@@ -26,9 +26,11 @@ Prioritise product hypotheses with a named economic buyer, recurring operational
 
 Read [D-035 report](research/RWA_COLLATERAL_REALISABILITY_BUYER_CHECK_2026-11-27.md), [D-037 report](research/RWA_CCP_DEFAULT_OPERATIONS_FOLLOWUP_2026-11-27.md), [D-038 report](research/CVM_DLT_PILOT_EVIDENCE_OPERATIONS_2026-11-27.md), and [D-039 report](research/BRAZIL_SBCE_CARBON_INFRASTRUCTURE_SCREEN_2026-11-27.md).
 
-## GO gate
+## Product selection vs implementation GO
 
-A concept advances only with all of the following:
+Product selection is an evidence-weighted decision, not a gate that must wait for every interview or two customer confirmations. A product hypothesis may be selected provisionally when the comparative scorecard shows the strongest available case; unresolved buyer, budget, competitive and technical assumptions must remain explicit, with a short validation plan. Do not restart the search from zero merely because one outreach thread is unanswered.
+
+The following **implementation GO gate** is required before building an MVP or product code:
 1. Named economic buyer and budget-owning role.
 2. Two independent buyers/operators corroborating the same recurring problem.
 3. Redacted real incidents or workflow examples.
