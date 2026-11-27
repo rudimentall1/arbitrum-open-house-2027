@@ -146,3 +146,12 @@ See [research/GLOBAL_NICHE_SCAN_03_2026-11-27.md](research/GLOBAL_NICHE_SCAN_03_
 Five additional areas were screened: insurance claims/subrogation evidence, manufacturing supplier quality/warranty recovery, distributed-energy flexibility settlement, eBL interoperability, and SME receivables/SCF fraud. No new GO or WATCH candidate emerged. Generic product theses were rejected due to existing claims/evidence vendors, ERP/QMS and warranty platforms, Piclo/Elexon and national flexibility-market infrastructure, DCSA eBL interoperability/control-tracking standards, and MonetaGo/national receivables validation systems.
 
 Energy multi-BRP allocation and compensation disputes remain a documented operational complexity, but no buyer-specific product gap has been established; it is not promoted to WATCH. D-029 cross-border commodity collateral remains the sole WATCH hypothesis. No buyer interviews, production data, quantified buyer-specific costs, paid pilots or WTP commitments are claimed. No implementation is authorized. Continue discovery in a different problem space, with buyer/access mapping before deep research.
+
+
+## 27 November 2026 — Fourth global niche scan (D-032)
+
+See [research/GLOBAL_NICHE_SCAN_04_2026-11-27.md](research/GLOBAL_NICHE_SCAN_04_2026-11-27.md).
+
+Three additional areas were screened: aircraft component lifecycle/LLP records and transfer; battery second-life SoH, residual value and repurposing; FuelEU Maritime compliance-balance pooling. No new GO or WATCH candidate emerged. ATA is developing a Component Passport and IATA's September 2026 guidance clarifies current-status confirmation for LLPs; established aircraft records/transition vendors cover digitisation and audit. EU Battery Regulation, Commission registry/FAQ and passport/BMS vendors cover battery passport and SoH data. FuelEU's official database and providers such as OceanScore, BetterSea and Zero44 cover pooling, pricing and compliance workflows.
+
+Three residual questions are documented but are not candidates: neutral LLP current-status evidence; operational access to OEM BMS data for second-life valuation; and post-trade FuelEU contractual/allocation disputes. None has independent buyer evidence, quantified impact or pilot willingness. D-029 commodity collateral remains the sole WATCH. No implementation is authorized.
