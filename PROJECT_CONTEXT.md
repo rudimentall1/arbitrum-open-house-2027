@@ -8,14 +8,11 @@ The repository is the source of truth for prior research, hackathon winner analy
 
 ## Current conclusion
 
-**No product has GO status and no implementation should start.** D-030 is the latest second global niche scan. Six additional generic theses were rejected due to direct incumbents, official infrastructure, a direct competing project, or weak market demand: construction-loan payment-gap verification, GPU-cloud SLA evidence ledger, durable CDR offtake delivery dashboard/escrow, CBAM supplier data platform, biodiversity-credit market infrastructure, and ocean-freight demurrage/detention audit.
+**No product has GO status and no implementation should start.** D-033 is the latest RWA-focused scan. It rejected four generic product shapes: tokenised fund servicing/transfer agency/NAV reconciliation; tokenised private-credit servicing/loan-pool reporting; collateral eligibility/monitoring/realisation; and independent asset backing/NAV/investor transparency. Existing institutional and specialist providers cover the generic workflows. The only residual RWA problem area worth targeted buyer validation is collateral realisability under stress; it is not a candidate or WATCH.
 
-D-029's cross-border commodity collateral / warehouse-lien verification remains **WATCH only**. One outreach message was sent; two LinkedIn contacts did not accept messages. That is an access/channel issue, not a negative buyer response. No buyer interview, quantified customer cost, pilot willingness or product demand has been established. Do not implement.
+D-029 cross-border commodity collateral / warehouse-lien verification remains the sole existing WATCH. D-026 generic post-origination private-credit servicing remains NO-GO and is not reopened. D-028 and D-030 through D-033 remain closed for their respective scopes. Verigate remains explicitly excluded.
 
-D-026 and D-028 remain closed; Verigate remains explicitly excluded. Continue discovery in new problem spaces, requiring a named budget owner, independently corroborated pain, measurable cost, an unmet workflow beyond existing products, reachable buyers and a credible reason for Arbitrum shared state.
-
-Full latest evidence: [research/GLOBAL_NICHE_SCAN_02_2026-11-27.md](research/GLOBAL_NICHE_SCAN_02_2026-11-27.md). D-029 evidence: [research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
-
+Full latest RWA evidence: [research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md](research/RWA_INFRASTRUCTURE_SCAN_2026-11-27.md). Prior scans: [D-032](research/GLOBAL_NICHE_SCAN_04_2026-11-27.md), [D-031](research/GLOBAL_NICHE_SCAN_03_2026-11-27.md), [D-029](research/GLOBAL_NONPAYMENT_NICHE_SCAN_2026-11-27.md).
 ## Explicit exclusions
 
 - Verigate is excluded from the Buildathon candidate pool at the user's explicit direction. Do not propose, revive, or spend research time on it.
@@ -155,3 +152,8 @@ See [research/GLOBAL_NICHE_SCAN_04_2026-11-27.md](research/GLOBAL_NICHE_SCAN_04_
 Three additional areas were screened: aircraft component lifecycle/LLP records and transfer; battery second-life SoH, residual value and repurposing; FuelEU Maritime compliance-balance pooling. No new GO or WATCH candidate emerged. ATA is developing a Component Passport and IATA's September 2026 guidance clarifies current-status confirmation for LLPs; established aircraft records/transition vendors cover digitisation and audit. EU Battery Regulation, Commission registry/FAQ and passport/BMS vendors cover battery passport and SoH data. FuelEU's official database and providers such as OceanScore, BetterSea and Zero44 cover pooling, pricing and compliance workflows.
 
 Three residual questions are documented but are not candidates: neutral LLP current-status evidence; operational access to OEM BMS data for second-life valuation; and post-trade FuelEU contractual/allocation disputes. None has independent buyer evidence, quantified impact or pilot willingness. D-029 commodity collateral remains the sole WATCH. No implementation is authorized.
+
+
+## RWA-focused research status — 27 November 2026 (D-033)
+
+RWA is now the user's priority research sector. This does not change the evidence gate or authorize implementation. The D-033 scan found meaningful market and Arbitrum ecosystem traction, but no new product passed buyer access, differentiated unmet workflow, quantified cost and pilot willingness. Generic fund servicing, private-credit servicing, collateral monitoring and asset verification are already covered by institutional or specialist providers. The only residual question is collateral realisability under stress, requiring targeted buyer validation before it can become WATCH. D-029 commodity collateral remains the sole existing WATCH; D-026 private-credit servicing remains closed. No product selected; no code authorized.
