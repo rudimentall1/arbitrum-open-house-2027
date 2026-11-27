@@ -20,7 +20,7 @@ Read [D-034](DECISIONS.md), [the final repository review](docs/FINAL_PROJECT_REV
 
 ## Active next step
 
-Continue **parallel RWA product discovery**, not sequential waiting and not another unbounded generic scan. D-033 collateral realisability remains problem validation; D-038 CVM DLT pilot evidence operations remains exploratory; D-039 SBCE carbon-asset/MRV infrastructure is NO-GO for Arbitrum at this stage; D-040 precatório transfer-eligibility/token-allocation control is exploratory only, not selected or WATCH. D-041 duplicata escritural operational-gap screen is NO-GO as an Arbitrum thesis due to direct incumbent coverage and no material chain role. D-042 Brazil CPR collateral screen is also NO-GO: B3/BBM and authorised registrars already cover uniqueness, collateral splitting and lifecycle/API workflows. D-029 remains the only WATCH. None of these statuses blocks discovery of a different, concrete RWA workflow.
+Continue **parallel RWA product discovery**, not sequential waiting and not another unbounded generic scan. D-033 collateral realisability remains problem validation; D-038 CVM DLT pilot evidence operations remains exploratory; D-039 SBCE carbon-asset/MRV infrastructure is NO-GO for Arbitrum at this stage; D-040 precatório transfer-eligibility/token-allocation control is exploratory only, not selected or WATCH. D-041 duplicata escritural operational-gap screen is NO-GO as an Arbitrum thesis due to direct incumbent coverage and no material chain role. D-042 Brazil CPR collateral screen is NO-GO: B3/BBM and authorised registrars already cover uniqueness, collateral splitting and lifecycle/API workflows. D-043 Brazil CDA/WA and warehouse inventory collateral is NO-GO as a standalone Arbitrum thesis: B3/authorised depositaries, Conab/SICARM and specialist providers cover the obvious registry, warehouse-identification and monitoring shapes. D-029 remains the only WATCH. None of these statuses blocks discovery of a different, concrete RWA workflow.
 
 Prioritise product hypotheses with a named economic buyer, recurring operational pain, visible alternatives, credible budget/procurement path, a bounded MVP and a material Arbitrum advantage. Score the candidates comparatively rather than waiting for every interview reply. Treat outreach and public regulatory evidence as leads, not customer validation. Continue tracking the four Eurex/CME mailboxes and four CVM pilot contacts in parallel. No product is selected; no implementation is authorised without explicit GO.
 
@@ -51,13 +51,13 @@ The official program currently lists an online Buildathon on 8–28 February 202
 - AGENTS.md — mandatory working and engineering rules.
 - PROJECT_CONTEXT.md — this canonical context.
 - TASKS.md — parallel RWA discovery and buyer-validation queue; historical backlog is retained below the archive marker.
-- DECISIONS.md — durable decisions D-001 through D-040.
+- DECISIONS.md — durable decisions D-001 through D-043.
 - RESEARCH_LOG.md — consolidated research history and current conclusions.
 - HISTORY_RECONSTRUCTION.md — recovered earlier Agent Guardian, AttestGuard, meme-wallet and concept-funnel history.
 - WINNER_MAP.md — selected Arbitrum/Open House winner analysis.
 - docs/FINAL_PROJECT_REVIEW_2026-11-27.md — repository-wide final audit.
 - docs/SESSION-CHECKPOINT.md — latest session handoff.
-- research/ — research reports across issue-driven discovery, stablecoin payments, global niche scans and RWA, including D-035/D-037 collateral work, D-038 CVM DLT pilot evidence operations and D-039 SBCE carbon infrastructure screen.
+- research/ — research reports across issue-driven discovery, stablecoin payments, global niche scans and RWA, including D-035/D-037 collateral work, D-038 CVM DLT pilot evidence operations, D-039 SBCE carbon infrastructure, and D-043 Brazil warehouse receipts/inventory collateral.
 - package.json — minimal private Node.js metadata; npm test uses the built-in Node test runner.
 - .gitignore — standard dependency/build/environment/editor exclusions.
 - src/README.md and tests/README.md — intentional placeholders.
