@@ -758,3 +758,10 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Updated DECISIONS.md, TASKS.md, PROJECT_CONTEXT.md, README.md and RESEARCH_LOG.md.
 - Research/documentation only; no code, dependencies, tests, build, CI or deployment changed.
 - No tests/lint/build run; no application test suite exists.
+
+
+### D-040 outreach mailbox check — 27 November 2026
+- Checked connected Gmail for responses from Preks and Adianta Jus.
+- Adianta Jus returned only an automated receipt acknowledgement under support protocol 44; no operational answers or meeting offered yet.
+- No Preks reply found in the checked period.
+- No follow-up was sent; automated acknowledgement is not buyer validation.
