@@ -40,9 +40,9 @@ Research and product-discovery workspace for Arbitrum Open House São Paulo 2027
 
 ## Current next step
 
-Stop broad market scans. Validate D-029 with two independent commodity-finance lenders, collateral managers, warehouse operators or trade-finance operations/risk owners. Ask for real cross-border pledge conflicts or stock/release evidence failures after existing registries and controls, recurrence, measurable loss/delay, budget ownership and willingness to test a read-only workflow.
+Stop broad market scans. For the user's strict RWA priority, validate D-033's residual question with two independent banks, CCPs or clearing members: can they legally access, transfer, convert and realise tokenised collateral within required stress windows? Seek real redacted incidents, recurrence, quantified exposure/delay, the budget owner, a differentiated gap beyond current collateral platforms, and willingness to test a bounded read-only workflow.
 
-Only if a concrete buyer case emerges, test whether banks/CCPs have an unmet need to verify tokenised collateral realisability under stress. Do not build before the full GO gate is met.
+D-029 cross-border commodity collateral remains the only WATCH overall, but is RWA-adjacent asset-finance infrastructure rather than a validated tokenised-RWA product. Do not build before the full GO gate is met.
 
 ## GO gate
 
