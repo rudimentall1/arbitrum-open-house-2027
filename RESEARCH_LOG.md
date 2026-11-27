@@ -426,3 +426,14 @@ Full report: [Brazil warehouse receipts and physical inventory collateral screen
 - No independent buyer interviews, redacted incidents, quantified costs, budget owner, willingness-to-pay or pilot commitment were obtained. Senior contact leads remain unvalidated access leads.
 - **Decision: D-029 WATCH superseded; CollateralLink NO-GO. No replacement candidate, no GO, no implementation.** Arbitrum shared-state necessity remains unproven.
 - Full evidence: [D-044 competitive recheck](research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md).
+
+
+## D-045 — Comparative RWA hypothesis scorecard (27 November 2026)
+
+- Compared D-033 collateral realisability under stress, D-038 CVM DLT pilot evidence operations and D-040 precatório transfer-eligibility/token-allocation control.
+- Qualitative weighted scores: D-040 2.7/5; D-033 2.4/5; D-038 2.2/5. Scores are directional judgements based on existing evidence, not market measurements.
+- D-040 ranks first because it combines a concrete new regulatory workflow, identifiable operators and an outreach path. It remains only a discovery lead: CNJ/SisPreq/Central National, B3/CERC/Núclea, JURISCAN/JUDIT and operator systems already cover substantial parts of the workflow.
+- D-033 has the strongest problem-severity signal but no tokenisation-specific incident, buyer budget or differentiated product gap. D-038 has explicit regulatory duties but a short voluntary/unpaid pilot and uncertain recurring budget.
+- All three have weak/unproven Arbitrum fit. No track reaches the product-selection threshold.
+- **Decision:** no product selected, no WATCH, no GO, no implementation. Prioritise a bounded D-040 validation of the reconciliation exception between official legal/registry state and operator-side token/fund-unit allocation. Kill if official APIs, current providers or legal review already solve it.
+- Full evidence: [D-045 comparative RWA hypothesis scorecard](research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md).
