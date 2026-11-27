@@ -421,3 +421,15 @@
 - **Adjacent pivot:** Invoice/receivables verification has overlapping providers (including MonetaGo, TFI TradeCore, TradeSun, AssureLocker and Riskernel) and no validated buyer gap; it is not promoted to a candidate.
 - **Reopen only if:** a named buyer supplies a recurring redacted failure beyond current providers, quantifies impact, names the budget owner, commits to a bounded pilot with an independent counterparty, and demonstrates why shared Arbitrum state is materially necessary.
 - **Evidence:** [D-044 competitive recheck](research/D029_COMPETITIVE_RECHECK_NO_GO_2026-11-27.md).
+
+
+## D-045 — Comparative RWA hypothesis scorecard (27 November 2026)
+
+- **Status:** Accepted for prioritisation only; no product selected, no WATCH, no GO, no implementation.
+- **Decision:** Compare the remaining live tracks D-033 (collateral realisability under stress), D-038 (CVM DLT pilot evidence operations) and D-040 (precatório transfer-eligibility/token-allocation control). D-040 is the strongest next discovery lead at 2.7/5, followed by D-033 at 2.4/5 and D-038 at 2.2/5. Scores are qualitative and evidence-weighted, not market measurements.
+- **Why D-040 leads:** It has a concrete recent regulatory workflow, identifiable commercial operators and outreach already sent. That is a stronger near-term validation path than D-038's unpaid short pilot or D-033's severe but unvalidated collateral-realisation problem.
+- **Why no product is selected:** D-040 still faces CNJ/SisPreq/Central National and B3/CERC/Núclea integration, JURISCAN/JUDIT and operator-side substitutes, no buyer replies/interviews, no quantified manual burden, no budget owner, no pilot willingness and no material Arbitrum requirement. No track scores 3/5 overall.
+- **Narrow D-040 wedge to test:** reconciliation exceptions between official judicial/registry state and an operator's internal fund-unit/token allocation. Do not build another registry, court-data API, diligence portal or marketplace.
+- **Next:** check existing Preks/Adianta Jus outreach, obtain a redacted workflow and quantified exception, verify official API coverage and test whether independent parties truly require shared state. Kill if existing systems or legal review suffice, or if no budget owner/pilot path emerges.
+- **Relationship:** D-029 remains closed NO-GO under D-044. D-033 and D-038 remain problem-validation/exploratory tracks. D-040 is a prioritised discovery lead only, not a candidate or WATCH.
+- **Evidence:** [D-045 comparative RWA scorecard](research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md).
