@@ -11,7 +11,7 @@
 - [ ] Determine whether any proposed shared state genuinely needs Arbitrum; reject the idea if signed attestations, APIs, standards or a conventional database suffice.
 - [ ] Treat D-029 as WATCH only until the full GO gate is met. Do not build or start an MVP before GO and explicit user authorization.
 - [ ] Only if buyer access reveals a concrete bank/CCP case, validate D-033's collateral-realisability-under-stress question with collateral-risk/operations buyers. Do not run another generic vendor scan.
-- [x] Close the prior issue-driven candidate set under D-026; D-010–D-024 are historical technical evidence, not active product candidates.
+- [x] Close the prior issue-driven candidate set under D-026; D-007/D-008 and D-010–D-024 (including GapGuard) are historical evidence, not active product candidates or current WATCH items.
 - [x] Close B2B stablecoin payment operations under D-028.
 - [x] Complete global screens D-030, D-031 and D-032.
 - [x] Complete RWA infrastructure screen D-033; no generic RWA product selected.
