@@ -72,3 +72,15 @@ A concept cannot move to implementation until all are true:
 7. Differentiation from existing products demonstrated, not asserted.
 
 - [x] Review Ekubo event-gap audit/verification/backfill/monitor scripts and current DALP indexer health, checkpoint, backfill, and reindex operational docs as substitutes.
+
+
+## Follow-up research — 27 November 2026
+
+- [x] Recheck Nuthatch's current RPC cost documentation against release 5.17.0; correct the earlier ~$185/month figure as an every-block historical configuration, not the current five-minute default.
+- [x] Review Morpho Blue borrower-feed offer #118, the operator's parallel offer, existing Morpho API/Envio HyperIndex provider paths, and whether any subscriber/WTP evidence exists.
+- [x] Review Morpho viem-dlc #1 historical cache OOM, root cause, closure, and maintainer mitigation; classify as SDK-specific rather than a product gap.
+- [x] Recheck Nitro #4770 with comments and time-aligned snapshots; classify as a false-positive BoLD warning, not an additional confirmed node outage.
+- [x] Recheck official Arbitrum HA sequencer and sequencer troubleshooting docs as substitutes for generic operations tooling.
+- [ ] Find an independent Morpho/Aave liquidation operator who identifies a missing send-time input, quantifies missed opportunities or infrastructure cost, and agrees to test a bounded feed.
+- [ ] Find a hosted-indexer owner who quantifies detection/backfill labor, spend, SLA/customer impact, and current reconciliation automation.
+- [ ] Recheck Nitro #4733 only for independent matching reports or a source-level upstream fix; do not broaden into generic monitoring.
