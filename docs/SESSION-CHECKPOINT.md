@@ -596,3 +596,9 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - No tests/lint/build run; no application test suite exists.
 - Local checkout/status remains unavailable; do not claim local git state.
 - Customer discovery and outreach were not performed for D-039; all conclusions are desk-research screening, not buyer validation.
+
+
+### Process correction — product selection is not blocked by incomplete interviews
+- Updated PROJECT_CONTEXT.md, TASKS.md and README.md to distinguish an evidence-weighted provisional product-selection decision from the stricter implementation GO gate.
+- The next research cycle must score competing hypotheses and can select the strongest current option with explicit unresolved assumptions and a short validation plan; it must not wait indefinitely for every outreach response.
+- The implementation GO gate still applies before MVP/code. User's explicit authorization is still required.
