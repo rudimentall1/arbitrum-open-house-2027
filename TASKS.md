@@ -212,3 +212,19 @@ Full evidence: [research/GLOBAL_NICHE_SCAN_02_2026-11-27.md](research/GLOBAL_NIC
 - [ ] No code or MVP until the full GO gate is met.
 
 Full evidence: [research/GLOBAL_NICHE_SCAN_03_2026-11-27.md](research/GLOBAL_NICHE_SCAN_03_2026-11-27.md).
+
+
+## D-032 — Fourth global niche scan (27 November 2026)
+
+- [x] Screen aircraft component lifecycle records, LLP traceability and cross-company transfer; reject generic product due to ATA Component Passport work, IATA current-status guidance, and records/transition vendors.
+- [x] Screen battery second-life SoH, residual value and repurposing evidence; reject generic passport/registry/marketplace due to EU Battery Regulation, Commission registry and existing passport/BMS providers.
+- [x] Screen FuelEU Maritime pooling, allocation and settlement; reject generic marketplace/ledger due to official FuelEU database and OceanScore, BetterSea, Zero44 and other providers.
+- [x] Record residual questions without promoting them to WATCH.
+- [x] Confirm no new GO or WATCH candidate emerged; D-029 remains the sole WATCH.
+- [ ] Continue discovery in new problem spaces outside aviation records, battery passports and maritime compliance pools.
+- [ ] Identify economic buyer and credible access path before deep research.
+- [ ] Require two independent operator confirmations, redacted real examples, recurrence, quantified impact, differentiated unmet workflow, and pilot willingness.
+- [ ] Demonstrate why Arbitrum shared state is materially required over standards, signed attestations, APIs, or a conventional database.
+- [ ] No code or MVP until GO gate is met.
+
+Full evidence: [research/GLOBAL_NICHE_SCAN_04_2026-11-27.md](research/GLOBAL_NICHE_SCAN_04_2026-11-27.md).
