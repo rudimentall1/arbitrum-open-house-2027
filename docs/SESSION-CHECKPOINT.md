@@ -253,3 +253,13 @@ Identify two independent trade-finance lenders, commodity traders, collateral ma
 - Tests, lint and build not run.
 - Remote updates were made sequentially using current file SHAs. All changed files were re-read and the final remote HEAD was verified as 48e5702d7a74b6054b9e1a3a03cf163366563d13; open PR count is zero.
 - Local checkout/status unavailable.
+
+### Additional buyer-access research — 27 November 2026
+
+Identified public outreach leads for the D-029 WATCH hypothesis:
+- Clemence Avril, Global Head of Commodity Trade Finance, Standard Chartered.
+- Cauê Todeschini, Global Lead Trade & Commodity Finance, ING.
+- Abhay Dandwate, Chief Risk Officer & Head of Strategy, NBHC.
+- OCBC Transaction & Collateral Management AVP role (operator-role signal; no named person).
+
+These are discovery leads only. None has been contacted or validated. Details and links are in the global scan report.
