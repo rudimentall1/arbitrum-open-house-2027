@@ -504,3 +504,13 @@
 - **Reopen only if:** A named buyer outside existing coverage demonstrates a recurring, costly interoperability/evidence-acceptance failure that current systems cannot solve and requires legally shared state.
 
 Canonical state unchanged: no product selected, no WATCH, no GO, no implementation authorized.
+
+
+## D-066 — Aircraft engine lease-return and transition workflow (28 November 2026)
+
+- **Status:** Rejected — NO-GO.
+- **Decision:** Do not build a generic engine maintenance-record ledger, LLP passport, lease-return open-item marketplace, maintenance-reserve token or cross-lessor transition registry.
+- **Rationale:** Direct commercial platforms already cover the workflow. MTU MLS invested in and deployed TRecs; GE Aerospace ATS is used by Avolon across 1,000+ assets; OLEN offers engine lifecycle/shop-visit/reserve workflows; FLYdocs, AerData/STREAM, Oliver Wyman Vector and specialist services cover adjacent records and transition work. Public-chain state cannot establish maintenance facts, technical acceptance or regulatory airworthiness; controlled SaaS/API systems are a better fit.
+- **Reopen only if:** A named lessor/operator supplies a recent redacted cross-platform exception with recurring quantified impact, a budget owner and pilot willingness, and proves legally required shared state cannot be delivered by API, signed evidence or permissioned SaaS.
+
+Canonical state unchanged: no product selected, no WATCH, no GO, no implementation authorized.
