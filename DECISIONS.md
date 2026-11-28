@@ -455,3 +455,15 @@
 - **Status:** this adjacent question is not a candidate, WATCH or GO. No implementation. Arbitrum fit unproven; conventional accounting/API integration is the default.
 - **Sources:** https://preks.com.br/para-gestoras/ ; https://atos.cnj.jus.br/atos/detalhar/6958 ; https://statics.foxbit.com.br/tokens/FTPCL-0053.pdf
 
+
+
+## D-059 — UK offshore CCUS decommissioning fund governance (28 November 2026)
+
+- **Status:** Exploratory regulatory workflow only; no candidate, WATCH, GO or implementation.
+- **Decision:** NO-GO for a generic Arbitrum decommissioning-fund registry, tokenised fund, custody rail or payout contract.
+- **Evidence:** SI 2026/632 establishes mandatory ring-fenced funds for offshore CO2 T&S licensees, with approved fund holders/administrators, detailed cost estimates and shared-cost evidence, at least 10% contingency, approved funding/investment strategies, monthly contributions, restricted fund activities and controlled payments. First Track 1 funds are expected nearer commercial operation from 2028.
+- **Potential SaaS workflow:** estimate and evidence versioning, monthly contribution reconciliation, investment-strategy compliance, drawdown approval evidence, deficit alerts and regulator audit packs.
+- **Why no Arbitrum:** UK legal fund arrangements, independent regulated fund management/custody, bank deposit-taking and Secretary of State approvals are the authoritative control points. A signed API/audit-log SaaS is more appropriate. No multi-party on-chain execution requirement is evidenced.
+- **Buyer gap:** no interviews, budget owner, paid pilot, system gap or willingness to pay. Fund administrators, trustees, investment managers and existing finance systems are strong substitutes. The absence of a dedicated vendor found in desk research is not proof of whitespace.
+- **Reopen only if:** two independent licensees/administrators identify the same quantified workflow exception beyond their selected systems, name a budget owner and demonstrate that multiple independent parties need a legally meaningful shared state that cannot be handled by approved off-chain arrangements.
+- **Evidence:** [D-059 research](research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2026-11-28.md); SI 2026/632 https://www.legislation.gov.uk/uksi/2026/632/contents/made ; parliamentary scrutiny https://publications.parliament.uk/pa/jt5902/jtselect/jtstatin/47/report.html .
