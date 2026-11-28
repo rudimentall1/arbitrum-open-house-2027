@@ -501,3 +501,17 @@ Full evidence: [research/D049_BRAZIL_BILATERAL_ENERGY_COLLATERAL_WORKFLOW_2026-1
 - [ ] Do not contact new organisations or implement without explicit authorization.
 
 Full evidence: [research/D050_BRAZIL_OPERATIONAL_WORKFLOW_SCREEN_2026-11-28.md](research/D050_BRAZIL_OPERATIONAL_WORKFLOW_SCREEN_2026-11-28.md).
+
+
+## D-051 — Cross-border payment exceptions and eBL interoperability (28 November 2026)
+
+- [x] Review Mastercard/FXC 2026 evidence for SME cross-border payment exceptions; preserve qualitative-panel caveat.
+- [x] Map SWIFT GPI/GPI for Corporates, investigation APIs, Visa B2B Connect, Mastercard Move and regional API providers.
+- [x] Review FIT Alliance 2026 eBL survey and bank adoption figures.
+- [x] Verify DCSA PINT API, MSPIA/Standard Annex and Control Tracking Registry as existing interoperability solution.
+- [x] Verify five eBL platforms' DCSA Annex v2 adoption and IGP&I approval.
+- [x] Record NO-GO for generic Arbitrum payment tracking/reconciliation and parallel eBL registry/control layer.
+- [ ] Continue discovery outside payment tracking and eBL; prioritise legally meaningful multi-party asset/collateral/obligation workflows with demonstrable uncovered exceptions, named budget owners and material Arbitrum fit.
+- [ ] No outreach or implementation without explicit authorization.
+
+Full evidence: [research/D051_CROSS_BORDER_PAYMENTS_AND_EBL_INTEROPERABILITY_2026-11-28.md](research/D051_CROSS_BORDER_PAYMENTS_AND_EBL_INTEROPERABILITY_2026-11-28.md).
