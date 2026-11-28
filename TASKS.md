@@ -541,3 +541,17 @@ Full evidence: [research/D052_PRIVATE_CREDIT_COLLATERAL_INTEGRITY_SCREEN_2026-11
 - [ ] No outreach or implementation without explicit authorization.
 
 Full evidence: [research/D053_CROSS_SECTOR_RWA_WORKFLOW_SCREEN_2026-11-28.md](research/D053_CROSS_SECTOR_RWA_WORKFLOW_SCREEN_2026-11-28.md).
+
+
+## D-054–D-058 — New RWA workflow screen (28 November 2026)
+
+- [x] Screen EU carbon-farming reversal liability and buffer/insurance operations; map CRCF registry and insurer ecosystem.
+- [x] Screen UK North Sea DSA annual security calculation, approvals, objections, expert determination and collateral.
+- [x] Screen maritime EU ETS reimbursement; map OceanScore/Data Ocean/BIMCO coverage.
+- [x] Screen EU Battery Passport lifecycle and registry proof exchange; map Commission API and vendor coverage.
+- [x] Screen US mine reclamation assurance; map GAO evidence, MineralsMind, Costmine, SITEK and surety tools.
+- [x] Record D-054/D-055 as exploratory leads only; D-056/D-057/D-058 NO-GO for generic Arbitrum products.
+- [ ] Continue desk research on D-055 portfolio scale, operator systems, trustee data exchange and repeatability before considering any product gate.
+- [ ] Continue searching for a high-value multi-party obligation where shared state/execution is necessary. No outreach or implementation without explicit authorization.
+
+Full evidence: [research/D054_D058_NEW_RWA_WORKFLOW_SCREEN_2026-11-28.md](research/D054_D058_NEW_RWA_WORKFLOW_SCREEN_2026-11-28.md).
