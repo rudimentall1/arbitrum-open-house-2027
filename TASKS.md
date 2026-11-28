@@ -487,3 +487,17 @@ Full evidence: [research/D048_BRAZIL_CURTAILMENT_COMPENSATION_SCREEN_2026-11-28.
 - [ ] No outreach, product selection or implementation authorized.
 
 Full evidence: [research/D049_BRAZIL_BILATERAL_ENERGY_COLLATERAL_WORKFLOW_2026-11-28.md](research/D049_BRAZIL_BILATERAL_ENERGY_COLLATERAL_WORKFLOW_2026-11-28.md).
+
+
+## D-050 — Brazil operational-workflow screen (28 November 2026)
+
+- [x] Screen container demurrage/detention dispute workflow and ANTAQ conciliation evidence.
+- [x] Map direct competitors: ComexIA/ElloX DetentionZero + DisputAI, e.Mix DemurrageNet and carrier dispute portals.
+- [x] Screen hospital/health-plan glosa workflow using Anahp 2025 metrics.
+- [x] Map Bionexo, Skedia and GlosaAI/MedOps coverage.
+- [x] Screen electronic duplicata rollout, authorised infrastructure owners and ERP/receivables integrators.
+- [x] Record NO-GO for generic products in all three tracks; no Arbitrum requirement established.
+- [ ] Continue discovery in other sectors/geographies; require a specific uncovered recurring workflow, named budget owner, quantified impact and material shared-state advantage before promoting any lead.
+- [ ] Do not contact new organisations or implement without explicit authorization.
+
+Full evidence: [research/D050_BRAZIL_OPERATIONAL_WORKFLOW_SCREEN_2026-11-28.md](research/D050_BRAZIL_OPERATIONAL_WORKFLOW_SCREEN_2026-11-28.md).
