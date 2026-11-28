@@ -1125,3 +1125,13 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - No candidate/WATCH/GO created. No implementation authorized. Continue independent discovery only when a specific buyer-side exception can be tested; do not repackage rejected workflows.
 
 **Canonical status: NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED.**
+
+
+## 28 November 2026 — D-066 completed
+
+- D-066 aircraft engine lease-return/transition workflow: NO-GO for generic records ledger, LLP passport, open-item marketplace, maintenance-reserve token or cross-lessor transition registry. Direct incumbents include TRecs (strategic investment and deployment by MTU MLS), GE Aerospace ATS (Avolon fleet deployment), OLEN, plus FLYdocs, AerData/STREAM, Oliver Wyman Vector and specialist records/transition firms.
+- Economic pain exists, but no named uncovered exception, quantified buyer loss, budget owner, paid-pilot evidence or legal shared-state requirement was established.
+- Full report: research/D066_AIRCRAFT_ENGINE_LEASE_RETURN_AND_TRANSITION_WORKFLOWS_2026-11-28.md.
+- No candidate/WATCH/GO created. No implementation authorized.
+
+**Canonical status: NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED.**
