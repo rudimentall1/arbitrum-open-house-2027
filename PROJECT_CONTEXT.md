@@ -135,3 +135,12 @@ The Law 15.269/2025 compensation mechanism is a bounded retrospective scheme for
 ### D-049 — Brazil bilateral electricity-trading collateral workflow (28 November 2026)
 
 Reuters documents trader retreat, credit concerns, defaults and liquidity contraction in Brazil's bilateral electricity market, which lacks a central counterparty. A possible narrow problem lead is coordination of collateral calls, substitutions, disputes and release across bilateral contracts. However Thunders Trading and GRisk already cover local credit/exposure/guarantee workflows; Brady and MCG cover energy collateral/margin management globally. Arbitrum's legal and operational role is unproven. Keep exploratory only; no outreach or implementation authorized. See [D-049](research/D049_BRAZIL_BILATERAL_ENERGY_COLLATERAL_WORKFLOW_2026-11-28.md).
+
+
+### D-050 — Brazil operational-workflow screen (28 November 2026)
+
+A parallel screen tested container demurrage/detention disputes, hospital/health-plan glosa operations and electronic duplicatas. All three show real operational pain, but none supports a differentiated Arbitrum product today:
+- Demurrage: ANTAQ mediated 240 cases and reached 176 agreements (73.3%), preventing R$23.09m in improper charges in Aug–Dec 2025. ComexIA/ElloX DetentionZero + DisputAI and e.Mix DemurrageNet already cover deadline evidence, dispute dossiers, workflow and billing. NO-GO for generic evidence/dispute software.
+- Healthcare glosas: Anahp reports 15.93% initial glosa and 77.35-day average receipt time in 2025; accepted glosas were 1.72% of gross health-plan revenue. Bionexo, Skedia and GlosaAI/MedOps already cover prevention, claims analysis and recovery. NO-GO for generic RCM/glosa or tokenized receivables.
+- Duplicata escritural: BCB/B3 and authorised infrastructure participants own the authoritative lifecycle; B3/CERC/Núclea and ERP providers such as Quick Soft already cover registry, interop and integrations. NO-GO for parallel registry or generic interoperability ledger.
+No new buyer gap, willingness to pay or material Arbitrum requirement was found. Full report: [D-050](research/D050_BRAZIL_OPERATIONAL_WORKFLOW_SCREEN_2026-11-28.md). No organisations contacted; no implementation authorized.
