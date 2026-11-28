@@ -866,7 +866,7 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - No message has been sent to Strivo.
 
 ### New evidence
-- ANBIMA's FIDC rules effective 23 March 2026 explicitly assign the manager responsibility to follow reconciliation flows for receivables receipts (Annex Complementar V, Art. 3, VIII), alongside tracking portfolio assets, settlement, liquidation and payment/prepayment/default performance.
+- ANBIMA's private self-regulatory FIDC rules effective 23 March 2026 assign participating managers responsibility to follow reconciliation flows for receivables receipts (Annex Complementar V, Art. 3, VIII), alongside tracking portfolio assets, settlement, liquidation and payment/prepayment/default performance. This is not a universal CVM rule for all FIDCs. Strivo publicly confirms ANBIMA adherence; Hemera/Monetiza membership is unverified.
 - This materially raises the bar: generic FIDC receipt reconciliation is already a defined manager responsibility, not an unowned workflow. It does not prove existing tools fully automate the process.
 - Identified Strivo as an independent operator lead: manager of WSUL Precatórios Federais FIDC; ID Corretora is the administrator. Strivo's March 2026 manual says asset controls use spreadsheets and management systems and records amortisation/interest instalment dates and amounts; it does not disclose the detailed receipt-to-claim-to-subclass allocation workflow.
 - Public fund descriptions confirm receipt-linked and conditional amortisation patterns, but not operational pain.
