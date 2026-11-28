@@ -211,3 +211,10 @@ No named uncovered buyer exception, budget owner, paid pilot or material Arbitru
 D-064 (carbon-removal reversal liability) and D-065 (marine bunker quantity/quality disputes) are closed NO-GO for generic Arbitrum products. Carbon-removal liability already has certification-scheme buffer pools and insurance products; a recent Verra durability-pilot reversal policy demonstrates actual risk transfer. Carbon-storage leasing is fundamentally a long-term legal/contractual claim design, not a ledger requirement. Bunker claims workflows are covered by BSI/ADP Clear/Lloyd's Register, Nereus, BunkerGrid and GlobalBQS; Rotterdam/Antwerp authorities do not adjudicate private disputes, but that does not create a blockchain gap. See research/D064_D065_CARBON_REVERSAL_AND_MARINE_BUNKER_DISPUTES_SCREEN_2026-11-28.md.
 
 Canonical state remains **NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED**. Reopen only with primary buyer evidence that directly invalidates the recorded rejection rationale.
+
+
+## Latest research checkpoint — 28 November 2026 (D-066)
+
+D-066 aircraft engine lease-return and transition workflow is closed NO-GO for a generic Arbitrum product. Direct platforms already cover the exact workflow: TRecs (MTU MLS investment/deployment), GE Aerospace ATS (Avolon fleet deployment), OLEN, and adjacent FLYdocs/AerData/STREAM/Oliver Wyman Vector plus specialist services. The problem is real, but no buyer-specific residual exception, willingness to pay or shared-state requirement is established. See research/D066_AIRCRAFT_ENGINE_LEASE_RETURN_AND_TRANSITION_WORKFLOWS_2026-11-28.md.
+
+Canonical state remains **NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED**.
