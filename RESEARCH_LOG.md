@@ -475,3 +475,13 @@ D-040 outreach status check: Adianta Jus returned an automated receipt acknowled
 - Evidence boundary: public roles and contact channels do not prove workflow, pain, manual burden, willingness to pay or product gap. No interview, redacted workflow, quantified impact, budget owner or pilot commitment obtained.
 - Status: D-040 exploratory only; no candidate/WATCH/GO and no implementation. Arbitrum fit unproven; conventional accounting/API integration is the default.
 - Full report: [D-040 partial-receipt operations buyer discovery](research/D040_PARTIAL_RECEIPT_OPERATIONS_BUYER_DISCOVERY_2026-11-27.md).
+
+
+## D-040 continuation — partial-receipt regulatory and independent-operator recheck (28 November 2026)
+
+- ANBIMA's FIDC rules effective 23 March 2026 explicitly assign the manager responsibility to monitor reconciliation flows for receivables receipts (Annex Complementar V, Art. 3, VIII), along with tracking settlement, portfolio assets, liquidation events and payments/prepayments/defaults. Generic FIDC reconciliation is therefore not an unowned workflow; any product thesis must identify recurring exceptions beyond current controls.
+- Identified Strivo as an independent interview lead through WSUL Precatórios Federais FIDC (manager Strivo; administrator ID Corretora). Strivo's March 2026 internal manual discloses spreadsheets and management systems for asset controls, amortisation/interest instalment records and periodic monitoring, but does not disclose the detailed cash-receipt-to-claim-to-class/subclass allocation workflow.
+- Public fund records confirm cash-receipt-linked or conditional amortisation patterns. They do not prove an operational gap.
+- Outreach: Hemera DTVM and Monetiza Investimentos emails sent 28 November; both threads checked and contain no reply yet. Oliveira Trust not sent because only the official contact form/switchboard was verified, not an appropriate operations email. Strivo identified but not contacted.
+- D-040 remains exploratory only; no candidate/WATCH/GO, no implementation and no Arbitrum requirement. Conventional accounting/API integration remains the default.
+- Full evidence: [research/D040_PARTIAL_RECEIPT_REGULATORY_OPERATOR_RECHECK_2026-11-28.md](research/D040_PARTIAL_RECEIPT_REGULATORY_OPERATOR_RECHECK_2026-11-28.md).
