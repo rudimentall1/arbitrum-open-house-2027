@@ -990,3 +990,29 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md and this checkpoint.
 - Research/documentation only; no code, dependencies, tests, lint, build, CI or deployment changed/run.
 - Next: continue searching other sectors and jurisdictions for recurring multi-party asset, collateral or obligation workflows with a named buyer and a material Arbitrum execution/shared-state advantage. No outreach without approval.
+
+
+## Latest continuation — D-052 private-credit collateral integrity screen (28 November 2026)
+
+### Completed
+- Screened private-credit / asset-based lending collateral integrity after the MFS UK bridging-lender collapse. Creditor allegations describe possible double-pledging; they are not treated as adjudicated facts.
+- Reviewed CMS recommendations for independent collateral verification and regular Companies House / Land Registry searches; OCC ABL guidance on current borrowing-base data, reconciliations and field audits; EBA's 2026 concerns about data gaps and fragmented private-credit reporting.
+- Mapped direct competitors:
+  - Setpoint PledgeCheck: cross-facility asset uniqueness / double-pledge checks and lender-facing certification.
+  - Credibur: independent verification against bank data, documents and other originator facilities; >€2bn connected facility volume reported by the company.
+  - Cascade Debt: loan/collateral verification, payment reconciliation, collateral registration and cash monitoring.
+  - Validis: source-system AR/AP and general-ledger data for ABL monitoring.
+  - UMFR: independent private-credit verification and a cross-lender pledge register on its public roadmap.
+- HFW identifies warehouse receipt duplicate-financing risk due to the lack of a central searchable register in many markets; physical inspection and legal title/priority remain essential.
+
+### Decision
+- D-052 is NO-GO for generic private-credit collateral monitoring, borrowing-base calculation, loan-tape reconciliation, double-pledge detection or public collateral registry on Arbitrum. Direct products already cover the core proposed workflow; no buyer gap or material chain advantage established.
+- A hypothetical cross-lender warehouse receipt registry is not being reopened here: D-029 CollateralLink and D-043 Brazil warehouse-receipt decisions remain closed NO-GO.
+- No organisations contacted. No implementation authorized.
+- Canonical status remains **NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED**.
+
+### Documentation / checks
+- Added `research/D052_PRIVATE_CREDIT_COLLATERAL_INTEGRITY_SCREEN_2026-11-28.md`.
+- Updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md and this checkpoint.
+- Research/documentation only; no code, dependencies, tests, lint, build, CI or deployment changed/run.
+- Next: search for less crowded RWA workflows outside payment tracking, eBL, private-credit verification, and the already closed Brazil screens. No outreach without approval.
