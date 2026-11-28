@@ -512,3 +512,13 @@ Screened whether compensation rights under Law 15.269/2025 create a tokenizable/
 ## D-049 — Brazil bilateral electricity-trading collateral workflow (28 November 2026)
 
 Reuters reports counterparty-credit-driven retrenchment and defaults in Brazil's bilateral electricity market; FGV reports 18.7% of June 2026 CCEE short-term settlement debits remained unsettled, but this centralized settlement figure is not bilateral-book default. Potential narrow lead: bilateral margin/collateral calls, substitutions, disputes and release. Existing products include Thunders Trading, GRisk Energy, Navarrah, Brady CRisk and MCG Paragon. No uncovered exception, buyer evidence, legal enforceability or Arbitrum need established. Exploratory lead only, not candidate/WATCH/GO. Full report: [D-049](research/D049_BRAZIL_BILATERAL_ENERGY_COLLATERAL_WORKFLOW_2026-11-28.md).
+
+
+## Follow-up — D-050 Brazil operational-workflow screen (28 November 2026)
+
+- Added `research/D050_BRAZIL_OPERATIONAL_WORKFLOW_SCREEN_2026-11-28.md`.
+- Screened container demurrage/detention: ANTAQ reported 240 conciliation meetings, 176 agreements (73.3%) and R$23.09m prevented improper charges in Aug–Dec 2025. Direct competitors ComexIA/ElloX DetentionZero + DisputAI and e.Mix DemurrageNet already cover evidence, deadlines, disputes and billing. NO-GO for generic entrant.
+- Screened hospital glosas: Anahp 2025 figures show 15.93% initial glosa, 77.35-day average receipt time and 1.72% accepted glosa as gross health-plan revenue. Bionexo, Skedia and GlosaAI/MedOps already cover the core RCM workflow. NO-GO for generic RCM/glosa or tokenized claims.
+- Screened duplicata escritural: BCB/B3-authorised registry infrastructure and ERP/receivables integrators already own the core lifecycle and integration problem. Early adoption complexity does not establish a separate Arbitrum use case. NO-GO for parallel registry/interoperability ledger.
+- No new buyer gap, budget owner, WTP or Arbitrum shared-state requirement established. No outreach sent.
+- Canonical status unchanged: no product selected, no GO, no implementation authorized. Research/documentation only; no code, dependencies, tests, build, CI or deployment changed.
