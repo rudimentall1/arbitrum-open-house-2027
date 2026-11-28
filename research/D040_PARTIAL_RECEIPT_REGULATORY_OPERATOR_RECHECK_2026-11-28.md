@@ -11,7 +11,7 @@ Test whether portfolio-level reconciliation of partial precatório receipts and 
 
 ### 1. The workflow is explicitly within the manager's existing responsibility
 
-ANBIMA's *Regras e Procedimentos do Código de Administração e Gestão de Recursos de Terceiros*, version effective 23 March 2026, Annex Complementar V (FIDC), Art. 3 assigns the manager responsibility to:
+ANBIMA's *Regras e Procedimentos do Código de Administração e Gestão de Recursos de Terceiros*, version effective 23 March 2026, Annex Complementar V (FIDC), Art. 3 assigns participating managers responsibility to:
 
 - monitor repurchases and settlement of receivables;
 - generate financial information and continuously track portfolio assets;
@@ -19,9 +19,9 @@ ANBIMA's *Regras e Procedimentos do Código de Administração e Gestão de Recu
 - **monitor reconciliation flows for receivables receipts**;
 - monitor payment/prepayment/default performance and judicial progress for judicial-claim-backed receivables.
 
-This is direct evidence that the broad reconciliation problem is not an unowned workflow waiting for a new vendor. It is an explicit manager responsibility. It does **not** prove that every manager has adequate automation or that cross-provider exceptions are fully resolved.
+This is a private self-regulatory requirement for institutions participating in the ANBIMA code, not a universal CVM rule for every FIDC manager. Strivo publicly confirms ANBIMA adherence; Hemera and Monetiza membership has not been verified. For ANBIMA participants, this is direct evidence that broad reconciliation is an assigned manager responsibility, not an unowned workflow. It does **not** prove adequate automation or that cross-provider exceptions are fully resolved.
 
-Source: https://www.anbima.com.br/data/files/29/64/2F/89/0CD1E9104E6450E9BA2BA2A8/Regras%20e%20Procedimentos_%20AGRT_v_23.03.2026%20-%20assinado.pdf
+Sources: https://www.anbima.com.br/data/files/29/64/2F/89/0CD1E9104E6450E9BA2BA2A8/Regras%20e%20Procedimentos_%20AGRT_v_23.03.2026%20-%20assinado.pdf ; https://www.anbima.com.br/pt_br/autorregular/codigos/administracao-de-recursos-de-terceiros.htm ; Strivo's public ANBIMA-adherence statement: https://strivo.com.br/contato/
 
 ### 2. A second, independent operator lead is now identified
 
