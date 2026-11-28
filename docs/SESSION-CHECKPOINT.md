@@ -1115,3 +1115,13 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md and this checkpoint.
 - Research/documentation only; no tests, lint, build, CI or deployment run or claimed.
 - Next: continue searching for a narrow exception not already handled by sector-specific platforms, with a named budget owner, measurable recurring cost and legally meaningful shared execution. No outreach or implementation without explicit authorization.
+
+
+## 28 November 2026 — D-064/D-065 completed
+
+- D-064 carbon-removal reversal liability: NO-GO for generic registry, tokenized buffer pool or onchain insurance/claims. EU Delegated Regulation 2026/2617 specifies buffer/insurance mechanisms; scheme registries and insurers remain authoritative. CarbonPool/Kita/Oka/CFC/Artio and a Verra durability-pilot policy placement demonstrate existing risk-transfer products. Long-duration carbon-storage leasing is a legal/contractual design issue, not evidence of a blockchain requirement.
+- D-065 marine bunker disputes: NO-GO for generic evidence ledger/BDN registry/claims marketplace. Commercial quantity/quality disputes remain with contracting parties, but BSI/ADP Clear/Lloyd's Register, Nereus, BunkerGrid and GlobalBQS cover core evidence, survey and claims workflows. No Arbitrum advantage established.
+- Full report: research/D064_D065_CARBON_REVERSAL_AND_MARINE_BUNKER_DISPUTES_SCREEN_2026-11-28.md.
+- No candidate/WATCH/GO created. No implementation authorized. Continue independent discovery only when a specific buyer-side exception can be tested; do not repackage rejected workflows.
+
+**Canonical status: NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED.**
