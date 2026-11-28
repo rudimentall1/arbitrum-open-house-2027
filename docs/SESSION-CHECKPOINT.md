@@ -1077,3 +1077,22 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Added research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2026-11-28.md and updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md, DECISIONS.md and this checkpoint.
 - Research/documentation only. No code, dependencies, tests, lint, build, CI or deployment changed/run.
 - Next: continue searching for a cross-party obligation where the legally authoritative state is not already owned by a trustee, bank, registry or regulator, and where Arbitrum can enforce a meaningful shared action. No outreach or implementation without explicit authorization.
+
+
+## Latest continuation — D-060–D-061 carbon registry and EU capacity screen (28 November 2026)
+
+### Completed
+- D-060: screened Article 6 cross-border carbon-unit transfer and registry interoperability. UNFCCC launched the first Article 6.2 International Registry version at COP31 on 17 November 2026; initial functions include accounts, mitigation activities, issuance linked to authorization, and ITMO transfer/acquisition/use/cancellation. Future interoperability with national and Article 6.4 registries is planned. Article 6 interoperability guidance already covers consistent transfer data, reconciliation and non-repudiation. Australia's CER began a governed registry data-sharing trial in August 2026; I-REC(E) registry integrations are API-contract based.
+- D-061: screened EU cross-border electricity transmission capacity rights. JAO is the Single Allocation Platform for EU TSOs and already runs capacity auctions and provides contracting, accounting, settlement, reporting and IT services. EU regulation assigns platform responsibilities for participant registration, auctions, settlement, collateral management, return and transfer of rights.
+
+### Decisions
+- D-060: **NO-GO** for generic Article 6 registry, carbon-credit bridge, tokenized ITMO marketplace or parallel delivery-versus-payment layer. National authorizations, UNFCCC accounting and programme registries remain authoritative; no uncovered buyer exception or Arbitrum necessity found.
+- D-061: **NO-GO** for generic EU capacity-rights registry, tokenized marketplace, collateral ledger or settlement contract. Allocation and financial processes are already regulated and operated by JAO/TSOs.
+- Neither direction has a named buyer gap, quantified recurring burden, budget owner, paid pilot or material Arbitrum shared-state/execution requirement.
+- Canonical status remains **NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED**. No organisations contacted; no code or infrastructure changed.
+
+### Documentation / checks
+- Added `research/D060_D061_CARBON_REGISTRY_AND_EU_CAPACITY_SCREEN_2026-11-28.md`.
+- Updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md and this checkpoint.
+- Research/documentation only; no tests, lint, build, CI or deployment run or claimed.
+- Next: continue searching for a narrow downstream multi-party exception not already owned by a registry, regulated platform, trustee, bank or operator. No outreach or implementation without explicit authorization.
