@@ -531,3 +531,14 @@ Reuters reports counterparty-credit-driven retrenchment and defaults in Brazil's
 - eBL: FIT Alliance 2026 survey of 190 cleaned responses reports 51.1% partial/any eBL adoption, 11.2% exclusive use, and 22.2% partial bank adoption. DCSA's PINT API, MSPIA/Standard Annex and Control Tracking Registry address platform interoperability and control tracking; CargoX, edoxOnline, TradeGo, WaveBL and eTEU adopted Annex v2 with IGP&I approval in June 2026. NO-GO for parallel eBL registry/transfer/control ledger.
 - No named unmet buyer workflow, willingness to pay or material Arbitrum requirement established. No outreach sent.
 - Canonical status unchanged: no product selected, no GO, no implementation authorized. Research/documentation only; no code, dependencies, tests, build, CI or deployment changed.
+
+
+## Follow-up — D-052 private-credit collateral integrity screen (28 November 2026)
+
+- Added `research/D052_PRIVATE_CREDIT_COLLATERAL_INTEGRITY_SCREEN_2026-11-28.md`.
+- Reviewed MFS UK bridging-lender administration and creditor allegations of double-pledging; allegations remain unproven absent final judicial findings. CMS recommends independent collateral verification and regular legal-register searches.
+- EBA 2026 notes private-credit data gaps, fragmented reporting, valuation opacity and interconnections.
+- Direct competitor evidence: Setpoint PledgeCheck checks uniqueness/double pledging across facilities; Credibur Verification Agent cross-checks bank data, documents and originator facilities and reports >€2bn connected facility volume; Cascade Debt covers collateral/loan verification and cash reconciliation; Validis provides source-system AR/AP data; UMFR is pursuing independent verification and has a cross-lender registry on its roadmap.
+- HFW identifies structural double-financing risk in warehouse receipts where no central public register exists, but physical inspection and legal priority remain off-chain. This does not reopen closed D-029 CollateralLink or D-043 Brazil warehouse-receipt decisions.
+- Decision: NO-GO for generic private-credit collateral monitoring, borrowing-base, loan-tape reconciliation, double-pledge detection or public collateral registry on Arbitrum. No named buyer gap, paid pilot or material chain advantage.
+- No outreach. No implementation authorized. Research/documentation only; no code, dependencies, tests, build, CI or deployment changed.
