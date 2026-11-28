@@ -555,3 +555,17 @@ Full evidence: [research/D053_CROSS_SECTOR_RWA_WORKFLOW_SCREEN_2026-11-28.md](re
 - [ ] Continue searching for a high-value multi-party obligation where shared state/execution is necessary. No outreach or implementation without explicit authorization.
 
 Full evidence: [research/D054_D058_NEW_RWA_WORKFLOW_SCREEN_2026-11-28.md](research/D054_D058_NEW_RWA_WORKFLOW_SCREEN_2026-11-28.md).
+
+
+## D-059 — UK offshore CCUS decommissioning fund governance (28 November 2026)
+
+- [x] Review official SI 2026/632, Energy Act 2023 s.92 and parliamentary scrutiny of the new funded decommissioning regime.
+- [x] Map statutory roles, fund estimate requirements, shared-cost allocation, contingency, monthly contributions, investment strategy, drawdown controls and reporting.
+- [x] Verify Track 1 project context and government expectation that first funds are established nearer commercial operation from 2028.
+- [x] Assess likely buyers, substitutes and Arbitrum/legal fit.
+- [x] Record exploratory regulatory lead only; NO-GO for generic Arbitrum product.
+- [ ] Determine via further desk research whether fund holder/administrator appointments and project procurement have already selected incumbent systems.
+- [ ] Seek repeated manual exceptions and a budget owner only if public evidence reveals a credible gap; no outreach without explicit approval.
+- [ ] Require a material shared-state/execution requirement before any Arbitrum GO; otherwise reject.
+
+Full evidence: [research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2026-11-28.md](research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2026-11-28.md).
