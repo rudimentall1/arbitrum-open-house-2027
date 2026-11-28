@@ -936,3 +936,13 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Decision: NO-GO for tokenized claims/receivables/settlement. Future curtailment-order data needs remain context only.
 - Research/documentation only; no code, tests, lint, build or deployment changed/run.
 - Canonical state remains no product selected, no GO, no implementation authorized.
+
+
+## Follow-up — D-049 Brazil bilateral electricity collateral workflow (28 November 2026)
+
+- Added `research/D049_BRAZIL_BILATERAL_ENERGY_COLLATERAL_WORKFLOW_2026-11-28.md`.
+- Reuters 2026 reports trader retrenchment, credit stress, defaults and liquidity contraction in the bilateral Brazilian power market; market lacks a central counterparty.
+- FGV's 18.7% unsettled June 2026 figure relates to CCEE centralized short-term settlement, not bilateral-book defaults; this distinction is explicit in the report.
+- Local competitors: Thunders Trading, GRisk Energy, Navarrah; global substitutes: Brady CRisk and MCG Paragon. They already cover much of credit/exposure/collateral/margin workflow.
+- Potential narrow lead: shared bilateral margin-call, collateral substitution, dispute and release workflow. No customer evidence, legal enforceability or Arbitrum requirement yet.
+- Status: exploratory problem lead only; no outreach or implementation authorized. Canonical project state unchanged: no product selected, no GO.
