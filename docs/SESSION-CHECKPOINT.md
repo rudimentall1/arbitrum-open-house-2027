@@ -968,3 +968,25 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Research/documentation only; no code, dependencies, tests, lint, build, CI or deployment changed/run.
 - No test/lint/build run; this repository remains a research/documentation workspace.
 - Next: continue searching other sectors and geographies, prioritising a recurring multi-party asset/obligation workflow with a named budget owner and a demonstrable Arbitrum advantage. No outreach without approval.
+
+
+## Latest continuation — D-051 cross-border payments and eBL interoperability (28 November 2026)
+
+### Completed
+- Screened SME cross-border B2B payment exception handling in Latin America. Mastercard/FXC's 2026 qualitative panel reports roughly 1 in 9 payments requires investigation/correction/follow-up and problematic cases can consume up to 3.5 staff hours. This is directional panel evidence, not a statistically representative regional estimate.
+- Mapped existing substitutes: SWIFT GPI/GPI for Corporates and its tracking/investigation APIs; Visa B2B Connect; Mastercard Move; regional payment API providers. These already cover substantial payment status, tracking, investigation, reconciliation and routing functionality.
+- Screened global eBL portability and bank adoption. FIT Alliance 2026 survey of 190 cleaned responses reports 51.1% any/partial eBL use, 11.2% exclusive use and 22.2% partial bank adoption.
+- Verified DCSA's three-part interoperability model: PINT API, MSPIA/Standard Annex and Control Tracking Registry (CTR). Five platforms (CargoX, edoxOnline, TradeGo, WaveBL and eTEU) adopted Standard Annex v2 and obtained IGP&I approval in June 2026.
+
+### Decision
+- D-051 records NO-GO for generic Arbitrum payment tracking/reconciliation/exception management and for a parallel eBL registry, transfer or control-tracking chain.
+- Payment exception pain is credible, but existing payment networks/APIs already address much of the proposed surface. No named residual gap, buyer, budget or Arbitrum need established.
+- eBL interoperability is a real industry issue, but DCSA's PINT/MSPIA/CTR framework directly addresses cross-platform transfer and control. No reason to replace it with a parallel public ledger established.
+- No organisations contacted. No implementation authorized.
+- Canonical status remains **NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED**.
+
+### Documentation / checks
+- Added `research/D051_CROSS_BORDER_PAYMENTS_AND_EBL_INTEROPERABILITY_2026-11-28.md`.
+- Updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md and this checkpoint.
+- Research/documentation only; no code, dependencies, tests, lint, build, CI or deployment changed/run.
+- Next: continue searching other sectors and jurisdictions for recurring multi-party asset, collateral or obligation workflows with a named buyer and a material Arbitrum execution/shared-state advantage. No outreach without approval.
