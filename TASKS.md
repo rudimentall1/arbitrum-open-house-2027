@@ -5,7 +5,7 @@
 - [x] Send the prepared partial-receipt discovery request to Hemera DTVM (atendimento@hemeradtvm.com.br); no reply found as of 28 November.
 - [x] Send the prepared partial-receipt discovery request to Monetiza Investimentos (contato@monetiza.com.br); no reply found as of 28 November.
 - [ ] Contact Oliveira Trust through its official contact form or verified São Paulo switchboard; no suitable operational email verified, so no message sent.
-- [x] Verify current ANBIMA FIDC manager responsibilities: the rules effective 23 March 2026 expressly assign the manager responsibility to follow reconciliation flows for receivables receipts.
+- [x] Verify ANBIMA's FIDC rules effective 23 March 2026: participating managers must follow receivables-reconciliation flows; this is private self-regulation, not a universal CVM rule. Strivo publicly confirms ANBIMA adherence; Hemera/Monetiza membership is unverified.
 - [x] Identify an independent operator lead: Strivo, manager of WSUL Precatórios Federais FIDC; public contact is contato@strivo.com.br. No outreach sent.
 - [ ] Obtain one redacted, current exception beyond the manager/administrator's existing reconciliation controls; quantify frequency, manual hours, delay and financial/control impact.
 - [ ] Establish the system of record, responsible party, budget owner and bounded-pilot willingness; close the hypothesis if existing systems solve it.
