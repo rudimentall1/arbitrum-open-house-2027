@@ -522,3 +522,12 @@ Reuters reports counterparty-credit-driven retrenchment and defaults in Brazil's
 - Screened duplicata escritural: BCB/B3-authorised registry infrastructure and ERP/receivables integrators already own the core lifecycle and integration problem. Early adoption complexity does not establish a separate Arbitrum use case. NO-GO for parallel registry/interoperability ledger.
 - No new buyer gap, budget owner, WTP or Arbitrum shared-state requirement established. No outreach sent.
 - Canonical status unchanged: no product selected, no GO, no implementation authorized. Research/documentation only; no code, dependencies, tests, build, CI or deployment changed.
+
+
+## Follow-up — D-051 cross-border payment exceptions and eBL interoperability (28 November 2026)
+
+- Added `research/D051_CROSS_BORDER_PAYMENTS_AND_EBL_INTEROPERABILITY_2026-11-28.md`.
+- Cross-border B2B payments: Mastercard/FXC Intelligence's qualitative SME panel in Brazil, Mexico and Colombia reports roughly 1 in 9 payments needs investigation/correction/follow-up and problematic cases can consume up to 3.5 staff hours. This is directional qualitative evidence, not a statistically representative regional rate. SWIFT GPI/GPI for Corporates, payment investigation APIs, Visa B2B Connect, Mastercard Move and regional API providers already cover much of tracking, status, investigation, reconciliation and routing. NO-GO for generic Arbitrum tracking/reconciliation/exception product.
+- eBL: FIT Alliance 2026 survey of 190 cleaned responses reports 51.1% partial/any eBL adoption, 11.2% exclusive use, and 22.2% partial bank adoption. DCSA's PINT API, MSPIA/Standard Annex and Control Tracking Registry address platform interoperability and control tracking; CargoX, edoxOnline, TradeGo, WaveBL and eTEU adopted Annex v2 with IGP&I approval in June 2026. NO-GO for parallel eBL registry/transfer/control ledger.
+- No named unmet buyer workflow, willingness to pay or material Arbitrum requirement established. No outreach sent.
+- Canonical status unchanged: no product selected, no GO, no implementation authorized. Research/documentation only; no code, dependencies, tests, build, CI or deployment changed.
