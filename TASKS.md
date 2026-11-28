@@ -1,5 +1,18 @@
 # Tasks
 
+## D-040 — outreach and regulatory/operator recheck (28 November 2026)
+
+- [x] Send the prepared partial-receipt discovery request to Hemera DTVM (atendimento@hemeradtvm.com.br); no reply found as of 28 November.
+- [x] Send the prepared partial-receipt discovery request to Monetiza Investimentos (contato@monetiza.com.br); no reply found as of 28 November.
+- [ ] Contact Oliveira Trust through its official contact form or verified São Paulo switchboard; no suitable operational email verified, so no message sent.
+- [x] Verify current ANBIMA FIDC manager responsibilities: the rules effective 23 March 2026 expressly assign the manager responsibility to follow reconciliation flows for receivables receipts.
+- [x] Identify an independent operator lead: Strivo, manager of WSUL Precatórios Federais FIDC; public contact is contato@strivo.com.br. No outreach sent.
+- [ ] Obtain one redacted, current exception beyond the manager/administrator's existing reconciliation controls; quantify frequency, manual hours, delay and financial/control impact.
+- [ ] Establish the system of record, responsible party, budget owner and bounded-pilot willingness; close the hypothesis if existing systems solve it.
+- [ ] Do not frame this as generic FIDC reconciliation or force Arbitrum; shared-state requirement remains unproven.
+
+Full evidence: [research/D040_PARTIAL_RECEIPT_REGULATORY_OPERATOR_RECHECK_2026-11-28.md](research/D040_PARTIAL_RECEIPT_REGULATORY_OPERATOR_RECHECK_2026-11-28.md).
+
 ## Active queue — parallel RWA discovery (27 November 2026)
 
 - [ ] Continue searching for distinct RWA workflows in parallel; do not wait for D-033 or D-038 outreach replies before advancing other research.
