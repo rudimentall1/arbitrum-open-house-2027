@@ -606,3 +606,15 @@ Full evidence: [research/D062_D063_PPA_SETTLEMENT_AND_INSURER_SUBROGATION_SCREEN
 - [x] Preserve canonical status: no product selected, no WATCH, no GO, no implementation authorized.
 
 Full evidence: [D-064–D-065 report](research/D064_D065_CARBON_REVERSAL_AND_MARINE_BUNKER_DISPUTES_SCREEN_2026-11-28.md).
+
+
+## D-066 — aircraft engine lease-return and transition workflow (28 November 2026)
+
+- [x] Establish the recurring pain: missing/inconsistent technical records, LLP evidence, open items and lease-return delays.
+- [x] Review IATA engine-record checklist and lease-return guidance.
+- [x] Map direct platforms: TRecs (MTU MLS investment and deployment), OLEN, GE Aerospace ATS/RMS; map FLYdocs, AerData/STREAM and specialist records/transition providers.
+- [x] Verify that the apparent workflow is already commercialized; reject generic engine passport, transition ledger, reserve token or onchain acceptance.
+- [ ] Reopen only on a named lessor/operator's redacted cross-platform exception with recurring quantified impact, budget owner, pilot willingness and legally necessary shared state.
+- [x] Preserve canonical status: no product selected, no WATCH, no GO, no implementation authorized.
+
+Full evidence: [D-066 report](research/D066_AIRCRAFT_ENGINE_LEASE_RETURN_AND_TRANSITION_WORKFLOWS_2026-11-28.md).
