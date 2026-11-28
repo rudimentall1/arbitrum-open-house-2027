@@ -573,3 +573,12 @@ Added `research/D054_D058_NEW_RWA_WORKFLOW_SCREEN_2026-11-28.md`.
 - Existing fund administrators, trustees, investment managers, treasury/accounting systems and bank records are strong substitutes. No dedicated SaaS vendor found is not proof of whitespace.
 - Decision: exploratory regulatory lead only; NO-GO for generic Arbitrum product. UK legal fund structure, regulated custody and Secretary of State controls remain authoritative off-chain. A signed/API-based SaaS is the default.
 - No buyer interview, budget, pilot, outreach or implementation. Full report: research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2026-11-28.md.
+
+
+## Follow-up — D-060–D-061 carbon registry and infrastructure capacity screen (28 November 2026)
+
+Added `research/D060_D061_CARBON_REGISTRY_AND_EU_CAPACITY_SCREEN_2026-11-28.md`.
+
+- D-060 Article 6 carbon transfers: UNFCCC launched the first Article 6.2 International Registry version at COP31 on 17 November 2026. It records issuance linked to authorizations and ITMO transfer/acquisition/use/cancellation; further national-registry interoperability is planned. Article 6 guidance already specifies transfer reconciliation and non-repudiation. Australia's CER also began a governed third-party registry data-sharing trial in August 2026; I-REC(E) integrations are API-contract based. NO-GO for a generic parallel registry, bridge or tokenized ITMO marketplace.
+- D-061 EU cross-border electricity capacity: JAO acts as Single Allocation Platform for EU TSOs, operating auctions and providing contracting, accounting, clearing/settlement and collateral management. EU rules explicitly allocate transfer, return and settlement functions to the platform. NO-GO for a generic capacity-rights ledger, tokenized marketplace or settlement contract.
+- Neither screen identified an uncovered recurring buyer workflow, budget owner, paid pilot or material Arbitrum advantage. No organisations contacted; no implementation authorized. Canonical status unchanged.
