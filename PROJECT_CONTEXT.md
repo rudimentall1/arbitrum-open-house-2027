@@ -144,3 +144,11 @@ A parallel screen tested container demurrage/detention disputes, hospital/health
 - Healthcare glosas: Anahp reports 15.93% initial glosa and 77.35-day average receipt time in 2025; accepted glosas were 1.72% of gross health-plan revenue. Bionexo, Skedia and GlosaAI/MedOps already cover prevention, claims analysis and recovery. NO-GO for generic RCM/glosa or tokenized receivables.
 - Duplicata escritural: BCB/B3 and authorised infrastructure participants own the authoritative lifecycle; B3/CERC/Núclea and ERP providers such as Quick Soft already cover registry, interop and integrations. NO-GO for parallel registry or generic interoperability ledger.
 No new buyer gap, willingness to pay or material Arbitrum requirement was found. Full report: [D-050](research/D050_BRAZIL_OPERATIONAL_WORKFLOW_SCREEN_2026-11-28.md). No organisations contacted; no implementation authorized.
+
+
+### D-051 — Cross-border payment exceptions and eBL interoperability (28 November 2026)
+
+A new screen examined Latin American SME cross-border payment exceptions and global electronic bill of lading (eBL) interoperability.
+- Cross-border payments: Mastercard/FXC 2026 qualitative SME panel reports about 1 in 9 payments requires investigation/correction/follow-up and problematic transactions can consume up to 3.5 staff hours. SWIFT GPI/GPI for Corporates, Visa B2B Connect, Mastercard Move and regional API providers already address tracking, status, investigation and routing. NO-GO for generic Arbitrum payment tracking/reconciliation/exception layer; no buyer gap or onchain requirement.
+- eBL: FIT Alliance 2026 survey (190 cleaned responses) reports 51.1% any/partial adoption, 11.2% exclusive use and only 22.2% partial bank adoption. DCSA's PINT API + MSPIA/Standard Annex + Control Tracking Registry directly address cross-platform transfer/control; five platforms adopted Annex v2 with IGP&I approval in June 2026. NO-GO for parallel eBL registry, transfer or control-tracking chain.
+- No organisations contacted; no buyer validation or paid-pilot signal. Full evidence: [D-051](research/D051_CROSS_BORDER_PAYMENTS_AND_EBL_INTEROPERABILITY_2026-11-28.md). No implementation authorized.
