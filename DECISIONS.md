@@ -487,3 +487,20 @@
 - **Reopen only if:** multiple independent buyers identify the same specific workflow failure outside existing platforms and demonstrate a legally valid shared execution step that is materially better than permissioned SaaS and existing payment rails.
 - **Status:** no product selected, no WATCH, no GO, no implementation. No outreach.
 - **Evidence:** [D-062–D-063 research](research/D062_D063_PPA_SETTLEMENT_AND_INSURER_SUBROGATION_SCREEN_2026-11-28.md).
+
+
+## D-064 — Carbon-removal reversal liability (28 November 2026)
+
+- **Status:** Rejected — NO-GO.
+- **Decision:** Do not build a generic carbon-removal reversal registry, tokenized buffer pool, permanence ledger or onchain insurance/claims layer.
+- **Rationale:** EU Delegated Regulation 2026/2617 defines scheme buffer-pool and insurance mechanisms within its scope; existing certification schemes and insurers control the relevant obligations and claims. CarbonPool, Kita, Oka, CFC and Artio offer adjacent risk-transfer products, and a Verra durability-pilot reversal policy was announced in October 2026. Carbon-storage leasing proposals rely on contract/property law and do not establish a public-ledger need.
+- **Reopen only if:** A named scheme, insurer or buyer provides primary evidence of a recurring cross-scheme exception that existing registries/contracts cannot handle, with quantified impact, budget owner and a material shared-state requirement.
+
+## D-065 — Marine bunker quantity/quality disputes (28 November 2026)
+
+- **Status:** Rejected — NO-GO.
+- **Decision:** Do not build a generic bunker evidence ledger, BDN registry, claims marketplace, surveyor network or onchain dispute-settlement layer.
+- **Rationale:** The problem is real, but the BSI/ADP Clear/Lloyd's Register initiative, Nereus, BunkerGrid and GlobalBQS already address multi-party delivery evidence, survey reporting and claims workflows. Port authorities do not decide private disputes, but commercial workflow gaps can be served by conventional software; Arbitrum does not make measurements or samples truthful.
+- **Reopen only if:** A named buyer outside existing coverage demonstrates a recurring, costly interoperability/evidence-acceptance failure that current systems cannot solve and requires legally shared state.
+
+Canonical state unchanged: no product selected, no WATCH, no GO, no implementation authorized.
