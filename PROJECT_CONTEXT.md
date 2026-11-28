@@ -152,3 +152,15 @@ A new screen examined Latin American SME cross-border payment exceptions and glo
 - Cross-border payments: Mastercard/FXC 2026 qualitative SME panel reports about 1 in 9 payments requires investigation/correction/follow-up and problematic transactions can consume up to 3.5 staff hours. SWIFT GPI/GPI for Corporates, Visa B2B Connect, Mastercard Move and regional API providers already address tracking, status, investigation and routing. NO-GO for generic Arbitrum payment tracking/reconciliation/exception layer; no buyer gap or onchain requirement.
 - eBL: FIT Alliance 2026 survey (190 cleaned responses) reports 51.1% any/partial adoption, 11.2% exclusive use and only 22.2% partial bank adoption. DCSA's PINT API + MSPIA/Standard Annex + Control Tracking Registry directly address cross-platform transfer/control; five platforms adopted Annex v2 with IGP&I approval in June 2026. NO-GO for parallel eBL registry, transfer or control-tracking chain.
 - No organisations contacted; no buyer validation or paid-pilot signal. Full evidence: [D-051](research/D051_CROSS_BORDER_PAYMENTS_AND_EBL_INTEROPERABILITY_2026-11-28.md). No implementation authorized.
+
+
+### D-052 — Private-credit collateral integrity and double-pledge prevention (28 November 2026)
+
+A high-severity problem was confirmed: lenders can lack an independently verified view of loan-level collateral, collections, liens and cross-facility asset reuse. The MFS UK bridging-lender collapse involved creditor allegations of double-pledging (not a final judicial finding); EBA also identifies private-credit data gaps and fragmented reporting.
+However, generic product whitespace is closed:
+- Setpoint PledgeCheck directly checks asset uniqueness and double pledging across facilities, with borrower-originator data integration and lender certification; Setpoint reports >$550bn financed assets on its platform.
+- Credibur Verification Agent checks assets against bank data, documents and other originator facilities; it reports >€2bn connected facility volume and named early customers.
+- Cascade Debt covers loan/collateral verification, payment reconciliation, registration and cash monitoring; Validis and field examiners cover source-data and physical verification.
+- UMFR is also pursuing independent verification, with a cross-lender pledge register on its public roadmap.
+Decision: NO-GO for generic private-credit collateral monitoring, borrowing-base, loan-tape reconciliation, double-pledge detection or public collateral registry on Arbitrum. No buyer gap or material chain advantage established.
+A narrow cross-lender registry for physical warehouse receipts remains only a theoretical gap, but overlaps closed D-029 and D-043 decisions; those are not reopened. Full report: [D-052](research/D052_PRIVATE_CREDIT_COLLATERAL_INTEGRITY_SCREEN_2026-11-28.md). No outreach or implementation.
