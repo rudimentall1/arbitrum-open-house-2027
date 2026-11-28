@@ -1057,3 +1057,23 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 ### Verification
 - Research and documentation only. No code tests, lint, build, CI or deployment run; none claimed.
 - Next: desk-research D-055 scale and actual operator/trustee systems, while continuing search for a high-value obligation with demonstrable shared-state execution need. No outreach without approval.
+
+
+## Latest continuation — D-059 UK offshore CCUS decommissioning fund governance (28 November 2026)
+
+### Completed
+- Screened the Carbon Dioxide Transport and Storage (Financing of Costs of Offshore Decommissioning) Regulations 2026 (SI 2026/632), in force 10 July 2026; this is a distinct regime from the oil-and-gas DSA in D-055.
+- Verified statutory requirements for independent ring-fenced funds, approved holding arrangements/fund administrators, detailed fund estimates, infrastructure accounting codes and shared-cost evidence, minimum 10% contingency, approved investment strategy, monthly contributions, restricted fund activity, controlled drawdowns, accounts and remedial measures.
+- UK Parliament committee record says first Track 1 funds are expected closer to commercial operation from 2028. Northern Endurance is an initial large project; initial buyer pool remains small.
+- Potential conventional SaaS workflow: estimate/evidence versioning, contribution reconciliation, investment compliance, payment approvals, deficit alerts and regulator audit packs.
+- Fund administrators, trustees, investment managers, treasury/accounting systems and bank statements are strong substitutes. No dedicated SaaS vendor found is not proof of whitespace.
+
+### Decision
+- D-059 remains an exploratory regulatory workflow lead only; **NO-GO for a generic Arbitrum product**. Mandatory UK fund governance, regulated custody and Secretary of State controls are authoritative off-chain; a permissioned SaaS/API is the more plausible architecture.
+- No buyer interview, budget, paid pilot, incumbent gap or material Arbitrum requirement established. No outreach or implementation authorized.
+- Canonical state remains **NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED**.
+
+### Documentation / checks
+- Added research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2026-11-28.md and updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md, DECISIONS.md and this checkpoint.
+- Research/documentation only. No code, dependencies, tests, lint, build, CI or deployment changed/run.
+- Next: continue searching for a cross-party obligation where the legally authoritative state is not already owned by a trustee, bank, registry or regulator, and where Arbitrum can enforce a meaningful shared action. No outreach or implementation without explicit authorization.
