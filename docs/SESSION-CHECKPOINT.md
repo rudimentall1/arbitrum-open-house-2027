@@ -854,3 +854,32 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - **Known issues:** public operator roles do not prove an operational gap. Hemera advertises its own collections system/integrations; incumbent systems may already solve the workflow. Outreach drafts are not customer validation.
 - **Exact next step:** obtain explicit user approval, then send the three prepared discovery emails to Oliveira Trust, Hemera DTVM and Monetiza. After any reply, book an operations interview and request a redacted workflow; close the hypothesis if existing systems handle it without material recurring manual exceptions.
 - **Handoff source:** `research/D040_PARTIAL_RECEIPT_OPERATIONS_BUYER_DISCOVERY_2026-11-27.md`; current tasks in `TASKS.md`.
+
+
+## Continuation — D-040 outreach and regulatory/operator recheck (28 November 2026)
+
+### Outreach state
+- Sent the prepared Portuguese discovery email to Hemera DTVM, atendimento@hemeradtvm.com.br, on 28 November 2026. Gmail thread/message ID: 1a220c15403f5afa.
+- Sent the prepared Portuguese discovery email to Monetiza Investimentos, contato@monetiza.com.br, on 28 November 2026. Gmail thread/message ID: 1a220c15c09ba265.
+- Checked both threads after sending: each contains only the outgoing message; no response yet.
+- Oliveira Trust was not contacted. Its official contact form is available at https://www.oliveiratrust.com.br/contato, but no verified operational email was found. Do not use Investor Relations or unrelated addresses as a substitute.
+- No message has been sent to Strivo.
+
+### New evidence
+- ANBIMA's FIDC rules effective 23 March 2026 explicitly assign the manager responsibility to follow reconciliation flows for receivables receipts (Annex Complementar V, Art. 3, VIII), alongside tracking portfolio assets, settlement, liquidation and payment/prepayment/default performance.
+- This materially raises the bar: generic FIDC receipt reconciliation is already a defined manager responsibility, not an unowned workflow. It does not prove existing tools fully automate the process.
+- Identified Strivo as an independent operator lead: manager of WSUL Precatórios Federais FIDC; ID Corretora is the administrator. Strivo's March 2026 manual says asset controls use spreadsheets and management systems and records amortisation/interest instalment dates and amounts; it does not disclose the detailed receipt-to-claim-to-subclass allocation workflow.
+- Public fund descriptions confirm receipt-linked and conditional amortisation patterns, but not operational pain.
+- The only remaining question is a specific recurring cross-system exception beyond current controls, such as mapping partial court receipts to claim-level records and then to the correct class/subclass allocation, including corrections/reversals/discharge.
+
+### Current decision and next step
+- D-040 remains exploratory only: no product candidate/WATCH/GO, no implementation, no Arbitrum requirement.
+- Next: wait for Hemera/Monetiza replies; use Oliveira Trust's official form or switchboard to route a short request to fund operations; consider Strivo as an independent fourth interview lead (not yet contacted).
+- Require a redacted real exception, system-of-record map, recurrence/manual effort/impact, owner/budget and pilot willingness. Close if existing systems resolve it without material recurring exceptions. Conventional accounting/API integration remains default.
+
+### Documentation and checks
+- Added research/D040_PARTIAL_RECEIPT_REGULATORY_OPERATOR_RECHECK_2026-11-28.md.
+- Updated TASKS.md and RESEARCH_LOG.md; this checkpoint records the verified outreach and evidence state.
+- Research/documentation only. No code, dependencies, tests, build, CI or deployment changed.
+- No tests/lint/build run; no application test suite exists.
+
