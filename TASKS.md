@@ -528,3 +528,16 @@ Full evidence: [research/D051_CROSS_BORDER_PAYMENTS_AND_EBL_INTEROPERABILITY_202
 - [ ] Continue discovery outside already crowded collateral-verification software; require named budget owner, uncovered workflow, paid pilot and material Arbitrum advantage.
 
 Full evidence: [research/D052_PRIVATE_CREDIT_COLLATERAL_INTEGRITY_SCREEN_2026-11-28.md](research/D052_PRIVATE_CREDIT_COLLATERAL_INTEGRITY_SCREEN_2026-11-28.md).
+
+
+## D-053 — Cross-sector RWA workflow screen (28 November 2026)
+
+- [x] Screen commodity trade-finance buyer confirmation and genuine-trade verification; map TFR/SGTraDex, Vabble, Pilon and Commerzbank coverage.
+- [x] Screen reinsurance bordereaux/cash reconciliation; map Korra, Brisc, DICEUS and MDS Brasil/IBM/CXP evidence.
+- [x] Screen infrastructure milestone certification and project-finance cash waterfalls; review Brazil Plataforma +Brasil.
+- [x] Screen private-credit secondary transfers and servicing; map Percent/PCTX, FIS, ClearPar, Citco, Debtdomain, WSO and LoanStreet/Entrilia.
+- [x] Record NO-GO for generic Arbitrum product shapes in all four directions; no material chain necessity established.
+- [ ] Continue discovery outside already crowded generic tokenisation, payment tracking, trade-document, collateral verification and private-credit servicing categories; seek a named recurring workflow and budget owner.
+- [ ] No outreach or implementation without explicit authorization.
+
+Full evidence: [research/D053_CROSS_SECTOR_RWA_WORKFLOW_SCREEN_2026-11-28.md](research/D053_CROSS_SECTOR_RWA_WORKFLOW_SCREEN_2026-11-28.md).
