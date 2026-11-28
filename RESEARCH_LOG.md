@@ -507,3 +507,8 @@ Lei 15.506/2026 mandates traceability and auditability across critical-mineral t
 ## D-048 — Brazil renewable curtailment compensation screen (28 November 2026)
 
 Screened whether compensation rights under Law 15.269/2025 create a tokenizable/financeable RWA workflow. The scheme is limited to eligible external-unavailability and electrical-reliability cuts in a historical window (1 Sep 2023–25 Nov 2025), excludes oversupply curtailment, requires commitment/waiver terms, and is centrally calculated by ONS/CCEE. CCEE has published adapted rules. No assignability, secondary liquidity, buyer pain or pilot is established. NO-GO for tokenized claims, receivable pool or Arbitrum settlement. Future ANEEL curtailment-order implementation may create operational data needs, but no uncovered workflow or Arbitrum role is demonstrated. Full report: [D-048](research/D048_BRAZIL_CURTAILMENT_COMPENSATION_SCREEN_2026-11-28.md).
+
+
+## D-049 — Brazil bilateral electricity-trading collateral workflow (28 November 2026)
+
+Reuters reports counterparty-credit-driven retrenchment and defaults in Brazil's bilateral electricity market; FGV reports 18.7% of June 2026 CCEE short-term settlement debits remained unsettled, but this centralized settlement figure is not bilateral-book default. Potential narrow lead: bilateral margin/collateral calls, substitutions, disputes and release. Existing products include Thunders Trading, GRisk Energy, Navarrah, Brady CRisk and MCG Paragon. No uncovered exception, buyer evidence, legal enforceability or Arbitrum need established. Exploratory lead only, not candidate/WATCH/GO. Full report: [D-049](research/D049_BRAZIL_BILATERAL_ENERGY_COLLATERAL_WORKFLOW_2026-11-28.md).
