@@ -552,3 +552,14 @@ Reuters reports counterparty-credit-driven retrenchment and defaults in Brazil's
 - Infrastructure/project finance: cash waterfalls are established bank/contract structures; Brazil's Plataforma +Brasil digitises public-works preparation, measurement, attestation and payment. NO-GO for generic milestone/payment/waterfall product.
 - Private-credit transfers/servicing: Percent/PCTX, FIS, ClearPar, Citco, Debtdomain, WSO and LoanStreet/Entrilia actively cover trading, settlement, servicing and fund-accounting integration. NO-GO for generic transfer register, secondary marketplace or servicing ledger.
 - No named uncovered buyer workflow, willingness to pay, legal gap or material Arbitrum necessity identified. No outreach; no implementation. Canonical state unchanged.
+
+
+## Follow-up — D-054 to D-058 new RWA workflow screen (28 November 2026)
+
+Added `research/D054_D058_NEW_RWA_WORKFLOW_SCREEN_2026-11-28.md`.
+- D-054: reviewed EU Delegated Regulation 2026/2617 (27 Nov 2026) on carbon-farming reversal liability. Buffer pools or insurance/guarantees, replacement units and buffer replenishment create a real financial obligation. Certification registries and specialist insurers already operate; insurer-facing MRV/loss-data standardisation is a possible exploratory lead, but no buyer or Arbitrum requirement established.
+- D-055: screened UK North Sea DSA annual security workflow. Operator prepares annual plan and security calculations; licensees and historic owners review/objection; disputes can go to expert determination; trust/LOC/guarantee collateral is managed by trustee. Court cases document high-value disputes. Keep as exploratory problem lead only; no buyer gap or chain necessity validated.
+- D-056: maritime EU ETS cost reimbursement is already served by OceanScore/Data Ocean, BIMCO clauses and statutory reimbursement framework. NO-GO.
+- D-057: Battery Passport lifecycle/registration is served by EU DPP Registry API and many vendors; no material chain need. NO-GO.
+- D-058: mine reclamation assurance has documented underfunding and delayed bond releases, but risk-data, cost-estimation, permit and surety software already cover adjacent workflows; no Arbitrum fit. NO-GO.
+- No outreach, no implementation. Canonical state unchanged.
