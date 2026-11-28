@@ -477,3 +477,13 @@
 - **Reopen only if:** a specific downstream workflow outside the authoritative registry/platform is documented by multiple independent buyers, with measurable cost and a legally valid shared execution step that existing APIs or conventional systems cannot provide.
 - **Status:** no product selected, no WATCH, no GO, no implementation. No outreach.
 - **Evidence:** [D-060–D-061 research](research/D060_D061_CARBON_REGISTRY_AND_EU_CAPACITY_SCREEN_2026-11-28.md).
+
+
+## D-062–D-063 — PPA settlement and insurer subrogation (28 November 2026)
+
+- **D-062 decision:** NO-GO for generic PPA settlement, invoice reconciliation, negative-price allocation, renewable certificate inventory or tokenized energy marketplace on Arbitrum. There is real manual settlement pain, but CFEX already offers contract modelling, meter-data integration, daily settlement, invoice reconciliation and EAC inventory; ACER lists multiple operating PPA platforms. No uncovered buyer exception or chain requirement established.
+- **D-063 decision:** NO-GO for generic inter-insurer subrogation ledger, arbitration marketplace, recovery registry or tokenized settlement layer. Arbitration Forums, carrier claims systems and bilateral insurer portals already cover core arbitration, evidence, recovery and settlement workflows.
+- **Evidence gap:** no recurring uncovered exception, quantified incremental cost beyond existing tools, named budget owner, paid pilot or material shared-state execution requirement.
+- **Reopen only if:** multiple independent buyers identify the same specific workflow failure outside existing platforms and demonstrate a legally valid shared execution step that is materially better than permissioned SaaS and existing payment rails.
+- **Status:** no product selected, no WATCH, no GO, no implementation. No outreach.
+- **Evidence:** [D-062–D-063 research](research/D062_D063_PPA_SETTLEMENT_AND_INSURER_SUBROGATION_SCREEN_2026-11-28.md).
