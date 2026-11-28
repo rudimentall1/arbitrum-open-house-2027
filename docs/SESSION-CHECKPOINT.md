@@ -883,3 +883,33 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Research/documentation only. No code, dependencies, tests, build, CI or deployment changed.
 - No tests/lint/build run; no application test suite exists.
 
+
+
+## D-046 — new parallel discovery lead (28 November 2026)
+
+### Lead
+- Independent trigger-evidence and payout-execution infrastructure for Brazilian catastrophe-risk LRS portfolios, initially hydrological/flood risk.
+- Not a new insurer, SSPE, generic LRS structurer, collateral manager or tokenized-reinsurance platform.
+- Potential product would connect confidential exposure data to independently validated financial-loss modelling, preserve reproducible trigger data snapshots/calculations, and optionally coordinate transaction-specific collateral/payout state on Arbitrum. The legal LRS, underwriting, custody and BRL fiat payment remain with licensed entities.
+
+### Evidence
+- Four Brazilian LRS issues by October 2026, up to ~R$273m; all financial risks, no natural-catastrophe LRS yet.
+- Portaria Conjunta RFB/Susep 748 was published 18 November 2026 for transaction-specific CNPJ registration.
+- Rio Grande do Sul is considering LRS for disaster liquidity after the 2024 flood; no deal structure, size, trigger or specific insurer partner has been defined.
+- Peer-reviewed September 2026 paper models hydrological parametric insurance for Brazilian run-of-river hydro plants using ONS affluent flow and 151 plants; material basis-risk, calibration, diversification and reinsurance constraints remain.
+- ONS open data is accessible, but some datasets can be revised after publication; trigger contracts require immutable versioned snapshots and finality rules.
+
+### Competitive boundary
+- Lockton Re: Brazil LRS structuring, regulatory advisory, investor access and local SSPE arrangements.
+- Marvin: tech-native collateral management; acted as collateral agent/co-structurer for the R$126m Galápagos/Avla LRS.
+- Santé: Brazilian risk intelligence and ILS risk-to-loss modelling.
+- Helios Re: hydropower parametric insurance.
+- OnRe and NextBlock: tokenized reinsurance infrastructure on Solana/Base.
+- Generic LRS structuring, collateral management, parametric hydropower insurance and tokenized reinsurance are not open whitespace.
+
+### Current judgement and next step
+- D-046 is an exploratory lead only, not a candidate/WATCH/GO. No buyer gap, willingness to pay, legal token representation or Arbitrum requirement is established.
+- Continue with parallel discovery: identify a specific workflow that incumbent providers do not solve; verify legal LRS/offchain structure and Arbitrum's material role; assess real portfolio scale and actuarial basis risk. Kill if signed APIs/conventional escrow solve the need or incumbents cover it.
+- No outreach or implementation authorized for D-046.
+- Full evidence: research/D046_BRAZIL_LRS_CATASTROPHE_TRIGGER_INFRASTRUCTURE_2026-11-28.md.
+- No code, dependencies, tests, build, CI or deployment changed; research/documentation only.
