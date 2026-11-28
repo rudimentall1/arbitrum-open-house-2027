@@ -602,3 +602,12 @@ D-065 is **NO-GO** for a generic bunker evidence ledger, BDN registry, claims ma
 Full evidence and limitations: [D-064–D-065 report](research/D064_D065_CARBON_REVERSAL_AND_MARINE_BUNKER_DISPUTES_SCREEN_2026-11-28.md).
 
 **Canonical status unchanged: no product selected, no WATCH, no GO, no implementation authorized.**
+
+
+## D-066 — aircraft engine lease-return and transition workflow (28 November 2026)
+
+**NO-GO** for a generic Arbitrum product covering engine maintenance records, LLP traceability, lease-return open items, maintenance reserves or transition evidence. The problem is economically real: IATA's engine-record checklist is extensive; industry reporting identifies missing records and poor evidence tracking as causes of redelivery delay; lessor filings describe grounding, record reconstruction, lost lease revenue and lower re-lease rates as possible consequences. Yet the exact workflow is already commercialized: MTU MLS invested in and deployed TRecs across engine transitions/lease returns; GE ATS is deployed by Avolon across 1,000+ assets; OLEN offers engine lifecycle, shop-visit and reserve workflows; FLYdocs, AerData/STREAM, Oliver Wyman Vector and specialist providers cover adjacent records and transition services. No named buyer-side exception, willingness to pay or material Arbitrum requirement established. Public-chain records cannot validate maintenance facts or supersede aviation approvals and lease contracts; permissioned SaaS/API is the better default.
+
+Full evidence and caveats: [D-066 report](research/D066_AIRCRAFT_ENGINE_LEASE_RETURN_AND_TRANSITION_WORKFLOWS_2026-11-28.md).
+
+**Canonical status unchanged: no product selected, no WATCH, no GO, no implementation authorized.**
