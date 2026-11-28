@@ -514,3 +514,15 @@ Canonical state unchanged: no product selected, no WATCH, no GO, no implementati
 - **Reopen only if:** A named lessor/operator supplies a recent redacted cross-platform exception with recurring quantified impact, a budget owner and pilot willingness, and proves legally required shared state cannot be delivered by API, signed evidence or permissioned SaaS.
 
 Canonical state unchanged: no product selected, no WATCH, no GO, no implementation authorized.
+
+## D-067 — General average security collection and adjustment (28 November 2026)
+
+- **Status:** Rejected — NO-GO.
+- **Decision:** Do not build a generic GA security-collection portal, parallel registry, tokenized bond/guarantee, onchain cash-deposit custody, contribution settlement or adjustment marketplace.
+- **Rationale:** RHL already operates a security-collection portal; Charles Taylor describes dedicated collection technology and a client portal; CMI/IUMI/ICS publish approved standard forms; carriers and marine claims administrators provide adjacent workflows. The adjuster makes the professional adjustment; contractual guarantees and bank/trust accounts provide legal security/custody. Public-chain state cannot establish casualty facts, compel physical cargo release or replace legal custody.
+- **Evidence gap:** no residual exception across incumbents, quantified incremental cost, named budget owner, WTP, paid pilot or material Arbitrum shared-state requirement.
+- **Reopen only if:** a named adjuster/insurer/carrier supplies a recent redacted cross-system exception with measurable recurring impact, budget owner/pilot willingness and a legally valid shared execution requirement unavailable through portals, APIs, e-signatures and bank/trust arrangements.
+- **Evidence:** [D-067 research](research/D067_GENERAL_AVERAGE_SECURITY_COLLECTION_AND_ADJUSTMENT_2026-11-28.md).
+
+Canonical state unchanged: no product selected, no WATCH, no GO, no implementation authorized.
+
