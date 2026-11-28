@@ -611,3 +611,10 @@ Full evidence and limitations: [D-064–D-065 report](research/D064_D065_CARBON_
 Full evidence and caveats: [D-066 report](research/D066_AIRCRAFT_ENGINE_LEASE_RETURN_AND_TRANSITION_WORKFLOWS_2026-11-28.md).
 
 **Canonical status unchanged: no product selected, no WATCH, no GO, no implementation authorized.**
+
+## D-067 — General average security collection and adjustment workflow (28 November 2026)
+
+**NO-GO** for a generic Arbitrum GA security-collection portal, bond/guarantee registry, tokenized deposit custody, claims marketplace or adjustment ledger. The workflow is real and multi-party, but specialist adjusters already operate security-collection portals and dedicated technology: RHL directs cargo interests through its portal, Charles Taylor describes dedicated technology for large-scale collections and a client portal, and carriers such as Maersk provide adjacent customer/coverage workflows. CMI/IUMI/ICS have approved standard bond and guarantee forms. The adjuster remains responsible for evidence and the adjustment; bank/trust accounts and contractual guarantees remain the legal custody/security layer. No buyer-side residual exception, quantified incremental cost, budget owner, WTP or Arbitrum shared-state requirement established. Desk research only; no outreach. Full report: [D-067](research/D067_GENERAL_AVERAGE_SECURITY_COLLECTION_AND_ADJUSTMENT_2026-11-28.md).
+
+**Canonical status unchanged: NO PRODUCT SELECTED · NO WATCH · NO GO · NO IMPLEMENTATION AUTHORIZED.**
+
