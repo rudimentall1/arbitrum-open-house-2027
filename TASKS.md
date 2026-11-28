@@ -1,5 +1,19 @@
 # Tasks
 
+## D-046 — Brazil LRS catastrophe trigger and settlement infrastructure (28 November 2026)
+
+- [x] Screen Brazil's LRS/ILS market, latest SUSEP transaction-registration rule, current issuances and early catastrophe-risk demand.
+- [x] Identify the Rio Grande do Sul government as an exploratory catastrophe-liquidity lead; no defined transaction or buyer mandate exists.
+- [x] Review a peer-reviewed hydropower parametric-insurance design and ONS public hydrology datasets; hydropower is only an initial test peril, not a proven market.
+- [x] Map direct competitors: Lockton Re, Marvin, Santé, Helios Re, OnRe and NextBlock. Do not build generic tokenized reinsurance, LRS structuring or collateral management.
+- [ ] Validate whether an SSPE/cedant has a paid, recurring need for independent trigger evidence, data-version control, basis-risk modelling or payout execution beyond incumbent providers.
+- [ ] Verify Brazilian legal treatment of any onchain LRS representation and whether Arbitrum can legally coordinate transaction-specific collateral/payout without substituting for licensed entities.
+- [ ] Identify a real portfolio with enough scale/diversification and actuarially acceptable basis risk; obtain independent model review.
+- [ ] Prove that shared onchain state/programmable settlement is materially better than signed APIs and conventional escrow; otherwise reject Arbitrum fit.
+- [ ] No outreach, implementation or MVP authorized for D-046 yet.
+
+Full evidence: [research/D046_BRAZIL_LRS_CATASTROPHE_TRIGGER_INFRASTRUCTURE_2026-11-28.md](research/D046_BRAZIL_LRS_CATASTROPHE_TRIGGER_INFRASTRUCTURE_2026-11-28.md).
+
 ## D-040 — outreach and regulatory/operator recheck (28 November 2026)
 
 - [x] Send the prepared partial-receipt discovery request to Hemera DTVM (atendimento@hemeradtvm.com.br); no reply found as of 28 November.
