@@ -581,3 +581,15 @@ Full evidence: [research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2
 - [ ] No outreach or implementation without explicit authorization.
 
 Full evidence: [research/D060_D061_CARBON_REGISTRY_AND_EU_CAPACITY_SCREEN_2026-11-28.md](research/D060_D061_CARBON_REGISTRY_AND_EU_CAPACITY_SCREEN_2026-11-28.md).
+
+
+## D-062–D-063 — PPA settlement and inter-insurer subrogation (28 November 2026)
+
+- [x] Review EU PPA risk allocation, negative-price clauses and current PPA market platforms.
+- [x] Review CFEX enterprise and IPP case studies for contract modelling, meter-data recalculation, settlement and invoice reconciliation.
+- [x] Review inter-insurer subrogation, Arbitration Forums scope and bilateral portal automation.
+- [x] Record NO-GO for generic Arbitrum PPA settlement and insurer subrogation products.
+- [ ] Continue searching for a repeated exception outside incumbent platforms with a named budget owner and legally meaningful shared execution need.
+- [ ] No outreach or implementation without explicit authorization.
+
+Full evidence: [research/D062_D063_PPA_SETTLEMENT_AND_INSURER_SUBROGATION_SCREEN_2026-11-28.md](research/D062_D063_PPA_SETTLEMENT_AND_INSURER_SUBROGATION_SCREEN_2026-11-28.md).
