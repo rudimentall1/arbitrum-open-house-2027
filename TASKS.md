@@ -472,3 +472,18 @@ Full evidence: [research/D047_BRAZIL_CRITICAL_MINERAL_TRACEABILITY_SCREEN_2026-1
 - [ ] Reopen only on a named generator/lender's legally assignable receivable and quantified recurring financing/reconciliation problem, plus pilot willingness and material Arbitrum need.
 
 Full evidence: [research/D048_BRAZIL_CURTAILMENT_COMPENSATION_SCREEN_2026-11-28.md](research/D048_BRAZIL_CURTAILMENT_COMPENSATION_SCREEN_2026-11-28.md).
+
+
+## D-049 — Brazil bilateral electricity-trading collateral workflow (28 November 2026)
+
+- [x] Verify market-stress and trader-default signals from Reuters 2026 reporting.
+- [x] Separate bilateral-contract counterparty risk from CCEE centralized short-term settlement; do not conflate FGV's 18.7% unsettled CCEE amount with bilateral defaults.
+- [x] Map local substitutes (Thunders Trading, GRisk, Navarrah) and global energy credit/collateral platforms (Brady, MCG).
+- [x] Define a narrow exploratory question: recurring bilateral margin/collateral-call, substitution, dispute or release exceptions beyond existing ETRM/credit-risk tools.
+- [ ] Obtain two independent trader/generator operator examples with quantified recurrence, exposure and manual cost.
+- [ ] Identify budget owner and paid-pilot willingness; determine whether both counterparties would accept a neutral shared workflow.
+- [ ] Obtain legal analysis of enforceable collateral/escrow and insolvency treatment before considering tokenised collateral.
+- [ ] Prove Arbitrum shared-state/programmable-settlement necessity over APIs, bank escrow and existing tools; otherwise close.
+- [ ] No outreach, product selection or implementation authorized.
+
+Full evidence: [research/D049_BRAZIL_BILATERAL_ENERGY_COLLATERAL_WORKFLOW_2026-11-28.md](research/D049_BRAZIL_BILATERAL_ENERGY_COLLATERAL_WORKFLOW_2026-11-28.md).
