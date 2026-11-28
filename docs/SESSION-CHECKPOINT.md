@@ -913,3 +913,15 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - No outreach or implementation authorized for D-046.
 - Full evidence: research/D046_BRAZIL_LRS_CATASTROPHE_TRIGGER_INFRASTRUCTURE_2026-11-28.md.
 - No code, dependencies, tests, build, CI or deployment changed; research/documentation only.
+
+
+## Follow-up — D-047 Brazil critical-mineral traceability screen (28 November 2026)
+
+- Added `research/D047_BRAZIL_CRITICAL_MINERAL_TRACEABILITY_SCREEN_2026-11-28.md`.
+- Verified Lei 15.506/2026 creates statutory transaction traceability/auditability, allows accredited private operators under ANM supervision, and permits DLT or equivalent technologies; operating standards remain subject to regulation.
+- Reviewed 27-mineral priority list and the separate accredited low-carbon mineral certificate regime.
+- Competitive check found Minespider already offers mineral passports, chain-of-custody, supplier data sharing, ERP APIs and published annual pricing; it announced a Brazilian Minery marketplace partnership in 2021. Other global providers include MineHub, Circulor, OPTEL, Everledger, Peer Ledger and RCS Global/Better Mining.
+- OECD evidence cautions that traceability uptake depends on importing-buyer demand or a price premium. No buyer gap, paid pilot, quantified pain or Arbitrum necessity established.
+- Decision: generic mineral traceability/passport/custody-ledger is NO-GO as an Arbitrum product. Only reopen on a named operator's redacted, quantified recurring integration exception beyond existing providers and future statutory interfaces.
+- Research/documentation only; no code, dependencies, tests, lint, build or deployment changed/run.
+- Canonical state remains: no product selected, no GO, no implementation authorized. Do not contact new organizations without user authorization.
