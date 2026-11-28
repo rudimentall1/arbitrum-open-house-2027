@@ -515,3 +515,16 @@ Full evidence: [research/D050_BRAZIL_OPERATIONAL_WORKFLOW_SCREEN_2026-11-28.md](
 - [ ] No outreach or implementation without explicit authorization.
 
 Full evidence: [research/D051_CROSS_BORDER_PAYMENTS_AND_EBL_INTEROPERABILITY_2026-11-28.md](research/D051_CROSS_BORDER_PAYMENTS_AND_EBL_INTEROPERABILITY_2026-11-28.md).
+
+
+## D-052 — Private-credit collateral integrity and double-pledge prevention (28 November 2026)
+
+- [x] Review MFS administration and distinguish creditor allegations from adjudicated facts.
+- [x] Review EBA private-credit risk evidence and OCC ABL monitoring principles.
+- [x] Map direct competitors: Setpoint PledgeCheck, Credibur Verification Agent, Cascade Debt, Validis and UMFR.
+- [x] Review warehouse-receipt duplicate-financing risk and physical-verification limitations.
+- [x] Record NO-GO for generic private-credit collateral monitoring, borrowing-base, loan-tape reconciliation, double-pledge detection and public collateral registry on Arbitrum.
+- [x] Preserve D-029 and D-043 NO-GO decisions; do not reopen without the explicit buyer/legal evidence listed in D-052.
+- [ ] Continue discovery outside already crowded collateral-verification software; require named budget owner, uncovered workflow, paid pilot and material Arbitrum advantage.
+
+Full evidence: [research/D052_PRIVATE_CREDIT_COLLATERAL_INTEGRITY_SCREEN_2026-11-28.md](research/D052_PRIVATE_CREDIT_COLLATERAL_INTEGRITY_SCREEN_2026-11-28.md).
