@@ -593,3 +593,16 @@ Full evidence: [research/D060_D061_CARBON_REGISTRY_AND_EU_CAPACITY_SCREEN_2026-1
 - [ ] No outreach or implementation without explicit authorization.
 
 Full evidence: [research/D062_D063_PPA_SETTLEMENT_AND_INSURER_SUBROGATION_SCREEN_2026-11-28.md](research/D062_D063_PPA_SETTLEMENT_AND_INSURER_SUBROGATION_SCREEN_2026-11-28.md).
+
+
+## D-064–D-065 — carbon reversal and marine bunker disputes (28 November 2026)
+
+- [x] Screen EU carbon-removal reversal liability, buffer pools, insurers and a recent Verra durability-pilot policy placement.
+- [x] Compare carbon-removal claims against scheme-controlled registries, insurance contracts and conventional legal remedies; reject generic onchain permanence/insurance infrastructure.
+- [x] Screen marine bunker quantity/quality claims, Rotterdam/Antwerp MFM requirements and the boundary of port-authority involvement.
+- [x] Map BSI/ADP Clear/Lloyd's Register, Nereus, BunkerGrid and GlobalBQS as direct or adjacent workflow substitutes.
+- [x] Reject generic bunker evidence ledger, BDN registry, claims marketplace and onchain dispute settlement.
+- [ ] Reopen either screen only on named buyer primary evidence of a recurring uncovered workflow, quantified impact, budget owner, and material contractual need for shared Arbitrum state.
+- [x] Preserve canonical status: no product selected, no WATCH, no GO, no implementation authorized.
+
+Full evidence: [D-064–D-065 report](research/D064_D065_CARBON_REVERSAL_AND_MARINE_BUNKER_DISPUTES_SCREEN_2026-11-28.md).
