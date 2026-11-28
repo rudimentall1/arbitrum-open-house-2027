@@ -446,3 +446,17 @@ Full evidence: [research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md](res
 - [ ] Identify the budget owner and whether a paid, read-only pilot is possible.
 - [ ] Close this question if existing administrator/servicer/fund-accounting systems already solve it without material recurring manual exceptions. Do not create a candidate or implement absent evidence.
 - [ ] Do not force Arbitrum; establish a material shared-state requirement independently or default to conventional APIs/accounting integration.
+
+
+## D-047 — Brazil critical-mineral traceability and low-carbon certification screen (28 November 2026)
+
+- [x] Review Lei 15.506/2026, Article 44 traceability requirements, private operator accreditation, segregation of collection/verification/audit/certification, and technology-neutral DLT clause.
+- [x] Review the 27-mineral priority list and low-carbon mineral certificate framework.
+- [x] Map direct/adjacent traceability vendors, including Minespider, MineHub, Circulor, OPTEL, Everledger, Peer Ledger and RCS Global/Better Mining.
+- [x] Verify Minespider's mineral passport, custody, API and pricing offer and its prior Brazilian Minery partnership.
+- [x] Review OECD evidence that lithium traceability uptake depends on downstream demand or price premiums.
+- [x] Record NO-GO for generic mineral traceability/passports/custody ledger on Arbitrum; no product selected and no implementation.
+- [ ] Reopen only if a named Brazilian processor/exporter/accredited operator supplies a redacted recurring reconciliation exception beyond existing vendors and future government interfaces, quantifies cost, names budget owner and agrees to a bounded paid pilot.
+- [ ] Do not contact new organisations or build without explicit user authorization; do not assume Arbitrum is required.
+
+Full evidence: [research/D047_BRAZIL_CRITICAL_MINERAL_TRACEABILITY_SCREEN_2026-11-28.md](research/D047_BRAZIL_CRITICAL_MINERAL_TRACEABILITY_SCREEN_2026-11-28.md).
