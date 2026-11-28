@@ -542,3 +542,13 @@ Reuters reports counterparty-credit-driven retrenchment and defaults in Brazil's
 - HFW identifies structural double-financing risk in warehouse receipts where no central public register exists, but physical inspection and legal priority remain off-chain. This does not reopen closed D-029 CollateralLink or D-043 Brazil warehouse-receipt decisions.
 - Decision: NO-GO for generic private-credit collateral monitoring, borrowing-base, loan-tape reconciliation, double-pledge detection or public collateral registry on Arbitrum. No named buyer gap, paid pilot or material chain advantage.
 - No outreach. No implementation authorized. Research/documentation only; no code, dependencies, tests, build, CI or deployment changed.
+
+
+## Follow-up — D-053 cross-sector RWA workflow screen (28 November 2026)
+
+- Added research/D053_CROSS_SECTOR_RWA_WORKFLOW_SCREEN_2026-11-28.md.
+- Commodity trade finance: distinguished duplicate-financing/document checks from proof of the underlying commercial reality. Singapore TFR/SGTraDex covers duplicate-financing and source-linked BL verification; buyer confirmation is already standard in receivables finance and appears in Vabble, Pilon and Commerzbank workflows. NO-GO for generic invoice confirmation, trade-document verification or commodity title ledger.
+- Reinsurance: Korra, Brisc and DICEUS cover bordereaux, claims, collateral and financial reconciliation; MDS Brasil's IBM/CXP case reports substantial conventional automation outcomes. NO-GO for generic reconciliation/evidence layer.
+- Infrastructure/project finance: cash waterfalls are established bank/contract structures; Brazil's Plataforma +Brasil digitises public-works preparation, measurement, attestation and payment. NO-GO for generic milestone/payment/waterfall product.
+- Private-credit transfers/servicing: Percent/PCTX, FIS, ClearPar, Citco, Debtdomain, WSO and LoanStreet/Entrilia actively cover trading, settlement, servicing and fund-accounting integration. NO-GO for generic transfer register, secondary marketplace or servicing ledger.
+- No named uncovered buyer workflow, willingness to pay, legal gap or material Arbitrum necessity identified. No outreach; no implementation. Canonical state unchanged.
