@@ -1135,3 +1135,14 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - No candidate/WATCH/GO created. No implementation authorized.
 
 **Canonical status: NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED.**
+
+## 28 November 2026 — D-067 completed
+
+- D-067 general average security collection/adjustment: NO-GO for generic Arbitrum portal, bond/guarantee registry, tokenized deposit custody, contribution settlement or adjustment marketplace. RHL already operates a security-collection portal; Charles Taylor describes dedicated collection technology and client portal; CMI/IUMI/ICS publish approved standard forms; carriers and marine claims administrators cover adjacent workflows.
+- The process is real and multi-party, but the appointed adjuster controls evidence assessment and adjustment; contractual guarantees and bank/trust accounts provide legal security/custody. Public-chain state cannot validate casualty facts or compel cargo release.
+- No residual buyer exception, quantified incremental cost, budget owner, WTP, paid pilot or Arbitrum shared-state requirement established.
+- Full report: research/D067_GENERAL_AVERAGE_SECURITY_COLLECTION_AND_ADJUSTMENT_2026-11-28.md.
+- No candidate/WATCH/GO created. No organisations contacted. No implementation authorized.
+
+**Canonical status: NO PRODUCT SELECTED · NO WATCH · NO GO · NO IMPLEMENTATION AUTHORIZED.**
+
