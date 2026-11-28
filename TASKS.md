@@ -618,3 +618,15 @@ Full evidence: [D-064–D-065 report](research/D064_D065_CARBON_REVERSAL_AND_MAR
 - [x] Preserve canonical status: no product selected, no WATCH, no GO, no implementation authorized.
 
 Full evidence: [D-066 report](research/D066_AIRCRAFT_ENGINE_LEASE_RETURN_AND_TRANSITION_WORKFLOWS_2026-11-28.md).
+
+## D-067 — General average security collection and adjustment (28 November 2026)
+
+- [x] Map GA security, cargo-release and later adjustment workflow using CMI guidance and York-Antwerp Rules.
+- [x] Verify specialist incumbent portals/technology at RHL and Charles Taylor; review carrier and marine-claims substitutes.
+- [x] Assess buyer, recurring economics, legal custody boundary and Arbitrum shared-state necessity.
+- [x] Record NO-GO for generic Arbitrum GA portal, registry, tokenized guarantee/deposit or settlement product.
+- [ ] Continue discovery outside workflows already covered by appointed specialists and authoritative contractual/banking systems; require named buyer evidence and material chain advantage.
+- [ ] No outreach or implementation without explicit authorization.
+
+Full evidence: [research/D067_GENERAL_AVERAGE_SECURITY_COLLECTION_AND_ADJUSTMENT_2026-11-28.md](research/D067_GENERAL_AVERAGE_SECURITY_COLLECTION_AND_ADJUSTMENT_2026-11-28.md).
+
