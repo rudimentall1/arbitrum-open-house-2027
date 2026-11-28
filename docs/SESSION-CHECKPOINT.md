@@ -1038,3 +1038,22 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md and this checkpoint.
 - Research/documentation only. No code, dependencies, tests, lint, build, CI or deployment changed/run. No test suite exists; no tests claimed.
 - Next: continue searching for a less crowded, specific, legally meaningful multi-party obligation workflow with a named budget owner and material Arbitrum advantage. No outreach without approval.
+
+
+## Latest continuation — D-054 to D-058 (28 November 2026)
+
+### Completed screens
+- D-054 carbon-farming reversal liability: new EU Delegated Regulation 2026/2617 published 27 Nov 2026 establishes buffer or insurance/guarantee mechanisms, replacement of traded units after reversals and buffer replenishment in defined cases. Existing certification registries and specialist insurers already cover key parts. Insurer-facing MRV/loss-data exchange remains an exploratory lead only; no buyer/chain requirement established.
+- D-055 UK North Sea DSA: annual operator plan, security calculation, multi-party approval/objection, expert determination and trustee-held cash/alternative security. Court-tested high-value disputes make it the strongest operational lead in this screen. Retain as exploratory problem lead only; no validated whitespace or Arbitrum necessity. Private SaaS likely a better default.
+- D-056 maritime ETS reimbursement: NO-GO; OceanScore/Data Ocean cover allocation, invoicing, EUA procurement, pooling and settlement.
+- D-057 Battery Passport: NO-GO; Commission DPP Registry/API and vendors cover passport, lifecycle and registration workflows.
+- D-058 US mine reclamation assurance: NO-GO for generic bond ledger; severe underfunding signal exists but risk-data, cost-estimation, permit and surety products cover adjacent workflow and chain does not fix financial assurance adequacy.
+
+### Decision and constraints
+- No product candidate, WATCH or GO. Canonical status remains **NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED**.
+- No organisations contacted. No code, dependencies or infrastructure changed.
+- Full report: `research/D054_D058_NEW_RWA_WORKFLOW_SCREEN_2026-11-28.md`.
+
+### Verification
+- Research and documentation only. No code tests, lint, build, CI or deployment run; none claimed.
+- Next: desk-research D-055 scale and actual operator/trustee systems, while continuing search for a high-value obligation with demonstrable shared-state execution need. No outreach without approval.
