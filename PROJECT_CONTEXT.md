@@ -113,3 +113,10 @@ Preks' public FIDC SaaS already covers digital assignment, tax/legal diligence, 
 ### D-040 partial-receipt buyer-access pass — 27 November 2026
 
 Three institutional interview leads were identified for the adjacent question of partial-receipt allocation/reconciliation across portfolios of precatórios: Oliveira Trust (NACIONAL 2 FIDC administrator/custodian; Oliveira Trust Servicer manager), Hemera DTVM (Homma Prec administrator/custodian) and Monetiza Investimentos (Homma Prec manager). Hemera publicly describes its own collections system and integrations, making incumbent capability a key validation point. Three Brazilian Portuguese discovery drafts and official contact channels are documented in [the buyer-discovery report](research/D040_PARTIAL_RECEIPT_OPERATIONS_BUYER_DISCOVERY_2026-11-27.md). No outreach was sent, no interviews or redacted workflows obtained, and no manual cost, budget owner, paid-pilot commitment or differentiated gap is established. D-040 remains exploratory only, not candidate/WATCH/GO. No implementation. Arbitrum fit remains unproven; conventional fund-accounting/API integration is the default unless a material shared-state requirement is demonstrated.
+
+
+## D-046 — emerging discovery lead (28 November 2026)
+
+A new exploratory lead is under review: independent trigger-evidence and payout-execution infrastructure for Brazilian catastrophe-risk LRS portfolios, initially hydrological/flood risk. Brazil's LRS market is active but very early (four issues by October 2026, none catastrophe-linked); Rio Grande do Sul is considering LRS for disaster liquidity but has no defined deal. A 2026 peer-reviewed paper provides a testable run-of-river hydropower parametric design, with material basis-risk and portfolio-diversification caveats. Direct incumbents include Lockton Re, Marvin, Santé, Helios Re, OnRe and NextBlock. D-046 is discovery-only; no buyer gap, legal path, Arbitrum necessity or willingness to pay has been proven. Do not implement.
+
+Evidence: [research/D046_BRAZIL_LRS_CATASTROPHE_TRIGGER_INFRASTRUCTURE_2026-11-28.md](research/D046_BRAZIL_LRS_CATASTROPHE_TRIGGER_INFRASTRUCTURE_2026-11-28.md).
