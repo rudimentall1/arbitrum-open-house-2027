@@ -195,3 +195,12 @@ Two additional generic infrastructure directions were screened and rejected:
 - **D-061 EU cross-border electricity capacity:** JAO is the EU Single Allocation Platform for TSOs, already providing auctions, contracting, accounting, settlement, collateral management and transfer/return processes under EU rules. **NO-GO** for a generic capacity-rights ledger, marketplace or settlement contract.
 
 Neither direction reveals a named uncovered buyer workflow, budget owner, paid pilot or material Arbitrum execution requirement. Full report: [D-060–D-061](research/D060_D061_CARBON_REGISTRY_AND_EU_CAPACITY_SCREEN_2026-11-28.md). No outreach or implementation. Canonical status unchanged.
+
+
+### D-062–D-063 — PPA settlement and inter-insurer subrogation (28 November 2026)
+
+Two more multi-party obligation workflows were screened:
+- **D-062 corporate renewable PPA settlement:** negative-price allocation, profile/volume risk, curtailment clauses, meter revisions and invoice disputes create real work. CFEX already offers contract modelling, meter-data integration, daily settlement, billing, invoice reconciliation and EAC inventory; ACER lists several operating European PPA platforms. Vendor case studies document manual Excel settlement and reconciliation pain, but also demonstrate incumbent coverage. **NO-GO** for generic Arbitrum PPA settlement/reconciliation.
+- **D-063 insurer subrogation:** inter-insurer recovery involves claim evidence, liability, outlay and payment, but Arbitration Forums, carrier claims systems and bilateral portals already serve core dispute and settlement workflows. **NO-GO** for generic Arbitrum subrogation ledger or settlement layer.
+
+No named uncovered buyer exception, budget owner, paid pilot or material Arbitrum execution need established. Full report: [D-062–D-063](research/D062_D063_PPA_SETTLEMENT_AND_INSURER_SUBROGATION_SCREEN_2026-11-28.md). No outreach or implementation. Canonical status unchanged.
