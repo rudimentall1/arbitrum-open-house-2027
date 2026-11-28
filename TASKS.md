@@ -569,3 +569,15 @@ Full evidence: [research/D054_D058_NEW_RWA_WORKFLOW_SCREEN_2026-11-28.md](resear
 - [ ] Require a material shared-state/execution requirement before any Arbitrum GO; otherwise reject.
 
 Full evidence: [research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2026-11-28.md](research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2026-11-28.md).
+
+
+## D-060–D-061 — Carbon registry interoperability and EU electricity capacity (28 November 2026)
+
+- [x] Review UNFCCC Article 6 registry roadmap and November 2026 Article 6.2 soft launch.
+- [x] Review Article 6 interoperability guidance, Australian CER registry trial and I-REC(E) API governance.
+- [x] Map JAO Single Allocation Platform, TSO roles, auction/settlement/collateral and transfer rules.
+- [x] Record NO-GO for generic Article 6 registry/bridge and EU capacity-rights ledger/marketplace.
+- [ ] Continue searching for a recurring downstream exception not already owned by a registry, regulated platform, bank or operator; require named budget owner and material Arbitrum execution advantage.
+- [ ] No outreach or implementation without explicit authorization.
+
+Full evidence: [research/D060_D061_CARBON_REGISTRY_AND_EU_CAPACITY_SCREEN_2026-11-28.md](research/D060_D061_CARBON_REGISTRY_AND_EU_CAPACITY_SCREEN_2026-11-28.md).
