@@ -1096,3 +1096,22 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md and this checkpoint.
 - Research/documentation only; no tests, lint, build, CI or deployment run or claimed.
 - Next: continue searching for a narrow downstream multi-party exception not already owned by a registry, regulated platform, trustee, bank or operator. No outreach or implementation without explicit authorization.
+
+
+## Latest continuation — D-062–D-063 PPA settlement and insurer subrogation (28 November 2026)
+
+### Completed
+- D-062: reviewed EU PPA allocation of physical/financial, volume, profile and imbalance risks; negative-price/curtailment clauses; ACER-listed European PPA platforms; CFEX product capabilities and two detailed vendor customer cases. These cases demonstrate real manual settlement and invoice reconciliation pain but also direct incumbent product coverage.
+- D-063: reviewed inter-insurer subrogation and recovery, Arbitration Forums' member arbitration scope, claims platforms and bilateral portal automation. This is a genuine multi-party payment/recovery workflow, but established forums, carrier claims systems and bilateral portals already cover the core operation.
+
+### Decisions
+- D-062: **NO-GO** for generic PPA settlement, invoice reconciliation, negative-price allocation, renewable certificate inventory or tokenized energy marketplace on Arbitrum.
+- D-063: **NO-GO** for generic inter-insurer subrogation ledger, arbitration marketplace, recovery registry or tokenized settlement layer on Arbitrum.
+- Neither direction has a validated uncovered buyer exception, budget owner, paid pilot or material Arbitrum advantage.
+- Canonical status remains **NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED**. No organisations contacted; no code or infrastructure changed.
+
+### Documentation / checks
+- Added `research/D062_D063_PPA_SETTLEMENT_AND_INSURER_SUBROGATION_SCREEN_2026-11-28.md`.
+- Updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md and this checkpoint.
+- Research/documentation only; no tests, lint, build, CI or deployment run or claimed.
+- Next: continue searching for a narrow exception not already handled by sector-specific platforms, with a named budget owner, measurable recurring cost and legally meaningful shared execution. No outreach or implementation without explicit authorization.
