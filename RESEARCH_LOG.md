@@ -485,3 +485,15 @@ D-040 outreach status check: Adianta Jus returned an automated receipt acknowled
 - Outreach: Hemera DTVM and Monetiza Investimentos emails sent 28 November; both threads checked and contain no reply yet. Oliveira Trust not sent because only the official contact form/switchboard was verified, not an appropriate operations email. Strivo identified but not contacted.
 - D-040 remains exploratory only; no candidate/WATCH/GO, no implementation and no Arbitrum requirement. Conventional accounting/API integration remains the default.
 - Full evidence: [research/D040_PARTIAL_RECEIPT_REGULATORY_OPERATOR_RECHECK_2026-11-28.md](research/D040_PARTIAL_RECEIPT_REGULATORY_OPERATOR_RECHECK_2026-11-28.md).
+
+
+## D-046 — Brazil LRS catastrophe trigger and settlement infrastructure (28 November 2026)
+
+- Screened Brazil's LRS market: four issues by October 2026, up to ~R$273m, all credit/surety/tax contingency; no natural-catastrophe LRS yet. Portaria Conjunta RFB/Susep 748 (18 Nov 2026) establishes transaction-specific CNPJ registration procedures.
+- Identified a public-sector lead: Rio Grande do Sul is considering LRS for catastrophe liquidity after the 2024 flood; structure, size, trigger, investors and specific insurer conversations remain undefined.
+- A peer-reviewed 2026 paper models parametric hydrological insurance for Brazilian run-of-river hydro plants using ONS affluent flow and 151 plants; it also exposes basis-risk, calibration, diversification and reinsurance constraints.
+- ONS open hydrology datasets are available via a public data portal/API, but some values may be revised after publication; any trigger calculation requires reproducible data snapshots and contract-defined finality.
+- Competitive boundary is strong: Lockton Re offers Brazil LRS structuring/investor access; Marvin is a tech-native collateral agent and co-structurer; Santé offers risk intelligence; Helios Re markets hydropower parametric cover; OnRe and NextBlock already tokenize reinsurance onchain.
+- Potential narrow wedge: independent, reproducible trigger-evidence and payout-execution layer for Brazilian LRS catastrophe portfolios. This is a discovery lead only; no buyer gap, paid pilot, legal path or Arbitrum requirement established.
+- Canonical status unchanged: no product selected, no GO, no implementation.
+- Full evidence: [research/D046_BRAZIL_LRS_CATASTROPHE_TRIGGER_INFRASTRUCTURE_2026-11-28.md](research/D046_BRAZIL_LRS_CATASTROPHE_TRIGGER_INFRASTRUCTURE_2026-11-28.md).
