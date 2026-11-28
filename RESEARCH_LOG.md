@@ -563,3 +563,13 @@ Added `research/D054_D058_NEW_RWA_WORKFLOW_SCREEN_2026-11-28.md`.
 - D-057: Battery Passport lifecycle/registration is served by EU DPP Registry API and many vendors; no material chain need. NO-GO.
 - D-058: mine reclamation assurance has documented underfunding and delayed bond releases, but risk-data, cost-estimation, permit and surety software already cover adjacent workflows; no Arbitrum fit. NO-GO.
 - No outreach, no implementation. Canonical state unchanged.
+
+
+## D-059 — UK offshore CCUS decommissioning fund governance (28 November 2026)
+
+- Screened SI 2026/632, in force 10 July 2026, as a distinct regime from oil-and-gas DSA: mandatory ring-fenced funds, approved fund holder/administrator, detailed estimates and shared-cost allocation, >=10% contingency, approved investment strategy, monthly contributions, restricted fund operations and controlled drawdowns.
+- The UK Parliament committee report says the first Track 1 funds are expected closer to commercial operation from 2028. Initial buyer count is limited; procurement may precede fund operations.
+- Potential workflow: fund-estimate versioning, contribution reconciliation, investment compliance, approved payment evidence, deficit/change alerts and regulator audit packs.
+- Existing fund administrators, trustees, investment managers, treasury/accounting systems and bank records are strong substitutes. No dedicated SaaS vendor found is not proof of whitespace.
+- Decision: exploratory regulatory lead only; NO-GO for generic Arbitrum product. UK legal fund structure, regulated custody and Secretary of State controls remain authoritative off-chain. A signed/API-based SaaS is the default.
+- No buyer interview, budget, pilot, outreach or implementation. Full report: research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2026-11-28.md.
