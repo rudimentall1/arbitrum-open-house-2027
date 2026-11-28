@@ -925,3 +925,14 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Decision: generic mineral traceability/passport/custody-ledger is NO-GO as an Arbitrum product. Only reopen on a named operator's redacted, quantified recurring integration exception beyond existing providers and future statutory interfaces.
 - Research/documentation only; no code, dependencies, tests, lint, build or deployment changed/run.
 - Canonical state remains: no product selected, no GO, no implementation authorized. Do not contact new organizations without user authorization.
+
+
+## Follow-up — D-048 Brazil renewable curtailment compensation screen (28 November 2026)
+
+- Added `research/D048_BRAZIL_CURTAILMENT_COMPENSATION_SCREEN_2026-11-28.md`.
+- Verified Law 15.269/2025 Art. 1-B: retrospective compensation window, eligible external-unavailability/electrical-reliability events, exclusion of energy oversupply, and commitment term requiring waiver/withdrawal of litigation.
+- Verified the ONS-to-CCEE calculation workflow, MME eligibility list, and CCEE adapted rules/procedures.
+- No evidence that claims are freely assignable/tokenizable, no secondary market, no buyer interview/WTP, and no material Arbitrum role.
+- Decision: NO-GO for tokenized claims/receivables/settlement. Future curtailment-order data needs remain context only.
+- Research/documentation only; no code, tests, lint, build or deployment changed/run.
+- Canonical state remains no product selected, no GO, no implementation authorized.
