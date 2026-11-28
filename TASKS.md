@@ -460,3 +460,15 @@ Full evidence: [research/RWA_HYPOTHESIS_COMPARATIVE_SCORECARD_2026-11-27.md](res
 - [ ] Do not contact new organisations or build without explicit user authorization; do not assume Arbitrum is required.
 
 Full evidence: [research/D047_BRAZIL_CRITICAL_MINERAL_TRACEABILITY_SCREEN_2026-11-28.md](research/D047_BRAZIL_CRITICAL_MINERAL_TRACEABILITY_SCREEN_2026-11-28.md).
+
+
+## D-048 — Brazil renewable curtailment compensation screen (28 November 2026)
+
+- [x] Read Law 15.269/2025 Art. 1-B and identify eligible event types, historic window, litigation waiver and calculation path.
+- [x] Verify MME's eligibility-list update and distinguish eligibility from payable compensation.
+- [x] Verify CCEE adapted rules/procedures and its role in the centralized workflow.
+- [x] Check whether the law establishes assignment/tokenization of compensation rights; no such basis established in reviewed sources.
+- [x] Record NO-GO for tokenized compensation claims, receivables pool, registry or Arbitrum settlement; no buyer evidence or recurring workflow established.
+- [ ] Reopen only on a named generator/lender's legally assignable receivable and quantified recurring financing/reconciliation problem, plus pilot willingness and material Arbitrum need.
+
+Full evidence: [research/D048_BRAZIL_CURTAILMENT_COMPENSATION_SCREEN_2026-11-28.md](research/D048_BRAZIL_CURTAILMENT_COMPENSATION_SCREEN_2026-11-28.md).
