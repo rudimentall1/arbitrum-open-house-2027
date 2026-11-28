@@ -946,3 +946,25 @@ The messages ask to route to DLT architecture/operations/regulatory integration 
 - Local competitors: Thunders Trading, GRisk Energy, Navarrah; global substitutes: Brady CRisk and MCG Paragon. They already cover much of credit/exposure/collateral/margin workflow.
 - Potential narrow lead: shared bilateral margin-call, collateral substitution, dispute and release workflow. No customer evidence, legal enforceability or Arbitrum requirement yet.
 - Status: exploratory problem lead only; no outreach or implementation authorized. Canonical project state unchanged: no product selected, no GO.
+
+
+## Latest continuation — D-050 Brazil operational-workflow screen (28 November 2026)
+
+### Completed
+- Screened three distinct Brazilian operating domains: container demurrage/detention disputes, hospital/health-plan claim denials (glosas), and electronic trade bills (duplicata escritural).
+- Demurrage: ANTAQ reported 240 conciliation meetings and 176 agreements (73.3%), preventing R$23.09m in improper charges in Aug–Dec 2025. Direct vendor coverage from ComexIA/ElloX (DetentionZero + DisputAI), e.Mix DemurrageNet and carrier dispute portals makes generic entry unattractive.
+- Healthcare: Anahp 2025 data show 15.93% initial glosa, 77.35-day average receipt time and 1.72% accepted glosa as gross health-plan revenue. Bionexo, Skedia and GlosaAI/MedOps already cover prevention, claim analysis and recovery.
+- Duplicatas: BCB/B3 and authorised infrastructure participants control the authoritative lifecycle; B3/CERC/Núclea and ERP/receivables integrators already address registry and integration needs.
+
+### Decision
+- D-050 records NO-GO for generic demurrage dispute/evidence software, generic hospital RCM/glosa software or tokenized receivables, and a parallel duplicata registry/interoperability ledger.
+- No named unmet buyer workflow, willingness to pay, legal gap or material Arbitrum shared-state requirement was established.
+- No new organisations contacted. No implementation authorized.
+- Canonical status remains **NO PRODUCT SELECTED · NO GO · NO IMPLEMENTATION AUTHORIZED**.
+
+### Documentation / checks
+- Added `research/D050_BRAZIL_OPERATIONAL_WORKFLOW_SCREEN_2026-11-28.md`.
+- Updated PROJECT_CONTEXT.md, RESEARCH_LOG.md, TASKS.md and this checkpoint.
+- Research/documentation only; no code, dependencies, tests, lint, build, CI or deployment changed/run.
+- No test/lint/build run; this repository remains a research/documentation workspace.
+- Next: continue searching other sectors and geographies, prioritising a recurring multi-party asset/obligation workflow with a named budget owner and a demonstrable Arbitrum advantage. No outreach without approval.
