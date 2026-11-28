@@ -467,3 +467,13 @@
 - **Buyer gap:** no interviews, budget owner, paid pilot, system gap or willingness to pay. Fund administrators, trustees, investment managers and existing finance systems are strong substitutes. The absence of a dedicated vendor found in desk research is not proof of whitespace.
 - **Reopen only if:** two independent licensees/administrators identify the same quantified workflow exception beyond their selected systems, name a budget owner and demonstrate that multiple independent parties need a legally meaningful shared state that cannot be handled by approved off-chain arrangements.
 - **Evidence:** [D-059 research](research/D059_UK_OFFSHORE_CCUS_DECOMMISSIONING_FUND_GOVERNANCE_2026-11-28.md); SI 2026/632 https://www.legislation.gov.uk/uksi/2026/632/contents/made ; parliamentary scrutiny https://publications.parliament.uk/pa/jt5902/jtselect/jtstatin/47/report.html .
+
+
+## D-060–D-061 — Carbon registry interoperability and EU capacity rights (28 November 2026)
+
+- **D-060 decision:** NO-GO for a generic Article 6 registry, carbon-credit bridge, tokenized ITMO marketplace or parallel delivery-versus-payment layer. UNFCCC's Article 6.2 International Registry soft-launched on 17 November 2026; national/UNFCCC registries and interoperability guidance already own authoritative accounting and transfer status. Australian CER and I-REC(E) also provide governed registry integration paths. No buyer gap or Arbitrum necessity established.
+- **D-061 decision:** NO-GO for a generic EU cross-border electricity capacity-rights ledger, tokenized marketplace, collateral ledger or settlement contract. JAO operates the Single Allocation Platform for EU TSOs and provides auctions, contracts, settlement and collateral management under the EU allocation framework.
+- **Evidence gap:** no recurring uncovered exception, quantified manual/financial impact, named budget owner, paid pilot or material shared-state execution requirement.
+- **Reopen only if:** a specific downstream workflow outside the authoritative registry/platform is documented by multiple independent buyers, with measurable cost and a legally valid shared execution step that existing APIs or conventional systems cannot provide.
+- **Status:** no product selected, no WATCH, no GO, no implementation. No outreach.
+- **Evidence:** [D-060–D-061 research](research/D060_D061_CARBON_REGISTRY_AND_EU_CAPACITY_SCREEN_2026-11-28.md).
